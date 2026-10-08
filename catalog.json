@@ -1,1 +1,402 @@
-[]
+[
+ {
+  "category": "automatic",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO3838MDLB",
+  "model": "CEHPPRO3838MDLB",
+  "title": "Термопресс 38x38 см автоматический Craft Express",
+  "avito_url": "https://www.avito.ru/8336393597"
+ },
+ {
+  "category": "automatic",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO3838MDPK",
+  "model": "CEHPPRO3838MDPK",
+  "title": "Термопресс 38x38 см автоматический Craft Express",
+  "avito_url": "https://www.avito.ru/8282932512"
+ },
+ {
+  "category": "automatic",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO4050MDLB",
+  "model": "CEHPPRO4050MDLB",
+  "title": "Термопресс 40x50 см автоматический Craft Express",
+  "avito_url": "https://www.avito.ru/8377350138"
+ },
+ {
+  "category": "automatic",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO4050MDPK",
+  "model": "CEHPPRO4050MDPK",
+  "title": "Термопресс 40x50 см автоматический Craft Express",
+  "avito_url": "https://www.avito.ru/8308639629"
+ },
+ {
+  "category": "automatic",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO4060MDLB",
+  "model": "CEHPPRO4060MDLB",
+  "title": "Термопресс 40x60 см автоматический Craft Express",
+  "avito_url": "https://www.avito.ru/8426311027"
+ },
+ {
+  "category": "calendar",
+  "brand": "Fulei",
+  "sku": "HT-1220P-T2B",
+  "model": "HT-1220P-T2B",
+  "title": "Каландр барабан 200 мм Fulei HT-1220P T2B",
+  "avito_url": "https://www.avito.ru/8399277488"
+ },
+ {
+  "category": "calendar",
+  "brand": "Fulei",
+  "sku": "HT-1232-T2B",
+  "model": "HT-1232-T2B",
+  "title": "Каландр барабан 320 мм Fulei HT-1232 T2B",
+  "avito_url": "https://www.avito.ru/8356375638"
+ },
+ {
+  "category": "calendar",
+  "brand": "Fulei",
+  "sku": "HT-1720P-T2B",
+  "model": "HT-1720P-T2B",
+  "title": "Каландр барабан 200 мм Fulei HT-1720P T2B",
+  "avito_url": "https://www.avito.ru/8337485286"
+ },
+ {
+  "category": "calendar",
+  "brand": "Fulei",
+  "sku": "HT-1732-T2B",
+  "model": "HT-1732-T2B",
+  "title": "Каландр барабан 320 мм Fulei HT-1732 T2B",
+  "avito_url": "https://www.avito.ru/8333920990"
+ },
+ {
+  "category": "calendar",
+  "brand": "Fulei",
+  "sku": "HT-1732B2T",
+  "model": "HT-1732B2T",
+  "title": "Каландр барабан 320 мм Fulei HT-1732B2T",
+  "avito_url": "https://www.avito.ru/8358853450"
+ },
+ {
+  "category": "special",
+  "brand": "Craft Express",
+  "sku": "CE-BHPLB",
+  "model": "CE-BHPLB",
+  "title": "Термопресс для спортивных мячей Craft Express",
+  "avito_url": "https://www.avito.ru/8284260846"
+ },
+ {
+  "category": "special",
+  "brand": "Craft Express",
+  "sku": "CE-DPHDLB",
+  "model": "CE-DPHDLB",
+  "title": "Термопресс 2 станции для щитков Craft Express",
+  "avito_url": "https://www.avito.ru/8346703852"
+ },
+ {
+  "category": "special",
+  "brand": "Craft Express",
+  "sku": "CE-DPKLP",
+  "model": "CE-DPKLP",
+  "title": "Термопресс 2 станции для ручек Craft Express",
+  "avito_url": "https://www.avito.ru/8377623888"
+ },
+ {
+  "category": "special",
+  "brand": "Craft Express",
+  "sku": "CE-DYBLB",
+  "model": "CE-DYBLB",
+  "title": "Термопресс 2 станции для этикеток Craft Express",
+  "avito_url": "https://www.avito.ru/8326301849"
+ },
+ {
+  "category": "special",
+  "brand": "Craft Express",
+  "sku": "CEHBP1515",
+  "model": "CEHBP1515",
+  "title": "Термопресс 15x15 см для этикеток Craft Express",
+  "avito_url": "https://www.avito.ru/8373776885"
+ },
+ {
+  "category": "multi",
+  "brand": "Craft Express",
+  "sku": "CE-CP2IN1LBN",
+  "model": "CE-CP2IN1LBN",
+  "title": "Термопресс 16x16 см 2 в 1 Craft Express",
+  "avito_url": "https://www.avito.ru/8480248303"
+ },
+ {
+  "category": "multi",
+  "brand": "Craft Express",
+  "sku": "CE-CP3IN1LBN",
+  "model": "CE-CP3IN1LBN",
+  "title": "Термопресс 3 в 1 Craft Express",
+  "avito_url": "https://www.avito.ru/8406142830"
+ },
+ {
+  "category": "multi",
+  "brand": "Craft Express",
+  "sku": "CE-DCPLB-3",
+  "model": "CE-DCPLB-3",
+  "title": "Термопресс 2 станции 3 в 1 Craft Express",
+  "avito_url": "https://www.avito.ru/8405980983"
+ },
+ {
+  "category": "multi",
+  "brand": "Craft Express",
+  "sku": "CE-M9PB8IN1LB",
+  "model": "CE-M9PB8IN1LB",
+  "title": "Термопресс 38x38 см 8 в 1 Craft Express",
+  "avito_url": "https://www.avito.ru/8480371992"
+ },
+ {
+  "category": "multi",
+  "brand": "JiangChuan",
+  "sku": "JC-27A-B36-01",
+  "model": "JC-27A-B36-01",
+  "title": "Термопресс 8 в 1 JiangChuan",
+  "avito_url": "https://www.avito.ru/8307923576"
+ },
+ {
+  "category": "pneumatic",
+  "brand": "JiangChuan",
+  "sku": "JC-16D-B31-01",
+  "model": "JC-16D-B31-01",
+  "title": "Термопресс 10x15 см полуавтоматический пневматический",
+  "avito_url": "https://www.avito.ru/8373181403"
+ },
+ {
+  "category": "pneumatic",
+  "brand": "JiangChuan",
+  "sku": "JC-16D-B31-02",
+  "model": "JC-16D-B31-02",
+  "title": "Термопресс 15x15 см полуавтоматический пневматический",
+  "avito_url": "https://www.avito.ru/8356372533"
+ },
+ {
+  "category": "pneumatic",
+  "brand": "JiangChuan",
+  "sku": "JC-16D-B31-03",
+  "model": "JC-16D-B31-03",
+  "title": "Термопресс 15x20 см полуавтоматический пневматический",
+  "avito_url": "https://www.avito.ru/8300221232"
+ },
+ {
+  "category": "pneumatic",
+  "brand": "JiangChuan",
+  "sku": "JC-16G-B39-01",
+  "model": "JC-16G-B39-01",
+  "title": "Термопресс 10x10 см однопозиционный пневматический",
+  "avito_url": "https://www.avito.ru/8493410173"
+ },
+ {
+  "category": "pneumatic",
+  "brand": "JiangChuan",
+  "sku": "JC-16G-B39-02",
+  "model": "JC-16G-B39-02",
+  "title": "Термопресс 10x10 см двухпозиционный пневматический",
+  "avito_url": "https://www.avito.ru/8451228569"
+ },
+ {
+  "category": "flat",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO3838FLB",
+  "model": "CEHPPRO3838FLB",
+  "title": "Термопресс 38x38 см ручной Craft Express",
+  "avito_url": "https://www.avito.ru/8346075783"
+ },
+ {
+  "category": "flat",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO3838FPK",
+  "model": "CEHPPRO3838FPK",
+  "title": "Термопресс 38x38 см ручной Craft Express",
+  "avito_url": "https://www.avito.ru/8493576528"
+ },
+ {
+  "category": "flat",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO4050FLB",
+  "model": "CEHPPRO4050FLB",
+  "title": "Термопресс 40x50 см ручной Craft Express",
+  "avito_url": "https://www.avito.ru/8284289310"
+ },
+ {
+  "category": "flat",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO4050FPK",
+  "model": "CEHPPRO4050FPK",
+  "title": "Термопресс 40x50 см ручной Craft Express",
+  "avito_url": "https://www.avito.ru/8435773114"
+ },
+ {
+  "category": "flat",
+  "brand": "Craft Express",
+  "sku": "CEHPPRO4060FLB",
+  "model": "CEHPPRO4060FLB",
+  "title": "Термопресс 40x60 см ручной Craft Express",
+  "avito_url": "https://www.avito.ru/8381124828"
+ },
+ {
+  "category": "cap",
+  "brand": "Craft Express",
+  "sku": "CE-DCPLB",
+  "model": "CE-DCPLB",
+  "title": "Термопресс 2 станции для кепок Craft Express",
+  "avito_url": "https://www.avito.ru/8284780744"
+ },
+ {
+  "category": "cap",
+  "brand": "JiangChuan",
+  "sku": "JC-16A-B32-01",
+  "model": "JC-16A-B32-01",
+  "title": "Термопресс для кепок 8x15 см JiangChuan",
+  "avito_url": "https://www.avito.ru/8511643899"
+ },
+ {
+  "category": "cap",
+  "brand": "JiangChuan",
+  "sku": "JC-16AC-B33-01",
+  "model": "JC-16AC-B33-01",
+  "title": "Термопресс для кепок 8x14 см JiangChuan",
+  "avito_url": "https://www.avito.ru/8405932026"
+ },
+ {
+  "category": "cap",
+  "brand": "JiangChuan",
+  "sku": "JC-7BB-B29-01",
+  "model": "JC-7BB-B29-01",
+  "title": "Термопресс для кепок 8x14 см JiangChuan",
+  "avito_url": "https://www.avito.ru/8308805248"
+ },
+ {
+  "category": "cap",
+  "brand": "Otter",
+  "sku": "OT-QSHCPLB",
+  "model": "OT-QSHCPLB",
+  "title": "Термопресс для кепок пневматический Otter",
+  "avito_url": "https://www.avito.ru/8376845418"
+ },
+ {
+  "category": "mug",
+  "brand": "Craft Express",
+  "sku": "CE-DMPLB",
+  "model": "CE-DMPLB",
+  "title": "Термопресс для кружек 2 станции Craft Express",
+  "avito_url": "https://www.avito.ru/8343888229"
+ },
+ {
+  "category": "mug",
+  "brand": "Craft Express",
+  "sku": "CE-DMPPK",
+  "model": "CE-DMPPK",
+  "title": "Термопресс для кружек 2 станции Craft Express",
+  "avito_url": "https://www.avito.ru/8334361672"
+ },
+ {
+  "category": "mug",
+  "brand": "Craft Express",
+  "sku": "CE-MP11TSLB",
+  "model": "CE-MP11TSLB",
+  "title": "Термопресс для кружек 11 унций Craft Express",
+  "avito_url": "https://www.avito.ru/8373215624"
+ },
+ {
+  "category": "mug",
+  "brand": "Craft Express",
+  "sku": "CE-MP270PLB",
+  "model": "CE-MP270PLB",
+  "title": "Термопресс для кружек и стаканов Craft Express",
+  "avito_url": "https://www.avito.ru/8268479323"
+ },
+ {
+  "category": "mug",
+  "brand": "Craft Express",
+  "sku": "CE-MP280H2IN1LBW-3040",
+  "model": "CE-MP280H2IN1LBW-3040",
+  "title": "Термопресс 30/40 унций Craft Express",
+  "avito_url": "https://www.avito.ru/8399840321"
+ },
+ {
+  "category": "special",
+  "brand": "Otter",
+  "sku": "OT-PBA25100DLB",
+  "model": "OT-PBA25100DLB",
+  "title": "Термопресс 25x100 см для лент Otter",
+  "avito_url": "https://www.avito.ru/8427311303"
+ },
+ {
+  "category": "special",
+  "brand": "Otter",
+  "sku": "OT-PBA25100DSCB",
+  "model": "OT-PBA25100DSCB",
+  "title": "Термопресс 25x100 см для лент Otter",
+  "avito_url": "https://www.avito.ru/8264346002"
+ },
+ {
+  "category": "special",
+  "brand": "Otter",
+  "sku": "OT-PBAD25100DLB",
+  "model": "OT-PBAD25100DLB",
+  "title": "Термопресс 25x100 см для лент с подачей Otter",
+  "avito_url": "https://www.avito.ru/8373814194"
+ },
+ {
+  "category": "special",
+  "brand": "Otter",
+  "sku": "OT-PBAD25100DSCB",
+  "model": "OT-PBAD25100DSCB",
+  "title": "Термопресс 25x100 см для лент с подачей Otter",
+  "avito_url": "https://www.avito.ru/8334638841"
+ },
+ {
+  "category": "special",
+  "brand": "Otter",
+  "sku": "OT-PBAS25100DLB",
+  "model": "OT-PBAS25100DLB",
+  "title": "Термопресс 25x100 см верх+низ с подачей Otter",
+  "avito_url": "https://www.avito.ru/8406449562"
+ },
+ {
+  "category": "large",
+  "brand": "JiangChuan",
+  "sku": "JC-1D-B69-05",
+  "model": "JC-1D-B69-05",
+  "title": "Термопресс 60x80 см JiangChuan",
+  "avito_url": "https://www.avito.ru/8405953012"
+ },
+ {
+  "category": "large",
+  "brand": "JiangChuan",
+  "sku": "JC-5BB-B27-01",
+  "model": "JC-5BB-B27-01",
+  "title": "Термопресс 60x90 см выдвижной JiangChuan",
+  "avito_url": "https://www.avito.ru/8346353547"
+ },
+ {
+  "category": "large",
+  "brand": "JiangChuan",
+  "sku": "JC-5BB-B27-02",
+  "model": "JC-5BB-B27-02",
+  "title": "Термопресс 80x100 см выдвижной JiangChuan",
+  "avito_url": "https://www.avito.ru/8334156175"
+ },
+ {
+  "category": "large",
+  "brand": "JiangChuan",
+  "sku": "JC-5C-B21-01",
+  "model": "JC-5C-B21-01",
+  "title": "Термопресс 80x100 см с автооткрытием JiangChuan",
+  "avito_url": "https://www.avito.ru/8300583665"
+ },
+ {
+  "category": "large",
+  "brand": "JiangChuan",
+  "sku": "JC-5C-B21-02",
+  "model": "JC-5C-B21-02",
+  "title": "Термопресс 100x120 см с автооткрытием JiangChuan",
+  "avito_url": "https://www.avito.ru/8480738125"
+ }
+]
