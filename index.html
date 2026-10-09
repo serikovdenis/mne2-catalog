@@ -43,8 +43,10 @@ function appendVerifiedCraftPhotos(p){
       if(!document.querySelector('#detailContent')?.textContent.includes(p.sku))return;
       if(!gallery.isConnected)return;
       const span=document.createElement('span');
+      span.dataset.galleryNumber=String(n);
       span.innerHTML=photoTag(u,p.title);
-      gallery.appendChild(span);
+      const next=[...gallery.querySelectorAll('[data-gallery-number]')].find(el=>Number(el.dataset.galleryNumber)>n);
+      if(next)gallery.insertBefore(span,next);else gallery.appendChild(span);
     };
     probe.src=u;
   }
