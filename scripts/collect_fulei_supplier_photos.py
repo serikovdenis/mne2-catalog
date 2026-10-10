@@ -43,8 +43,9 @@ def main():
     targets={norm(p["sku"]):p["sku"] for p in products if p["brand"]=="Fulei"}
     rows=[];found=set()
     for category in [
+        "https://intamarketgraphics.co.za/product-category/equipment/heat-press/",
         "https://intamarketgraphics.co.za/product-category/printers-equipment/heat-press/",
-        "https://intamarketgraphics.co.za/product-category/printers-equipment/laminators/",
+        "https://intamarketgraphics.co.za/product-category/equipment/laminators/",
     ]:
         try: links=product_urls(parse(category))
         except Exception as e:
