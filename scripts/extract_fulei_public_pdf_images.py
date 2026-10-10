@@ -7,6 +7,7 @@ import csv
 import hashlib
 import io
 import json
+import re
 import urllib.request
 from pathlib import Path
 import fitz
@@ -21,6 +22,12 @@ SOURCES=[
  {"sku":"BU-1600E-Warm","url":"https://intamarketgraphics.co.za/wp-content/uploads/2024/05/Complete-Equipment-Brochure.pdf"},
  {"sku":"BU-1600WL","url":"https://intamarketgraphics.co.za/wp-content/uploads/2024/05/Complete-Equipment-Brochure.pdf"},
 ]
+PAGE_PATTERNS={
+ "HT-1720P-T2B":r"HT[ -]?1720P[ -]?T2B",
+ "BU-650II-PLUS":r"BU[ -]?650II[ -]?PLUS",
+ "BU-1600E-Warm":r"BU[ -]?1600[ -]?E[ -]?WARM",
+ "BU-1600WL":r"BU[ -]?1600\s*(?:/\s*2200)?\s*WL",
+}
 MIN_LONG_SIDE=700
 MAX_PDF_BYTES=35*1024*1024
 
@@ -40,6 +47,9 @@ def main():
             if url not in cache:cache[url]=download(url)
             doc=fitz.open(stream=cache[url],filetype="pdf")
             for page_i,page in enumerate(doc):
+                page_text=page.get_text("text").upper()
+                if not re.search(PAGE_PATTERNS[sku],page_text,re.I):
+                    continue
                 for item in page.get_images(full=True):
                     xref=item[0]
                     data=doc.extract_image(xref)
