@@ -1,0 +1,46 @@
+name: Mirror external catalog photos to staging
+
+on:
+  push:
+    branches: [photo-mirror-staging-20261010]
+    paths:
+      - .github/workflows/mirror-external-photos.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-photo-mirror-staging
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout staging
+        uses: actions/checkout@v4
+        with:
+          ref: photo-mirror-staging-20261010
+          persist-credentials: true
+      - name: Download and validate external images
+        run: python3 scripts/mirror_external_photos.py --apply
+      - name: Publish results to staging branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/part1.json data/part2.json data/part3.json data/part4.json images/external/ reports/external-photo-mirror-results.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Stage mirrored external catalog photos and local image URLs"
+            git push origin HEAD:photo-mirror-staging-20261010
+          else
+            echo "No successful image downloads to commit."
+          fi
+      - name: Save download audit as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-photo-mirror-results
+          path: reports/external-photo-mirror-results.csv
+          if-no-files-found: warn
