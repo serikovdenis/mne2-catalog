@@ -42,14 +42,21 @@ def main():
     products=json.loads(MANIFEST.read_text(encoding="utf-8"))["products"]
     targets={norm(p["sku"]):p["sku"] for p in products if p["brand"]=="Fulei"}
     rows=[];found=set()
+    seed_links=[
+        "https://intamarketgraphics.co.za/product/fulei-union-ht-1720p-t2b-roll-to-roll-heat-transfer-machine/",
+        "https://intamarketgraphics.co.za/product/fulei-union-ht-1732-b2t-heat-transfer-machine/",
+        "https://intamarketgraphics.co.za/product/fulei-union-ht-1732-t2b-heat-transfer-machine/",
+        "https://intamarketgraphics.co.za/product/fulei-union-ht-3342-b2t-roll-to-roll-sublimation-heat-transfer-machine/",
+    ]
     for category in [
         "https://intamarketgraphics.co.za/product-category/equipment/heat-press/",
         "https://intamarketgraphics.co.za/product-category/printers-equipment/heat-press/",
         "https://intamarketgraphics.co.za/product-category/equipment/laminators/",
     ]:
-        try: links=product_urls(parse(category))
+        try: links=sorted(set(product_urls(parse(category))+seed_links))
         except Exception as e:
-            rows.append({"sku":"","product_url":category,"image_url":"","width":"","height":"","file":"","status":"listing_error","note":str(e)[:180]});continue
+            rows.append({"sku":"","product_url":category,"image_url":"","width":"","height":"","file":"","status":"listing_error","note":str(e)[:180]})
+            links=seed_links
         for link in links:
             # Only Fulei product links, do not fetch unrelated products.
             if "fulei" not in link.lower():continue
