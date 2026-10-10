@@ -1,0 +1,830 @@
+{
+  "source_file": "14034122_2026-10-10T10_50_00Z.xlsx",
+  "source_drive_file_id": "1yNS6koaT7rNUmzDLIpzbRj343pJaUw0_",
+  "matched_products": 62,
+  "source_photo_links": 135,
+  "unmatched_skus": [
+    "Lite-140We",
+    "Не указан"
+  ],
+  "note": "Candidates only. Do not replace or publish unless image bytes downloaded, exact model visually checked, and quality is >= current image.",
+  "products": [
+    {
+      "sku": "HT-1220P-T2B",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-1220P-T2B",
+      "excel_title": "Каландр барабан 200 мм Fulei HT-1220P T2B",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.VyICYbaw-8s01nnGIFwWEATB-cuyyPPBtA.cuM2JAwt6hILz7oaRATk3C_I0d776inUx7psjGtdj5Y"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Imx1NLawjoVDgwyIPQAOC3CUjIXFnYaPww.wpnOnsG78rXgxPQBFzRSoUBuNq4YVB8CWCDk0iVXJ_c"
+      ]
+    },
+    {
+      "sku": "HT-1232-T2B",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-1232-T2B",
+      "excel_title": "Каландр барабан 320 мм Fulei HT-1232 T2B",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.reCXaLawAQmh34MEwVrr0pHIAwknwQkDIQ.rhJCnJOf7PoRXlv5z7IG-ziNiv3mzknF6lT0bJGRBWY"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.iFNpt7awJLpfAKa3de34MmwXJrrZHiyw3w.2KIjTQcvvEtXOcaZq-HBJCLrl2hUJKqsPEx1UeLrKCs",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.kAPpq7awPOrfHL7nxfnqZewLPupZAjTgXw.BYbQ6r6gbhIwLKNegBFjWZo3G01yf6rCKpRcBjoBidg"
+      ]
+    },
+    {
+      "sku": "HT-1732-T2B",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-1732-T2B",
+      "excel_title": "Каландр барабан 320 мм Fulei HT-1732 T2B",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.oNyux7awDDWYcI444uHB4ahnDjUebgQ_GA.LujScCKqekaypawrpWqbS-X400Xd0Ei8TWsG77FEOzk"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.0cLrnbawfSvdKv8mxaKjo-49fytbNHUhXQ.Wu7ILdnbDzbrrb3ZqVkBIwjaMc7koQw7pxhuhOU0kkQ",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.rQnRaLawAeDn34Pth1qtadTIA-BhwQnqZw.dneAYwaEdC6yf-ziz95U9fsED5l1SyS7EIc6wOq2CNA"
+      ]
+    },
+    {
+      "sku": "HT-1732B2T",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-1732B2T",
+      "excel_title": "Каландр барабан 320 мм Fulei HT-1732B2T",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.NvBkw7awmhlSdBgUBN8P1WJjmBnUapIT0g._75D_FZ1rF0OzKHqsWSDoA5pDhLkhDa0il3uDDMRAPg"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.cdkNHbaw3TA7ql89YxQ9uwi93zC9tNU6uw.GQXGkdDRjefjDjTctkhFn2ze9FIyhw73t1Tsk3erMcg"
+      ]
+    },
+    {
+      "sku": "HT-1742-T2B",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-1742-T2B",
+      "excel_title": "Каландр барабан 420 мм Fulei HT-1742 T2B",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.DrPXLLawolrhmyBXxxgTj9GMoFpnhapQYQ.vwfG7vSLqFnv36KKWXO0wpyr8YmYGtzLtihn8PUJfxU"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.npfwPbawMn7GirBzwBPN9_WdMH5AlDp0Rg.816SCVwKtHDWpfG_C7ddKwDq4VAuAw_opmkuH0mi_DY",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.qcK_nbawBSuJKocm4YPeo7o9BysPNA0hCQ.wEOUFBiRkQb1HHms7ya3jSlQes28TaDuPptzwJsgcAE"
+      ]
+    },
+    {
+      "sku": "HT-1860B2T",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-1860B2T",
+      "excel_title": "Каландр барабан 600 мм Fulei HT-1860B2T",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.douZI7aw2mKvlFhv-XZtrZ-D2GIpitJoLw.PCEOoa6IxHu44ZULrV__qUkbNJqZthhpthHp41ek6Gc"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.QLSnWLaw7F2R725QqzkY1KL47l0X8eRXEQ.Q-QhTShD21StHAAr_Bhg2baADUPqR4PwSNxnbOoEHMo"
+      ]
+    },
+    {
+      "sku": "HT-2042-T2B",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-2042-T2B",
+      "excel_title": "Каландр барабан 420 мм Fulei HT-2042 T2B",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.8q2ubrawXkSY2dxJxmnzkajOXEQex1ZOGA.fD0SmjyrfclinllfhQTy0diR5hL3H3XDvc1qPucZYoc"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.tQodkLawGeMrJ5vue975bRgwG-OtORHpqw.Uo3rjwy6MczmmSTf-SaA0cPWhiLKpcZ6OcsgHdh0RA4",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.7MpHN7awQCNxgMIuE0CjqEKXQiP3nkgp8Q.40Vb4kojcqsc83tT5iakzvb5S-Ml5x_VhZO4W7vGC4c"
+      ]
+    },
+    {
+      "sku": "HT-2042B2T",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-2042B2T",
+      "excel_title": "Каландр барабан 420 мм Fulei HT-2042B2T",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Eu23C7awvgSBvDwJn18hyLGrvAQHorYOAQ._65cQj5r8oshNq5mEhLZO0EoykxXmcUHqzpMt3pi4Jo"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Bpf5f7awqn7PyChz-Vsf9_zfqH5J1qJ0Tw.-FJZXVOesGUFz2tqkZ65e11AXbPU3oBKvQvbaELXOkE"
+      ]
+    },
+    {
+      "sku": "HT-3342B2T",
+      "brand": "Fulei",
+      "excel_id": "FULEI-HT-3342B2T",
+      "excel_title": "Каландр барабан 420 мм Fulei HT-3342B2T",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.scirE7awHSGdpJ8sxSnn6K2zHyEbuhUrHQ.oR8qqmUzCFqHlOqt-NFwrz8mY7yHfIKblqY8JY_qvGs"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.fzVOabaw09x43lHRPAAzV0vJ0dz-wNvW-A.eb-5tn8D5XNCVnIRRo1Mlg7Tcbks70TBubszXIdIgFc"
+      ]
+    },
+    {
+      "sku": "BU-1400D-Hot",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400D-Hot",
+      "excel_title": "Ламинатор 1400 мм горячий Fulei BU-1400D Hot",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.-706oLawV1QMF9VZQKfJmDwAVVSKCV9ejA.x7PjbS45jCDHlb3oEFRMSbm-cxCrBsL4lifA_clVmVY"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.HPPLUrawsBr95TIX_3pLk87yshp7-7gQfQ.ortol3kFN3vrZzdQYvR0lP_80HjvAr65NOg1Sn5vgDk"
+      ]
+    },
+    {
+      "sku": "BU-1400D-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400D-Warm",
+      "excel_title": "Ламинатор 1400 мм Fulei BU-1400D Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.T_3cY7aw4xTq1GEZzmJx2drD4RRsyuseag.Gmy-ndKmV-r-maChgOMTjBcKeDVXOjoNfUTrj6f5uXg"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.4fFenbawTRhoKs8VEIqolls9TxjuNEUS6A.UxGyLdy-QAXUCjfNBz9HGStO6NQfv0YKmiK_FHCMw3w"
+      ]
+    },
+    {
+      "sku": "BU-1400E-Cold",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400E-Cold",
+      "excel_title": "Ламинатор 1400 мм Fulei BU-1400E Cold",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.oLiusLawDFGYB45c4tatmKgQDlEeGQRbGA.tvJCf6r9mKH3lp6P96gARxW_6zFgOkvyRBmjtVN3PFQ"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.XQmFILaw8eCzl3PtszUJaYCA8-A1ifnqMw.CF4g-S4WVvGTEs7n4IfGN0E20UPCNHwTeljd-Nbo0PI"
+      ]
+    },
+    {
+      "sku": "BU-1400E-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400E-Warm",
+      "excel_title": "Ламинатор 1400 мм Fulei BU-1400E Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.wleworawbr6GFeyzuPX7crYCbL4AC2a0Bg.2ZAOVooViFYhSlijY_Ggbs26-vcQtwlrX_C0wRSI9XY"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.02IkbLawf4sS2_2GDmPQAiHMfYuUxXeBkg.voYnP6CweIFSsGHnP0OxUYngbmwPt5GgTtR3w_9egl4"
+      ]
+    },
+    {
+      "sku": "BU-1400H-Hot",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400H-Hot",
+      "excel_title": "Ламинатор 1400 мм горячий Fulei BU-1400H Hot",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.XGtwAraw8IJGtXKPRHc2THai8oLAq_iIxg.lJuECSdIezZhNhTfUjc2dqu6-56y3dK52D1VRDwhtA0"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.bxMSa7aww_ok3EH3QC4bchfLwfqiwsvwpA.ryyqw3sjtPf2fj-Sb8anXlBWkbyfOGeazsOfKx-69qI"
+      ]
+    },
+    {
+      "sku": "BU-1400H-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400H-Warm",
+      "excel_title": "Ламинатор 1400 мм Fulei BU-1400H Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.0Oe7-7awfA6NTP4Dl_i2wL1bfg4LUnQEDQ.UfYA1U25_5pc3j4wCAqtcJ_yM9qaEANhqdU8enxn9w0"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.QLS7vraw7F2NCW5Qt78E074e7l0LF-RXDQ.ASVUTxiEBurm7iWIo9rrlPDAxxNh64628tpQHRlIQ2M"
+      ]
+    },
+    {
+      "sku": "BU-1400II-Cold",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400II-Cold",
+      "excel_title": "Ламинатор 1400 мм Fulei BU-1400II Cold",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.EHOwArawvJqGtT6XnE4jVraivpoAq7SQBg.e9szzbCnk6t97hv6CNyi4QBiEk6RkRsmO5M08-IZj4Q"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.wKupurawbEKfDe5Ppe2PyawabkIZE2RIHw.7Y2BJv20jB1bl0483PxDx5LQN0-uA2m7K3Tt1UnZkCo"
+      ]
+    },
+    {
+      "sku": "BU-1400II-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1400II-Warm",
+      "excel_title": "Ламинатор 1400 мм Fulei BU-1400II Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.c-2l77aw3wSTWF0Jz9IQyqNP3QQVRtcOEw.oDVc0H_Gw7EBgF_UNXkV9NVcOl1upW50jWmf6p-lE4k"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.E6QwGLawv00Grz1AGiRawzW4vU2AsbdHhg.MPcj0H7ZUmamiBMJwmnBBUFhA62S9Unm4HqtYVzNTRE"
+      ]
+    },
+    {
+      "sku": "BU-1425FA",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1425FA",
+      "excel_title": "Ламинатор 1400x2500 мм Fulei BU-1425FA",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.mLUu-7awNFwYTLZREqmshihbNlyeUjxWmA.lTvrgaYz1MxZHbIIQrB8vuACCGAKxvqcXAUfixEqeF0"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.-Q2IubawVeS-Dtfp9t6wao0ZV-Q4EF3uPg.hGn0qEPjFMXGLAUwO5ao-HnojwcixZoi3IpEplMz_SY"
+      ]
+    },
+    {
+      "sku": "BU-1440FA",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1440FA",
+      "excel_title": "Ламинатор 1400x4050 мм Fulei BU-1440FA",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.CVsCx7awpbI0cCe_HLcoaQRnp7Kybq24tA.YGmTcQeFJ2TC9Bhgy3uMXeXuw0s9Mbf0NFIESPdzCcM"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.8dWEVbawXTyy4t8x6jK5t4H1Xzw0_FU2Mg.MhfhFakpyq5FY7sFCiqH4-9MNKzUavKh9vVYdoFaYHc"
+      ]
+    },
+    {
+      "sku": "BU-1600D-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1600D-Warm",
+      "excel_title": "Ламинатор 1600 мм Fulei BU-1600D Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.ep20Wbaw1nSC7lR5zBBgu7L51HQE8N5-Ag.j70dMyRunWgCYGnS-csodywi-cd3sZhri1id1h5QTlE"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.RxtOL7aw6_J4mGn_TBoTe0uP6fL-huP4-A.eGmcFeocRDfch1hSmdY80GOARmeoqULsNR7jFL6G_KE"
+      ]
+    },
+    {
+      "sku": "BU-1600H-Hot",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1600H-Hot",
+      "excel_title": "Ламинатор 1600 мм горячий Fulei BU-1600H Hot",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Dci3ILawoSGBlyMsoWRp77GAoyEHiakrAQ.f_whFzs_LUts9Owc89tJOx5NlO_t66U3yXkm4YMxQF8"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.3lXKxrawcrz8cfCx-umUN89mcLx6b3q2fA.J7CrkNXpGuvp6FmghQSCIelS_xWXn1vptaM5hjbHET8"
+      ]
+    },
+    {
+      "sku": "BU-1600H-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1600H-Warm",
+      "excel_title": "Ламинатор 1600 мм Fulei BU-1600H Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.onuwoLawDpKGF4yf-PaNXLYADJIACQaYBg.L9OtshoHxsRPZfcbxPgk-vPxw429Y-hccpyMy0OHwDQ"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.E2Q_ULawv40J5z2AFXQIBDrwvY2P-beHiQ.HemJQiPOfLM7IO8lPX0T0-MYWWmrg3B5tIzCf7V6TK0"
+      ]
+    },
+    {
+      "sku": "BU-1600WL",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1600WL",
+      "excel_title": "Ламинатор 1600 мм жидк. Fulei BU-1600WL",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.cc0AE7aw3SQ2pF8pbnJ97Qaz3ySwutUutg.EWWFif2B7EwPBWDgxSm7oLecgQnHldL8H2K5FIU87uI"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.3zNOO7awc9p4jPHXfFzbU0ubcdr-knvQ-A.ylx4ZF54dkl-AShHOh93VWkPdfQ0dELM6MUNpl4reOY",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.GCOpq7awtMqfHDbHlf9mRawLtsoZArzAHw.4QSEW6fn4UUmdBZ3LsW9pPT5kgpNgfqZUW4rrWy4qNs"
+      ]
+    },
+    {
+      "sku": "BU-1640FA",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1640FA",
+      "excel_title": "Ламинатор 1600x4050 мм Fulei BU-1640FA",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.zyl_cbawY8BJxuHNbQKPG3nRYcDP2GvKyQ.u3kz9MVigP3EMMTmfFKjyANx2Ma6fUjg3a9rqwkZ-0E"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.6LSv9LawRF2ZQ8ZQ89el1qpURl0fXUxXGQ.fqM6xdeeQzoZG7cqUlSgz16-IWMI4R7VmbOR-FyfJ34"
+      ]
+    },
+    {
+      "sku": "BU-1700D-Hot",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700D-Hot",
+      "excel_title": "Ламинатор 1700 мм горячий Fulei BU-1700D Hot",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.xFZ_I7awaL9JlOqyezzYcHmDar_PimC1yQ.LPWs2aOk9yfHviV6iBQK5QaomiQcIR9J4-DShLfcFaA"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.hsjK5bawKiH8Uqgsyr_QqM9FKCF6TCIrfA.PmeVIT6EpzuE-ofkjxc7AWbUIftk5gXMKIvqNQWz9uc"
+      ]
+    },
+    {
+      "sku": "BU-1700D-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700D-Warm",
+      "excel_title": "Ламинатор 1700 мм Fulei BU-1700D Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.vGI2ZbawEIsA0pKGQjvWRTDFEouGzBiBgA.S8T_SzKuuEfy3mnd6PFgrXqLSJ9lVkAJOwI7SGJbyqE"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.UpIRZ7aw_nsn0Hx2OVoJ8hTH_HuhzvZxpw.q76gQnvXgYey5_G6wNhz_9aBtalXxsmZxXttoWpQuHE"
+      ]
+    },
+    {
+      "sku": "BU-1700E-Cold",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700E-Cold",
+      "excel_title": "Ламинатор 1700 мм Fulei BU-1700E Cold",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.yOBMO7awZAl6jOYEUETQxkqbZgn8kmwD-g.jTODtB7jhqEVDq9z5AeAZ6oKPw_vkV-es00EOUarjVI"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.LUu9QrawgaKL9QOv6xJqLLjig6IN64moCw.8XiAGBQfx8ZeeRSdaI_ARtJGJnGeY_rPVv-OfYt04Xg"
+      ]
+    },
+    {
+      "sku": "BU-1700E-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700E-Warm",
+      "excel_title": "Ламинатор 1700 мм Fulei BU-1700E Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.-SWGgLawVcywN9fB-KeiBYAgV8w2KV3GMA._ufvJAThz6r6rrHVXL5-Hv4i6Of_Dxu4ZmVkROXYQ00"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.eLSlkbaw1F2TJlZQ2eB51KAx1l0VONxXEw.GcwTIsoNsOEz4rzSqFy0YybiVqhuZwIzjuDjnUtb38w"
+      ]
+    },
+    {
+      "sku": "BU-1700H-Hot",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700H-Hot",
+      "excel_title": "Ламинатор 1700 мм горячий Fulei BU-1700H Hot",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.jtuLw7awIjK9dKA_m-Ho_I1jIDI7aio4PQ.4ShyKL9QqUTb51Kc9UYNt5CowuHfz_9Ak-a56heAxw4"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.pq3037awCkTCaIhJtIHzzfF_CEREdgJOQg.1TmiD3YR-CDHUhttnM9fXMYEWOR_hSexENbIYFUbnhU"
+      ]
+    },
+    {
+      "sku": "BU-1700H-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700H-Warm",
+      "excel_title": "Ламинатор 1700 мм Fulei BU-1700H Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.ewe11baw1-6DYlXjz9xBIrN11e4FfN_kAw.oU1yqoqBdu7KkZ9GlFhjOVCeXBOY41GOso8DevIXPrE"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Ztl037awyjBCaEg9NIIXvnF_yDDEdsI6wg.TivrZg2KW_7NgK1UDTAyIIWo7e8hzuyUbWqSFeB-f2s"
+      ]
+    },
+    {
+      "sku": "BU-1700II-Cold",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700II-Cold",
+      "excel_title": "Ламинатор 1700 мм Fulei BU-1700II Cold",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.NsQbw7awmi0tdBgge6Ms4h1jmC2rapInrQ.Rs8vCnxaWHwrV_wS8xyrQdqrni5VOgrUFMgXAAnSMyI"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.KFfpt7awhL7fAAaztadYNuwXhr5ZHoy0Xw.luqyPGVZGoAc-SMcjJi-uoTs2ic3nQnmqlj6sLA3lI0"
+      ]
+    },
+    {
+      "sku": "BU-1700II-Warm",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-1700II-Warm",
+      "excel_title": "Ламинатор 1700 мм Fulei BU-1700II Warm",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.2VuhZbawdbKX0ve_nwbCfafFd7IRzH24Fw.uN1U-aWYfKMsSIxf-JnpMg3iXjFBYQ4_uYiAtf_lEDw"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.MtRxZrawnj1H0RwwGUJKtXTGnD3Bz5Y3xw.qNoZU06W3RanFAkRrBo4_JKtREEUhQMbPbJByJw6eSQ"
+      ]
+    },
+    {
+      "sku": "BU-2040II",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-2040II",
+      "excel_title": "Ламинатор 2040 мм холодный Fulei BU-2040II",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.g2ezVLawL46F462DuXKZQbX0LY4D_SeEBQ.YmCFeKxHiSnjq6CPzrvbWRLAa-Cf9cR8zcQSPkrrS9E"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Dz1OaLawo9R43yHZXBBHX0vIodT-wave-A.YTuV7OoZ4qoHpKq-MOdDkYZ145bRk5S4XSGW8zAiFIc"
+      ]
+    },
+    {
+      "sku": "BU-2200WL",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-2200WL",
+      "excel_title": "Ламинатор 2200 мм жидк. Fulei BU-2200WL",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.PousDLawkmKauxBv3GQMrqqskGIcpZpoGg.RLH0FQNllBzhPfOYVBHJnRnCy4W1VFZITeiPm0ys4Wo"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.1Btk9rawePJSQfr_QPWXfGFWevLUX3D40g.pooxhf36S0ywdiY3qV3xOYfup-8Qis6Gtufxs9QaAmg"
+      ]
+    },
+    {
+      "sku": "BU-3300WL",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-3300WL",
+      "excel_title": "Ламинатор 3200 мм жидк. Fulei BU-3300WL",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.HtuYw7awsjKudDA_qK94_J5jsDIoaro4Lg.a62UDqMlyDph483cjcvudjtrloRUHtxjT95Rx3Iybzo"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.h1dOPbawK754iqmzTBOaN0udKb7-lCO0-A.4VzxFDrtbFISq50iilS8XVtc4PmQWFVaFG32XnT10mg"
+      ]
+    },
+    {
+      "sku": "BU-360RF",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-360RF",
+      "excel_title": "Ламинатор 340 мм холодный Fulei BU-360RF",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1._2d4Y7awU45O1NGDCiirR37DUY7IyluEzg.0UtBlLGE0jx5S-OF3usX_6GRul2FWZAi-evShk9KMs4"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.xrlt37awalBbaOhdbeS32Gh_aFDddmJa2w.qrupVY6YBR5P8DZhc7xY_fpO4qy94Sx02ZM-fIwAfBQ"
+      ]
+    },
+    {
+      "sku": "BU-650II-PLUS",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-650II-PLUS",
+      "excel_title": "Ламинатор 650 мм холодный Fulei BU-650II plus",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.5yiqjbawS8GcOsnM6IbwFKwtScEaJEPLHA.eeagWzpPyo70i0wWN67_pKyP5Br0HLqMVgKKYvVTGHI"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.bpeDy7awwn61fEBz074i8IZrwH4zYsp0NQ.6l9ZfTACv11HYsdJOd0Nb357cr2Nv5vlHwCpv6jjlPQ"
+      ]
+    },
+    {
+      "sku": "BU-650RF",
+      "brand": "Fulei",
+      "excel_id": "FULEI-BU-650RF",
+      "excel_title": "Ламинатор 620 мм холодный Fulei BU-650RF",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.i_h6kbawJxFMJqUcYL_oxXwxJRHKOC8bzA.Qaus-w2SB2ALcvwmUzCO3fnqx1f012Bi2oqX09Majig"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.1xM5p7awe_oPEPn3G_iMczwHefqJDnPwjw.Y8g4y1Psfw7rx7mW3XuAvjnhuqC1j4j_O3hWAGTbe_k"
+      ]
+    },
+    {
+      "sku": "Lite-140Ce",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-140Ce",
+      "excel_title": "Ламинатор 1400 мм холодный Fulei Lite-140Ce",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.zGsELrawYIIymeKPEHXOTQKOYoK0h2iIsg.Sil3nPF5E2TMd27XBtWXVBpDDXIQNGEv7SfNP4Bjchs"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.CdWfzbawpTypeicxgel4tJptpzwvZK02KQ.I29l6QiPb12OAUMXHLnv9da1Kwm-aLNBb78jmwSfhhI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.mcxSnbawNSVkKrcobOuArFc9NyXiND0v5A.CcDxKRaUjOXwrrSFKJzBoWtohZkPDEcDHs8cw-ENl5U"
+      ]
+    },
+    {
+      "sku": "Lite-140He",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-140He",
+      "excel_title": "Ламинатор 1400 мм горячий Fulei Lite-140He",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.s-5dz7awHwdreJ0KN_WuyFtvHQftZhcN6w.gs2WxQ1iefCAZ4HdHVsQWMHSEK2mfVAnwGaQR1b1JQA"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.ccjInbaw3SH-Kl8sprghqM093yF4NNUrfg.9aCdJ7nf_5sTjU9uJfmK3bATogU9IYe9PNbTkP3U2Hc",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.o7H5KbawD1jPno1VszfS0PyJDVhJgAdSTw.ZH2rgA_4IHCLdijHNmeephnRRgy7CNjIhONKUrtx3rE"
+      ]
+    },
+    {
+      "sku": "Lite-140Hp",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-140Hp",
+      "excel_title": "Ламинатор 1400 мм горячий Fulei Lite-140Hp",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.gg20QbawLuSC9qzpvC-UK7LhLOQE6CbuAg.fQkCdSy3RPmAqNKCgBwADsi0ARXUDZ62ytd2C_lL-J8"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.2PSiHbawdB2UqvYQniqolae9dh0StHwXFA.7TwFe552YENjgJ1KKLIuzFYevNMPJMMd5w_yqJb9wOo",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.a20BTLawx4Q3-0WJW2UhCgTsxYSx5c-Otw.pc0i4o5jAnYVPrLVVB8udVpLrqYO0pvVTLih5SIPUNc"
+      ]
+    },
+    {
+      "sku": "Lite-170Ce",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-170Ce",
+      "excel_title": "Ламинатор 1700 мм холодный Fulei Lite-170Ce",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.U6daoLaw_05sF31DcOlnglwA_U7qCfdE7A.em1GlzOgkVOz7YqkU0N_9yKufjCoawKK52P905PPcLM"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Qjx0mbaw7tVCLmzYfPg4WnE57NXEMObfwg.nH7TpCyfRajGrq77UhZ4maIJj9ZgJIIPx4iG273w7RQ",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.o4K5J7awD2uPkI1m81He5LyHDWsJjgdhDw.RrTUetp2kC1IEWrhhoCEkDUZBNwoI-1C2Ydmg3-6OJY"
+      ]
+    },
+    {
+      "sku": "Lite-170Cp",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-170Cp",
+      "excel_title": "Ламинатор 1700 мм холодный Fulei Lite-170Cp",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.dyvUe7aw28LizFnPth4bDNLb2cJk0tPIYg.6d1cRDg854YuoZyPP4pSrHEvgemV4RcLufcTJUQnaMg"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.y2_azLawZ4bse-WLwJe3Cd9sZYZqZW-MbA.WTMQ_JSsSPcst_uWVfMmc51xOmzq0fI7cnJ6cfhCLRc",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.a2H8LLawx4jKm0WFpikeAPmMxYhMhc-CSg.RE1eTUXhDBsVbRWgydh4SnZ-xT1QA_URJmv3uCuyLBM"
+      ]
+    },
+    {
+      "sku": "Lite-170Hp",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-170Hp",
+      "excel_title": "Ламинатор 1700 мм горячий Fulei Lite-170Hp",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.lvaew7awOh-odLgSvrWY05hjOB8uajIVKA.eK-wSTwl-BBg8SC2tNCihHACSYDPGmxAbabsv89iLaE"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.WdkTnbaw9TAlKnc9LeAUuxY99zCjNP06pQ.dZlWU5KkkMUwf2m8wWPzULG33VVe3qb4laF7O1COR6w",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.5peCkLawSn60J8hzwoug8IcwSH4yOUJ0NA.iyXF1hDCJSLv8yYtP6MdbC-tJmas9qI4lbBDtm1Oq9s"
+      ]
+    },
+    {
+      "sku": "Lite-170We",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-170We",
+      "excel_title": "Ламинатор 1700 мм подогрев Fulei Lite-170We",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.5ouaX7awSmKs6Mhv2njmrZz_SGIq9kJoLA.9tBC0aLprbs5jLcg4UlnQscr6koGtHDetZ8UFuDhXCY"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.VGA3Uraw-IkB5XqEEwckAjLy-omH-_CDgQ.9vBlX8wcNbhCP4GwPI_XEjv3bj_P6M4NQE0Q_TFDW44",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.QVWVVbaw7byj4m-xmzQZNZD177wl_OW2Iw.GzgP9JdtGUUvUBJ6bYnkJF4-Bh-BLeNkE7nCsug4M2I"
+      ]
+    },
+    {
+      "sku": "Lite-170Wp",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Lite-170Wp",
+      "excel_title": "Ламинатор 1700 мм подогрев Fulei Lite-170Wp",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.v3F2lrawE5hAIZGVBPSOVHA2EZjGPxuSwA.AvNUtUxCQOkDn_dOgpUMVd2jEszRKiliQquqAK0WezU"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.m2ImTLawN4sQ-7WGHAaYAiPsNYuW5T-BkA.Dabrb2fMtIxD671gW8v9xfXMUbC4pQXK6clP3CkqpQ0",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.o3Y5KrawD58PnY2Sc0yjFjyKDZ-JgweVjw.x6UhUf7zJOBI84-ImHzS7DwEd8DRa9CAGQ8TUxol-N4"
+      ]
+    },
+    {
+      "sku": "Mate-140W",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Mate-140W",
+      "excel_title": "Ламинатор 1400 мм подогрев Fulei Mate-140W",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.AuiqVbawrgGc4iwMoj1rz6z1rAEa_KYLHA.uTWUzbiDM0udftxPFAWf7L47dKST4eb438WD8zxgIHA"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.h1lOabawK7B43qm9TFvKO0vJKbD-wCO6-A.nXmi7TAJo9H9tZEszIETfrEWa-zx8zVqSR0a7w_gY2M"
+      ]
+    },
+    {
+      "sku": "Mate-160W",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Mate-160W",
+      "excel_title": "Ламинатор 1600 мм подогрев Fulei Mate-160W",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.XyvvRbaw88LZ8nHP3VxfDenl8cJf7PvIWQ.9iHPEC0FGjVla9JsuKnebnWB_pfWy_S6P4kgDPGo3YE"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.QPS7pbaw7B2NEm4Qt5AHk74F7h0LDOQXDQ.qoBJB73oSwEBpHs3JTWimAEEx1p5IxhnfNVlEc_2TvA"
+      ]
+    },
+    {
+      "sku": "Mate-170W",
+      "brand": "Fulei",
+      "excel_id": "FULEI-Mate-170W",
+      "excel_title": "Ламинатор 1700 мм подогрев Fulei Mate-170W",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.6-e33LawRw6Ba8UD7evTw7F8RQ4HdU8EAQ.NHNFf03xJtN4JZmLEma0pRXGRcxxI8C-0Nxrq-xHGQM"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.cPLlvLaw3BvTC14Widk9kOAc3htVFdQRUw.D8mCVRRtnHqWkoyNSJL11SeNnVZBSeEFVIHutV0Nu0Q"
+      ]
+    },
+    {
+      "sku": "8407158950",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8407158950",
+      "excel_title": "Термопресс 40 на 40 см на 2 стола. Пневматический",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.PoahAbawkm-XthBi0V1k86ahkG8RqJplFw.PPB_4M3BFLjktuBnRq85StKLqK3Mp7k3Yb2Uk1BBBt4"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.MsixZrawniGH0Rws2XJEqbTGnCEBz5YrBw.bgsxJu5p0RxL0hUe1d_WX4N_NVKcWW06N8kCF3bNhPY",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.GFrpu7awtLPfDDa-1ftpOOwbtrNZEry5Xw.vuDuKI6einCyeQdyruzRIXCqq4QA6dG75P8X5mCbaUA",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.kPUpsLawPBwfB74RBY6UlSwQPhyZGTQWnw.76NgdUX5RfSdmKQdv805GbGYVmTlxXUh8FhoAYuLUi4",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.E8QwALawvy0Gtz0gGjBcozWgvS2Aqbcnhg.mNe-RXjLXqf7U8OCtk8tf4pvJlW-KOFtNEX9b8dOyc8",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.bxPcf7aww_rqyEH3jhIjdNnfwfps1svwag.ywBbGehHekvUD5AFYa_eVAEz_IQuzUhCWHvgwBqG7_g",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.V04aW7aw-6cs7HmqOFYmLx_7-aeq8vOtrA.MXnK8s4Xq1snrER2lDl-DOpqYe8fPomokp1iCN7N_ps",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.NqTA37awmk32aBhAoNMqxMV_mE1wdpJHdg._RWlyk0sPnXYBQ4uI_f7s1YWsjgRDGfKRbZCRI4ivns",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.qi_OBLawBsb4s4TLlnrxT8ukBMZ-rQ7MeA.y9IrgFUWq5XSbDdhq09Dg_9TLW1fHSqwRl4X5ID5pbs",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.42cNDLawT447u82DRy-qBQisTY69pUeEuw.3xHjhY3nq3v88FLMl9aJ__nTpg_7ULsZi_QCAFOPH1Y"
+      ]
+    },
+    {
+      "sku": "8407158950-5040",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8407158950-5040",
+      "excel_title": "Термопресс 50 на 40 см на 2 стола. Пневматический",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.uVzPA7awFbX5tJe4sVHEF8ijF7V_qh2_eQ.fLhFunjS_DWThAJqj9074LRra2PJ_t-4FtOYCj1eI_8"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.xqTg37awak3WaOhA4NDbxOV_aE1QdmJHVg.OTbs0d0AUrVCsdNkVRA6cx909tMmHKc-HG0MRcEUQII",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.jt_f37awIjbpaKA7z63KuNp_IDZvdio8aQ.-3a4OuKtOSHTPe1xu1cGyiYZ-aIs8fEgizA71ISdPlA",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.LKN3UrawgEpB5QJHI0ZawnLygkrH-4hAwQ.uiUZbdZY87rYpVIUNBdsFiD7W0CZW-hEYwZuC4-PTXk",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.42HDbLawT4j1282FiQOZAMbMTYhzxUeCdQ.Tl3n3usvz9p9zhlakzqijqz1LCJQiVqrkrbEZX7TNmQ",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.SZeIgLaw5X6-N2dzlrUZ940g5344Ke10Pg.9L5NM2kJBlQrjyQf-5l-KSgprBmoJqbL9Sj2v0QfX28",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.IdWf97awjTypQA8x0YNTtJpXjzwvXoU2KQ.5GooGVLQwKS1UOSAM5CdQzzINIgNx2vIH7n7rdyrONM",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.YiBxZ7awzslH0EzEOUJgQHTHzMnBzsbDxw.UU7sz1lA5KfjVF6Q_Z6h3a-N7TKJjjsEgA8GYQ4UNhE",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Zt4c37awyjcqaEg6XKIsuRl_yDesdsI9qg.26MaiJpYb4TnqXGYlorVSVHvc3MNQrCXq_AY-JxQwkw",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.DahUMLawoUFihyNMQkR5yVGQo0HkmalL4g.UGYXtUZ4VGFA5GkWqm9jRo0SJn0--BgcJJNS7e_E-pw"
+      ]
+    },
+    {
+      "sku": "8407158950-6040",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8407158950-6040",
+      "excel_title": "Термопресс 60 на 40 см на 2 стола. Пневматический",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.KXCB1LawhZm3YweU39g3OoZ0h5kxfY2TNw.jc4tVHs1vFsANItA9ZIK7WDHqWL-D66kR5Fw8AS6kHk"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.VNZjUraw-D9V5XoyR1NItmby-j_T-_A11Q.EGQZUP0zNV-cf9aj9OxYf3jTZO0rqEA3KuJGWLaEMBs",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.VqTs37aw-k3aaHhAzOJLxOl_-E1cdvJHWg.mQQUav6zQNNxIN645nPKANgk_btoQt2eNCC5-VgmAWQ",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.V4PgW7aw-2rW7HlnwiIR5OX7-WpQ8vNgVg.I2BeJS1J5fA6UozYNukcYwoPRiO0_vdciBOPhsFeIbk",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1._Y3FQbawUWTz9tNpsy787cDhU2R16Flucw.3gZwrP6BKyhHfGDe1BouADEA8p1qDw6qvOSpPFY_8TI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.PxMopbawk_oeEhH3Wv0gcy0FkfqYDJvwng.vxWZj6ecrDqg9roT1MgVKK8aDuHSDbt_ZNQwqt9kMAY",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.9FZHn7awWL9xKNqyI_TqNkI_Wr_3NlC18Q.hOg-SLTLAaaxjnGzwjaoW5Rz91_dIWD-GN6cioo7YCg",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Mt5RYbawnjdn1hw6OU1PuFTBnDfhyJY95w.IkkeU10mHM9835UlsOxjwe7E1Zx0iFEJ9NbIPaiST2k",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.vF5HnLawELdxK5K6M_6kPkI8Erf3NRi98Q.-i6Bf1dxvgwJ_9e32BVQGotvRlCK5wTaUrjXdUhLbG4",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.IdWsjrawjTyaOQ8x4rJksqkujzwcJ4U2Gg.BOAOyuR82C8JZj21PrWDbXQQgCBlf3RVvoc7Bljvxgc"
+      ]
+    },
+    {
+      "sku": "8381049616",
+      "brand": "Другие",
+      "excel_id": "8381049616",
+      "excel_title": "Термопресс 100 на 25 см для лент и строп. Ручной",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.TY3t1Law4WTbY2Np-61Mx-p042RdfeluWw.Vx-ldIfBcvf2gpi-01VU1Wx1Y0vPYjG0S2sWOCWElpA"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.qi3rNLawBsTdg4TJswbjT-6UBMRbnQ7OXQ.-fKyLOiU9e61YAqn5x3oJObIt9-rwdtresOutDdm9Lk",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.RShXDbaw6cFhumvMUTgMT1Kt68HnpOHL4Q.yny8iMav3MwgXYc6178oFFvpyCp495JcBUTTNjDewdY",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.CVWEG7awpbyyrCexmgtFN4G7p7w0sq22Mg.loG-AD7msVjKgiIYLk-Y3JNTrCwW6q9F5RLEsHV70us",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.8VWEELawXbyyp9-x6lu9N4GwX7w0uVW2Mg.c-P4Qk-m9Ts-EBPLM9mbMuajGdyuuaOA8jz4Nw7cucI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.irChYLawJlmX16RUuXLA16TAJFkRyS5TFw.Fo9jftpu3KYv1FNHGBS1y4Ybt4xp4lrPsC1GqdRmj7s"
+      ]
+    },
+    {
+      "sku": "8407158950-8060",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8407158950-8060",
+      "excel_title": "Термопресс 80 на 60 см на 2 стола. Пневматический",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.jIirF7awIGGdoKJsv12t_ay3ImEbvihrHQ.pYfktmxcGXIKZbIzjEVWI8IkQnnArYtdc8AqCTLdhR4"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.fjHK8baw0tj8RlDVuswPUM9R0Nh6WNrSfA.5D79ZPMbhJWeTgbapU7jEdCv7pODrJhvDitdXgX39ZM",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.D3FOBLawo5h4syGVXGR2EEukoZj-rauS-A.XiEvJfKoDf8CZhRG3x0ZRLHUF31YflkgnAEfBobdPQM",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.MC9psLawnMZfBx7LBagvT2wQnsbZGZTM3w.JGxbDrZ5JI_hLdtF9gIwZFqtu36s4cBTkvSXbKy0sQ0",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.HY5FQbawsWdz9jNqc20f7kDhs2f16Llt8w.2BnPd3aW-XeeNnh3wUQVBtrMZpw82uDYICTMgFKEqlA",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.AdlrHbawrTBdqi89ZSVLu269rzDbtKU63Q.HAdwLIVP_N3KI2Rk6DIeUk9n0OSOoYeqGq3qgu-UT54",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.XxPeTbaw8_ro-nH37EQbdNvt8fpu5PvwaA.3uaVVI3BM69n6VSs21wGfvfaafr4jB5OOV3eL1_ZGJo",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.hJJHnrawKHtxKap2Q7CZ8kI-Knv3NyBx8Q.gnTSXl63-Cwlig3SelxPWuREqSOWqASJZwbY1RYA5sE",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.dpfT1Law2n7lY1hzs9069dZ02H5jfdJ0ZQ.DTY2i9HeRZwqN8BIvuvpnqgVrR105_JYy74KMv7H_Y0",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.x0-WW7awa6ag7OmrlEywLpP7aaYm8mOsIA.OfikaXra_-bX92cHS_CgaC1fPPOmZrTNBkM_0onfmiY"
+      ]
+    },
+    {
+      "sku": "8407158950-9060",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8407158950-9060",
+      "excel_title": "Термопресс 90 на 60 см на 2 стола. Пневматический",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.0juIBbawftK-svzfoHqqT4-lfNI4rHbYPg.BFJkqwwlFwGel-kiSOualXpm1ZfgGDsyNBqTl-ZfxzU"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.ehxzn7aw1vVFKFT4C_YDfXY_1PXDNt7_xQ.EsQZfdL4zmAPGpqZGRb2-jlATbd0muKRdnTqF1mwjao",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.H09iW7aws6ZU7DGrUCdrLmf7sabS8rus1A.qpQmT9H6zV5kxP-uU8bUeIga0-vIn8wHR71L5Ix36zA",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.WPLkPLaw9BvSi3YW2EEVkOGc9htUlfwRUg.3tlCWJZ0HpILtdXe8HbOyHQSTI67jbbxqRHZW91tcKw",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.lZF1QbawOXhD9rt1U3eI8XDhO3jF6DFyww.Fzo5ZNmhcieadZ-Yqa6FqPiGG5KwJ6uPOIh741aF8m0",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.KVOIhLawhbq-Mwe31pA1M40kh7o4LY2wPg.g9YBdlyQNp_kj6ZqzABZejNyUjr4r7MCDsXj_cFrlLQ",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.FcBUlrawuSliITskctZHoFE2uynkP7Ej4g.CC0dVZOyySRMsgIUIpPTuKTgomZw96ObBo-RxFvTXeU",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.tBqpurawGPOfDZr-zfTteqwaGvMZExD5Hw.ioEhYwcfwCCXGituv0e7CNo2lSkvsCfAYz7-UgiF4kk",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.N3OuW7awm5qY7BmXzD8wE6v7mZoe8pOQGA.c46Ryy5joO38xFCMaJg4RHF4RMVtEkq-nvcSr9kwpkI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.cPLrfLaw3Bvdy14Wh3U8kO7c3htb1dQRXQ.z3Ron_06vh1IaPLTISCETWOwoSCuxMLPiDvBolBFocU"
+      ]
+    },
+    {
+      "sku": "8407158950-9070",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8407158950-9070",
+      "excel_title": "Термопресс 90 на 70 см на 2 стола. Пневматический",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.cWlhFbaw3YBXol-ND3w7HWa134DRvNWK1w.GHnQgRv1SRzoDlCsDvZlYnOyCn8ubQWbdurSEvI-lIQ"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.miqx9LawNsOHQ7TOifb-T7RUNMMBXT7JBw.g91WiG1tXRCb4vAJGtRoCnGjbA8IdC0GEDKA4vGvCzI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.ELS757awvF2NUD5Ql_df075Hvl0LTrRXDQ.taH-ozsW1-wA7nvwbTMU7m5CjEZCxQ6DfTJQA2_rhtw",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.yi_YhLawZsbuM-TLwNuaT90kZMZoLW7Mbg.vmC--ZcGn3CEFw7VUvYyOh_doCYAnAwoAYa-FHRZPfI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.F8lO0bawuyB4ZjktbME4rktxuSD-eLMq-A.vtXqYw2M6Fx8gExp1xPt5sbmai-DrGG44UTCaYNGgWk",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.mcwqHbawNSUcqrcoFC-HrC-9NyWatD0vnA.Z7osJvff2vo2GrWkYrj8T2oa1tZ_U8e4RqHTdzF0vMg",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.WOakPLaw9A-Si3YCmEEdgaGc9g8UlfwFEg.uVqDPuvArtKzTMyp8XEjLebpkLvM7Y0I4Y0doLV8eaw",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Oi_bVLawlsbt4xTLo3xrT970lMZr_Z7MbQ.4OBU-s6qbcEndUZmnF9mgp2fdqLoKNFYGyiurK5KlPI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.c2yXDLaw34Whu12I_W1cC5Ks3YUnpdePIQ.hSxUIYq2mY8SqxMGSN0lDgpIbIxI3T-sB2ys-IKl_9Y",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.pDmvU7awCNCZ5Ird6x3nXqrzCtAf-gDaGQ.TfNj2thzo-M8Esxj6s2to5defCNIxFUtxeCSnWfYkt4"
+      ]
+    },
+    {
+      "sku": "8435316493",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "8435316493",
+      "excel_title": "Термопресс 80 на 60 см широкоформатный ручной",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.fL4NEraw0Fc7pVJaeRN59Aqy0le9u9hduw.S0DTNzIWBN3ZGr6Qsdr1TYRH_O03nnfDMFtzYBo8tEg"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.wSmIhLawbcC-M-_NhsPaSY0kb8A4LWXKPg.GsdTMd8yC1HWOJK5sCMmCT4PBu7ikGSwhXxrJ3nE60Y",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.oV8IsrawDbY-BY-7RsDdOQ0SD7a4GwW8vg.0CsoLhI6VFHDoVeXyfFrtfQ2JHm54p5QrP6ijZpa2dc",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.EHS-RrawvJ2I8T6QkkprErvmvp0O77SXCA.kUZBqVepwMXrjmHXwz3m6AfRoIF35Lhl1WqXjiEEtwc"
+      ]
+    },
+    {
+      "sku": "CY-60100",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "CY-60100",
+      "excel_title": "Термопресс 100 на 60 см широкоформатный ручной",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.Dj7bu7awotftDCDay7svS9wboNdrEqrdbQ.yxed9rzih415AqR4u-FtK7x1WmhBcSThvt_rA1SMufo"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.DOpHubawoANxDiIOU-1fikIZogP3EKgJ8Q.F8veDHOOmWdD1NM4s-Q7f0F8Fea1_Mr-FYmlsdL1Egc",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.txMumbawG_oYLpn3TLuwcys5GfqeMBPwmA.IBgItDDCuM0-Y_6GtZDhYGQ07ZrygbsCIiH9FAoVSyE",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.4P9dPLawTBZri84bEVOanlicThbtlUQc6w.lbpByJfwf5wXNQkekJd84S-OZ-rRDp2hfYEx-gtoKA0"
+      ]
+    },
+    {
+      "sku": "CY-70100",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "CY-70100",
+      "excel_title": "Термопресс 100 на 70 см широкоформатный ручной",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.hGYCtbawKI80AqqCBu_OEgUVKo-yHCCFtA.a5ly6SZWHZow7E_pS3upZWnqDO2rx1uQ-8lYcnyvJiY"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.72VOLrawQ4x4mcGBHGW-BUuOQYz-h0uG-A.UvaM_8EVTs43ei2pXuqNwyxm141msQEAPYK16ucu5kQ",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.3ibK5Lawcs_8U_DC-oeHRs9EcM96TXrFfA.-Nwi8-NurRhMTC_e9Tcri_SDFJHbPuW_CbbT8m8s4tI",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.rxMv_7awA_oZSIH3fZGtcypfAfqfVgvwmQ.AsYDbR6eY6OuY4DO8lPaaH0axC584X0My_hVBVHwdPI"
+      ]
+    },
+    {
+      "sku": "CY-80100",
+      "brand": "Dongguan Shenghua",
+      "excel_id": "CY-80100",
+      "excel_title": "Термопресс 100 на 80 см широкоформатный ручной",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.OWDAFbawlYn2oheEvnVpFce1l4lwvJ2Ddg.kU2K9te-8GCked6-4DV0BQ96uIsw-oB9b3yjzvhJm-o"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.KrdBYLawhl531wRTGQhj0ETAhF7xyY5U9w.aUTUt57etS9Ky1Ly_Q9uH-VzKVHGmACHcWlLVX6gEpE",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.020LTLawf4Q9-_2JISebCg7sfYS75XeOvQ.VS7ucKYWbIeK-ktRf5vXpzZSMaDRJrgtWe8BS2KOg7U",
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.JjTK77awit38WAjQiscnVM9PiN16RoLXfA.54l-3wzsZC-gcmY7em7QuDqUDXTG6_Iuc56Q9Klp2Vs"
+      ]
+    },
+    {
+      "sku": "RM-160-Base",
+      "brand": "Fulei",
+      "excel_id": "FULEI-RM-160-Base",
+      "excel_title": "Перемотчик Fulei RM-160 Base",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.4PpDu7awTBN1DM4eD7y52kUbThPzEkQZ9Q.C4DUmaROKs0qaJ5YgCavoN3e9anSdGMGOIW3GdrCnI4"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.mPpivLawNBNUC7YeXqrFmmccNhPSFTwZ1A.qA220oCkcRn0ks9bRcfID4HQo9bQal2cTYBA3-AUhKg"
+      ]
+    },
+    {
+      "sku": "RM-210-Base",
+      "brand": "Fulei",
+      "excel_id": "FULEI-RM-210-Base",
+      "excel_title": "Перемотчик Fulei RM-210 Base",
+      "existing_catalog_images": [
+        "https://www.avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.GCTuobawtM3YFjbA0oEmAOgBts1eCLzHWA.GbODso-LbEImDkkqcEL3gr0rSGT3wK0nW0WUkUfraTs"
+      ],
+      "source_image_urls": [
+        "http://avito.ru/autoload/1/items-to-feed/images?imageSlug=/image/1/1.R_VO0baw6xx4ZmkRTLhokktx6Rz-eOMW-A.cXJjcvMCYQRcIqeq3gEiJWak7qB1dGQ17gitqqBNREk"
+      ]
+    }
+  ]
+}
