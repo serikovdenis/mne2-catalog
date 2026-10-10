@@ -3,7 +3,8 @@
 
 This NEVER changes production catalog image URLs.
 """
-import csv, io, json, re, time, urllib.request, urllib.error
+import csv, io, json, re, urllib.request, urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urlparse
 from PIL import Image, ImageFilter, ImageStat
@@ -21,18 +22,18 @@ def variants(url):
     if p.hostname and "avito.ru" in p.hostname:
         path=p.path
         query=("?"+p.query) if p.query else ""
-        for host in ["www.avito.ru","avito.ru"]:
+        for host in ["www.avito.ru"]:
             urls.append("https://"+host+path+query)
         slug=re.search(r"(?:imageSlug=)(/image/1/1\.[^&]+)",url)
         if slug:
             suffix=slug.group(1)
-            for host in ["a.cdn.avito.ru","images.avito.ru","img.avito.st"]:
+            for host in ["images.avito.ru"]:
                 urls.append("https://"+host+suffix)
     return list(dict.fromkeys(urls))
 
 def get(url):
     req=urllib.request.Request(url,headers=HEADERS)
-    with urllib.request.urlopen(req,timeout=17) as resp:
+    with urllib.request.urlopen(req,timeout=7) as resp:
         blob=resp.read(MAX_BYTES+1)
     if len(blob)>MAX_BYTES:raise ValueError("oversize")
     im=Image.open(io.BytesIO(blob))
@@ -62,7 +63,8 @@ def fetch_one(urls):
 def main():
     data=json.loads(MANIFEST.read_text(encoding="utf-8"))
     rows=[]
-    for p in data["products"]:
+    def process(p):
+        results=[]
         sku=p["sku"]
         old_quality=None
         old_url=None
@@ -96,9 +98,13 @@ def main():
             except Exception as exc:
                 item["status"]="download_failed"
                 item["quality_note"]=str(exc)[:250]
-            rows.append(item)
+            results.append(item)
             print(sku,i,item["status"],item["width"],item["height"],flush=True)
-            time.sleep(0.1)
+        return results
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures=[pool.submit(process,p) for p in data["products"]]
+        for future in as_completed(futures):
+            rows.extend(future.result())
     fields=list(rows[0].keys())
     with (OUT/"audit.csv").open("w",newline="",encoding="utf-8-sig") as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
