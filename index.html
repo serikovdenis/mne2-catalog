@@ -4,26 +4,56 @@
 .detailOverlay{display:none;position:fixed;inset:0;z-index:100;background:#0d1828ba;overflow:auto;padding:24px}.detailPanel{max-width:850px;margin:20px auto;background:#fff;padding:26px;border-radius:20px;position:relative}.detailGallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.detailGallery img{width:100%;aspect-ratio:1/1;object-fit:contain;border:1px solid #e5e8ed;border-radius:10px}.detailGallery img:first-child{grid-column:span 2;grid-row:span 2}.detailClose{position:absolute;right:18px;top:14px;background:#eee;border:0;border-radius:50%;width:36px;height:36px;cursor:pointer}.more{width:100%;padding:10px 12px;background:#fff8f1;color:#bd6014;border:1px solid #f3d1b6;border-radius:9px;margin-top:12px;cursor:pointer}@media(max-width:490px){.detailOverlay{padding:6px}.detailPanel{padding:18px;margin:10px auto}.detailGallery{grid-template-columns:repeat(2,1fr)}}
 .fullDescription{padding:14px 0 18px;border-top:1px solid #e6e9ed}.fullDescription p{white-space:pre-line;color:#303d4a;line-height:1.65;font-size:15px}.previewDescription{font-size:13px;line-height:1.5;max-height:85px;overflow:hidden;white-space:pre-line;color:#65707d} .photoZoomOverlay{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.88);align-items:center;justify-content:center;padding:54px 18px 25px;cursor:zoom-out}.photoZoomOverlay.open{display:flex}.photoZoomOverlay img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 10px 45px #0006;cursor:zoom-out}.photoZoomClose{position:absolute;top:12px;right:15px;border:0;border-radius:50%;background:#fff;color:#222;font-size:30px;line-height:1;width:43px;height:43px;cursor:pointer}.detailGallery img[data-zoom],.product img[data-zoom]{cursor:zoom-in}
 .orderForm{display:none;margin-top:16px;padding:18px;border:1px solid #e5e8ed;background:#fafbfc;border-radius:14px}.orderForm.open{display:block}.orderForm label{display:block;font-weight:700;margin:12px 0 5px;font-size:14px}.orderForm input,.orderForm textarea{width:100%;padding:12px;border:1px solid #cfd6df;border-radius:9px;background:#fff;font:inherit;font-size:16px}.orderForm textarea{min-height:85px;resize:vertical}.orderForm .orderMeta{white-space:pre-line;color:#344354;font-size:14px;line-height:1.6}.orderForm button{margin-top:14px}.orderFormStatus{margin-top:10px;font-weight:600}.orderFormStatus.ok{color:#176c39}.orderFormStatus.error{color:#ad2e21}.orderForm .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* Production filters, curated selections, and paginated catalog */
+.collections{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0 26px}
+.collection{border:1px solid #dce2e8;border-radius:22px;padding:10px 14px;background:#fff;color:#344352;cursor:pointer;font:600 13px system-ui}
+.collection.active,.collection:hover{border-color:#ed781e;color:#ad520c;background:#fff9f3}
+.catalogLayout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:22px;align-items:start}
+.catalogFilters{background:#fff;border:1px solid #e2e6ea;border-radius:15px;padding:17px;position:sticky;top:16px}
+.catalogFilters h3{margin:0 0 15px;font-size:18px}
+.catalogFilters label{display:block;margin:0 0 13px;font-size:12px;font-weight:700;color:#53616e}
+.catalogFilters label select,.catalogFilters label input:not([type=checkbox]){display:block;width:100%;min-width:0;padding:10px;margin-top:6px;border:1px solid #d7dde3;border-radius:8px;background:#fff;color:#263442;font:14px system-ui}
+.catalogFilters .pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.catalogFilters .check{display:flex;gap:7px;align-items:center;font-weight:500;font-size:13px}
+.catalogFilters .check input{accent-color:#ed781e}
+.catalogFilters .reset,.moreProducts,.mobileFilter{background:#fff;border:1px solid #d7dde3;border-radius:9px;padding:10px 14px;cursor:pointer;font-weight:700}
+.catalogResults .toolbar{margin-top:0}
+.catalogResults .products{grid-template-columns:repeat(3,minmax(0,1fr))}
+.catalogResults .product{display:flex;flex-direction:column}
+.catalogResults .product .info{display:flex;flex-direction:column;flex:1}
+.catalogResults .product .price{margin-top:auto}
+.catalogResults .product .more{margin-top:12px}
+.catalogResults .product .productPlaceholder{display:grid;place-items:center;aspect-ratio:1/1;background:#f2f4f7;color:#a0a9b3;font-size:42px}
+.resultMeta{color:#667686;font-size:13px;margin:0 0 12px}
+.moreProducts{display:block;margin:22px auto}
+.moreProducts[hidden]{display:none}
+.mobileFilter{display:none}
+.catalogResults .toolbar select{max-width:170px}
+@media(max-width:1100px){.catalogResults .products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.catalogLayout{display:block}.catalogFilters{display:none;position:static;margin:12px 0}.catalogFilters.open{display:block}.mobileFilter{display:inline-block}.catalogResults .toolbar{margin:16px 0}.catalogResults .products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.catalogResults .products{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.catalogResults .product .info{padding:10px}.catalogResults .product h3{font-size:13px}.catalogResults .product .price{font-size:15px}.catalogResults .product img{aspect-ratio:1/1}.catalogFilters label{font-size:13px}}
 </style></head><body><header><div class="wrap"><div><a class="logo" href="https://mne2.ru/" aria-label="MNE2 — главная страница">mne<span>2</span>.ru</a><div class="sub">Оборудование для термопереноса</div></div><a class="toplink" href="https://mne2.ru/">Главная — условия поставки ↗</a></div></header>
 <main><section class="hero"><div class="eyebrow">Каталог оборудования MNE2</div><h1>Оборудование для термопереноса</h1><p>Подбор термопрессов, каландров и оборудования для сублимации по типу производства и техническим параметрам.</p></section>
-<div class="notice">В каталоге 349 моделей оборудования для термопереноса. Подберите оборудование по назначению, характеристикам и производителю. Цены указаны для моделей с подтверждённой стоимостью.</div>
+<div class="notice">В каталоге 374 модели оборудования для термопереноса. Подберите оборудование по назначению, характеристикам и производителю. Цены указаны для моделей с подтверждённой стоимостью.</div>
 <form class="search" id="form"><input id="query" type="search" placeholder="Поиск по названию, модели и артикулу" aria-label="Поиск оборудования"><button type="submit">Найти</button></form>
 <section><h2>Категории оборудования</h2><div class="categories" id="categories"></div></section>
-<div class="toolbar"><h2 id="resultTitle">Все модели</h2><select id="brand" aria-label="Производитель"><option value="">Все производители</option></select></div><div class="products" id="products"></div>
+<h2>Подборки по задачам</h2><div class="collections" id="collections"></div>
+<div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3>
+<label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
+<label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option></select></label>
+<label>Режим ламинирования<select id="f-laminate"><option value="">Любой</option><option>Холодный</option><option>Тёплый</option><option>Горячий</option></select></label>
+<label>Ширина / сторона плиты, мм<div class="pair"><input id="f-width-min" type="number" min="0" placeholder="От"><input id="f-width-max" type="number" min="0" placeholder="До"></div></label>
+<label>Цена, ₽<div class="pair"><input id="f-price-min" type="number" min="0" placeholder="От"><input id="f-price-max" type="number" min="0" placeholder="До"></div></label>
+<label class="check"><input id="f-auto" type="checkbox"> Автоматические</label>
+<label class="check"><input id="f-wide" type="checkbox"> Широкоформатные</label>
+<label class="check"><input id="f-priced" type="checkbox"> Только с ценой</label>
+<label class="check"><input id="f-verified" type="checkbox"> Скрыть модели на проверке</label>
+<button class="reset" type="button" id="f-reset">Сбросить фильтры</button></aside>
+<section class="catalogResults"><div class="toolbar"><h2 id="resultTitle">Все модели</h2><div><button class="mobileFilter" id="f-mobile" type="button">Фильтры ☷</button> <select id="brand" aria-label="Производитель"><option value="">Все производители</option></select> <select id="f-sort" aria-label="Сортировка"><option value="name">По названию</option><option value="priceUp">Сначала дешевле</option><option value="priceDown">Сначала дороже</option><option value="brand">По производителю</option></select></div></div><p class="resultMeta" id="resultMeta"></p><div class="products" id="products"></div><button type="button" class="moreProducts" id="moreProducts" hidden>Показать ещё</button></section></div>
 </main><div id="details" class="detailOverlay" role="dialog" aria-modal="true" aria-label="Карточка оборудования"><div class="detailPanel" id="detailContent"></div></div><div id="photoZoom" class="photoZoomOverlay" role="dialog" aria-modal="true" aria-label="Просмотр фотографии"><button type="button" id="photoZoomClose" class="photoZoomClose" aria-label="Закрыть фотографию">×</button><img id="photoZoomImage" alt="Увеличенная фотография оборудования"></div><footer>© MNE2 · Каталог оборудования для термопереноса.</footer>
 <script>
-const categories=[
-{id:'automatic',name:'Автоматические термопрессы',symbol:'↕',desc:'Автоматическое управление и подача'},
-{id:'flat',name:'Плоские термопрессы',symbol:'▣',desc:'Для текстиля, заготовок и плоских изделий'},
-{id:'mug',name:'Кружечные термопрессы',symbol:'☕',desc:'Кружки, стаканы и термопосуда'},
-{id:'cap',name:'Кепочные термопрессы',symbol:'◒',desc:'Для кепок и головных уборов'},
-{id:'multi',name:'Многофункциональные',symbol:'✳',desc:'Несколько видов изделий'},
-{id:'large',name:'Широкоформатные',symbol:'▭',desc:'Большие рабочие поверхности'},
-{id:'calendar',name:'Рулонные каландры',symbol:'◉',desc:'Непрерывный термоперенос на рулонах'},
-{id:'vacuum',name:'Вакуумные 3D-прессы',symbol:'⬡',desc:'Для объёмных изделий'},
-{id:'pneumatic',name:'Пневматические',symbol:'⇵',desc:'Автоматические и двухпозиционные'},
-{id:'special',name:'Специализированные',symbol:'⚙',desc:'Другие решения для производства'}
-];let items=[],active='',term='',brand='';
+const categories=[{"id":"flat","name":"Плоские термопрессы","symbol":"▣","desc":"Ручные, автоматические и пневматические"},{"id":"mug","name":"Для кружек и термосов","symbol":"☕","desc":"Кружки и термопосуда"},{"id":"cap","name":"Для кепок","symbol":"◒","desc":"Головные уборы"},{"id":"multi","name":"Многофункциональные","symbol":"✳","desc":"Несколько видов изделий"},{"id":"vacuum","name":"3D-прессы и печи","symbol":"⬡","desc":"Объёмные изделия"},{"id":"calender","name":"Каландровые термопрессы","symbol":"◉","desc":"Рулонный термоперенос"},{"id":"special","name":"Ленты и специальные изделия","symbol":"▤","desc":"Ленты, этикетки и другое"},{"id":"laminator","name":"Рулонные ламинаторы","symbol":"▥","desc":"Холодные, тёплые и горячие"},{"id":"dtf","name":"DTF-оборудование","symbol":"▦","desc":"Принтеры, шейкеры и печи"},{"id":"parts","name":"Аксессуары и запчасти","symbol":"⚙","desc":"Оснастка и комплектующие"}];let items=[],active='',term='',brand='';
 function photoCandidates(raw){const u=String(raw||'').replace(/^http:\/\/mne2\.ru\//,'https://mne2.ru/');if(u.includes('/CEHPPRO3838FLB_02.jpg'))return Array.from({length:9},(_,i)=>'https://mne2.ru/catalog/images/CEHPPRO3838FLB_'+String(i+2).padStart(2,'0')+'.jpg');const m=u.match(/[?&]imageSlug=(?:%2F|\/)?image(?:%2F|\/)1(?:%2F|\/)(1\.[^&#]+)/i);if(!m)return [u];const token=decodeURIComponent(m[1]);return ['https://70.img.avito.st/image/1/'+token,'https://30.img.avito.st/image/1/'+token,'https://10.img.avito.st/image/1/'+token,u.replace(/^http:/,'https:')]}
 function photoError(img){let a=[];try{a=JSON.parse(img.dataset.sources||'[]')}catch{}let n=Number(img.dataset.try||0)+1;if(n<a.length){img.dataset.try=String(n);img.src=a[n]}else{img.onerror=null;img.style.opacity='.2';img.alt='Фотография недоступна'}}
 function photoTag(u,title){const a=photoCandidates(u);return '<img loading="lazy" data-zoom="1" data-sources="'+esc(JSON.stringify(a))+'" data-try="0" src="'+esc(a[0])+'" alt="'+esc(title)+'" onerror="photoError(this)">'}
@@ -38,4 +68,81 @@ function closeProduct(){document.getElementById('details').style.display='none';
 document.getElementById('details').addEventListener('click',e=>{if(e.target.id==='details')closeProduct()});document.getElementById('products').addEventListener('click',e=>{const b=e.target.closest('[data-sku]');if(b)openProduct(b.dataset.sku)});document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(document.getElementById('photoZoom').classList.contains('open'))closePhotoZoom();else closeProduct()}});
 document.getElementById('form').onsubmit=e=>{e.preventDefault();term=document.getElementById('query').value.trim().toLowerCase();showProducts()};document.getElementById('query').oninput=e=>{term=e.target.value.trim().toLowerCase();showProducts()};document.getElementById('brand').onchange=e=>{brand=e.target.value;showProducts()};
 (async()=>{try{let chunks=await Promise.all([1,2,3,4].map(async n=>{const r=await fetch('./data/part'+n+'.json',{cache:'no-store'});if(!r.ok)throw Error('catalog part '+n);return await r.json()}));items=chunks.flat();const bs=[...new Set(items.map(x=>x.brand).filter(Boolean))].sort();document.getElementById('brand').innerHTML='<option value="">Все производители</option>'+bs.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('')}catch(e){console.warn('Catalog JSON not loaded',e)}showCategories();showProducts();const requestedSku=new URLSearchParams(location.search).get('sku');if(requestedSku){const match=items.find(p=>p.sku===requestedSku||String(p.avito_id)===requestedSku);if(match){term=String(match.sku).toLowerCase();document.getElementById('query').value=match.sku;showProducts();openProduct(String(match.avito_id||match.sku))}}})();
+
+const curated=[
+{id:'shirts',name:'Для футболок и мерча'},
+{id:'sports',name:'Для спортивной формы'},
+{id:'souvenirs',name:'Для сувениров'},
+{id:'textile',name:'Для текстильного производства'},
+{id:'startup',name:'Для небольшой мастерской'},
+{id:'industry',name:'Для крупных производств'},
+{id:'ribbons',name:'Для лент и этикеток'}];
+let curatedId='',pageSize=24;
+const fval=id=>document.getElementById(id).value;
+const fnum=id=>fval(id)===''?null:Number(fval(id));
+function collectionMatch(p,id){
+ if(!id)return true;
+ if(id==='shirts')return ['flat','dtf'].includes(p.category);
+ if(id==='sports')return ['flat','calender','dtf'].includes(p.category);
+ if(id==='souvenirs')return ['mug','cap','multi','vacuum','special'].includes(p.category);
+ if(id==='textile')return ['calender','flat'].includes(p.category);
+ if(id==='startup')return ['flat','mug','cap','multi','vacuum'].includes(p.category)&&(!p.price_rub||p.price_rub<150000);
+ if(id==='industry')return ['calender','laminator'].includes(p.category)||p.wide||p.drive==='Гидравлический';
+ if(id==='ribbons')return p.category==='special'&&/лент|этикет|строп/i.test(p.title);
+ return true;
+}
+function resetFilters(){
+ active='';curatedId='';term='';brand='';pageSize=24;
+ document.getElementById('query').value='';
+ for(const id of ['f-drive','f-stations','f-laminate','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
+ for(const id of ['f-auto','f-wide','f-priced','f-verified'])document.getElementById(id).checked=false;
+ document.getElementById('f-sort').value='name';showCategories();showProducts();
+}
+function showCollections(){
+ document.getElementById('collections').innerHTML=curated.map(c=>'<button type="button" class="collection '+(curatedId===c.id?'active':'')+'" data-collection="'+c.id+'">'+esc(c.name)+'</button>').join('');
+ document.querySelectorAll('[data-collection]').forEach(b=>b.onclick=()=>{curatedId=curatedId===b.dataset.collection?'':b.dataset.collection;pageSize=24;showCollections();showProducts();document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'})});
+}
+showCategories=function(){
+ document.getElementById('categories').innerHTML=categories.map(c=>'<button class="category '+(active===c.id?'active':'')+'" data-category="'+c.id+'"><span class="symbol">'+c.symbol+'</span><strong>'+esc(c.name)+'</strong><small>'+items.filter(p=>p.category===c.id).length+' моделей</small></button>').join('');
+ document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{active=active===b.dataset.category?'':b.dataset.category;pageSize=24;showCategories();showProducts();document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'})});
+ showCollections();
+};
+showProducts=function(){
+ const wMin=fnum('f-width-min'),wMax=fnum('f-width-max'),pMin=fnum('f-price-min'),pMax=fnum('f-price-max');
+ let found=items.filter(p=>
+ (!active||p.category===active)&&collectionMatch(p,curatedId)&&(!brand||p.brand===brand)&&
+ (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
+ (!fval('f-drive')||p.drive===fval('f-drive'))&&(!fval('f-stations')||String(p.stations||'')===fval('f-stations'))&&
+ (!fval('f-laminate')||p.laminate_mode===fval('f-laminate'))&&
+ (wMin===null||(p.width_mm!=null&&p.width_mm>=wMin))&&(wMax===null||(p.width_mm!=null&&p.width_mm<=wMax))&&
+ (pMin===null||(p.price_rub!=null&&p.price_rub>=pMin))&&(pMax===null||(p.price_rub!=null&&p.price_rub<=pMax))&&
+ (!document.getElementById('f-auto').checked||p.automatic)&&
+ (!document.getElementById('f-wide').checked||p.wide)&&
+ (!document.getElementById('f-priced').checked||p.price_rub>100)&&
+ (!document.getElementById('f-verified').checked||!p.needs_review));
+ const sort=fval('f-sort');
+ if(sort==='priceUp')found.sort((a,b)=>(a.price_rub||Infinity)-(b.price_rub||Infinity));
+ else if(sort==='priceDown')found.sort((a,b)=>(b.price_rub||-1)-(a.price_rub||-1));
+ else if(sort==='brand')found.sort((a,b)=>a.brand.localeCompare(b.brand,'ru')||a.title.localeCompare(b.title,'ru'));
+ else found.sort((a,b)=>a.title.localeCompare(b.title,'ru'));
+ const currentTitle=categories.find(c=>c.id===active)?.name||curated.find(c=>c.id===curatedId)?.name||'Все модели';
+ document.getElementById('resultTitle').textContent=currentTitle+' · '+found.length;
+ document.getElementById('resultMeta').textContent='Найдено '+found.length+' из '+items.length+' моделей. '+(found.length>pageSize?'Показаны первые '+pageSize+'.':'');
+ document.getElementById('products').innerHTML=found.length?found.slice(0,pageSize).map(p=>'<article class="product" data-product-sku="'+esc(p.sku)+'">'+
+ (p.image?photoTag(p.image,p.title):'<div class="productPlaceholder" aria-label="Фотография уточняется">▣</div>')+
+ '<div class="info"><span class="brand">'+esc(p.brand)+'</span><h3>'+esc(p.title)+'</h3><small>'+esc(p.model||p.sku||'')+'</small><div class="price">'+(p.price_rub>100?new Intl.NumberFormat('ru-RU').format(p.price_rub)+' ₽':'Цена по запросу')+'</div>'+
+ (p.avito_url?'<a href="'+esc(p.avito_url)+'" target="_blank" rel="noopener noreferrer">Посмотреть на Авито ↗</a>':'')+
+ (p.description?'<p class="previewDescription">'+esc(p.description.slice(0,190))+(p.description.length>190?'…':'')+'</p>':'')+
+ '<button class="more" data-sku="'+esc(p.avito_id||p.sku)+'">Подробнее о модели</button></div></article>').join(''):'<div class="empty"><strong>Модели не найдены</strong><p>Измените параметры поиска или сбросьте фильтры.</p></div>';
+ document.getElementById('moreProducts').hidden=found.length<=pageSize;
+};
+document.getElementById('f-reset').onclick=resetFilters;
+document.getElementById('f-mobile').onclick=()=>document.getElementById('catalogFilters').classList.toggle('open');
+document.getElementById('moreProducts').onclick=()=>{pageSize+=24;showProducts()};
+for(const id of ['f-drive','f-stations','f-laminate','f-width-min','f-width-max','f-price-min','f-price-max','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
+const originalShowProducts=showProducts;
+const originalShowCategories=showCategories;
+const onLoaded=()=>{const drives=[...new Set(items.map(p=>p.drive).filter(Boolean))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');showCategories();showProducts()};
+const waitForCatalog=setInterval(()=>{if(items.length){clearInterval(waitForCatalog);onLoaded()}},100);
+setTimeout(()=>clearInterval(waitForCatalog),15000);
 </script></body></html>
