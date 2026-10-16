@@ -1,12 +1,13 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 53,
-  "pending_model_count": 14,
+  "pending_confirmed_values": 65,
+  "pending_model_count": 18,
   "required_ui_changes": [
     "Expose confirmed table construction and thermoplate motion in cap press guided selection",
     "Show and filter confirmed thermoplate_count independently from working table count",
-    "Expose fusing category and DTF equipment types; omit flat-press construction questions for continuous belt machines"
+    "Expose fusing category and DTF equipment types; omit flat-press construction questions for continuous belt machines",
+    "Special equipment subtype selection must skip press drive/table questions for film cutters and rhinestone shakers"
   ],
   "groups": [
     {
@@ -163,24 +164,62 @@
           }
         }
       ]
+    },
+    {
+      "group": "26-source",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-22B-B67-01",
+          "review_number": 128,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-56E-B72-01",
+          "review_number": 129,
+          "values": {
+            "category": "dtf",
+            "equipment_type": "powder_shaker_dryer",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-57A-B73-01",
+          "review_number": 130,
+          "values": {
+            "category": "special",
+            "equipment_type": "automatic_film_cutter",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-57A-B73-02",
+          "review_number": 131,
+          "values": {
+            "category": "special",
+            "equipment_type": "rhinestone_shaking_machine",
+            "drive": ""
+          }
+        }
+      ]
     }
   ],
-  "unresolved_issues": [
+  "unresolved_issues": [],
+  "pending_review": [
     {
-      "sku": "JC-22B-B67-01",
-      "status": "manufacturer_review_required"
-    },
-    {
-      "sku": "JC-56E-B72-01",
-      "status": "manufacturer_review_required"
-    },
-    {
-      "sku": "JC-57A-B73-01",
-      "status": "manufacturer_review_required"
-    },
-    {
-      "sku": "JC-57A-B73-02",
-      "status": "manufacturer_review_required"
+      "skus": [
+        "JC-1D-B69-01",
+        "JC-1D-B69-02",
+        "JC-1D-B69-03",
+        "JC-1D-B69-04",
+        "JC-1D-B69-05"
+      ],
+      "issue": "Portable thermoplate on wheels; ordinary table-count/sliding-table fields inapplicable; confirm operation and correct erroneous hydraulic drive on 60x80 variant",
+      "source_url": "https://www.gzjiangchuan.com/products/-177"
     }
   ]
 }
