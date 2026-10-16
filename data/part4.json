@@ -677,55 +677,109 @@
     "equipment_type": "powder_shaker_dryer"
   },
   {
-    "category": "flat",
+    "category": "dtf",
     "brand": "JiangChuan",
     "sku": "JC-56E-B72-01",
     "model": "JC-56E-B72-01",
-    "title": "Термопресс 600 mm JiangChuan",
+    "title": "DTF-шейкер с сушкой JC-56E",
     "avito_id": "8359001550",
     "image": "http://mne2.ru/jiangchuan/JC-56E/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-56E/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-56E\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 9.5 кВт\n• Вес: 334 кг\n• Размер упаковки: 282x111x92 см",
+    "description": "DTF-шейкер с сушкой JC-56E.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-56E\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 9.5 кВт\n• Вес: 334 кг\n• Размер упаковки: 282x111x92 см",
     "price_rub": 499645,
-    "drive": "Гидравлический",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "dtf",
+        "previous_value": "flat",
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/JC-56E/01_main.jpg"
+      },
+      "equipment_type": {
+        "value": "powder_shaker_dryer",
+        "previous_value": null,
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/JC-56E/01_main.jpg"
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Гидравлический",
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/JC-56E/01_main.jpg"
+      }
+    },
+    "equipment_type": "powder_shaker_dryer"
   },
   {
-    "category": "flat",
+    "category": "special",
     "brand": "JiangChuan",
     "sku": "JC-57A-B73-01",
     "model": "JC-57A-B73-01",
-    "title": "Термопресс 600 mm JiangChuan",
+    "title": "Автоматический резчик плёнки JC-57A",
     "avito_id": "8457599262",
     "image": "http://mne2.ru/jiangchuan/JC-57A/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-57A/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-57A\n Исполнение: Automatic film cutter / вариант 1\n Основные характеристики:\n • Размер рабочей зоны: 600 мм cutting width\n• Мощность: 1 кВт\n• Вес: 227 кг\n• Размер упаковки: 191x118x101 см",
+    "description": "Автоматический резчик плёнки JC-57A.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-57A\n Исполнение: Automatic film cutter / вариант 1\n Основные характеристики:\n • Размер рабочей зоны: 600 мм cutting width\n• Мощность: 1 кВт\n• Вес: 227 кг\n• Размер упаковки: 191x118x101 см",
     "price_rub": 674095,
-    "drive": "Не указан",
+    "drive": "",
     "automatic": true,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "special",
+        "previous_value": "flat",
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/JC-57A/01_main.jpg"
+      },
+      "equipment_type": {
+        "value": "automatic_film_cutter",
+        "previous_value": null,
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/JC-57A/01_main.jpg"
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Не указан",
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/JC-57A/01_main.jpg"
+      }
+    },
+    "equipment_type": "automatic_film_cutter"
   },
   {
-    "category": "flat",
+    "category": "special",
     "brand": "JiangChuan",
     "sku": "JC-57A-B73-02",
     "model": "JC-57A-B73-02",
-    "title": "Термопресс 100x60 / 90x60 / 80x60 см JiangChuan",
+    "title": "Машина для выкладки страз",
     "avito_id": "8425977944",
     "image": "http://mne2.ru/jiangchuan/Rhinestone-Shaking-Machine/01_main.jpg",
     "images": [
@@ -733,14 +787,41 @@
     ],
     "description": "Машина для работы со стразами используется при подготовке декоративных элементов для оформления изделий. Подходит мастерским, которые выполняют заказы на декорирование одежды и аксессуаров.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель:\n Исполнение: Rhinestone shaking machine / вариант 2\n Основные характеристики:\n • Размер рабочей зоны: 100x60 / 90x60 / 80x60 см\n• Мощность: 1.5 кВт\n• Вес: 120 кг\n• Размер упаковки: 120x91x85 см",
     "price_rub": null,
-    "drive": "Ручной",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": "100x60",
     "width_mm": 1000,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "category": {
+        "value": "special",
+        "previous_value": "flat",
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/Rhinestone-Shaking-Machine/01_main.jpg"
+      },
+      "equipment_type": {
+        "value": "rhinestone_shaking_machine",
+        "previous_value": null,
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/Rhinestone-Shaking-Machine/01_main.jpg"
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Ручной",
+        "source": "explicit_manufacturer_image_caption",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "http://mne2.ru/jiangchuan/Rhinestone-Shaking-Machine/01_main.jpg"
+      }
+    },
+    "equipment_type": "rhinestone_shaking_machine"
   },
   {
     "category": "flat",
