@@ -2811,9 +2811,9 @@
       "https://mne2.ru/catalog/images/bestsub/CEHBP1515/02.jpg"
     ],
     "description": "Компактный термопресс Craft Express Hobby Label Maker с нагревательной плитой 6×6 дюймов для термопереноса на небольшие заготовки и этикетки.\n\nТехнические характеристики\n• Бренд: Craft Express\n• Артикул: CEHBP1515\n• Назначение по наименованию производителя: Компактный термопресс для этикеток Hobby Label Maker\n• Размер нагревательной плиты: 6×6 дюймов; номинально 15×15 см\n• Напряжение: 220 В\n• Мощность: 550 Вт\n• Температура: 0–220 °C / 0–428 °F\n• Таймер: 0–800 секунд\n\nГабариты и масса оборудования, размеры упаковки и полный перечень комплектации на оригинальной странице BestSub не указаны.",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "15x15",
     "width_mm": 150,
     "needs_review": false,
@@ -2828,6 +2828,35 @@
       "Мощность": "550 Вт",
       "Температура": "0–220 °C / 0–428 °F",
       "Таймер": "0–800 секунд"
+    },
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37",
+        "note": "Одна основная плоская рабочая позиция; сменные насадки не считаются отдельными столами."
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      }
     }
   },
   {
