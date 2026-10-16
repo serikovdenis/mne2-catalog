@@ -47,7 +47,9 @@
 <label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
 <label>Выдвижной стол<select id="f-drawer"><option value="">Не важно</option><option value="yes">С выдвижным столом</option><option value="no">Без выдвижного стола</option></select></label>
 <label>Конструкция оборудования<select id="f-construction"><option value="">Любая</option><option value="press">Термопресс с прижимом</option><option value="open_heating_plate">Открытая нагревательная плита</option></select></label>
-<label>Расположение двух столов<select id="f-layout"><option value="">Не важно</option><option value="same_side">Выход на одну сторону</option><option value="opposite_sides">Выход в разные стороны</option><option value="__unknown__">Не указано</option></select></label>
+<label>Тип оборудования<select id="f-equipment"><option value="">Любой</option><option value="continuous_belt_fusing">Проходная машина термосклеивания</option><option value="powder_shaker_dryer">DTF-шейкер с сушкой</option><option value="automatic_film_cutter">Автоматический резчик плёнки</option><option value="rhinestone_shaking_machine">Машина для выкладки страз</option><option value="__unknown__">Тип не уточнён</option></select></label>
+<label>Количество термоплит<select id="f-thermoplates"><option value="">Любое</option><option value="1">Одна</option><option value="2">Две</option><option value="__unknown__">Не указано</option></select></label>
+<label>Расположение двух столов<select id="f-layout"><option value="">Не важно</option><option value="same_side">Выход на одну сторону</option><option value="opposite_sides">Выход в разные стороны</option><option value="lateral_shuttle">Столы перемещаются влево-вправо</option><option value="__unknown__">Не указано</option></select></label>
 <label>Перемещение термоплиты<select id="f-head"><option value="">Не важно</option><option value="linear">Линейно перемещаемая</option><option value="swing">Поворотная</option><option value="fixed">Без бокового перемещения</option><option value="__unknown__">Не указано</option></select></label>
 <label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option><option value="4">4 позиции</option><option value="6">6 позиций</option></select></label>
 <label>Режим ламинирования<select id="f-laminate"><option value="">Любой</option><option>Холодный</option><option>Тёплый</option><option>Горячий</option></select></label>
@@ -62,7 +64,7 @@
 <section class="catalogResults"><div class="toolbar"><h2 id="resultTitle">Все модели</h2><div><button class="mobileFilter" id="f-mobile" type="button">Фильтры ☷</button> <select id="brand" aria-label="Производитель"><option value="">Все производители</option></select> <select id="f-sort" aria-label="Сортировка"><option value="name">По названию</option><option value="priceUp">Сначала дешевле</option><option value="priceDown">Сначала дороже</option><option value="brand">По производителю</option></select></div></div><p class="resultMeta" id="resultMeta"></p><div class="products" id="products"></div><button type="button" class="moreProducts" id="moreProducts" hidden>Показать ещё</button></section></div>
 </main><div id="details" class="detailOverlay" role="dialog" aria-modal="true" aria-label="Карточка оборудования"><div class="detailPanel" id="detailContent"></div></div><div id="photoZoom" class="photoZoomOverlay" role="dialog" aria-modal="true" aria-label="Просмотр фотографии"><button type="button" id="photoZoomClose" class="photoZoomClose" aria-label="Закрыть фотографию">×</button><img id="photoZoomImage" alt="Увеличенная фотография оборудования"></div><footer>© MNE2 · Каталог оборудования для термопереноса.</footer>
 <script>
-const categories=[{"id":"flat","name":"Плоские термопрессы","symbol":"▣","desc":"Ручные, автоматические и пневматические"},{"id":"mug","name":"Для кружек и термосов","symbol":"☕","desc":"Кружки и термопосуда"},{"id":"cap","name":"Для кепок","symbol":"◒","desc":"Головные уборы"},{"id":"multi","name":"Многофункциональные","symbol":"✳","desc":"Несколько видов изделий"},{"id":"vacuum","name":"3D-прессы и печи","symbol":"⬡","desc":"Объёмные изделия"},{"id":"calender","name":"Каландровые термопрессы","symbol":"◉","desc":"Рулонный термоперенос"},{"id":"special","name":"Ленты и специальные изделия","symbol":"▤","desc":"Ленты, этикетки и другое"},{"id":"laminator","name":"Рулонные ламинаторы","symbol":"▥","desc":"Холодные, тёплые и горячие"},{"id":"dtf","name":"DTF-оборудование","symbol":"▦","desc":"Принтеры, шейкеры и печи"},{"id":"parts","name":"Аксессуары и запчасти","symbol":"⚙","desc":"Оснастка и комплектующие"}];let items=[],active='',term='',brand='';
+const categories=[{"id":"fusing","name":"Проходные машины термосклеивания","symbol":"▤","desc":"Ленточная обработка текстиля и фольгирование"},{"id":"flat","name":"Плоские термопрессы","symbol":"▣","desc":"Ручные, автоматические и пневматические"},{"id":"mug","name":"Для кружек и термосов","symbol":"☕","desc":"Кружки и термопосуда"},{"id":"cap","name":"Для кепок","symbol":"◒","desc":"Головные уборы"},{"id":"multi","name":"Многофункциональные","symbol":"✳","desc":"Несколько видов изделий"},{"id":"vacuum","name":"3D-прессы и печи","symbol":"⬡","desc":"Объёмные изделия"},{"id":"calender","name":"Каландровые термопрессы","symbol":"◉","desc":"Рулонный термоперенос"},{"id":"special","name":"Ленты и специальные изделия","symbol":"▤","desc":"Ленты, этикетки и другое"},{"id":"laminator","name":"Рулонные ламинаторы","symbol":"▥","desc":"Холодные, тёплые и горячие"},{"id":"dtf","name":"DTF-оборудование","symbol":"▦","desc":"Принтеры, шейкеры и печи"},{"id":"parts","name":"Аксессуары и запчасти","symbol":"⚙","desc":"Оснастка и комплектующие"}];let items=[],active='',term='',brand='';
 function photoCandidates(raw){const u=String(raw||'').replace(/^http:\/\/mne2\.ru\//,'https://mne2.ru/');if(u.includes('/CEHPPRO3838FLB_02.jpg'))return Array.from({length:9},(_,i)=>'https://mne2.ru/catalog/images/CEHPPRO3838FLB_'+String(i+2).padStart(2,'0')+'.jpg');const m=u.match(/[?&]imageSlug=(?:%2F|\/)?image(?:%2F|\/)1(?:%2F|\/)(1\.[^&#]+)/i);if(!m)return [u];const token=decodeURIComponent(m[1]);return ['https://70.img.avito.st/image/1/'+token,'https://30.img.avito.st/image/1/'+token,'https://10.img.avito.st/image/1/'+token,u.replace(/^http:/,'https:')]}
 function photoError(img){let a=[];try{a=JSON.parse(img.dataset.sources||'[]')}catch{}let n=Number(img.dataset.try||0)+1;if(n<a.length){img.dataset.try=String(n);img.src=a[n]}else{img.onerror=null;img.style.opacity='.2';img.alt='Фотография недоступна'}}
 function photoTag(u,title){const a=photoCandidates(u);return '<img loading="lazy" data-zoom="1" data-sources="'+esc(JSON.stringify(a))+'" data-try="0" src="'+esc(a[0])+'" alt="'+esc(title)+'" onerror="photoError(this)">'}
@@ -103,7 +105,7 @@ function collectionMatch(p,id){
 function resetFilters(){
  wizardApplied=false;active='';curatedId='';term='';brand='';pageSize=24;
  document.getElementById('query').value='';
- for(const id of ['f-layout','f-construction','f-drive','f-drawer','f-head','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
+ for(const id of ['f-equipment','f-thermoplates','f-layout','f-construction','f-drive','f-drawer','f-head','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
  for(const id of ['f-auto','f-wide','f-priced','f-verified'])document.getElementById(id).checked=false;
  document.getElementById('f-sort').value='name';showCategories();showProducts();
 }
@@ -124,6 +126,8 @@ showProducts=function(){
  (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
  (!fval('f-drive')||(fval('f-drive')==='Не указан'?!pickerAttributes(p).drive:pickerAttributes(p).drive===fval('f-drive')))&&(!fval('f-stations')||pickerAttributes(p).stations===fval('f-stations'))&&
  (!fval('f-drawer')||pickerAttributes(p).drawer===fval('f-drawer'))&&
+ (!fval('f-equipment')||(fval('f-equipment')==='__unknown__'?!pickerAttributes(p).equipment:pickerAttributes(p).equipment===fval('f-equipment')))&&
+ (!fval('f-thermoplates')||(fval('f-thermoplates')==='__unknown__'?!pickerAttributes(p).thermoplates:pickerAttributes(p).thermoplates===fval('f-thermoplates')))&&
  (!fval('f-layout')||(fval('f-layout')==='__unknown__'?!pickerAttributes(p).layout:pickerAttributes(p).layout===fval('f-layout')))&&
  (!fval('f-construction')||pickerAttributes(p).construction===fval('f-construction'))&&
  (!fval('f-head')||(fval('f-head')==='__unknown__'?!pickerAttributes(p).head:pickerAttributes(p).head===fval('f-head')))&&
@@ -154,7 +158,7 @@ showProducts=function(){
 document.getElementById('f-reset').onclick=resetFilters;
 document.getElementById('f-mobile').onclick=()=>document.getElementById('catalogFilters').classList.toggle('open');
 document.getElementById('moreProducts').onclick=()=>{pageSize+=24;showProducts()};
-for(const id of ['f-layout','f-construction','f-drawer','f-head','f-drive','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
+for(const id of ['f-equipment','f-thermoplates','f-layout','f-construction','f-drawer','f-head','f-drive','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
 const originalShowProducts=showProducts;
 const originalShowCategories=showCategories;
 function loadTableSizes(){const sizes=[...new Set(items.filter(p=>p.category==='flat').map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1]));document.getElementById('f-table-size').innerHTML='<option value="">Любой размер</option>'+sizes.map(size=>'<option value="'+esc(size)+'">'+esc(size)+' см</option>').join('');}
@@ -176,13 +180,17 @@ function pickerAttributes(p){
  const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
  let drive=p.drive&&p.drive!=='Не указан'?p.drive:'';
  if(!drive){const explicit=[['Пневматический',/пневматическ/],['Гидравлический',/гидравлическ/],['Ручной',/ручн[а-яё]*\s+(?:термо)?пресс|(?:термо)?пресс\s+ручн[а-яё]*/]].filter(([,pattern])=>pattern.test(t));if(explicit.length===1)drive=explicit[0][0];}
- if(p.press_construction==='open_heating_plate'){drive='';drawer='';stations='';}
- return {layout:['same_side','opposite_sides'].includes(p.table_layout)?p.table_layout:'',construction:p.category==='flat'?(p.press_construction==='open_heating_plate'?'open_heating_plate':'press'):'',head:p.press_construction!=='open_heating_plate'&&['linear','swing','fixed'].includes(p.head_movement)?p.head_movement:'',category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
+ const nonPress=['continuous_belt_fusing','powder_shaker_dryer','automatic_film_cutter','rhinestone_shaking_machine'].includes(p.equipment_type);
+ if(p.press_construction==='open_heating_plate'||nonPress){drive='';drawer='';stations='';}
+ if(p.integrated_work_table===false){drawer='';stations='';}
+ return {equipment:p.equipment_type||'',thermoplates:p.thermoplate_count>0?String(p.thermoplate_count):'',layout:['same_side','opposite_sides','lateral_shuttle'].includes(p.table_layout)?p.table_layout:'',construction:p.category==='flat'?(['open_heating_plate','portable_thermoplate'].includes(p.press_construction)?p.press_construction:'press'):'',head:!nonPress&&!['open_heating_plate','portable_thermoplate'].includes(p.press_construction)&&['linear','swing','fixed'].includes(p.head_movement)?p.head_movement:'',category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
 }
 const pickerStepDefinitions=[
  {key:'category',title:'Какое оборудование вы ищете?',hint:'Выберите категорию, чтобы перейти к вопросам о её характеристиках.',options:[]},
- {key:'construction',title:'Нужен прижим или открытая нагревательная плита?',hint:'У открытой плиты нет верхней прижимной термоплиты.',options:[['press','Термопресс с прижимом','Верхняя плита прижимает заготовку.'],['open_heating_plate','Открытая нагревательная плита','Нагреваемая поверхность без прижимной термоплиты.']]},
- {key:'layout',title:'Как должны выходить два рабочих стола?',hint:'Расположение столов влияет на доступ к оборудованию и место в мастерской.',options:[['same_side','На одну сторону','Оба стола выходят с одной стороны пресса.'],['opposite_sides','В разные стороны','Рабочие столы выходят с противоположных сторон.']]},
+ {key:'equipment',title:'Какой тип оборудования нужен?',hint:'Выберите назначение оборудования.',options:[['continuous_belt_fusing','Проходная машина термосклеивания','Непрерывная ленточная обработка.'],['powder_shaker_dryer','DTF-шейкер с сушкой','Нанесение порошка и сушка DTF-плёнки.'],['automatic_film_cutter','Автоматический резчик плёнки','Резка плёнки.'],['rhinestone_shaking_machine','Машина для выкладки страз','Подготовка рисунков из страз.']]},
+ {key:'thermoplates',title:'Сколько термоплит нужно?',hint:'Количество термоплит и рабочих столов может различаться.',options:[['1','Одна термоплита',''],['2','Две термоплиты','']]},
+ {key:'construction',title:'Какая конструкция оборудования нужна?',hint:'У открытой плиты нет верхней прижимной термоплиты.',options:[['press','Термопресс с прижимом','Верхняя плита прижимает заготовку.'],['open_heating_plate','Открытая нагревательная плита','Нагреваемая поверхность без верхнего прижима.'],['portable_thermoplate','Переносная термоплита','Ручное перемещение по внешней рабочей поверхности.']]},
+ {key:'layout',title:'Как должны выходить два рабочих стола?',hint:'Расположение столов влияет на доступ к оборудованию и место в мастерской.',options:[['same_side','На одну сторону','Оба стола выходят с одной стороны пресса.'],['opposite_sides','В разные стороны','Рабочие столы выходят с противоположных сторон.'],['lateral_shuttle','Влево-вправо','Два стола перемещаются под термоплитой поперёк пресса.']]},
  {key:'drive',title:'Какой тип прижима нужен?',hint:'Выберите знакомый вариант или пропустите вопрос.',options:[['Ручной','Ручной','Прижим с помощью рычага.'],['Пневматический','Пневматический','Работает от сжатого воздуха; потребуется компрессор.'],['Гидравлический','Гидравлический','Прижим с помощью гидравлической системы.'],['Полуавтоматический','Полуавтоматический','Проверьте способ прижима и открытия в карточке модели.']]},
  {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.'],['3','Три рабочих стола','Три рабочие позиции.'],['4','Четыре рабочих стола','Четыре рабочие позиции.'],['6','Шесть рабочих столов','Шесть рабочих позиций.']]},
  {key:'size',title:'Какой размер плиты нужен?',hint:'Размеры указаны в сантиметрах. Выберите точный размер рабочей поверхности.',options:[]},
@@ -195,13 +203,21 @@ const pickerStepDefinitions=[
 ];
 function currentPickerSteps(){
  const cat=pickerAnswers.category,keys=['category'];
+ if(['special','dtf'].includes(cat)&&items.some(p=>p.category===cat&&p.equipment_type))keys.push('equipment');
  if(cat==='flat')keys.push('construction');
  const openPlate=cat==='flat'&&pickerAnswers.construction==='open_heating_plate';
- if(['flat','cap','mug','multi','special'].includes(cat)&&!openPlate)keys.push('drive','stations');
- if(['flat','cap','multi','special'].includes(cat))keys.push('size');
- if(cat==='flat'&&!openPlate){keys.push('drawer');if(pickerAnswers.stations==='2'&&pickerAnswers.drawer!=='no'&&items.some(p=>pickerMatch(p)&&p.table_layout))keys.push('layout');keys.push('head');}
+ const portable=cat==='flat'&&pickerAnswers.construction==='portable_thermoplate';
+ const nonPress=['continuous_belt_fusing','powder_shaker_dryer','automatic_film_cutter','rhinestone_shaking_machine'].includes(pickerAnswers.equipment)||cat==='fusing';
+ if(['flat','cap','mug','multi','special'].includes(cat)&&!openPlate&&!nonPress){keys.push('drive');if(!portable)keys.push('stations');}
+ if(['flat','cap','multi','special'].includes(cat)&&!nonPress)keys.push('size');
+ if(['flat','cap'].includes(cat)&&!openPlate&&!portable&&!nonPress){
+  keys.push('drawer');
+  if(pickerAnswers.stations==='2'&&pickerAnswers.drawer!=='no'&&items.some(p=>pickerMatch(p,{...pickerAnswers,layout:''})&&p.table_layout))keys.push('layout');
+  if(items.some(p=>pickerMatch(p,{...pickerAnswers,thermoplates:''})&&p.thermoplate_count>0))keys.push('thermoplates');
+  keys.push('head');
+ }
  if(cat==='laminator')keys.push('laminate');
- if(['calender','laminator','dtf'].includes(cat)&&items.some(p=>p.category===cat&&p.width_mm>0))keys.push('width');
+ if((['calender','laminator','dtf','fusing'].includes(cat)||nonPress)&&items.some(p=>pickerMatch(p)&&p.width_mm>0))keys.push('width');
  keys.push('brand','budget');
  return keys.map(k=>pickerStepDefinitions.find(s=>s.key===k));
 }
@@ -216,13 +232,13 @@ function knownPickerOptions(step){
  if(step.key!=='size')return step.options;
  return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1])).map(n=>[n,n+' см','']);
 }
-const pickerUnknownLabels={layout:'Расположение столов не указано',head:'Перемещение термоплиты не указано',drive:'Тип привода не указан',stations:'Количество столов не указано',size:'Размер плиты не указан',drawer:'Конструкция стола не указана',laminate:'Режим не указан',width:'Рабочая ширина не указана'};
+const pickerUnknownLabels={equipment:'Тип оборудования не уточнён',thermoplates:'Количество термоплит не указано',layout:'Расположение столов не указано',head:'Перемещение термоплиты не указано',drive:'Тип привода не указан',stations:'Количество столов не указано',size:'Размер плиты не указан',drawer:'Конструкция стола не указана',laminate:'Режим не указан',width:'Рабочая ширина не указана'};
 function pickerOptions(step){
  const opts=knownPickerOptions(step).filter(([v])=>items.some(p=>pickerMatch(p,{...pickerAnswers,[step.key]:v})));
  if(pickerUnknownLabels[step.key]&&items.some(p=>pickerMatch(p)&&!pickerAttributes(p)[step.key]))opts.push(['__unknown__',pickerUnknownLabels[step.key],'Показать модели, для которых эту характеристику нужно уточнить.']);
  return opts;
 }
-function pickerFacts(p){const a=pickerAttributes(p);if(a.construction==='open_heating_plate')return ['Открытая нагревательная плита',a.size?a.size+' см':''].filter(Boolean).join(' · ');return [a.drive||'Привод: уточняется',a.head==='linear'?'Линейно перемещаемая термоплита':a.head==='swing'?'Поворотная термоплита':a.head==='fixed'?'Термоплита без бокового перемещения':'',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',p.pressing_motion==='vertical'?'Вертикальный прижим':'',a.layout==='same_side'?'Два стола на одну сторону':a.layout==='opposite_sides'?'Два стола в разные стороны':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
+function pickerFacts(p){const a=pickerAttributes(p);if(a.equipment)return [pickerStepDefinitions.find(s=>s.key==='equipment').options.find(o=>o[0]===a.equipment)?.[1]||a.equipment,a.width?a.width+' мм':''].filter(Boolean).join(' · ');if(a.construction==='portable_thermoplate')return [a.drive,'Переносная термоплита','Без встроенного стола',a.size?a.size+' см':''].filter(Boolean).join(' · ');if(a.construction==='open_heating_plate')return ['Открытая нагревательная плита',a.size?a.size+' см':''].filter(Boolean).join(' · ');return [a.drive||'Привод: уточняется',a.head==='linear'?'Линейно перемещаемая термоплита':a.head==='swing'?'Поворотная термоплита':a.head==='fixed'?'Термоплита без бокового перемещения':'',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',p.pressing_motion==='vertical'?'Вертикальный прижим':'',a.layout==='same_side'?'Два стола на одну сторону':a.layout==='opposite_sides'?'Два стола в разные стороны':a.layout==='lateral_shuttle'?'Столы перемещаются влево-вправо':'',a.thermoplates?a.thermoplates+' термопл.':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
 function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerStepDefinitions.find(s=>s.key===k);const label=v==='__unknown__'?pickerUnknownLabels[k]:k==='category'?categories.find(c=>c.id===v)?.name||v:k==='size'?v+' см':k==='width'?v+' мм':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
 function renderPicker(focus=true){
  const body=document.getElementById('pickerBody');body.hidden=false;document.getElementById('pickerStart').hidden=true;

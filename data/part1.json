@@ -43,9 +43,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -93,9 +101,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -137,9 +153,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -184,9 +208,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -235,9 +267,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -282,16 +322,24 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
-    "category": "flat",
+    "category": "fusing",
     "brand": "JiangChuan",
     "sku": "JC-22B-B67-01",
     "model": "JC-22B-B67-01",
-    "title": "Термопресс 600 mm автоматический JiangChuan",
+    "title": "Проходная машина термосклеивания и фольгирования JC-22B",
     "avito_id": "8511561316",
     "image": "http://mne2.ru/jiangchuan/JC-22B/01_main.jpg",
     "images": [
@@ -302,16 +350,43 @@
       "http://mne2.ru/jiangchuan/JC-22B/05_detail.jpg",
       "http://mne2.ru/jiangchuan/JC-22B/06_detail.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22B\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 8 кВт\n• Температура: 0-220°C\n• Вес: 175 кг\n• Размер упаковки: 134x119x72 см\n• Максимальная скорость: 6 м/мин",
+    "description": "Проходная машина термосклеивания и фольгирования JC-22B.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22B\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 8 кВт\n• Температура: 0-220°C\n• Вес: 175 кг\n• Размер упаковки: 134x119x72 см\n• Максимальная скорость: 6 м/мин",
     "price_rub": 265545,
-    "drive": "Не указан",
+    "drive": "",
     "automatic": true,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "fusing",
+        "previous_value": "flat",
+        "source": "manufacturer_text",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "https://www.gzjiangchuan.com/products/-155"
+      },
+      "equipment_type": {
+        "value": "continuous_belt_fusing",
+        "previous_value": null,
+        "source": "manufacturer_text",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "https://www.gzjiangchuan.com/products/-155"
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Не указан",
+        "source": "manufacturer_text",
+        "verified_at": "2026-10-16",
+        "review_group": "26",
+        "source_url": "https://www.gzjiangchuan.com/products/-155"
+      }
+    },
+    "equipment_type": "continuous_belt_fusing"
   },
   {
     "category": "flat",
@@ -635,12 +710,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -693,12 +775,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -739,12 +828,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -794,12 +890,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "calender",

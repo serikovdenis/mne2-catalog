@@ -1,0 +1,451 @@
+{
+  "status": "ready_for_publication",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 113,
+  "pending_model_count": 41,
+  "required_ui_changes": [
+    "Expose confirmed table construction and thermoplate motion in cap press guided selection",
+    "Show and filter confirmed thermoplate_count independently from working table count",
+    "Expose fusing category and DTF equipment types; omit flat-press construction questions for continuous belt machines",
+    "Special equipment subtype selection must skip press drive/table questions for film cutters and rhinestone shakers",
+    "Support portable_thermoplate construction; do not ask integrated table count/sliding table for confirmed integrated_work_table=false"
+  ],
+  "groups": [
+    {
+      "group": "22-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7BB-B29-01",
+          "review_number": 114,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear",
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-QSHCPLB",
+          "review_number": 115,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        }
+      ]
+    },
+    {
+      "group": "24-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-33B-B63-01",
+          "review_number": 116,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33B-B63-02",
+          "review_number": 117,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33B-B63-03",
+          "review_number": 118,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33D-B64-01",
+          "review_number": 119,
+          "values": {
+            "stations": "4",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33D-B64-02",
+          "review_number": 120,
+          "values": {
+            "stations": "4",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33D-B64-03",
+          "review_number": 121,
+          "values": {
+            "stations": "4",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "25-classification",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-22A-B65-01",
+          "review_number": 122,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-22A-B65-02",
+          "review_number": 123,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-22AB-B66-01",
+          "review_number": 124,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-22AB-B66-02",
+          "review_number": 125,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-56C-B70-01",
+          "review_number": 126,
+          "values": {
+            "category": "dtf",
+            "equipment_type": "powder_shaker_dryer",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-56D-B71-01",
+          "review_number": 127,
+          "values": {
+            "category": "dtf",
+            "equipment_type": "powder_shaker_dryer",
+            "drive": ""
+          }
+        }
+      ]
+    },
+    {
+      "group": "26-source",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-22B-B67-01",
+          "review_number": 128,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-56E-B72-01",
+          "review_number": 129,
+          "values": {
+            "category": "dtf",
+            "equipment_type": "powder_shaker_dryer",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-57A-B73-01",
+          "review_number": 130,
+          "values": {
+            "category": "special",
+            "equipment_type": "automatic_film_cutter",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-57A-B73-02",
+          "review_number": 131,
+          "values": {
+            "category": "special",
+            "equipment_type": "rhinestone_shaking_machine",
+            "drive": ""
+          }
+        }
+      ]
+    },
+    {
+      "group": "26-owner-completion",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-1D-B69-05",
+          "review_number": 133,
+          "values": {
+            "drive": "Ручной",
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
+          }
+        },
+        {
+          "sku": "JC-1D-B69-02",
+          "review_number": 132,
+          "values": {
+            "drive": "Ручной",
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "27-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHPPRO3838MDLB",
+          "review_number": 134,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO3838MDPK",
+          "review_number": 135,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDLB",
+          "review_number": 136,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDPK",
+          "review_number": 137,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDLB",
+          "review_number": 138,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDPK",
+          "review_number": 139,
+          "values": {
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "28-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB3838MDLB",
+          "review_number": 140,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4050SMDLB",
+          "review_number": 141,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060SMDLB",
+          "review_number": 142,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "BPRO4060SMDLB",
+          "review_number": 143,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "JC-16D-B31-01",
+          "review_number": 144,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-16D-B31-02",
+          "review_number": 145,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-16D-B31-03",
+          "review_number": 146,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "29-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7A-B40-01",
+          "review_number": 147,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-02",
+          "review_number": 148,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-03",
+          "review_number": 149,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7BZ-B42-01",
+          "review_number": 152,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BZ-B42-02",
+          "review_number": 153,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BZ-B42-03",
+          "review_number": 154,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-04",
+          "review_number": 150,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-05",
+          "review_number": 151,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved_issues": [],
+  "pending_review": [
+    {
+      "skus": [
+        "JC-1D-B69-01",
+        "JC-1D-B69-03",
+        "JC-1D-B69-04"
+      ],
+      "issue": "Remaining JC-1D variants: verify portable construction from exact manufacturer family; 132/133 confirmed manually operated.",
+      "source_url": "https://www.gzjiangchuan.com/products/-177"
+    }
+  ],
+  "session_status": "active",
+  "resume_notes": [
+    "Batch 4 staged, not published; publish around 100 values.",
+    "JC-1D variants B69-01/03/04 remain pending source-based construction review; do not assume owner confirmation applied to unseen variants."
+  ]
+}

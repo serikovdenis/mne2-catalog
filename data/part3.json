@@ -1024,7 +1024,7 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7BB\n Исполнение: 8x14 см\n Основные характеристики:\n • Размер рабочей зоны: 8x14 см\n• Мощность: 0.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 47 кг\n• Размер упаковки: 57x44x66 см",
     "drive": "Пневматический",
     "automatic": false,
-    "stations": "",
+    "stations": "2",
     "size_cm": "8x14",
     "width_mm": 140,
     "needs_review": false,
@@ -1036,8 +1036,28 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс для кепок 8x14 см jiangchuan пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.",
         "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
+      },
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
       }
-    }
+    },
+    "sliding_table": false,
+    "head_movement": "linear"
   },
   {
     "category": "cap",
@@ -1071,8 +1091,22 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс для кепок пневматический otter двухстанционный пневматический термопресс для кепок для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
       }
-    }
+    },
+    "sliding_table": false,
+    "head_movement": "linear"
   },
   {
     "category": "mug",
@@ -1423,7 +1457,7 @@
     ],
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-1D\n Исполнение: 60x80 см\n Основные характеристики:\n • Размер рабочей зоны: 60x80 см\n• Мощность: 6 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 55 кг\n• Размер упаковки: 118x78x41 см",
     "price_rub": null,
-    "drive": "Гидравлический",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "",
     "size_cm": "60x80",
@@ -1431,7 +1465,35 @@
     "wide": true,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "previous_value": "Гидравлический",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "integrated_work_table": {
+        "value": false,
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      }
+    },
+    "press_construction": "portable_thermoplate",
+    "integrated_work_table": false
   },
   {
     "category": "flat",
@@ -1726,7 +1788,37 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "lateral_shuttle",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1751,7 +1843,37 @@
     "width_mm": 800,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "lateral_shuttle",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "29"
+      }
+    }
   },
   {
     "category": "flat",
@@ -3734,7 +3856,35 @@
     "width_mm": 480,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "previous_value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "integrated_work_table": {
+        "value": false,
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      }
+    },
+    "press_construction": "portable_thermoplate",
+    "integrated_work_table": false
   },
   {
     "category": "flat",
