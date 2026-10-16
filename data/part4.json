@@ -1,91 +1,199 @@
 [
   {
-    "category": "flat",
+    "category": "fusing",
     "brand": "JiangChuan",
     "sku": "JC-22A-B65-01",
     "model": "JC-22A-B65-01",
-    "title": "Термопресс 40x40 см JiangChuan",
+    "title": "Проходная машина термосклеивания JC-22A-B65-01",
     "avito_id": "8358493308",
     "image": "http://mne2.ru/jiangchuan/JC-22A/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-22A/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22A\n Исполнение: 40x40 см\n Основные характеристики:\n • Мощность: 7.5 кВт\n• Температура: 0-220°C\n• Вес: 134 кг\n• Размер упаковки: 102.5x95x103 см\n• Максимальная скорость: 6 м/мин",
+    "description": "Проходная ленточная машина для обработки текстиля, термосклеивания и фольгирования.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22A\n Исполнение: 40x40 см\n Основные характеристики:\n • Мощность: 7.5 кВт\n• Температура: 0-220°C\n• Вес: 134 кг\n• Размер упаковки: 102.5x95x103 см\n• Максимальная скорость: 6 м/мин",
     "price_rub": null,
-    "drive": "Ручной",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": "40x40",
     "width_mm": 400,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "category": {
+        "value": "fusing",
+        "previous_value": "flat",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "equipment_type": {
+        "value": "continuous_belt_fusing",
+        "previous_value": null,
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Ручной",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      }
+    },
+    "equipment_type": "continuous_belt_fusing"
   },
   {
-    "category": "flat",
+    "category": "fusing",
     "brand": "JiangChuan",
     "sku": "JC-22A-B65-02",
     "model": "JC-22A-B65-02",
-    "title": "Термопресс 40x60 см JiangChuan",
+    "title": "Проходная машина термосклеивания JC-22A-B65-02",
     "avito_id": "8435373909",
     "image": "http://mne2.ru/jiangchuan/JC-22A/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-22A/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22A\n Исполнение: 40x60 см\n Основные характеристики:\n • Мощность: 8 кВт\n• Температура: 0-220°C\n• Вес: 171 кг\n• Размер упаковки: 126x119x62 см\n• Максимальная скорость: 6 м/мин",
+    "description": "Проходная ленточная машина для обработки текстиля, термосклеивания и фольгирования.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22A\n Исполнение: 40x60 см\n Основные характеристики:\n • Мощность: 8 кВт\n• Температура: 0-220°C\n• Вес: 171 кг\n• Размер упаковки: 126x119x62 см\n• Максимальная скорость: 6 м/мин",
     "price_rub": null,
-    "drive": "Ручной",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "category": {
+        "value": "fusing",
+        "previous_value": "flat",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "equipment_type": {
+        "value": "continuous_belt_fusing",
+        "previous_value": null,
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Ручной",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      }
+    },
+    "equipment_type": "continuous_belt_fusing"
   },
   {
-    "category": "flat",
+    "category": "fusing",
     "brand": "JiangChuan",
     "sku": "JC-22AB-B66-01",
     "model": "JC-22AB-B66-01",
-    "title": "Термопресс 600 mm JiangChuan",
+    "title": "Проходная машина термосклеивания JC-22AB-B66-01",
     "avito_id": "8426483291",
     "image": "http://mne2.ru/jiangchuan/JC-22AB/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-22AB/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22AB\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 8 кВт\n• Температура: 0-220°C\n• Вес: 222 кг\n• Размер упаковки: 122x114x85 см\n• Максимальная скорость: 6 м/мин",
+    "description": "Проходная ленточная машина для обработки текстиля, термосклеивания и фольгирования.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22AB\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 8 кВт\n• Температура: 0-220°C\n• Вес: 222 кг\n• Размер упаковки: 122x114x85 см\n• Максимальная скорость: 6 м/мин",
     "price_rub": 266345,
-    "drive": "Гидравлический",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "fusing",
+        "previous_value": "flat",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "equipment_type": {
+        "value": "continuous_belt_fusing",
+        "previous_value": null,
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Гидравлический",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      }
+    },
+    "equipment_type": "continuous_belt_fusing"
   },
   {
-    "category": "flat",
+    "category": "fusing",
     "brand": "JiangChuan",
     "sku": "JC-22AB-B66-02",
     "model": "JC-22AB-B66-02",
-    "title": "Термопресс 900 mm JiangChuan",
+    "title": "Проходная машина термосклеивания JC-22AB-B66-02",
     "avito_id": "8376398937",
     "image": "http://mne2.ru/jiangchuan/JC-22AB/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-22AB/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22AB\n Исполнение: 900 mm\n Основные характеристики:\n • Мощность: 18.5 кВт\n• Температура: 0-220°C\n• Вес: 222 кг\n• Размер упаковки: 122x114x85 см\n• Максимальная скорость: 6 м/мин",
+    "description": "Проходная ленточная машина для обработки текстиля, термосклеивания и фольгирования.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-22AB\n Исполнение: 900 mm\n Основные характеристики:\n • Мощность: 18.5 кВт\n• Температура: 0-220°C\n• Вес: 222 кг\n• Размер упаковки: 122x114x85 см\n• Максимальная скорость: 6 м/мин",
     "price_rub": 310745,
-    "drive": "Гидравлический",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "fusing",
+        "previous_value": "flat",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "equipment_type": {
+        "value": "continuous_belt_fusing",
+        "previous_value": null,
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Гидравлический",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      }
+    },
+    "equipment_type": "continuous_belt_fusing"
   },
   {
     "category": "flat",
@@ -466,11 +574,11 @@
     }
   },
   {
-    "category": "flat",
+    "category": "dtf",
     "brand": "JiangChuan",
     "sku": "JC-56C-B70-01",
     "model": "JC-56C-B70-01",
-    "title": "Термопресс 600 mm JiangChuan",
+    "title": "DTF-шейкер с сушкой JC-56C-B70-01",
     "avito_id": "8356139169",
     "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/30/64db0bcb5c.jpg",
     "images": [
@@ -481,38 +589,92 @@
       "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/photo/428520939b.jpg",
       "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/photo/3615eaf7be.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-56C\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 9 кВт\n• Вес: 186 кг\n• Размер упаковки: 248x120x130 см",
+    "description": "DTF-шейкер для нанесения термоклеевого порошка и сушки плёнки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-56C\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 9 кВт\n• Вес: 186 кг\n• Размер упаковки: 248x120x130 см",
     "price_rub": 333195,
-    "drive": "Гидравлический",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "dtf",
+        "previous_value": "flat",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "equipment_type": {
+        "value": "powder_shaker_dryer",
+        "previous_value": null,
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Гидравлический",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      }
+    },
+    "equipment_type": "powder_shaker_dryer"
   },
   {
-    "category": "flat",
+    "category": "dtf",
     "brand": "JiangChuan",
     "sku": "JC-56D-B71-01",
     "model": "JC-56D-B71-01",
-    "title": "Термопресс 600 mm JiangChuan",
+    "title": "DTF-шейкер с сушкой JC-56D-B71-01",
     "avito_id": "8406530211",
     "image": "http://mne2.ru/jiangchuan/JC-56D/01_main.jpg",
     "images": [
       "http://mne2.ru/jiangchuan/JC-56D/01_main.jpg"
     ],
-    "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-56D\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 4.0 кВт\n• Вес: 232 кг\n• Размер упаковки: 238x102x100 см",
+    "description": "DTF-шейкер для нанесения термоклеевого порошка и сушки плёнки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-56D\n Исполнение: 600 mm\n Основные характеристики:\n • Мощность: 4.0 кВт\n• Вес: 232 кг\n• Размер упаковки: 238x102x100 см",
     "price_rub": 313745,
-    "drive": "Гидравлический",
+    "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "category": {
+        "value": "dtf",
+        "previous_value": "flat",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "equipment_type": {
+        "value": "powder_shaker_dryer",
+        "previous_value": null,
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      },
+      "drive": {
+        "value": "",
+        "previous_value": "Гидравлический",
+        "source": "manufacturer_and_owner_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "25",
+        "note": "Continuous belt equipment / DTF shaker; flat-press drive classification was inapplicable."
+      }
+    },
+    "equipment_type": "powder_shaker_dryer"
   },
   {
     "category": "flat",
