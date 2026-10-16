@@ -1,0 +1,54 @@
+{
+  "status": "accumulating_no_deployment",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 12,
+  "pending_model_count": 4,
+  "required_ui_changes": [
+    "Support six working stations in sidebar and guided filters",
+    "Support head_movement=fixed: Без бокового перемещения"
+  ],
+  "groups": [
+    {
+      "group": "05",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-25Q-B49-01",
+          "review_number": 20,
+          "values": {
+            "stations": "4",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-25Q-B49-02",
+          "review_number": 21,
+          "values": {
+            "stations": "4",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-25QEP-B50-01",
+          "review_number": 22,
+          "values": {
+            "stations": "6",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-25QEP-B50-02",
+          "review_number": 23,
+          "values": {
+            "stations": "6",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    }
+  ]
+}
