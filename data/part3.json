@@ -948,11 +948,18 @@
         "confirmed_at": "2026-10-16",
         "review_group": "38-202",
         "note": "Одна верхняя термоплита; два нижних стола перемещаются влево-вправо."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
       }
     },
     "sliding_table": true,
     "thermoplate_count": 1,
-    "table_layout": "lateral_shuttle"
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed"
   },
   {
     "category": "cap",
@@ -1301,14 +1308,42 @@
       "http://mne2.ru/bestsub/OT-PBA25100DLB/OT-PBA25100DLB_04.jpg"
     ],
     "description": "Термопресс для лент для термопереноса и сублимации на совместимых заготовках. Можно принимать платные заказы на оформление совместимых лент, изготавливая персонализированную текстильную и рекламную продукцию.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBA25100DLB\n Основные характеристики:\n • Предназначен для лент\n• Мощность: 2500 Вт\n• Напряжение: 220 В/однофазное\n• Максимальный входной ток: 10.91 А\n• Размеры машины: 104,91x79,67x63 см\n• Размер нагревательной плиты: 25x100 см\n• Вес нетто: 92 кг\n• Цвет: голубой",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "25x100",
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      }
+    }
   },
   {
     "category": "special",
@@ -1323,14 +1358,42 @@
       "http://mne2.ru/bestsub/OT-PBA25100DSCB/OT-PBA25100DSCB_01.png"
     ],
     "description": "Термопресс для лент для термопереноса и сублимации на совместимых заготовках. Можно принимать платные заказы на оформление совместимых лент, изготавливая персонализированную текстильную и рекламную продукцию.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBA25100DSCB\n Основные характеристики:\n • Предназначен для лент\n• Мощность: 2500 Вт\n• Напряжение: 220 В/однофазное\n• Максимальный входной ток: 10.91 А\n• Размеры машины: 104,91x79,67x63 см\n• Размер нагревательной плиты: 25x100 см\n• Вес нетто: 92 кг\n• Цвет: сейшельский синий",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "25x100",
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      }
+    }
   },
   {
     "category": "special",
@@ -1347,14 +1410,42 @@
       "http://mne2.ru/bestsub/OT-PBAD25100DLB/OT-PBAD25100DLB_03.jpg"
     ],
     "description": "Термопресс для лент с подающим устройством для термопереноса и сублимации на совместимых заготовках. Можно принимать платные заказы на оформление совместимых лент, изготавливая персонализированную текстильную и рекламную продукцию.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBAD25100DLB\n Основные характеристики:\n • Подающее устройство для лент\n• Оснащён подающим устройством для упрощения рабочего процесса и сокращения времени обработки.\n• Мощность: 2500 Вт\n• Напряжение: 220 В/однофазное\n• Максимальный входной ток: 10.91 А\n• Размеры: 204x84x63 см\n• Размер нагревательной плиты: 25x100 см\n• Вес нетто: 123 кг\n• Цвет: голубой",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "25x100",
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      }
+    }
   },
   {
     "category": "special",
@@ -1369,14 +1460,42 @@
       "http://mne2.ru/bestsub/OT-PBAD25100DSCB/OT-PBAD25100DSCB_01.png"
     ],
     "description": "Термопресс для лент с подающим устройством для термопереноса и сублимации на совместимых заготовках. Можно принимать платные заказы на оформление совместимых лент, изготавливая персонализированную текстильную и рекламную продукцию.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBAD25100DSCB\n Основные характеристики:\n • Подающее устройство для лент\n• Оснащён подающим устройством для упрощения рабочего процесса и сокращения времени обработки.\n• Мощность: 2500 Вт\n• Напряжение: 220 В/однофазное\n• Максимальный входной ток: 10.91 А\n• Размеры: 204x84x63 см\n• Размер нагревательной плиты: 25x100 см\n• Вес нетто: 123 кг\n• Цвет: сейшельский синий",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "25x100",
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      }
+    }
   },
   {
     "category": "flat",
