@@ -1125,7 +1125,37 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
