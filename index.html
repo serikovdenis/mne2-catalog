@@ -168,8 +168,6 @@ function pickerAttributes(p){
  const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
  let drive=p.drive&&p.drive!=='Не указан'?p.drive:'';
  if(!drive){const explicit=[['Пневматический',/пневматическ/],['Гидравлический',/гидравлическ/],['Ручной',/ручн[а-яё]*\s+(?:термо)?пресс|(?:термо)?пресс\s+ручн[а-яё]*/]].filter(([,pattern])=>pattern.test(t));if(explicit.length===1)drive=explicit[0][0];}
- // Catalog rule supplied by the owner: presses without pneumatic or hydraulic drive are manual.
- if(['flat','cap','mug','multi','special'].includes(p.category)&&!['Пневматический','Гидравлический'].includes(drive))drive='Ручной';
  return {category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
 }
 const pickerStepDefinitions=[
