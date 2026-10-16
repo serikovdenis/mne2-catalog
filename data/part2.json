@@ -1065,14 +1065,43 @@
       "http://mne2.ru/bestsub/CE-CP3IN1LBN/CE-CP3IN1LBN_06.jpg"
     ],
     "description": "Комбинированный термопресс 3 в 1 для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-CP3IN1LBN\n Основные характеристики:\n • Нагревательная насадка для кепок: 16,5x7,5 см\n• Нагревательная насадка для ручек: 21x7 см\n• Нагревательная насадка для этикеток: 16x16 см",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37",
+        "note": "Одна основная плоская рабочая позиция; сменные насадки не считаются отдельными столами."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      }
+    }
   },
   {
     "category": "multi",
@@ -1112,14 +1141,43 @@
       "http://mne2.ru/bestsub/CE-M9PB8IN1LB/CE-M9PB8IN1LB_02.jpg"
     ],
     "description": "Комбинированный термопресс 8 в 1 для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-M9PB8IN1LB\n Основные характеристики:\n • Сенсорная панель управления и поворотная конструкция на 90°\n• Нагревательная плита: 38x38 см\n• Нагреватель для тарелок: 8 дюймов\n• Нагреватель для кепок\n• Нагреватели для кружек: 3, 11, 20 и 30 унций\n• Дополнительные совместимые нагреватели приобретаются отдельно\n• Нагреватели для конических кружек: 1,5; 9; 10 и 12 унций\n• Нагреватель для конических кружек 17 унций\n• Нагреватель для бокалов BW22\n• Нагреватель для тарелок 10 дюймов\n• Нагревательная насадка для стаканов: CEHBPJ-JB\n• Размер упаковки: 60x47,5x56,5 см\n• Масса брутто: 39,2 кг",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "swing",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37",
+        "note": "Одна основная плоская рабочая позиция; сменные насадки не считаются отдельными столами."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      }
+    }
   },
   {
     "category": "multi",
@@ -1139,14 +1197,43 @@
     ],
     "description": "Многофункциональный термопресс для запуска или расширения мастерской с несколькими типами заготовок.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-27A\n Исполнение: вариант 1\n Основные характеристики:\n • Мощность: 0.45-1.25 кВт\n• Вес: 21.5 кг\n• Размер упаковки: 54x46x51 см. Standard configuration: main machine + baking cup assembly + 8-inch pan pad + 10-inch pan pad + baking cap assembly + 90° coaster + 12 oz conical cup point + 17 oz conical coaster",
     "price_rub": 30395,
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "swing",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37",
+        "note": "Одна основная плоская рабочая позиция; сменные насадки не считаются отдельными столами."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      }
+    }
   },
   {
     "category": "multi",
@@ -1166,14 +1253,43 @@
       "http://mne2.ru/jiangchuan/JC-27B-5IN1/06_view.jpg"
     ],
     "description": "Многофункциональный термопресс для запуска или расширения мастерской с несколькими типами заготовок.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-27B\n Исполнение: вариант 1\n Основные характеристики:\n • Мощность: 0.45-1.25 кВт\n• Вес: 20 кг\n• Размер упаковки: 47.5x45x52 см. Standard configuration: main machine + baking cup assembly + 8-tray mat + 10-tray mat + baking cap assembly",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "swing",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37",
+        "note": "Одна основная плоская рабочая позиция; сменные насадки не считаются отдельными столами."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      }
+    }
   },
   {
     "category": "multi",
@@ -1189,14 +1305,43 @@
     ],
     "description": "Многофункциональный термопресс для запуска или расширения мастерской с несколькими типами заготовок.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-27C\n Исполнение: вариант 1\n Основные характеристики:\n • Мощность: 0.45-1.25 кВт\n• Вес: 26 кг\n• Размер упаковки: 40x46x50 см. Standard configuration shown includes flat plate 29x38 см, 6 oz/17 oz/9 oz/extended/15 oz/12 oz/30 oz cup sleeves, hat assembly, shoe assembly, pen assembly, ball assembly and related accessories",
     "price_rub": 29545,
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "swing",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37",
+        "note": "Одна основная плоская рабочая позиция; сменные насадки не считаются отдельными столами."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "37"
+      }
+    }
   },
   {
     "category": "flat",
