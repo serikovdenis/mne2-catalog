@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 40,
-  "pending_model_count": 18,
+  "pending_confirmed_values": 58,
+  "pending_model_count": 24,
   "groups": [
     {
       "group": "10-owner",
@@ -178,6 +178,66 @@
             "stations": "1",
             "head_movement": "fixed",
             "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "13-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-5H-B22-01",
+          "review_number": 59,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5H-B22-02",
+          "review_number": 60,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HB-B23-01",
+          "review_number": 61,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HB-B23-02",
+          "review_number": 62,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HC-B26-01",
+          "review_number": 63,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HC-B26-02",
+          "review_number": 64,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
           }
         }
       ]
