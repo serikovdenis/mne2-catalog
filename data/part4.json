@@ -993,7 +993,7 @@
     "description": "Широкоформатный плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBB4080DSCB\n Основные характеристики:\n • Мощность: 3600 Вт\n• Напряжение: 220 В/однофазное\n• Максимальный входной ток: 16.36 А\n• Частота: 50 Гц\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 1–999 сек.\n• Размеры машины: 83,64x81,85x63 см\n• Размер нагревательной плиты: 40x80 см\n• Вес нетто: 124.9 кг\n• Цвет: сейшельский синий",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x80",
     "width_mm": 800,
     "needs_review": false,
@@ -1006,8 +1006,21 @@
         "source": "existing_explicit_catalog_title",
         "source_url": "http://mne2.ru/bestsub/OT-PBB4080DSCB/OT-PBB4080DSCB_01.png",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -1071,7 +1084,7 @@
     "description": "Широкоформатный плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBC5060DSCB\n Основные характеристики:\n • Мощность: 4500 Вт\n• Напряжение: 220 В/однофазное\n• Максимальный входной ток: 20.45 А\n• Частота: 50 Гц\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 1–999 сек.\n• Размеры машины: 80,31x68,6x63 см\n• Размер нагревательной плиты: 50x60 см\n• Вес нетто: 122.3 кг\n• Цвет: сейшельский синий",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "50x60",
     "width_mm": 600,
     "needs_review": false,
@@ -1084,8 +1097,21 @@
         "source": "existing_explicit_catalog_title",
         "source_url": "http://mne2.ru/bestsub/OT-PBC5060DSCB/OT-PBC5060DSCB_01.png",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -1150,7 +1176,7 @@
     "description": "Широкоформатный плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBD5070DSCB\n Основные характеристики:\n • Мощность: 5400 Вт\n• Напряжение: 220 Вт/двухфазное,220 В/однофазное,220 Вт/трёхфазное,380 Вт/трёхфазное\n• Максимальный входной ток: 24.55,14.19,8.18 А\n• Частота: 50 Гц\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 1–999 сек.\n• Размеры машины: 80,31x73,64x63 см\n• Размер нагревательной плиты: 50x70 см\n• Вес нетто: 129 кг\n• Цвет: сейшельский синий",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "50x70",
     "width_mm": 700,
     "wide": true,
@@ -1164,8 +1190,21 @@
         "source": "existing_explicit_catalog_title",
         "source_url": "http://mne2.ru/bestsub/OT-PBD5070DSCB/OT-PBD5070DSCB_01.png",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
