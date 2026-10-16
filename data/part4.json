@@ -2305,7 +2305,7 @@
     "category": "flat",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "23x30",
     "width_mm": 300,
     "price_rub": 25545,
@@ -2330,8 +2330,21 @@
         "source_text": "Термопресс 23x30 см выдвижной Craft Express",
         "confirmed_at": "2026-10-17",
         "review_group": "41-source"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "41-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "41-owner"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "sku": "CEHPPRO3838DLB",
