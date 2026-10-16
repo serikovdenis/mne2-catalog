@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 67,
-  "pending_model_count": 26,
+  "pending_confirmed_values": 84,
+  "pending_model_count": 32,
   "groups": [
     {
       "group": "30-owner",
@@ -364,6 +364,68 @@
               "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
             ],
             "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        }
+      ]
+    },
+    {
+      "group": "35-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-25Y-B57-01",
+          "review_number": 187,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-25Y-B57-02",
+          "review_number": 188,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "CE-CP2IN1LBN",
+          "review_number": 189,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "drive": "Ручной"
+          }
+        },
+        {
+          "sku": "JC-8A2Q-B47-01",
+          "review_number": 184,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "opposite_sides",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Q-B47-02",
+          "review_number": 185,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "opposite_sides",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Q-B47-03",
+          "review_number": 186,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "opposite_sides",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
           }
         }
       ]
