@@ -43,9 +43,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -93,9 +101,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -137,9 +153,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -184,9 +208,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -235,9 +267,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -282,9 +322,17 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см автоматический craft express автоматический плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "27",
+        "note": "Термоплита откидная вверх, без бокового перемещения."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "head_movement": "fixed"
   },
   {
     "category": "fusing",
