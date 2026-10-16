@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 27,
-  "pending_model_count": 14,
+  "pending_confirmed_values": 35,
+  "pending_model_count": 16,
   "groups": [
     {
       "group": "30-owner",
@@ -161,6 +161,56 @@
           }
         }
       ]
+    },
+    {
+      "group": "32-double-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ADF-B60-04",
+          "review_number": 169,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "photo_update": {
+            "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          },
+          "description_update": "Два подвижных стола, боковое перемещение столов и вертикальный прижим."
+        },
+        {
+          "sku": "JC-7ADF-B60-05",
+          "review_number": 170,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "photo_update": {
+            "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          },
+          "description_update": "Два подвижных стола, боковое перемещение столов и вертикальный прижим."
+        }
+      ]
     }
   ],
   "pending_review": [
@@ -173,6 +223,14 @@
         "sliding_table"
       ],
       "status": "requires_clearer_source_image"
+    },
+    {
+      "skus": [
+        "JC-7ADF-B60-07"
+      ],
+      "review_number": 171,
+      "status": "photo_mismatch_pending",
+      "issue": "Owner requested photo replacements for 169–170 only; verify 171 separately before applying these images."
     }
   ]
 }
