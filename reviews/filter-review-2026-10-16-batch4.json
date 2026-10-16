@@ -1,0 +1,34 @@
+{
+  "status": "accumulating_no_deployment",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 5,
+  "pending_model_count": 2,
+  "required_ui_changes": [
+    "Expose confirmed table construction and thermoplate motion in cap press guided selection"
+  ],
+  "groups": [
+    {
+      "group": "22-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7BB-B29-01",
+          "review_number": 114,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear",
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-QSHCPLB",
+          "review_number": 115,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        }
+      ]
+    }
+  ]
+}
