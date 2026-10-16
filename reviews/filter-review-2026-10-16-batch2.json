@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 62,
-  "pending_model_count": 28,
+  "pending_confirmed_values": 68,
+  "pending_model_count": 30,
   "groups": [
     {
       "group": "10-owner",
@@ -275,27 +275,33 @@
           }
         }
       ]
+    },
+    {
+      "group": "14-completion",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-16E-B34-01",
+          "review_number": 65,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-16E-B34-02",
+          "review_number": 66,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
     }
   ],
   "required_ui_changes": [
     "Recognize press_construction=open_heating_plate: open heating plate without pressing head; omit head/drive questions where inapplicable."
-  ],
-  "pending_review": [
-    {
-      "review_numbers": [
-        65,
-        66
-      ],
-      "skus": [
-        "JC-16E-B34-01",
-        "JC-16E-B34-02"
-      ],
-      "proposed": {
-        "stations": "1",
-        "sliding_table": false,
-        "head_movement": "fixed"
-      },
-      "status": "awaiting_owner_confirmation"
-    }
   ]
 }
