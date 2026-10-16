@@ -1457,7 +1457,7 @@
     ],
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-1D\n Исполнение: 60x80 см\n Основные характеристики:\n • Размер рабочей зоны: 60x80 см\n• Мощность: 6 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 55 кг\n• Размер упаковки: 118x78x41 см",
     "price_rub": null,
-    "drive": "Гидравлический",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "",
     "size_cm": "60x80",
@@ -1465,7 +1465,35 @@
     "wide": true,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "previous_value": "Гидравлический",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "integrated_work_table": {
+        "value": false,
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      }
+    },
+    "press_construction": "portable_thermoplate",
+    "integrated_work_table": false
   },
   {
     "category": "flat",
@@ -3768,7 +3796,35 @@
     "width_mm": 480,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "previous_value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      },
+      "integrated_work_table": {
+        "value": false,
+        "previous_value": null,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "26-owner-completion",
+        "note": "Ручное перемещение термоплиты по внешней неподвижной рабочей поверхности; встроенного стола нет."
+      }
+    },
+    "press_construction": "portable_thermoplate",
+    "integrated_work_table": false
   },
   {
     "category": "flat",
