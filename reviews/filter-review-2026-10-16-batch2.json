@@ -1,8 +1,8 @@
 {
-  "status": "ready_for_publication",
+  "status": "published",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 107,
-  "pending_model_count": 43,
+  "pending_confirmed_values": 0,
+  "pending_model_count": 0,
   "groups": [
     {
       "group": "10-owner",
@@ -430,7 +430,13 @@
       ]
     }
   ],
-  "required_ui_changes": [
+  "required_ui_changes": [],
+  "published_at": "2026-10-16",
+  "published_confirmed_values": 107,
+  "published_model_count": 43,
+  "completed_ui_changes": [
     "Recognize press_construction=open_heating_plate: open heating plate without pressing head; omit head/drive questions where inapplicable."
-  ]
+  ],
+  "deployment_run_id": 38912684909,
+  "verification": "All 107 values checked on live HTTPS catalog; 373 products; open heating plate filter and wizard supported."
 }
