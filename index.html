@@ -170,9 +170,9 @@ function pickerAttributes(p){
 }
 const pickerSteps=[
  {key:'drive',title:'Какой тип прижима нужен?',hint:'Выберите знакомый вариант или пропустите вопрос.',options:[['Ручной','Ручной','Прижим с помощью рычага.'],['Пневматический','Пневматический','Работает от сжатого воздуха; потребуется компрессор.'],['Гидравлический','Гидравлический','Прижим с помощью гидравлической системы.'],['Полуавтоматический','Полуавтоматический','Проверьте способ прижима и открытия в карточке модели.']]},
- {key:'drawer',title:'Нужен выдвижной рабочий стол?',hint:'Выдвижной стол облегчает укладку изделия вне зоны нагревательной плиты.',options:[['yes','С выдвижным столом','Показать модели с указанной выдвижной рабочей поверхностью.'],['no','Без выдвижного стола','Только модели с явно указанным неподвижным столом.']]},
  {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.']]},
  {key:'size',title:'Какой размер плиты нужен?',hint:'Размеры указаны в сантиметрах. Выберите точный размер рабочей поверхности.',options:[]},
+ {key:'drawer',title:'Нужен выдвижной рабочий стол?',hint:'Выдвижной стол облегчает укладку изделия вне зоны нагревательной плиты.',options:[['yes','С выдвижным столом','Показать модели с указанной выдвижной рабочей поверхностью.'],['no','Без выдвижного стола','Только модели с явно указанным неподвижным столом.']]},
  {key:'budget',title:'Какой бюджет на оборудование?',hint:'При ограничении бюджета показываем только модели с указанной ценой.',options:[['50000','До 50 000 ₽',''],['100000','До 100 000 ₽',''],['200000','До 200 000 ₽',''],['500000','До 500 000 ₽','']]}
 ];
 function pickerMatch(p,answers=pickerAnswers){
@@ -198,9 +198,10 @@ function renderPicker(focus=true){
    const n=items.filter(p=>pickerMatch(p,{...pickerAnswers,[step.key]:value})).length;
    html+='<button type="button" class="pickerChoice" data-picker-value="'+esc(value)+'" '+(!n?'disabled':'')+'><strong>'+esc(label)+'</strong>'+(hint?'<small>'+esc(hint)+'</small>':'')+'<small>'+n+' моделей</small></button>';
   }
-  html+='</div><p class="pickerCount" role="status">Сейчас подходит: '+count+' моделей.</p><p><small>Модели без данных по выбранному признаку не включаются в результат. Ноль моделей — пропустите вопрос или вернитесь назад.</small></p>';
+  const known=step.key==='budget'?count:items.filter(p=>pickerMatch(p)&&pickerAttributes(p)[step.key]).length;
+  html+='</div>'+(known===0?'<p class="notice">По оставшимся моделям этот параметр пока не указан. Нажмите «Пропустить», чтобы перейти к следующему вопросу.</p>':'')+'<p class="pickerCount"  role="status">Сейчас подходит: '+count+' моделей.</p><p><small>Модели без данных по выбранному признаку не включаются в результат. Ноль моделей — пропустите вопрос или вернитесь назад.</small></p>';
  }
- html+='<div class="pickerNav">'+(pickerStep?'<button type="button" class="pickerSecondary" data-picker-action="back">← Назад</button>':'')+(!done?'<button type="button" class="pickerSecondary" data-picker-action="skip">Не знаю / не важно →</button>':'')+'<button type="button" class="primary" data-picker-action="results" '+(!count?'disabled':'')+'>Показать модели ('+count+')</button><button type="button" class="pickerSecondary" data-picker-action="reset">Начать заново</button><button type="button" class="pickerSecondary" data-picker-action="close">Закрыть подбор</button></div>';
+ html+='<div class="pickerNav">'+(pickerStep?'<button type="button" class="pickerSecondary" data-picker-action="back">← Назад</button>':'')+(!done?'<button type="button" class="pickerSecondary" data-picker-action="skip">Пропустить — не знаю / не важно →</button>':'')+(done?'<button type="button" class="primary" data-picker-action="results" '+(!count?'disabled':'')+'>Показать модели ('+count+')</button>':'')+'<button type="button" class="pickerSecondary" data-picker-action="reset">Начать заново</button><button type="button" class="pickerSecondary" data-picker-action="close">Закрыть подбор</button></div>';
  body.innerHTML=html;if(focus)document.getElementById('pickerQuestion').focus();
 }
 document.getElementById('pickerStart').onclick=()=>{pickerStep=0;pickerAnswers={};renderPicker()};
@@ -211,7 +212,7 @@ document.getElementById('pickerBody').addEventListener('click',e=>{
  if(action==='skip'){delete pickerAnswers[pickerSteps[pickerStep].key];pickerStep++;renderPicker();}
  if(action==='reset'){wizardApplied=false;pickerStep=0;pickerAnswers={};showProducts();renderPicker();}
  if(action==='close'){wizardApplied=false;document.getElementById('pickerBody').hidden=true;document.getElementById('pickerStart').hidden=false;showProducts();}
- if(action==='results'){resetFilters();active='flat';wizardApplied=true;pickerStep=pickerSteps.length;showCategories();showProducts();renderPicker(false);document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'});}
+ if(action==='results'&&pickerStep>=pickerSteps.length){resetFilters();active='flat';wizardApplied=true;pickerStep=pickerSteps.length;showCategories();showProducts();renderPicker(false);document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'});}
 });
 
 </script></body></html>
