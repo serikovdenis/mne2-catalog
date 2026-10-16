@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 47,
-  "pending_model_count": 13,
+  "pending_confirmed_values": 56,
+  "pending_model_count": 19,
   "groups": [
     {
       "group": "36-190",
@@ -162,6 +162,57 @@
             "stations": "1",
             "sliding_table": false,
             "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "39-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "CE-DMPLB",
+          "review_number": 203,
+          "values": {
+            "drive": "Ручной"
+          }
+        },
+        {
+          "sku": "CE-DMPPK",
+          "review_number": 204,
+          "values": {
+            "drive": "Ручной"
+          }
+        },
+        {
+          "sku": "CE-MP11TSLB",
+          "review_number": 205,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1"
+          }
+        },
+        {
+          "sku": "CE-MP270PLB",
+          "review_number": 206,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1"
+          }
+        },
+        {
+          "sku": "CE-MP280H2IN1LBW-3040",
+          "review_number": 207,
+          "values": {
+            "stations": "1"
+          }
+        },
+        {
+          "sku": "JC-12A-B28-01",
+          "review_number": 208,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1"
           }
         }
       ]
