@@ -1,10 +1,11 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 5,
-  "pending_model_count": 2,
+  "pending_confirmed_values": 35,
+  "pending_model_count": 8,
   "required_ui_changes": [
-    "Expose confirmed table construction and thermoplate motion in cap press guided selection"
+    "Expose confirmed table construction and thermoplate motion in cap press guided selection",
+    "Show and filter confirmed thermoplate_count independently from working table count"
   ],
   "groups": [
     {
@@ -26,6 +27,78 @@
           "values": {
             "sliding_table": false,
             "head_movement": "linear"
+          }
+        }
+      ]
+    },
+    {
+      "group": "24-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-33B-B63-01",
+          "review_number": 116,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33B-B63-02",
+          "review_number": 117,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33B-B63-03",
+          "review_number": 118,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33D-B64-01",
+          "review_number": 119,
+          "values": {
+            "stations": "4",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33D-B64-02",
+          "review_number": 120,
+          "values": {
+            "stations": "4",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-33D-B64-03",
+          "review_number": 121,
+          "values": {
+            "stations": "4",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "thermoplate_count": 2,
+            "pressing_motion": "vertical"
           }
         }
       ]
