@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 58,
-  "pending_model_count": 24,
+  "pending_confirmed_values": 62,
+  "pending_model_count": 28,
   "groups": [
     {
       "group": "10-owner",
@@ -241,6 +241,61 @@
           }
         }
       ]
+    },
+    {
+      "group": "14-partial-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-21A-B59-01",
+          "review_number": 67,
+          "values": {
+            "press_construction": "open_heating_plate"
+          }
+        },
+        {
+          "sku": "JC-21A-B59-02",
+          "review_number": 68,
+          "values": {
+            "press_construction": "open_heating_plate"
+          }
+        },
+        {
+          "sku": "OT-PBAS25100DLB",
+          "review_number": 69,
+          "values": {
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PBAS25100DSCB",
+          "review_number": 70,
+          "values": {
+            "sliding_table": false
+          }
+        }
+      ]
+    }
+  ],
+  "required_ui_changes": [
+    "Recognize press_construction=open_heating_plate: open heating plate without pressing head; omit head/drive questions where inapplicable."
+  ],
+  "pending_review": [
+    {
+      "review_numbers": [
+        65,
+        66
+      ],
+      "skus": [
+        "JC-16E-B34-01",
+        "JC-16E-B34-02"
+      ],
+      "proposed": {
+        "stations": "1",
+        "sliding_table": false,
+        "head_movement": "fixed"
+      },
+      "status": "awaiting_owner_confirmation"
     }
   ]
 }
