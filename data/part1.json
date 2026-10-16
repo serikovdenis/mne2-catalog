@@ -2715,12 +2715,34 @@
     "description": "Термопресс для спортивных мячей для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-BHPLB\n Основные характеристики:\n • Материал: металл, силиконовая нагревательная накладка, электронные компоненты\n• Цвет: голубой\n• Мощность: 600 Вт\n• Напряжение: 220 В\n• Размер машины: 24x48x53,2 см\n• Назначение: нанесение изображений на футбольные, баскетбольные и регбийные мячи\n• Максимальный размер открытия: 24x48x80,5 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-completion"
+      }
+    }
   },
   {
     "category": "special",
