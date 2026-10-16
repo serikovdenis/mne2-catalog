@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 12,
-  "pending_model_count": 4,
+  "pending_confirmed_values": 61,
+  "pending_model_count": 39,
   "required_ui_changes": [
     "Support six working stations in sidebar and guided filters",
     "Support head_movement=fixed: Без бокового перемещения"
@@ -46,6 +46,249 @@
             "stations": "6",
             "sliding_table": false,
             "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "06-manufacturer",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7B-B35-01",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://gzjiangchuan.com/products/-106"
+        },
+        {
+          "sku": "JC-7B-B35-02",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://gzjiangchuan.com/products/-106"
+        },
+        {
+          "sku": "JC-7B-B35-03",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://gzjiangchuan.com/products/-106"
+        },
+        {
+          "sku": "JC-7B-B41-01",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        },
+        {
+          "sku": "JC-7B-B41-02",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        },
+        {
+          "sku": "JC-7B-B41-03",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        },
+        {
+          "sku": "JC-7B-B41-04",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        }
+      ]
+    },
+    {
+      "group": "existing-explicit-text",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHPPRO3838MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO3838MDPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "JC-16G-B39-01",
+          "values": {
+            "stations": "1"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838N",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4050LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4060LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-QSH4050LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-QSH4060LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "JC-7BB-B29-01",
+          "values": {
+            "drive": "Пневматический"
+          }
+        },
+        {
+          "sku": "OT-QSHCPLB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-PB6080DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB6080DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB80100DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB80100DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO3838DPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4060DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB3838DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4050SDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-YT4050LB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060MDLB",
+          "values": {
+            "sliding_table": true
           }
         }
       ]
