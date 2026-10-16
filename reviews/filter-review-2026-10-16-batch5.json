@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 25,
-  "pending_model_count": 12,
+  "pending_confirmed_values": 27,
+  "pending_model_count": 14,
   "groups": [
     {
       "group": "30-owner",
@@ -140,6 +140,24 @@
           "review_number": 166,
           "values": {
             "sliding_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "32-source",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ADF-B60-01",
+          "values": {
+            "stations": "1"
+          }
+        },
+        {
+          "sku": "JC-7ADF-B60-02",
+          "values": {
+            "stations": "1"
           }
         }
       ]
