@@ -1,8 +1,8 @@
 {
-  "status": "accumulating_no_deployment",
+  "status": "ready_for_publication",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 87,
-  "pending_model_count": 33,
+  "pending_confirmed_values": 113,
+  "pending_model_count": 41,
   "required_ui_changes": [
     "Expose confirmed table construction and thermoplate motion in cap press guided selection",
     "Show and filter confirmed thermoplate_count independently from working table count",
@@ -345,6 +345,86 @@
           "review_number": 146,
           "values": {
             "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "29-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7A-B40-01",
+          "review_number": 147,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-02",
+          "review_number": 148,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-03",
+          "review_number": 149,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7BZ-B42-01",
+          "review_number": 152,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BZ-B42-02",
+          "review_number": 153,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BZ-B42-03",
+          "review_number": 154,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-04",
+          "review_number": 150,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7A-B40-05",
+          "review_number": 151,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
             "pressing_motion": "vertical"
           }
         }
