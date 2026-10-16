@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 50,
-  "pending_model_count": 18,
+  "pending_confirmed_values": 80,
+  "pending_model_count": 24,
   "groups": [
     {
       "group": "17-owner",
@@ -179,6 +179,83 @@
           }
         }
       ]
+    },
+    {
+      "group": "20-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-8A2Y-B55-01",
+          "review_number": 102,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "opposite_sides",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Y-B55-02",
+          "review_number": 103,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "opposite_sides",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Y-B55-03",
+          "review_number": 104,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "opposite_sides",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Q-B48-01",
+          "review_number": 105,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Q-B48-02",
+          "review_number": 106,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Q-B48-03",
+          "review_number": 107,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
     }
+  ],
+  "required_ui_changes": [
+    "Use термоплита instead of головка in user-facing filter labels",
+    "Support table_layout same_side/opposite_sides in filters and guided selection",
+    "Display vertical pressing motion where confirmed"
   ]
 }
