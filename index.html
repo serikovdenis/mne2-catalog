@@ -45,6 +45,7 @@
 <h2>Подборки по задачам</h2><div class="collections" id="collections"></div>
 <div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3>
 <label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
+<label>Выдвижной стол<select id="f-drawer"><option value="">Не важно</option><option value="yes">С выдвижным столом</option><option value="no">Без выдвижного стола</option></select></label>
 <label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option></select></label>
 <label>Режим ламинирования<select id="f-laminate"><option value="">Любой</option><option>Холодный</option><option>Тёплый</option><option>Горячий</option></select></label>
 <label>Размер рабочего стола, см<select id="f-table-size"><option value="">Любой размер</option></select></label>
@@ -99,7 +100,7 @@ function collectionMatch(p,id){
 function resetFilters(){
  wizardApplied=false;active='';curatedId='';term='';brand='';pageSize=24;
  document.getElementById('query').value='';
- for(const id of ['f-drive','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
+ for(const id of ['f-drive','f-drawer','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
  for(const id of ['f-auto','f-wide','f-priced','f-verified'])document.getElementById(id).checked=false;
  document.getElementById('f-sort').value='name';showCategories();showProducts();
 }
@@ -119,6 +120,7 @@ showProducts=function(){
  (!active||p.category===active)&&collectionMatch(p,curatedId)&&(!brand||p.brand===brand)&&
  (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
  (!fval('f-drive')||(fval('f-drive')==='Не указан'?!pickerAttributes(p).drive:pickerAttributes(p).drive===fval('f-drive')))&&(!fval('f-stations')||pickerAttributes(p).stations===fval('f-stations'))&&
+ (!fval('f-drawer')||pickerAttributes(p).drawer===fval('f-drawer'))&&
  (!fval('f-laminate')||p.laminate_mode===fval('f-laminate'))&&
  (!fval('f-table-size')||(p.category==='flat'&&pickerAttributes(p).size===fval('f-table-size')))&&
  (wMin===null||(p.width_mm!=null&&p.width_mm>=wMin))&&(wMax===null||(p.width_mm!=null&&p.width_mm<=wMax))&&
@@ -159,9 +161,9 @@ setTimeout(()=>clearInterval(waitForCatalog),15000);
 let wizardApplied=false,pickerStep=0,pickerAnswers={};
 function pickerAttributes(p){
  const t=[p.title,p.description,JSON.stringify(p.specifications||{})].join(' ').replace(/<[^>]*>/g,' ').toLowerCase();
- let drawer='';
- if(/без выдвиж|невыдвиж|неподвижн[а-яё]* (?:рабоч[а-яё]* )?стол|стационарн[а-яё]* (?:рабоч[а-яё]* )?стол/.test(t))drawer='no';
- else if(/выдвижн/.test(t)&&!/выдвижн[а-яё]* механизм/.test(t))drawer='yes';
+ let drawer=typeof p.sliding_table==='boolean'?(p.sliding_table?'yes':'no'):'';
+ if(!drawer){if(/без выдвиж|невыдвиж|неподвижн[а-яё]* (?:рабоч[а-яё]* )?стол|стационарн[а-яё]* (?:рабоч[а-яё]* )?стол/.test(t))drawer='no';
+ else if(/выдвижн/.test(t)&&!/выдвижн[а-яё]* механизм/.test(t))drawer='yes';}
  let stations=String(p.stations||'');
  if(!stations){if(/двух(?:станцион|позицион|стол)|два (?:рабочих )?стола|две рабочие позиции/.test(t))stations='2';else if(/одно(?:станцион|позицион|стол)|один рабочий стол/.test(t))stations='1';}
  const m=String(p.size_cm||'').match(/^(\d+(?:[.,]\d+)?)\s*[xх×*]\s*(\d+(?:[.,]\d+)?)$/i);
