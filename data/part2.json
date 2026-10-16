@@ -1790,12 +1790,22 @@
     "price_rub": 126995,
     "drive": "Пневматический",
     "automatic": false,
-    "stations": "2",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "previous_value": "2",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "32-source",
+        "evidence": "Исполнение: Single station"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1813,13 +1823,23 @@
     "price_rub": 186945,
     "drive": "Пневматический",
     "automatic": false,
-    "stations": "2",
+    "stations": "1",
     "size_cm": "50x70",
     "width_mm": 700,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "previous_value": "2",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "32-source",
+        "evidence": "Исполнение: Single station"
+      }
+    }
   },
   {
     "category": "flat",
