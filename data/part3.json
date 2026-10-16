@@ -19,12 +19,35 @@
     ],
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "08: presses 32–37"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "08: presses 32–37"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "08: presses 32–37",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      }
+    },
+    "sliding_table": false,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -41,12 +64,35 @@
     ],
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "08: presses 32–37"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "08: presses 32–37"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "08: presses 32–37",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      }
+    },
+    "sliding_table": false,
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -418,12 +464,37 @@
     "description": "Ручной раскладной термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB3838FLB\n Основные характеристики:\n • Цвет: голубой\n• Размер нагревательной плиты: 38x38 см / 15x15дюйм\n• Мощность: 2000 Вт 220 В / 1300 Вт\n• 50/60 Гц\n• Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      }
+    }
   },
   {
     "category": "flat",
@@ -449,12 +520,37 @@
     "description": "Ручной раскладной термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB4050SFLB\n Основные характеристики:\n • Цвет: голубой\n• Нагревательная плита: 40x50 см\n• Мощность: 2200 Вт 220 В /1600 Вт\n• 50/60 Гц\n• Диапазон температуры: 0–250 °C (0-482F)\n• Диапазон времени: 0–999 секунд",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      }
+    }
   },
   {
     "category": "flat",
@@ -474,12 +570,37 @@
     "description": "Ручной раскладной термопресс OtterPro для переноса изображений на футболки, ткани и другие совместимые плоские заготовки. Светло-голубое исполнение.\n\nТехнические характеристики:\n• Производитель: BestSub / OtterPro\n• Артикул: OT-PB4060FLB\n• Нагревательная плита: 40×60 см (16×24 дюйма)\n• Мощность исполнения 220 В: 2400 Вт\n• Электропитание: 220 В, 50/60 Гц\n• Температура: 0–250 °C\n• Таймер: 0–999 секунд\n• Цвет: светло-голубой\n\nИсточник: официальная карточка BestSub. Исполнение под российскую электросеть подтверждается при заказе.",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "09",
+        "note": "Откидная верхняя плита, без бокового перемещения."
+      }
+    }
   },
   {
     "category": "cap",
@@ -497,14 +618,29 @@
       "http://mne2.ru/bestsub/CE-DCPLB/CE-DCPLB_04.jpg"
     ],
     "description": "Это двухстанционная система термопереноса: основная комплектация рассчитана на работу с кепками, при этом сама платформа совместима с несколькими видами нагревательной оснастки.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DCPLB\n Основные характеристики:\n • Тип: двухстанционный термопресс\n• Мощность: 550 Вт ±5%\n• Напряжение: 220 В, 50–60 Гц\n• Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размеры: 49,5x47,2x46 см\n• Максимальный размер открытия: 49,5x47,2x77,5 см\n• Масса нетто: 17,8 кг\n• Совместимая оснастка: для кепок, спортивных щитков, ручек, этикеток и фляг\n• 🔎 Важно не путать с CE-DCPLB-3: это близкая по конструкции двухстанционная система, но CE-DCPLB — базовая модель для кепок с возможностью использовать разные совместимые нагреватели. CE-DCPLB-3 — отдельный вариант с комплектом оснастки для нескольких типов изделий. Если вам нужна именно комплектация с несколькими нагревателями из комплекта, смотрите CE-DCPLB-3.",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.bestsub.com/new-products/business-ideas-for-2025-dual-station-heat-presses-for-pens-caps-shin-guards-labels.html",
+        "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "07: model 30, CE-DCPLB"
+      }
+    },
+    "sliding_table": true
   },
   {
     "category": "cap",
@@ -551,14 +687,35 @@
       "http://mne2.ru/jiangchuan/JC-16AC-0814/06_view.png"
     ],
     "description": "Термопресс для переноса изображений на кепки и другие изогнутые текстильные заготовки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16AC\n Исполнение: 8x14 см\n Основные характеристики:\n • Размер рабочей зоны: 8x14 см\n• Мощность: 0.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 18 кг\n• Размер упаковки: 58.5x25.5x60 см",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "8x14",
     "width_mm": 140,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.gzjiangchuan.com/products/-101",
+        "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.gzjiangchuan.com/products/-101",
+        "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.gzjiangchuan.com/products/-101",
+        "verified_at": "2026-10-16"
+      }
+    },
+    "sliding_table": false
   },
   {
     "category": "cap",
@@ -577,14 +734,22 @@
       "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/28/c0f4dd8a56.jpg"
     ],
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7BB\n Исполнение: 8x14 см\n Основные характеристики:\n • Размер рабочей зоны: 8x14 см\n• Мощность: 0.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 47 кг\n• Размер упаковки: 57x44x66 см",
-    "drive": "",
+    "drive": "Пневматический",
     "automatic": false,
     "stations": "",
     "size_cm": "8x14",
     "width_mm": 140,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Пневматический",
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс для кепок 8x14 см jiangchuan пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "cap",
@@ -606,12 +771,20 @@
     "description": "Двухстанционный пневматический термопресс для кепок для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-QSHCPLB\n Основные характеристики:\n • Напряжение: 220 В-550 Вт 50–60 Гц\n• Мощность: 550 Вт макс.±5%\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размеры машины: 66,58x62,2x64,5 см\n• Цвет: голубой",
     "drive": "Пневматический",
     "automatic": false,
-    "stations": "",
+    "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс для кепок пневматический otter двухстанционный пневматический термопресс для кепок для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "mug",
@@ -1181,13 +1354,35 @@
     "price_rub": 271995,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html",
+        "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html",
+        "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "manufacturer_and_product_photo",
+        "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html",
+        "verified_at": "2026-10-16"
+      }
+    },
+    "sliding_table": false,
+    "head_movement": "linear"
   },
   {
     "category": "flat",
@@ -1617,7 +1812,16 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 60x80 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1640,7 +1844,16 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 60x80 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1712,7 +1925,16 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 80x100 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1735,7 +1957,16 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 80x100 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2104,7 +2335,16 @@
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 38x38 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2130,7 +2370,16 @@
     "width_mm": 500,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 40x50 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2152,7 +2401,16 @@
     "width_mm": 500,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 40x50 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2178,7 +2436,16 @@
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "existing_explicit_catalog_text",
+        "evidence": "термопресс 40x60 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
+        "verified_at": "2026-10-16"
+      }
+    }
   },
   {
     "category": "special",

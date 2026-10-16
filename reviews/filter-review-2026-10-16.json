@@ -1,0 +1,484 @@
+{
+  "status": "ready_for_publication",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 101,
+  "pending_model_count": 56,
+  "required_ui_changes": [
+    "Support six working stations in sidebar and guided filters",
+    "Support head_movement=fixed: Без бокового перемещения"
+  ],
+  "groups": [
+    {
+      "group": "05",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-25Q-B49-01",
+          "review_number": 20,
+          "values": {
+            "stations": "4",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-25Q-B49-02",
+          "review_number": 21,
+          "values": {
+            "stations": "4",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-25QEP-B50-01",
+          "review_number": 22,
+          "values": {
+            "stations": "6",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-25QEP-B50-02",
+          "review_number": 23,
+          "values": {
+            "stations": "6",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "06-manufacturer",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7B-B35-01",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://gzjiangchuan.com/products/-106"
+        },
+        {
+          "sku": "JC-7B-B35-02",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://gzjiangchuan.com/products/-106"
+        },
+        {
+          "sku": "JC-7B-B35-03",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://gzjiangchuan.com/products/-106"
+        },
+        {
+          "sku": "JC-7B-B41-01",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        },
+        {
+          "sku": "JC-7B-B41-02",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        },
+        {
+          "sku": "JC-7B-B41-03",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        },
+        {
+          "sku": "JC-7B-B41-04",
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          },
+          "source_url": "https://www.jcheatpress.com/sublimation-machine/pneumatic-dual-station-t-shirt-heat-press.html"
+        }
+      ]
+    },
+    {
+      "group": "existing-explicit-text",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHPPRO3838MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO3838MDPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "JC-16G-B39-01",
+          "values": {
+            "stations": "1"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838N",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4050LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4060LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-QSH4050LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-QSH4060LB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "JC-7BB-B29-01",
+          "values": {
+            "drive": "Пневматический"
+          }
+        },
+        {
+          "sku": "OT-QSHCPLB",
+          "values": {
+            "stations": "2"
+          }
+        },
+        {
+          "sku": "OT-PB6080DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB6080DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB80100DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB80100DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO3838DPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DPK",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO4060DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB3838DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4050SDLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-YT4050LB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060MDLB",
+          "values": {
+            "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "07-source-and-visual",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-DCPLB",
+          "values": {
+            "drive": "Ручной"
+          }
+        },
+        {
+          "sku": "JC-16AC-B33-01",
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PBB4080DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBB4080DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBC5060DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBC5060DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBD5070DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBD5070DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060MDLB",
+          "values": {
+            "drive": "Ручной",
+            "stations": "1"
+          }
+        }
+      ]
+    },
+    {
+      "group": "07-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-DCPLB",
+          "review_number": 30,
+          "values": {
+            "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "08-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHPPRO3838FLB",
+          "review_number": 32,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO3838FPK",
+          "review_number": 33,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050FLB",
+          "review_number": 34,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050FPK",
+          "review_number": 35,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060FLB",
+          "review_number": 36,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060FPK",
+          "review_number": 37,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "09-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB3838FLB",
+          "review_number": 38,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB4050SFLB",
+          "review_number": 39,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB4060FLB",
+          "review_number": 40,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved_issues": [
+    {
+      "sku": "JC-16A-B32-01",
+      "issue": "Current card photo depicts pneumatic dual-station cap press; manufacturer JC-16A page depicts manual single-station press. Do not infer attributes from current photo.",
+      "manufacturer_url": "https://en.gzjiangchuan.com/products/-100",
+      "status": "deferred_by_owner",
+      "deferred_at": "2026-10-16"
+    },
+    {
+      "sku": "JC-22B-B67-01",
+      "issue": "Manufacturer classifies model as continuous-belt fusing/foiling machine, not conventional flat platen press.",
+      "manufacturer_url": "https://gzjiangchuan.com/products/-155"
+    },
+    {
+      "sku": "JC-57A-B73-01",
+      "issue": "Catalog image explicitly names machine Automatic film cutter JC-57A; currently categorized as flat press. Needs taxonomy review."
+    }
+  ]
+}

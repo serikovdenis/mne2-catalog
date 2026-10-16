@@ -46,8 +46,8 @@
 <div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3>
 <label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
 <label>Выдвижной стол<select id="f-drawer"><option value="">Не важно</option><option value="yes">С выдвижным столом</option><option value="no">Без выдвижного стола</option></select></label>
-<label>Перемещение головки<select id="f-head"><option value="">Не важно</option><option value="linear">Линейно перемещаемая</option><option value="swing">Поворотная</option><option value="__unknown__">Не указано</option></select></label>
-<label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option><option value="4">4 позиции</option></select></label>
+<label>Перемещение головки<select id="f-head"><option value="">Не важно</option><option value="linear">Линейно перемещаемая</option><option value="swing">Поворотная</option><option value="fixed">Без бокового перемещения</option><option value="__unknown__">Не указано</option></select></label>
+<label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option><option value="4">4 позиции</option><option value="6">6 позиций</option></select></label>
 <label>Режим ламинирования<select id="f-laminate"><option value="">Любой</option><option>Холодный</option><option>Тёплый</option><option>Горячий</option></select></label>
 <label>Размер рабочего стола, см<select id="f-table-size"><option value="">Любой размер</option></select></label>
 <label>Ширина / сторона плиты, мм<div class="pair"><input id="f-width-min" type="number" min="0" placeholder="От"><input id="f-width-max" type="number" min="0" placeholder="До"></div></label>
@@ -172,15 +172,15 @@ function pickerAttributes(p){
  const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
  let drive=p.drive&&p.drive!=='Не указан'?p.drive:'';
  if(!drive){const explicit=[['Пневматический',/пневматическ/],['Гидравлический',/гидравлическ/],['Ручной',/ручн[а-яё]*\s+(?:термо)?пресс|(?:термо)?пресс\s+ручн[а-яё]*/]].filter(([,pattern])=>pattern.test(t));if(explicit.length===1)drive=explicit[0][0];}
- return {head:['linear','swing'].includes(p.head_movement)?p.head_movement:'',category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
+ return {head:['linear','swing','fixed'].includes(p.head_movement)?p.head_movement:'',category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
 }
 const pickerStepDefinitions=[
  {key:'category',title:'Какое оборудование вы ищете?',hint:'Выберите категорию, чтобы перейти к вопросам о её характеристиках.',options:[]},
  {key:'drive',title:'Какой тип прижима нужен?',hint:'Выберите знакомый вариант или пропустите вопрос.',options:[['Ручной','Ручной','Прижим с помощью рычага.'],['Пневматический','Пневматический','Работает от сжатого воздуха; потребуется компрессор.'],['Гидравлический','Гидравлический','Прижим с помощью гидравлической системы.'],['Полуавтоматический','Полуавтоматический','Проверьте способ прижима и открытия в карточке модели.']]},
- {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.'],['3','Три рабочих стола','Три рабочие позиции.'],['4','Четыре рабочих стола','Четыре рабочие позиции.']]},
+ {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.'],['3','Три рабочих стола','Три рабочие позиции.'],['4','Четыре рабочих стола','Четыре рабочие позиции.'],['6','Шесть рабочих столов','Шесть рабочих позиций.']]},
  {key:'size',title:'Какой размер плиты нужен?',hint:'Размеры указаны в сантиметрах. Выберите точный размер рабочей поверхности.',options:[]},
  {key:'drawer',title:'Нужен выдвижной рабочий стол?',hint:'Выдвижной стол облегчает укладку изделия вне зоны нагревательной плиты.',options:[['yes','С выдвижным столом','Показать модели с указанной выдвижной рабочей поверхностью.'],['no','Без выдвижного стола','Только модели с явно указанным неподвижным столом.']]},
- {key:'head',title:'Как должна перемещаться нагревательная головка?',hint:'Столы могут оставаться неподвижными, а верхняя головка перемещаться между ними.',options:[['linear','Линейно перемещаемая','Головка движется по направляющим между столами.'],['swing','Поворотная','Головка поворачивается между рабочими позициями.']]},
+ {key:'head',title:'Как должна перемещаться нагревательная головка?',hint:'Столы могут оставаться неподвижными, а верхняя головка перемещаться между ними.',options:[['linear','Линейно перемещаемая','Головка движется по направляющим между столами.'],['swing','Поворотная','Головка поворачивается между рабочими позициями.'],['fixed','Без бокового перемещения','Плита поднимается вертикально или откидывается вверх.']]},
  {key:'laminate',title:'Какой режим ламинирования нужен?',hint:'Выберите режим работы ламинатора.',options:[['Холодный','Холодный',''],['Тёплый','Тёплый',''],['Горячий','Горячий','']]},
  {key:'width',title:'Какая рабочая ширина нужна?',hint:'Выберите рабочую ширину в миллиметрах.',options:[]},
  {key:'brand',title:'Есть предпочтения по производителю?',hint:'Выберите производителя или пропустите вопрос.',options:[]},
@@ -213,7 +213,7 @@ function pickerOptions(step){
  if(pickerUnknownLabels[step.key]&&items.some(p=>pickerMatch(p)&&!pickerAttributes(p)[step.key]))opts.push(['__unknown__',pickerUnknownLabels[step.key],'Показать модели, для которых эту характеристику нужно уточнить.']);
  return opts;
 }
-function pickerFacts(p){const a=pickerAttributes(p);return [a.drive||'Привод: уточняется',a.head==='linear'?'Линейно перемещаемая головка':a.head==='swing'?'Поворотная головка':'',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
+function pickerFacts(p){const a=pickerAttributes(p);return [a.drive||'Привод: уточняется',a.head==='linear'?'Линейно перемещаемая головка':a.head==='swing'?'Поворотная головка':a.head==='fixed'?'Головка без бокового перемещения':'',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
 function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerStepDefinitions.find(s=>s.key===k);const label=v==='__unknown__'?pickerUnknownLabels[k]:k==='category'?categories.find(c=>c.id===v)?.name||v:k==='size'?v+' см':k==='width'?v+' мм':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
 function renderPicker(focus=true){
  const body=document.getElementById('pickerBody');body.hidden=false;document.getElementById('pickerStart').hidden=true;
