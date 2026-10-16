@@ -1882,12 +1882,15 @@
     "model": "JC-7ADF-B60-07",
     "title": "Термопресс 60x80 см пневматический двуxпозиционный",
     "avito_id": "8493273567",
-    "image": "http://mne2.ru/jiangchuan/JC-7ADF/01_main.jpg",
+    "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
     "images": [
-      "http://mne2.ru/jiangchuan/JC-7ADF/01_main.jpg",
-      "http://mne2.ru/jiangchuan/JC-7ADF/02_double_station.jpg"
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
     ],
-    "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ADF\n Исполнение: Double station / вариант 7\n Основные характеристики:\n • Размер рабочей зоны: 60x80 см\n• Мощность: 12 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 250 кг\n• Размер упаковки: 104x90x170 см",
+    "description": "Двухпозиционный пневматический термопресс с двумя подвижными столами. Столы перемещаются влево-вправо по направляющим. Прижим вертикальный; термоплита не перемещается в горизонтальной плоскости.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ADF\n Исполнение: Double station / вариант 7\n Основные характеристики:\n • Размер рабочей зоны: 60x80 см\n• Мощность: 12 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 250 кг\n• Размер упаковки: 104x90x170 см",
     "price_rub": 224495,
     "drive": "Пневматический",
     "automatic": false,
@@ -1897,7 +1900,44 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical",
+    "image_source": {
+      "source_url": "https://en.gzjiangchuan.com/products/-146",
+      "source_model": "JC-7A-17",
+      "matched_by": "owner_confirmation",
+      "confirmed_at": "2026-10-16",
+      "note": "Owner requests same dual-station photo family for 167,168 and171."
+    }
   },
   {
     "category": "flat",
@@ -2066,7 +2106,37 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
