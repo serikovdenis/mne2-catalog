@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 24,
-  "pending_model_count": 12,
+  "pending_confirmed_values": 40,
+  "pending_model_count": 18,
   "groups": [
     {
       "group": "10-owner",
@@ -120,6 +120,64 @@
           "values": {
             "stations": "1",
             "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "12-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB6080FLB",
+          "review_number": 54,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PB6080FSCB",
+          "review_number": 55,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PB80100DSCB",
+          "review_number": 53,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBS4050LB",
+          "review_number": 56,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-YT4050LB",
+          "review_number": 57,
+          "values": {
+            "stations": "1",
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OU-G14050MB",
+          "review_number": 58,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": true
           }
         }
       ]
