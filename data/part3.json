@@ -4273,7 +4273,23 @@
     "width_mm": 380,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "press_construction": "portable_thermoplate",
+    "filter_confirmations": {
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "42-owner"
+      },
+      "integrated_work_table": {
+        "value": false,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "42-owner"
+      }
+    },
+    "integrated_work_table": false
   },
   {
     "category": "flat",
@@ -4345,7 +4361,23 @@
     "width_mm": 600,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "press_construction": "portable_thermoplate",
+    "filter_confirmations": {
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "42-owner"
+      },
+      "integrated_work_table": {
+        "value": false,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "42-owner"
+      }
+    },
+    "integrated_work_table": false
   },
   {
     "category": "flat",
@@ -4368,6 +4400,22 @@
     "wide": true,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "press_construction": "portable_thermoplate",
+    "filter_confirmations": {
+      "press_construction": {
+        "value": "portable_thermoplate",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "42-owner"
+      },
+      "integrated_work_table": {
+        "value": false,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "42-owner"
+      }
+    },
+    "integrated_work_table": false
   }
 ]
