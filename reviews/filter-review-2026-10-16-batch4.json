@@ -1,13 +1,14 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 65,
-  "pending_model_count": 18,
+  "pending_confirmed_values": 71,
+  "pending_model_count": 20,
   "required_ui_changes": [
     "Expose confirmed table construction and thermoplate motion in cap press guided selection",
     "Show and filter confirmed thermoplate_count independently from working table count",
     "Expose fusing category and DTF equipment types; omit flat-press construction questions for continuous belt machines",
-    "Special equipment subtype selection must skip press drive/table questions for film cutters and rhinestone shakers"
+    "Special equipment subtype selection must skip press drive/table questions for film cutters and rhinestone shakers",
+    "Support portable_thermoplate construction; do not ask integrated table count/sliding table for confirmed integrated_work_table=false"
   ],
   "groups": [
     {
@@ -206,6 +207,30 @@
           }
         }
       ]
+    },
+    {
+      "group": "26-owner-completion",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-1D-B69-05",
+          "review_number": 133,
+          "values": {
+            "drive": "Ручной",
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
+          }
+        },
+        {
+          "sku": "JC-1D-B69-02",
+          "review_number": 132,
+          "values": {
+            "drive": "Ручной",
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
+          }
+        }
+      ]
     }
   ],
   "unresolved_issues": [],
@@ -213,13 +238,17 @@
     {
       "skus": [
         "JC-1D-B69-01",
-        "JC-1D-B69-02",
         "JC-1D-B69-03",
-        "JC-1D-B69-04",
-        "JC-1D-B69-05"
+        "JC-1D-B69-04"
       ],
-      "issue": "Portable thermoplate on wheels; ordinary table-count/sliding-table fields inapplicable; confirm operation and correct erroneous hydraulic drive on 60x80 variant",
+      "issue": "Remaining JC-1D variants: verify portable construction from exact manufacturer family; 132/133 confirmed manually operated.",
       "source_url": "https://www.gzjiangchuan.com/products/-177"
     }
+  ],
+  "session_status": "paused_by_owner_until_next_session",
+  "resume_notes": [
+    "Continue from review number 134; owner confirmed 132/133 manual portable thermoplate with no integrated working table.",
+    "Batch 4 staged, not published; publish around 100 values.",
+    "JC-1D variants B69-01/03/04 remain pending source-based construction review; do not assume owner confirmation applied to unseen variants."
   ]
 }
