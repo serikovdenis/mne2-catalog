@@ -1,11 +1,12 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 35,
-  "pending_model_count": 8,
+  "pending_confirmed_values": 53,
+  "pending_model_count": 14,
   "required_ui_changes": [
     "Expose confirmed table construction and thermoplate motion in cap press guided selection",
-    "Show and filter confirmed thermoplate_count independently from working table count"
+    "Show and filter confirmed thermoplate_count independently from working table count",
+    "Expose fusing category and DTF equipment types; omit flat-press construction questions for continuous belt machines"
   ],
   "groups": [
     {
@@ -102,6 +103,84 @@
           }
         }
       ]
+    },
+    {
+      "group": "25-classification",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-22A-B65-01",
+          "review_number": 122,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-22A-B65-02",
+          "review_number": 123,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-22AB-B66-01",
+          "review_number": 124,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-22AB-B66-02",
+          "review_number": 125,
+          "values": {
+            "category": "fusing",
+            "equipment_type": "continuous_belt_fusing",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-56C-B70-01",
+          "review_number": 126,
+          "values": {
+            "category": "dtf",
+            "equipment_type": "powder_shaker_dryer",
+            "drive": ""
+          }
+        },
+        {
+          "sku": "JC-56D-B71-01",
+          "review_number": 127,
+          "values": {
+            "category": "dtf",
+            "equipment_type": "powder_shaker_dryer",
+            "drive": ""
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved_issues": [
+    {
+      "sku": "JC-22B-B67-01",
+      "status": "manufacturer_review_required"
+    },
+    {
+      "sku": "JC-56E-B72-01",
+      "status": "manufacturer_review_required"
+    },
+    {
+      "sku": "JC-57A-B73-01",
+      "status": "manufacturer_review_required"
+    },
+    {
+      "sku": "JC-57A-B73-02",
+      "status": "manufacturer_review_required"
     }
   ]
 }
