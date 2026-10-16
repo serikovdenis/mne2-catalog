@@ -1668,13 +1668,35 @@
     "price_rub": 315095,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
