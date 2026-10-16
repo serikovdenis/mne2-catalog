@@ -1,8 +1,8 @@
 {
-  "status": "ready_for_publication",
+  "status": "published",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 101,
-  "pending_model_count": 29,
+  "pending_confirmed_values": 0,
+  "pending_model_count": 0,
   "groups": [
     {
       "group": "17-owner",
@@ -310,11 +310,7 @@
       ]
     }
   ],
-  "required_ui_changes": [
-    "Use термоплита instead of головка in user-facing filter labels",
-    "Support table_layout same_side/opposite_sides in filters and guided selection",
-    "Display vertical pressing motion where confirmed"
-  ],
+  "required_ui_changes": [],
   "unresolved_issues": [
     {
       "sku": "JC-1D-B69-01",
@@ -322,5 +318,15 @@
       "status": "deferred_for_research",
       "issue": "Portable construction without conventional working table; requires manufacturer taxonomy review."
     }
-  ]
+  ],
+  "published_at": "2026-10-16",
+  "published_confirmed_values": 101,
+  "published_model_count": 29,
+  "completed_ui_changes": [
+    "Use термоплита instead of головка in user-facing filter labels",
+    "Support table_layout same_side/opposite_sides in filters and guided selection",
+    "Display vertical pressing motion where confirmed"
+  ],
+  "deployment_run_id": 38918586162,
+  "verification": "All 101 values verified on live HTTPS catalog; 373 products; table layouts and thermoplate wording verified."
 }
