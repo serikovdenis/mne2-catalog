@@ -1896,13 +1896,35 @@
     "description": "Ручной плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB6080FLB\n Основные характеристики:\n • Мощность: 6000 Вт\n• Доступное напряжение:\n• 220 В однофазное\n• 220 В трёхфазное\n• 380 В трёхфазное\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999 с\n• Размеры машины: 115,4x85,4x62,2 см\n• Размер нагревательной плиты: 60x80 см\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -1919,13 +1941,35 @@
     "description": "Ручной плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB6080FSCB\n Основные характеристики:\n • Мощность: 6600 Вт\n• Напряжение: 380 В\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999секунд\n• Размеры машины: 115,4x85,4x62,2 см\n• Размер нагревательной плиты: 60x80 см\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -1990,7 +2034,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB80100DSCB\n Основные характеристики:\n • Мощность: 6600 Вт\n• Напряжение: 380 В\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999 сек.\n• Размеры машины: 115,4x104x62,2 см\n• Размер нагревательной плиты: 80x100 см\n• Вес нетто: 184 кг\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
@@ -2004,8 +2048,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 80x100 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
