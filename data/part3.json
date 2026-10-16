@@ -109,12 +109,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16E\n Исполнение: 12x12 см\n Основные характеристики:\n  • Размер рабочей зоны: 12x12 см\n • Мощность: 0.5 кВт\n • Температура: 0-260°C\n • Время: 0-999 s\n • Вес: 13 кг\n • Размер упаковки: 54.5x32.5x45 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "12x12",
     "width_mm": 120,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-completion"
+      }
+    }
   },
   {
     "category": "flat",
@@ -131,12 +153,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16E\n Исполнение: 15x20 см\n Основные характеристики:\n  • Размер рабочей зоны: 15x20 см\n • Мощность: 0.8 кВт\n • Температура: 0-260°C\n • Время: 0-999 s\n • Вес: 13 кг\n • Размер упаковки: 54.5x32.5x45 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "15x20",
     "width_mm": 200,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-completion"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-completion"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-completion"
+      }
+    }
   },
   {
     "category": "flat",
@@ -158,7 +202,16 @@
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "press_construction": "open_heating_plate",
+    "filter_confirmations": {
+      "press_construction": {
+        "value": "open_heating_plate",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-partial"
+      }
+    }
   },
   {
     "category": "flat",
@@ -180,7 +233,16 @@
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "press_construction": "open_heating_plate",
+    "filter_confirmations": {
+      "press_construction": {
+        "value": "open_heating_plate",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-partial"
+      }
+    }
   },
   {
     "category": "flat",
@@ -300,12 +362,35 @@
     "price_rub": 22895,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13",
+        "note": "Owner confirms sliding tables on all JC-5H, JC-5HB and JC-5HC variants, including 59–60."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      }
+    }
   },
   {
     "category": "flat",
@@ -325,12 +410,35 @@
     "price_rub": 33495,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13",
+        "note": "Owner confirms sliding tables on all JC-5H, JC-5HB and JC-5HC variants, including 59–60."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      }
+    }
   },
   {
     "category": "flat",
@@ -352,12 +460,35 @@
     "price_rub": 26895,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13",
+        "note": "Owner confirms sliding tables on all JC-5H, JC-5HB and JC-5HC variants, including 59–60."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      }
+    }
   },
   {
     "category": "flat",
@@ -379,12 +510,35 @@
     "price_rub": 37895,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x40",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13",
+        "note": "Owner confirms sliding tables on all JC-5H, JC-5HB and JC-5HC variants, including 59–60."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      }
+    }
   },
   {
     "category": "flat",
@@ -406,12 +560,35 @@
     "price_rub": 31545,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13",
+        "note": "Owner confirms sliding tables on all JC-5H, JC-5HB and JC-5HC variants, including 59–60."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      }
+    }
   },
   {
     "category": "flat",
@@ -433,12 +610,35 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-5HC\n Исполнение: 40x60 см\n Основные характеристики:\n • Размер рабочей зоны: 40x60 см\n• Мощность: 2.2 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 38 кг\n• Размер упаковки: 70x67x40.5 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13",
+        "note": "Owner confirms sliding tables on all JC-5H, JC-5HB and JC-5HC variants, including 59–60."
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "13"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1056,7 +1256,16 @@
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": false,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-partial"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1080,7 +1289,16 @@
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": false,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "14-partial"
+      }
+    }
   },
   {
     "category": "special",
@@ -1400,13 +1618,35 @@
     "price_rub": 255495,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "15"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "15"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "15"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1428,13 +1668,35 @@
     "price_rub": 315095,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1806,7 +2068,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB6080DLB\n Основные характеристики:\n • Мощность: 6000 Вт\n• Доступное напряжение:\n• 220 В однофазное\n• 220 В трёхфазное\n• 380 В трёхфазное\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999 с\n• Размеры машины: 115,4x85,4x62,2 см\n• Размер нагревательной плиты: 60x80 см\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
@@ -1820,8 +2082,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 60x80 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -1838,7 +2113,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB6080DSCB\n Основные характеристики:\n • Мощность: 6600 Вт\n• Напряжение: 380 В\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999секунд\n• Размеры машины: 115,4x85,4x62,2 см\n• Размер нагревательной плиты: 60x80 см\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
@@ -1852,8 +2127,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 60x80 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -1870,13 +2158,35 @@
     "description": "Ручной плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB6080FLB\n Основные характеристики:\n • Мощность: 6000 Вт\n• Доступное напряжение:\n• 220 В однофазное\n• 220 В трёхфазное\n• 380 В трёхфазное\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999 с\n• Размеры машины: 115,4x85,4x62,2 см\n• Размер нагревательной плиты: 60x80 см\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -1893,13 +2203,35 @@
     "description": "Ручной плоский термопресс для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB6080FSCB\n Основные характеристики:\n • Мощность: 6600 Вт\n• Напряжение: 380 В\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999секунд\n• Размеры машины: 115,4x85,4x62,2 см\n• Размер нагревательной плиты: 60x80 см\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x80",
     "width_mm": 800,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -1919,7 +2251,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB80100DLB\n Основные характеристики:\n • Мощность: 6600 Вт\n• Доступное напряжение:\n• 220 В однофазное,Электропитание: 30 А\n• 220 В трёхфазное,Электропитание: 18 А\n• 380 В трёхфазное,Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999 с\n• Размеры машины: 115,4x104x62,2 см\n• Размер нагревательной плиты: 80x100 см\n• Вес нетто: 205 кг\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
@@ -1933,8 +2265,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 80x100 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "11"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -1951,7 +2296,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PB80100DSCB\n Основные характеристики:\n • Мощность: 6600 Вт\n• Напряжение: 380 В\n• Электропитание: 10 А\n• Температура: 0–250 °C\n• Диапазон времени: 1–999 сек.\n• Размеры машины: 115,4x104x62,2 см\n• Размер нагревательной плиты: 80x100 см\n• Вес нетто: 184 кг\n• Стойка BHP-T доступна за дополнительную плату.",
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
@@ -1965,8 +2310,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 80x100 см выдвижной otter плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",

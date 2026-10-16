@@ -1,0 +1,436 @@
+{
+  "status": "ready_for_publication",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 107,
+  "pending_model_count": 43,
+  "groups": [
+    {
+      "group": "10-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB3838DLB",
+          "review_number": 41,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4050SDLB",
+          "review_number": 42,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060DLB",
+          "review_number": 43,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBB4080DLB",
+          "review_number": 44,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBC5060DLB",
+          "review_number": 45,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBD5070DLB",
+          "review_number": 46,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "11-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PBB4080DSCB",
+          "review_number": 47,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBC5060DSCB",
+          "review_number": 48,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBD5070DSCB",
+          "review_number": 49,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB6080DLB",
+          "review_number": 50,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB6080DSCB",
+          "review_number": 51,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB80100DLB",
+          "review_number": 52,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "12-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB6080FLB",
+          "review_number": 54,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PB6080FSCB",
+          "review_number": 55,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PB80100DSCB",
+          "review_number": 53,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBS4050LB",
+          "review_number": 56,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-YT4050LB",
+          "review_number": 57,
+          "values": {
+            "stations": "1",
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OU-G14050MB",
+          "review_number": 58,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "13-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-5H-B22-01",
+          "review_number": 59,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5H-B22-02",
+          "review_number": 60,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HB-B23-01",
+          "review_number": 61,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HB-B23-02",
+          "review_number": 62,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HC-B26-01",
+          "review_number": 63,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5HC-B26-02",
+          "review_number": 64,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "14-partial-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-21A-B59-01",
+          "review_number": 67,
+          "values": {
+            "press_construction": "open_heating_plate"
+          }
+        },
+        {
+          "sku": "JC-21A-B59-02",
+          "review_number": 68,
+          "values": {
+            "press_construction": "open_heating_plate"
+          }
+        },
+        {
+          "sku": "OT-PBAS25100DLB",
+          "review_number": 69,
+          "values": {
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PBAS25100DSCB",
+          "review_number": 70,
+          "values": {
+            "sliding_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "14-completion",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-16E-B34-01",
+          "review_number": 65,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-16E-B34-02",
+          "review_number": 66,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "15-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7BD-B61-01",
+          "review_number": 71,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BD-B61-02",
+          "review_number": 72,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BD-B61-03",
+          "review_number": 73,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "OT-QSHYB1515LB",
+          "review_number": 75,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "OT-QSYT4050LB",
+          "review_number": 76,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "JC-7BD-B61-04",
+          "review_number": 74,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        }
+      ]
+    },
+    {
+      "group": "16-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7CZETP-B52-01",
+          "review_number": 77,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7C-B43-01",
+          "review_number": 78,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7C-B43-02",
+          "review_number": 79,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CZ-B44-01",
+          "review_number": 81,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CZ-B44-02",
+          "review_number": 82,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CZ-B44-03",
+          "review_number": 83,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7C-B43-03",
+          "review_number": 80,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        }
+      ]
+    }
+  ],
+  "required_ui_changes": [
+    "Recognize press_construction=open_heating_plate: open heating plate without pressing head; omit head/drive questions where inapplicable."
+  ]
+}
