@@ -40,7 +40,7 @@
 <main><section class="hero"><div class="eyebrow">Каталог оборудования MNE2</div><h1>Оборудование для термопереноса</h1><p>Подбор термопрессов, каландров и оборудования для сублимации по типу производства и техническим параметрам.</p></section>
 <div class="notice">В каталоге 373 модели оборудования для термопереноса. Подберите оборудование по назначению, характеристикам и производителю. Цены указаны для моделей с подтверждённой стоимостью.</div>
 <form class="search" id="form"><input id="query" type="search" placeholder="Поиск по названию, модели и артикулу" aria-label="Поиск оборудования"><button type="submit">Найти</button></form>
-<section class="guidedPicker" id="guidedPicker" aria-label="Пошаговый подбор оборудования"><h2>Найдём подходящий термопресс</h2><p>Ответьте на несколько вопросов о приводе, столах и размере плиты. Любой вопрос можно пропустить.</p><button type="button" class="primary" id="pickerStart" disabled>Загружаем модели…</button><div id="pickerBody" hidden></div></section>
+<section class="guidedPicker" id="guidedPicker" aria-label="Пошаговый подбор оборудования"><h2>Подберём оборудование по шагам</h2><p>Выберите оборудование и ответьте на вопросы о нужных характеристиках. Любой вопрос можно пропустить; подходящие модели появятся в конце.</p><button type="button" class="primary" id="pickerStart" disabled>Загружаем модели…</button><div id="pickerBody" hidden></div></section>
 <section><h2>Категории оборудования</h2><div class="categories" id="categories"></div></section>
 <h2>Подборки по задачам</h2><div class="collections" id="collections"></div>
 <div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3>
@@ -72,7 +72,7 @@ document.addEventListener('click',e=>{const img=e.target.closest('img[data-zoom]
 function closeProduct(){document.getElementById('details').style.display='none';document.body.style.overflow=''}
 document.getElementById('details').addEventListener('click',e=>{if(e.target.id==='details')closeProduct()});document.getElementById('products').addEventListener('click',e=>{const b=e.target.closest('[data-sku]');if(b)openProduct(b.dataset.sku)});document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(document.getElementById('photoZoom').classList.contains('open'))closePhotoZoom();else closeProduct()}});
 document.getElementById('form').onsubmit=e=>{e.preventDefault();term=document.getElementById('query').value.trim().toLowerCase();showProducts()};document.getElementById('query').oninput=e=>{term=e.target.value.trim().toLowerCase();showProducts()};document.getElementById('brand').onchange=e=>{brand=e.target.value;showProducts()};
-(async()=>{try{let chunks=await Promise.all([1,2,3,4].map(async n=>{const r=await fetch('./data/part'+n+'.json',{cache:'no-store'});if(!r.ok)throw Error('catalog part '+n);return await r.json()}));items=chunks.flat();const bs=[...new Set(items.map(x=>x.brand).filter(Boolean))].sort();document.getElementById('brand').innerHTML='<option value="">Все производители</option>'+bs.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('')}catch(e){console.warn('Catalog JSON not loaded',e)}showCategories();showProducts();const requestedSku=new URLSearchParams(location.search).get('sku');if(requestedSku){const match=items.find(p=>p.sku===requestedSku||String(p.avito_id)===requestedSku);if(match){term=String(match.sku).toLowerCase();document.getElementById('query').value=match.sku;showProducts();openProduct(String(match.avito_id||match.sku))}}})();
+(async()=>{try{let chunks=await Promise.all([1,2,3,4].map(async n=>{const r=await fetch('./data/part'+n+'.json',{cache:'no-store'});if(!r.ok)throw Error('catalog part '+n);return await r.json()}));items=chunks.flat();onLoaded();const bs=[...new Set(items.map(x=>x.brand).filter(Boolean))].sort();document.getElementById('brand').innerHTML='<option value="">Все производители</option>'+bs.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('')}catch(e){console.warn('Catalog JSON not loaded',e)}showCategories();showProducts();const requestedSku=new URLSearchParams(location.search).get('sku');if(requestedSku){const match=items.find(p=>p.sku===requestedSku||String(p.avito_id)===requestedSku);if(match){term=String(match.sku).toLowerCase();document.getElementById('query').value=match.sku;showProducts();openProduct(String(match.avito_id||match.sku))}}})();
 
 const curated=[
 {id:'shirts',name:'Для футболок и мерча'},
@@ -166,33 +166,49 @@ function pickerAttributes(p){
  if(!stations){if(/двух(?:станцион|позицион|стол)|два (?:рабочих )?стола|две рабочие позиции/.test(t))stations='2';else if(/одно(?:станцион|позицион|стол)|один рабочий стол/.test(t))stations='1';}
  const m=String(p.size_cm||'').match(/^(\d+(?:[.,]\d+)?)\s*[xх×*]\s*(\d+(?:[.,]\d+)?)$/i);
  const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
- return {drive:p.drive&&p.drive!=='Не указан'?p.drive:'',drawer,stations,size};
+ return {category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive:p.drive&&p.drive!=='Не указан'?p.drive:'',drawer,stations,size};
 }
-const pickerSteps=[
+const pickerStepDefinitions=[
+ {key:'category',title:'Какое оборудование вы ищете?',hint:'Выберите категорию, чтобы перейти к вопросам о её характеристиках.',options:[]},
  {key:'drive',title:'Какой тип прижима нужен?',hint:'Выберите знакомый вариант или пропустите вопрос.',options:[['Ручной','Ручной','Прижим с помощью рычага.'],['Пневматический','Пневматический','Работает от сжатого воздуха; потребуется компрессор.'],['Гидравлический','Гидравлический','Прижим с помощью гидравлической системы.'],['Полуавтоматический','Полуавтоматический','Проверьте способ прижима и открытия в карточке модели.']]},
  {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.']]},
  {key:'size',title:'Какой размер плиты нужен?',hint:'Размеры указаны в сантиметрах. Выберите точный размер рабочей поверхности.',options:[]},
  {key:'drawer',title:'Нужен выдвижной рабочий стол?',hint:'Выдвижной стол облегчает укладку изделия вне зоны нагревательной плиты.',options:[['yes','С выдвижным столом','Показать модели с указанной выдвижной рабочей поверхностью.'],['no','Без выдвижного стола','Только модели с явно указанным неподвижным столом.']]},
+ {key:'laminate',title:'Какой режим ламинирования нужен?',hint:'Выберите режим работы ламинатора.',options:[['Холодный','Холодный',''],['Тёплый','Тёплый',''],['Горячий','Горячий','']]},
+ {key:'width',title:'Какая рабочая ширина нужна?',hint:'Выберите рабочую ширину в миллиметрах.',options:[]},
+ {key:'brand',title:'Есть предпочтения по производителю?',hint:'Выберите производителя или пропустите вопрос.',options:[]},
  {key:'budget',title:'Какой бюджет на оборудование?',hint:'При ограничении бюджета показываем только модели с указанной ценой.',options:[['50000','До 50 000 ₽',''],['100000','До 100 000 ₽',''],['200000','До 200 000 ₽',''],['500000','До 500 000 ₽','']]}
 ];
+function currentPickerSteps(){
+ const cat=pickerAnswers.category,keys=['category'];
+ if(['flat','cap','mug','multi','special'].includes(cat))keys.push('drive','stations');
+ if(['flat','cap','multi','special'].includes(cat))keys.push('size');
+ if(cat==='flat')keys.push('drawer');
+ if(cat==='laminator')keys.push('laminate');
+ if(['calender','laminator','dtf'].includes(cat)&&items.some(p=>p.category===cat&&p.width_mm>0))keys.push('width');
+ keys.push('brand','budget');
+ return keys.map(k=>pickerStepDefinitions.find(s=>s.key===k));
+}
 function pickerMatch(p,answers=pickerAnswers){
- if(p.category!=='flat')return false;
  const a=pickerAttributes(p);
  return Object.entries(answers).every(([k,v])=>!v||(k==='budget'?(p.price_rub>100&&p.price_rub<=Number(v)):a[k]===v));
 }
 function pickerOptions(step){
+ if(step.key==='category')return categories.map(c=>[c.id,c.name,c.desc]);
+ if(step.key==='brand')return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>p.brand).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru')).map(b=>[b,b,'']);
+ if(step.key==='width')return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).width).filter(Boolean))].sort((a,b)=>Number(a)-Number(b)).map(w=>[w,w+' мм','']);
  if(step.key!=='size')return step.options;
  return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1])).map(n=>[n,n+' см','']);
 }
 function pickerFacts(p){const a=pickerAttributes(p);return [a.drive,a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
-function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerSteps.find(s=>s.key===k);const label=k==='size'?v+' см':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
+function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerStepDefinitions.find(s=>s.key===k);const label=k==='category'?categories.find(c=>c.id===v)?.name||v:k==='size'?v+' см':k==='width'?v+' мм':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
 function renderPicker(focus=true){
  const body=document.getElementById('pickerBody');body.hidden=false;document.getElementById('pickerStart').hidden=true;
- const count=items.filter(p=>pickerMatch(p)).length,done=pickerStep>=pickerSteps.length;
- let html='<div class="pickerProgress">Плоские термопрессы · '+(done?'Подбор завершён':'Шаг '+(pickerStep+1)+' из '+pickerSteps.length)+'</div><div class="pickerAnswers">'+pickerSummary()+'</div>';
+ const count=items.filter(p=>pickerMatch(p)).length,done=pickerStep>=currentPickerSteps().length;
+ let html='<div class="pickerProgress">'+esc(categories.find(c=>c.id===pickerAnswers.category)?.name||'Подбор оборудования')+' · '+(done?'Подбор завершён':'Шаг '+(pickerStep+1)+' из '+currentPickerSteps().length)+'</div><div class="pickerAnswers">'+pickerSummary()+'</div>';
  if(done){html+='<h3 tabindex="-1" id="pickerQuestion">'+(count?'Подходящие модели: '+count:'Подходящих моделей пока нет')+'</h3><p>Подбор учитывает указанные характеристики. Комплектацию и условия поставки можно уточнить в карточке модели.</p>';}
  else{
-  const step=pickerSteps[pickerStep];
+  const step=currentPickerSteps()[pickerStep];
   html+='<h3 tabindex="-1" id="pickerQuestion">'+esc(step.title)+'</h3><p>'+esc(step.hint)+'</p><div class="pickerChoices">';
   for(const [value,label,hint] of pickerOptions(step)){
    const n=items.filter(p=>pickerMatch(p,{...pickerAnswers,[step.key]:value})).length;
@@ -206,13 +222,13 @@ function renderPicker(focus=true){
 }
 document.getElementById('pickerStart').onclick=()=>{pickerStep=0;pickerAnswers={};renderPicker()};
 document.getElementById('pickerBody').addEventListener('click',e=>{
- const option=e.target.closest('[data-picker-value]');if(option){pickerAnswers[pickerSteps[pickerStep].key]=option.dataset.pickerValue;pickerStep++;renderPicker();return;}
+ const option=e.target.closest('[data-picker-value]');if(option){pickerAnswers[currentPickerSteps()[pickerStep].key]=option.dataset.pickerValue;pickerStep++;renderPicker();return;}
  const action=e.target.closest('[data-picker-action]')?.dataset.pickerAction;if(!action)return;
- if(action==='back'){pickerStep=Math.max(0,pickerStep-1);for(let n=pickerStep;n<pickerSteps.length;n++)delete pickerAnswers[pickerSteps[n].key];renderPicker();}
- if(action==='skip'){delete pickerAnswers[pickerSteps[pickerStep].key];pickerStep++;renderPicker();}
+ if(action==='back'){pickerStep=Math.max(0,pickerStep-1);const steps=currentPickerSteps();for(let n=pickerStep;n<steps.length;n++)delete pickerAnswers[steps[n].key];renderPicker();}
+ if(action==='skip'){delete pickerAnswers[currentPickerSteps()[pickerStep].key];pickerStep++;renderPicker();}
  if(action==='reset'){wizardApplied=false;pickerStep=0;pickerAnswers={};showProducts();renderPicker();}
  if(action==='close'){wizardApplied=false;document.getElementById('pickerBody').hidden=true;document.getElementById('pickerStart').hidden=false;showProducts();}
- if(action==='results'&&pickerStep>=pickerSteps.length){resetFilters();active='flat';wizardApplied=true;pickerStep=pickerSteps.length;showCategories();showProducts();renderPicker(false);document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'});}
+ if(action==='results'&&pickerStep>=currentPickerSteps().length){resetFilters();active=pickerAnswers.category||'';wizardApplied=true;pickerStep=currentPickerSteps().length;showCategories();showProducts();renderPicker(false);document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'});}
 });
 
 </script></body></html>
