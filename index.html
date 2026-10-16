@@ -47,6 +47,7 @@
 <label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
 <label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option></select></label>
 <label>Режим ламинирования<select id="f-laminate"><option value="">Любой</option><option>Холодный</option><option>Тёплый</option><option>Горячий</option></select></label>
+<label>Размер рабочего стола, см<select id="f-table-size"><option value="">Любой размер</option></select></label>
 <label>Ширина / сторона плиты, мм<div class="pair"><input id="f-width-min" type="number" min="0" placeholder="От"><input id="f-width-max" type="number" min="0" placeholder="До"></div></label>
 <label>Цена, ₽<div class="pair"><input id="f-price-min" type="number" min="0" placeholder="От"><input id="f-price-max" type="number" min="0" placeholder="До"></div></label>
 <label class="check"><input id="f-auto" type="checkbox"> Автоматические</label>
@@ -98,7 +99,7 @@ function collectionMatch(p,id){
 function resetFilters(){
  wizardApplied=false;active='';curatedId='';term='';brand='';pageSize=24;
  document.getElementById('query').value='';
- for(const id of ['f-drive','f-stations','f-laminate','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
+ for(const id of ['f-drive','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
  for(const id of ['f-auto','f-wide','f-priced','f-verified'])document.getElementById(id).checked=false;
  document.getElementById('f-sort').value='name';showCategories();showProducts();
 }
@@ -119,6 +120,7 @@ showProducts=function(){
  (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
  (!fval('f-drive')||p.drive===fval('f-drive'))&&(!fval('f-stations')||String(p.stations||'')===fval('f-stations'))&&
  (!fval('f-laminate')||p.laminate_mode===fval('f-laminate'))&&
+ (!fval('f-table-size')||(p.category==='flat'&&pickerAttributes(p).size===fval('f-table-size')))&&
  (wMin===null||(p.width_mm!=null&&p.width_mm>=wMin))&&(wMax===null||(p.width_mm!=null&&p.width_mm<=wMax))&&
  (pMin===null||(p.price_rub!=null&&p.price_rub>=pMin))&&(pMax===null||(p.price_rub!=null&&p.price_rub<=pMax))&&
  (!document.getElementById('f-auto').checked||p.automatic)&&
@@ -144,10 +146,11 @@ showProducts=function(){
 document.getElementById('f-reset').onclick=resetFilters;
 document.getElementById('f-mobile').onclick=()=>document.getElementById('catalogFilters').classList.toggle('open');
 document.getElementById('moreProducts').onclick=()=>{pageSize+=24;showProducts()};
-for(const id of ['f-drive','f-stations','f-laminate','f-width-min','f-width-max','f-price-min','f-price-max','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
+for(const id of ['f-drive','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
 const originalShowProducts=showProducts;
 const originalShowCategories=showCategories;
-const onLoaded=()=>{const drives=[...new Set(items.map(p=>p.drive).filter(Boolean))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');document.getElementById('pickerStart').disabled=false;document.getElementById('pickerStart').textContent='Подобрать по шагам →';showCategories();showProducts()};
+function loadTableSizes(){const sizes=[...new Set(items.filter(p=>p.category==='flat').map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1]));document.getElementById('f-table-size').innerHTML='<option value="">Любой размер</option>'+sizes.map(size=>'<option value="'+esc(size)+'">'+esc(size)+' см</option>').join('');}
+const onLoaded=()=>{loadTableSizes();const drives=[...new Set(items.map(p=>p.drive).filter(Boolean))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');document.getElementById('pickerStart').disabled=false;document.getElementById('pickerStart').textContent='Подобрать по шагам →';showCategories();showProducts()};
 const waitForCatalog=setInterval(()=>{if(items.length){clearInterval(waitForCatalog);onLoaded()}},100);
 setTimeout(()=>clearInterval(waitForCatalog),15000);
 
