@@ -1134,12 +1134,15 @@
     "model": "JC-7ED-B62-01",
     "title": "Термопресс 40x40 см гидравлический двуxпозиционный",
     "avito_id": "8373730780",
-    "image": "http://mne2.ru/jiangchuan/JC-7ED/01_main.jpg",
+    "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
     "images": [
-      "http://mne2.ru/jiangchuan/JC-7ED/01_main.jpg",
-      "http://mne2.ru/jiangchuan/JC-7ED/02_double_station.jpg"
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
     ],
-    "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ED\n Исполнение: 40x40 см\n Основные характеристики:\n • Размер рабочей зоны: 40x40 см\n• Мощность: 7.2 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 207 кг\n• Размер упаковки: 90x77x158 см",
+    "description": "Двухпозиционный гидравлический термопресс с двумя подвижными рабочими столами. Столы перемещаются влево-вправо по направляющим. Прижим вертикальный; термоплита не перемещается в горизонтальной плоскости.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ED\n Исполнение: 40x40 см\n Основные характеристики:\n • Размер рабочей зоны: 40x40 см\n• Мощность: 7.2 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 207 кг\n• Размер упаковки: 90x77x158 см",
     "price_rub": 194845,
     "drive": "Гидравлический",
     "automatic": false,
@@ -1148,7 +1151,48 @@
     "width_mm": 400,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "image_source": {
+      "source_url": "https://www.gzjiangchuan.com/products/-149",
+      "source_model": "JC-7E-17",
+      "matched_by": "owner_photo_and_dimensions_power",
+      "verified_at": "2026-10-16",
+      "note": "Совпадают размеры 40x40/40x60/50x70/60x80 и мощности 7.2/7.8/11.6/12.8 кВт. Оригиналы производителя без обработки."
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1157,12 +1201,15 @@
     "model": "JC-7ED-B62-02",
     "title": "Термопресс 40x60 см гидравлический двуxпозиционный",
     "avito_id": "8346087380",
-    "image": "http://mne2.ru/jiangchuan/JC-7ED/01_main.jpg",
+    "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
     "images": [
-      "http://mne2.ru/jiangchuan/JC-7ED/01_main.jpg",
-      "http://mne2.ru/jiangchuan/JC-7ED/02_double_station.jpg"
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
     ],
-    "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ED\n Исполнение: 40x60 см\n Основные характеристики:\n • Размер рабочей зоны: 40x60 см\n• Мощность: 7.8 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 227 кг\n• Размер упаковки: 90x77x158 см",
+    "description": "Двухпозиционный гидравлический термопресс с двумя подвижными рабочими столами. Столы перемещаются влево-вправо по направляющим. Прижим вертикальный; термоплита не перемещается в горизонтальной плоскости.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ED\n Исполнение: 40x60 см\n Основные характеристики:\n • Размер рабочей зоны: 40x60 см\n• Мощность: 7.8 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 227 кг\n• Размер упаковки: 90x77x158 см",
     "price_rub": 212395,
     "drive": "Гидравлический",
     "automatic": false,
@@ -1171,7 +1218,48 @@
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "image_source": {
+      "source_url": "https://www.gzjiangchuan.com/products/-149",
+      "source_model": "JC-7E-17",
+      "matched_by": "owner_photo_and_dimensions_power",
+      "verified_at": "2026-10-16",
+      "note": "Совпадают размеры 40x40/40x60/50x70/60x80 и мощности 7.2/7.8/11.6/12.8 кВт. Оригиналы производителя без обработки."
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1180,12 +1268,15 @@
     "model": "JC-7ED-B62-03",
     "title": "Термопресс 50x70 см гидравлический двуxпозиционный",
     "avito_id": "8350718461",
-    "image": "http://mne2.ru/jiangchuan/JC-7ED/01_main.jpg",
+    "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
     "images": [
-      "http://mne2.ru/jiangchuan/JC-7ED/01_main.jpg",
-      "http://mne2.ru/jiangchuan/JC-7ED/02_double_station.jpg"
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+      "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
     ],
-    "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ED\n Исполнение: 50x70 см\n Основные характеристики:\n • Размер рабочей зоны: 50x70 см\n• Мощность: 11.6 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 290 кг\n• Размер упаковки: 101x91x172 см",
+    "description": "Двухпозиционный гидравлический термопресс с двумя подвижными рабочими столами. Столы перемещаются влево-вправо по направляющим. Прижим вертикальный; термоплита не перемещается в горизонтальной плоскости.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7ED\n Исполнение: 50x70 см\n Основные характеристики:\n • Размер рабочей зоны: 50x70 см\n• Мощность: 11.6 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 290 кг\n• Размер упаковки: 101x91x172 см",
     "price_rub": 275695,
     "drive": "Гидравлический",
     "automatic": false,
@@ -1195,7 +1286,48 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "image_source": {
+      "source_url": "https://www.gzjiangchuan.com/products/-149",
+      "source_model": "JC-7E-17",
+      "matched_by": "owner_photo_and_dimensions_power",
+      "verified_at": "2026-10-16",
+      "note": "Совпадают размеры 40x40/40x60/50x70/60x80 и мощности 7.2/7.8/11.6/12.8 кВт. Оригиналы производителя без обработки."
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "34-owner",
+        "source_url": "https://www.gzjiangchuan.com/products/-149"
+      }
+    }
   },
   {
     "category": "dtf",
