@@ -923,12 +923,36 @@
       },
       "sliding_table": {
         "value": true,
-        "source": "owner_photo_review",
+        "source": "owner_statement",
         "confirmed_at": "2026-10-16",
-        "review_group": "07: model 30, CE-DCPLB"
+        "review_group": "38-202",
+        "note": "Одна верхняя термоплита; два нижних стола перемещаются влево-вправо."
+      },
+      "thermoplate_count": {
+        "value": 1,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-202",
+        "note": "Одна верхняя термоплита; два нижних стола перемещаются влево-вправо."
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-202",
+        "note": "Одна верхняя термоплита; два нижних стола перемещаются влево-вправо."
+      },
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "38-202",
+        "note": "Одна верхняя термоплита; два нижних стола перемещаются влево-вправо."
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "thermoplate_count": 1,
+    "table_layout": "lateral_shuttle"
   },
   {
     "category": "cap",
