@@ -1,0 +1,64 @@
+{
+  "status": "accumulating_no_deployment",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 14,
+  "pending_model_count": 6,
+  "groups": [
+    {
+      "group": "17-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-PB2330NLB",
+          "review_number": 84,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO3838DPK",
+          "review_number": 85,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DLB",
+          "review_number": 86,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DPK",
+          "review_number": 87,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060DLB",
+          "review_number": 88,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-16B-B30-01",
+          "review_number": 89,
+          "values": {
+            "stations": "1",
+            "head_movement": "swing",
+            "sliding_table": false
+          }
+        }
+      ]
+    }
+  ]
+}
