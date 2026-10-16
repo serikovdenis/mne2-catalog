@@ -1,8 +1,8 @@
 {
-  "status": "accumulating_no_deployment",
+  "status": "ready_for_publication",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 80,
-  "pending_model_count": 24,
+  "pending_confirmed_values": 101,
+  "pending_model_count": 29,
   "groups": [
     {
       "group": "17-owner",
@@ -251,11 +251,76 @@
           }
         }
       ]
+    },
+    {
+      "group": "21-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-8B2Y-B56-01",
+          "review_number": 108,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Y-B56-02",
+          "review_number": 109,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Y-B56-03",
+          "review_number": 110,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-1AD-B58-01",
+          "review_number": 111,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-1AD-B58-02",
+          "review_number": 112,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
     }
   ],
   "required_ui_changes": [
     "Use термоплита instead of головка in user-facing filter labels",
     "Support table_layout same_side/opposite_sides in filters and guided selection",
     "Display vertical pressing motion where confirmed"
+  ],
+  "unresolved_issues": [
+    {
+      "sku": "JC-1D-B69-01",
+      "review_number": 113,
+      "status": "deferred_for_research",
+      "issue": "Portable construction without conventional working table; requires manufacturer taxonomy review."
+    }
   ]
 }
