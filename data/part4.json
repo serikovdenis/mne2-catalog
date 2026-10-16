@@ -1224,12 +1224,34 @@
     "description": "Термопресс с раздельным верхним и нижним нагревом для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-PBS4050LB\n Основные характеристики:\n • Решение 2 в 1 для термопереноса и создания объёмного эффекта на текстиле\n• Два независимых регулятора температуры для верхней и нижней нагревательных плит\n• Напряжение: 220 В, 50–60 Гц, 60 Гц\n• Мощность: 4400 Вт при 220 В\n• Максимальный входной ток: 20/30 А\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размер машины: 74,97x41x55,3 см\n• Масса нетто: 48,9 кг\n• Размер нагревательной плиты: 40x50 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": true
   },
   {
     "category": "dtf",
@@ -1275,7 +1297,7 @@
     "description": "Поворотный термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OT-YT4050LB\n Основные характеристики:\n • Напряжение: 220 В/2200 Вт/1600 Вт 50-60 Гц\n• Размер нагревательной плиты: 40x50 см\n• Диапазон температуры: 0–250 °C\n• Мощность:2200 Вт/1600 Вт макс.±5%\n• Диапазон времени:0–999 секунд\n• Размеры машины: 70,75x42,3x45,1 см\n• Вес нетто: 62.5 кг",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
@@ -1288,8 +1310,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см выдвижной otter поворотный термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
       }
-    }
+    },
+    "head_movement": "swing"
   },
   {
     "category": "dtf",
@@ -1403,13 +1438,35 @@
     "description": "Термопресс Otter Ultra G1 — ручной термопресс с нагревательной плитой 40×50 см для термопереноса изображений на совместимые изделия. Цвет корпуса — морской синий (Marine Blue). Управление параметрами осуществляется с помощью 5-дюймового сенсорного экрана.\n\nТехнические характеристики\n• Производитель: BestSub / Otter\n• Модель и артикул: OU-G14050MB\n• Размер нагревательной плиты: 40×50 см (16×20 дюймов)\n• Мощность: 1750 Вт (допуск до −3%)\n• Напряжение питания: 120 В или 240 В (зависит от исполнения; уточняется при заказе)\n• Диапазон температуры: 0–220 °C\n• Таймер: 0–999 секунд\n• Регулировка давления: 7 уровней (0–7 по шкале производителя)\n• Размеры оборудования: 748,28×431,4×569,47 мм\n• Вес нетто: 56,7 кг\n• Управление: 5-дюймовый ёмкостный сенсорный экран\n• Упаковка: пеноматериал, 1 шт. в коробке.\n\nИсточник характеристик: официальная карточка производителя BestSub, артикул OU-G14050MB.",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
     "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
-    "video_youtube": "OtMs09NODdw"
+    "video_youtube": "OtMs09NODdw",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "12"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": true
   },
   {
     "category": "dtf",
