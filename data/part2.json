@@ -1365,8 +1365,22 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 10x10 single station пневматический пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
       }
-    }
+    },
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
@@ -1388,7 +1402,23 @@
     "width_mm": 100,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2491,7 +2521,23 @@
     "width_mm": 400,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "linear",
+    "sliding_table": false,
+    "filter_confirmations": {
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2518,7 +2564,23 @@
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "linear",
+    "sliding_table": false,
+    "filter_confirmations": {
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2859,8 +2921,22 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см пневматический otter двухстанционный пневматический термопресс с выдвижным механизмом для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
       }
-    }
+    },
+    "head_movement": "linear",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -2948,8 +3024,22 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см пневматический otter двухстанционный пневматический термопресс с выдвижным механизмом для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "30"
       }
-    }
+    },
+    "head_movement": "linear",
+    "sliding_table": false
   },
   {
     "category": "flat",
