@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 27,
-  "pending_model_count": 8,
+  "pending_confirmed_values": 47,
+  "pending_model_count": 13,
   "groups": [
     {
       "group": "36-190",
@@ -103,31 +103,69 @@
           }
         }
       ]
-    }
-  ],
-  "pending_review": [
-    {
-      "review_numbers": [
-        197,
-        198,
-        199,
-        200,
-        201
-      ],
-      "status": "awaiting_owner_confirmation",
-      "note": "Предложенные характеристики из группы38 ещё не подтверждены."
     },
     {
-      "sku": "CE-DCPLB",
-      "review_number": 202,
-      "fields": [
-        "head_movement"
-      ],
-      "status": "awaiting_owner_confirmation",
-      "proposed": {
-        "head_movement": "fixed"
-      },
-      "note": "Откидная верхняя термоплита, без бокового перемещения."
+      "group": "38-completion",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-BHPLB",
+          "review_number": 201,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CE-DCPLB",
+          "review_number": 202,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBA25100DLB",
+          "review_number": 197,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBA25100DSCB",
+          "review_number": 198,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBAD25100DLB",
+          "review_number": 199,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBAD25100DSCB",
+          "review_number": 200,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "pending_review": []
 }
