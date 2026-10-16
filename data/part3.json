@@ -2068,13 +2068,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8A2Y\n Исполнение: 80x100 см\n Основные характеристики:\n • Размер рабочей зоны: 80x100 см\n• Мощность: 13.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 486 кг\n• Размер упаковки: host 202x162x165 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "opposite_sides",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2096,13 +2132,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8A2Y\n Исполнение: 100x120 см\n Основные характеристики:\n • Размер рабочей зоны: 100x120 см\n• Мощность: 15.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 628 кг\n• Размер упаковки: host 202x162x165 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "opposite_sides",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2124,13 +2196,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8A2Y\n Исполнение: 120x150 см\n Основные характеристики:\n • Размер рабочей зоны: 120x150 см\n• Мощность: 20.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 680 кг\n• Размер упаковки: host 202x162x165 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "120x150",
     "width_mm": 1500,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "opposite_sides",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2147,13 +2255,49 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Q\n Исполнение: 80x100 см\n Основные характеристики:\n • Размер рабочей зоны: 80x100 см\n• Мощность: 12 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 510 кг\n• Размер упаковки: 175x122x178 + 376x141x45 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2170,13 +2314,49 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Q\n Исполнение: 100x120 см\n Основные характеристики:\n • Размер рабочей зоны: 100x120 см\n• Мощность: 14 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 580 кг\n• Размер упаковки: 196x142x180 + 306x160x45 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2193,13 +2373,49 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Q\n Исполнение: 120x150 см\n Основные характеристики:\n • Размер рабочей зоны: 120x150 см\n• Мощность: 18 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 750 кг\n• Размер упаковки: 235x174x180 + 376x201x42 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "120x150",
     "width_mm": 1500,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
