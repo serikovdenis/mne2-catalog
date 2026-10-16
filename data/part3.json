@@ -1024,7 +1024,7 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7BB\n Исполнение: 8x14 см\n Основные характеристики:\n • Размер рабочей зоны: 8x14 см\n• Мощность: 0.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 47 кг\n• Размер упаковки: 57x44x66 см",
     "drive": "Пневматический",
     "automatic": false,
-    "stations": "",
+    "stations": "2",
     "size_cm": "8x14",
     "width_mm": 140,
     "needs_review": false,
@@ -1036,8 +1036,28 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс для кепок 8x14 см jiangchuan пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.",
         "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
+      },
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
       }
-    }
+    },
+    "sliding_table": false,
+    "head_movement": "linear"
   },
   {
     "category": "cap",
@@ -1071,8 +1091,22 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс для кепок пневматический otter двухстанционный пневматический термопресс для кепок для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "22"
       }
-    }
+    },
+    "sliding_table": false,
+    "head_movement": "linear"
   },
   {
     "category": "mug",
