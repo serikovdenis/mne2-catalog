@@ -2746,8 +2746,16 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см пневматический otter двухстанционный пневматический поворотный термопресс для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "31-source",
+        "evidence": "Поворотная нагревательная часть прямо указана в описании."
       }
-    }
+    },
+    "head_movement": "swing"
   },
   {
     "category": "flat",
@@ -2776,8 +2784,16 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см пневматический otter двухстанционный пневматический поворотный термопресс для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "31-source",
+        "evidence": "Поворотная нагревательная часть прямо указана в описании."
       }
-    }
+    },
+    "head_movement": "swing"
   },
   {
     "category": "flat",
@@ -2811,8 +2827,16 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см пневматический otter двухстанционный пневматический поворотный термопресс для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "31-source",
+        "evidence": "Поворотная нагревательная часть прямо указана в описании."
       }
-    }
+    },
+    "head_movement": "swing"
   },
   {
     "category": "flat",
@@ -2859,8 +2883,16 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс otterpro 40x60 см пневматический, 2 позиции двухпозиционный пневматический термопресс otterpro с поворотной нагревательной головкой и плитой 40×60 см. две рабочие платформы позволяют подготавливать изделие на свободной позиции, пока другая находится под нагревательной плитой.",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "31-source",
+        "evidence": "Поворотная нагревательная часть прямо указана в описании."
       }
-    }
+    },
+    "head_movement": "swing"
   },
   {
     "category": "flat",
@@ -2994,7 +3026,17 @@
     ],
     "videos": [
       "https://www.youtube.com/watch?v=2OEOBkJ6fEU"
-    ]
+    ],
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "head_movement": {
+        "value": "linear",
+        "source": "existing_explicit_catalog_text",
+        "verified_at": "2026-10-16",
+        "review_group": "31-source",
+        "evidence": "Нагревательная часть перемещается по направляющим."
+      }
+    }
   },
   {
     "category": "flat",
