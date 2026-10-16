@@ -1,8 +1,8 @@
 {
-  "status": "accumulating_no_deployment",
+  "status": "ready_for_publication",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 86,
-  "pending_model_count": 36,
+  "pending_confirmed_values": 107,
+  "pending_model_count": 43,
   "groups": [
     {
       "group": "10-owner",
@@ -352,6 +352,75 @@
         {
           "sku": "JC-7BD-B61-04",
           "review_number": 74,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        }
+      ]
+    },
+    {
+      "group": "16-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7CZETP-B52-01",
+          "review_number": 77,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7C-B43-01",
+          "review_number": 78,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7C-B43-02",
+          "review_number": 79,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CZ-B44-01",
+          "review_number": 81,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CZ-B44-02",
+          "review_number": 82,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CZ-B44-03",
+          "review_number": 83,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7C-B43-03",
+          "review_number": 80,
           "values": {
             "stations": "2",
             "sliding_table": false,
