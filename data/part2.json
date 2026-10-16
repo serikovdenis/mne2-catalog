@@ -1219,8 +1219,22 @@
         "confirmed_at": "2026-10-16",
         "review_group": "04: presses 16–19",
         "value": false
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
@@ -1256,8 +1270,22 @@
         "confirmed_at": "2026-10-16",
         "review_group": "04: presses 16–19",
         "value": false
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
@@ -1293,8 +1321,22 @@
         "confirmed_at": "2026-10-16",
         "review_group": "04: presses 16–19",
         "value": false
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
