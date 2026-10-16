@@ -1,0 +1,74 @@
+{
+  "status": "accumulating_no_deployment",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 12,
+  "pending_model_count": 6,
+  "groups": [
+    {
+      "group": "30-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-16G-B39-01",
+          "review_number": 155,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-16G-B39-02",
+          "review_number": 156,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7CBP-B45-01",
+          "review_number": 157,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "JC-7CBP-B45-02",
+          "review_number": 158,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-QSH4050LB",
+          "review_number": 159,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-QSH4060LB",
+          "review_number": 160,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        }
+      ]
+    }
+  ],
+  "pending_review": [
+    {
+      "skus": [
+        "JC-16G-B39-01",
+        "JC-16G-B39-02"
+      ],
+      "fields": [
+        "sliding_table"
+      ],
+      "status": "requires_clearer_source_image"
+    }
+  ]
+}
