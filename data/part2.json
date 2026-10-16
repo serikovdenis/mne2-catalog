@@ -2207,12 +2207,34 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7C\n Исполнение: 40x60 см\n Основные характеристики:\n • Размер рабочей зоны: 40x60 см\n• Мощность: 3.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 174 кг\n• Размер упаковки: 128x75x136 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2234,13 +2256,35 @@
     "price_rub": 273195,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "50x70",
     "width_mm": 700,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2311,12 +2355,34 @@
     "price_rub": 169245,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "40x40",
     "width_mm": 400,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2333,12 +2399,34 @@
     "price_rub": 178145,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2355,12 +2443,34 @@
     "price_rub": 189345,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "60x40",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "linear",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      },
+      "head_movement": {
+        "value": "linear",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "16"
+      }
+    }
   },
   {
     "category": "flat",
