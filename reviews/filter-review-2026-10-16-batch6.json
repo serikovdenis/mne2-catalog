@@ -1,0 +1,24 @@
+{
+  "status": "accumulating_no_deployment",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 1,
+  "pending_model_count": 1,
+  "groups": [
+    {
+      "group": "36-190",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB4060MDLB",
+          "review_number": 190,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        }
+      ]
+    }
+  ]
+}
