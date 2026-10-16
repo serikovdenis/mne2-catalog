@@ -2599,12 +2599,34 @@
     "description": "Плоский термопресс 23x30 см для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-PB2330NLB\n Основные характеристики:\n • Размеры машины:47x31x35 см\n• напряжение 220 В/3.6/800 Вт\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 0–999s\n• Размер нагревательной плиты: 23x30 см\n• нагрев плита Напряжение:220 В",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "23x30",
     "width_mm": 300,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "fixed",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      }
+    }
   },
   {
     "category": "parts",
@@ -2688,7 +2710,7 @@
     ],
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
@@ -2701,8 +2723,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -2723,7 +2758,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CEHPPRO4050DLB\n Основные характеристики:\n • Мощность: 1600 Вт / 2200 Вт\n• Напряжение: 220 В\n• Электропитание: 220 В 15 А Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размер нагревательной плиты: 40x50 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
@@ -2736,8 +2771,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -2754,7 +2802,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CEHPPRO4050DPK\n Основные характеристики:\n • Мощность: 1600 Вт / 2200 Вт\n• Напряжение: 220 В\n• Электропитание: 220 В 15 А Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размер нагревательной плиты: 40x50 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
@@ -2767,8 +2815,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -2789,7 +2850,7 @@
     ],
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
@@ -2802,8 +2863,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "special",
@@ -2867,12 +2941,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16B\n Исполнение: 10x15 см\n Основные характеристики:\n • Размер рабочей зоны: 10x15 см\n• Мощность: 0.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 16 кг\n• Размер упаковки: 54x28x58 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "10x15",
     "width_mm": 150,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "swing",
+    "sliding_table": false,
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      }
+    }
   },
   {
     "category": "flat",
