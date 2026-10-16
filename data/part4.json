@@ -2532,9 +2532,9 @@
     "filter_confirmations": {
       "sliding_table": {
         "value": true,
-        "source": "existing_explicit_catalog_text",
-        "evidence": "термопресс 40x60 см автоматический otter автоматический выдвижной термопресс otterpro для переноса изображений на текстиль и плоские заготовки. светло-голубой корпус, вертикальная конструкция и выдвижная рабочая платформа.",
-        "verified_at": "2026-10-16"
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36-190"
       },
       "drive": {
         "value": "Ручной",
@@ -2547,8 +2547,16 @@
         "source": "manufacturer_and_product_photo",
         "source_url": "https://www.bestsub.com/clamshell-heat-press/25266-otterpro-auto-drawer-clamshell-heat-press-40-60cm-light-blue.html",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "36-190",
+        "note": "Нижний стол выдвигается, верхняя термоплита откидная без бокового перемещения."
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "sku": "Lite-140Cp",
