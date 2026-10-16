@@ -199,7 +199,6 @@ const pickerStepDefinitions=[
  {key:'laminate',title:'Какой режим ламинирования нужен?',hint:'Выберите режим работы ламинатора.',options:[['Холодный','Холодный',''],['Тёплый','Тёплый',''],['Горячий','Горячий','']]},
  {key:'width',title:'Какая рабочая ширина нужна?',hint:'Выберите рабочую ширину в миллиметрах.',options:[]},
  {key:'brand',title:'Есть предпочтения по производителю?',hint:'Выберите производителя или пропустите вопрос.',options:[]},
- {key:'budget',title:'Какой бюджет на оборудование?',hint:'При ограничении бюджета показываем только модели с указанной ценой.',options:[['50000','До 50 000 ₽',''],['100000','До 100 000 ₽',''],['200000','До 200 000 ₽',''],['500000','До 500 000 ₽','']]}
 ];
 function currentPickerSteps(){
  const cat=pickerAnswers.category,keys=['category'];
@@ -218,12 +217,12 @@ function currentPickerSteps(){
  }
  if(cat==='laminator')keys.push('laminate');
  if((['calender','laminator','dtf','fusing'].includes(cat)||nonPress)&&items.some(p=>pickerMatch(p)&&p.width_mm>0))keys.push('width');
- keys.push('brand','budget');
+ keys.push('brand');
  return keys.map(k=>pickerStepDefinitions.find(s=>s.key===k));
 }
 function pickerMatch(p,answers=pickerAnswers){
  const a=pickerAttributes(p);
- return Object.entries(answers).every(([k,v])=>!v||(k==='budget'?(p.price_rub>100&&p.price_rub<=Number(v)):(v==='__unknown__'?!a[k]:a[k]===v)));
+ return Object.entries(answers).every(([k,v])=>!v||(v==='__unknown__'?!a[k]:a[k]===v));
 }
 function knownPickerOptions(step){
  if(step.key==='category')return categories.map(c=>[c.id,c.name,c.desc]);
@@ -252,7 +251,7 @@ function renderPicker(focus=true){
    const n=items.filter(p=>pickerMatch(p,{...pickerAnswers,[step.key]:value})).length;
    html+='<button type="button" class="pickerChoice" data-picker-value="'+esc(value)+'" '+(!n?'disabled':'')+'><strong>'+esc(label)+'</strong>'+(hint?'<small>'+esc(hint)+'</small>':'')+'<small>'+n+' моделей</small></button>';
   }
-  const known=step.key==='budget'?count:items.filter(p=>pickerMatch(p)&&pickerAttributes(p)[step.key]).length;
+  const known=items.filter(p=>pickerMatch(p)&&pickerAttributes(p)[step.key]).length;
   html+='</div>'+(known===0?'<p class="notice">По оставшимся моделям этот параметр пока не указан. Можно выбрать модели с неуказанным параметром или пропустить вопрос.</p>':'')+'<p class="pickerCount"  role="status">Сейчас подходит: '+count+' моделей.</p><p><small>Если характеристика не заполнена, такие модели вынесены в отдельный вариант. Чтобы сохранить все модели, пропустите вопрос.</small></p>';
  }
  html+='<div class="pickerNav">'+(pickerStep?'<button type="button" class="pickerSecondary" data-picker-action="back">← Назад</button>':'')+(!done?'<button type="button" class="pickerSecondary" data-picker-action="skip">Пропустить — не знаю / не важно →</button>':'')+(done?'<button type="button" class="primary" data-picker-action="results" '+(!count?'disabled':'')+'>Показать модели ('+count+')</button>':'')+'<button type="button" class="pickerSecondary" data-picker-action="reset">Начать заново</button><button type="button" class="pickerSecondary" data-picker-action="close">Закрыть подбор</button></div>';
