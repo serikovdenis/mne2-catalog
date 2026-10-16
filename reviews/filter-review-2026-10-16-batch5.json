@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 12,
-  "pending_model_count": 6,
+  "pending_confirmed_values": 17,
+  "pending_model_count": 11,
   "groups": [
     {
       "group": "30-owner",
@@ -54,6 +54,42 @@
           "values": {
             "head_movement": "linear",
             "sliding_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "31-source",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-DQSPBY3838LB",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838N",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4050LB",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4060LB",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-QSH4050SCB",
+          "values": {
+            "head_movement": "linear"
           }
         }
       ]
