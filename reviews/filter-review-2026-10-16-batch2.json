@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 12,
-  "pending_model_count": 6,
+  "pending_confirmed_values": 24,
+  "pending_model_count": 12,
   "groups": [
     {
       "group": "10-owner",
@@ -63,6 +63,60 @@
         {
           "sku": "OT-PBD5070DLB",
           "review_number": 46,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "11-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PBB4080DSCB",
+          "review_number": 47,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBC5060DSCB",
+          "review_number": 48,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PBD5070DSCB",
+          "review_number": 49,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB6080DLB",
+          "review_number": 50,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB6080DSCB",
+          "review_number": 51,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB80100DLB",
+          "review_number": 52,
           "values": {
             "stations": "1",
             "head_movement": "fixed"
