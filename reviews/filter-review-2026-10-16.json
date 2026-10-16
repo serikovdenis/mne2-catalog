@@ -1,12 +1,9 @@
 {
-  "status": "ready_for_publication",
+  "status": "published",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 101,
-  "pending_model_count": 56,
-  "required_ui_changes": [
-    "Support six working stations in sidebar and guided filters",
-    "Support head_movement=fixed: Без бокового перемещения"
-  ],
+  "pending_confirmed_values": 0,
+  "pending_model_count": 0,
+  "required_ui_changes": [],
   "groups": [
     {
       "group": "05",
@@ -480,5 +477,14 @@
       "sku": "JC-57A-B73-01",
       "issue": "Catalog image explicitly names machine Automatic film cutter JC-57A; currently categorized as flat press. Needs taxonomy review."
     }
+  ],
+  "published_at": "2026-10-16",
+  "published_confirmed_values": 101,
+  "published_model_count": 56,
+  "deployment_run_id": 38872347452,
+  "verification": "All 101 values verified on live HTTPS catalog; six stations and fixed head options present; 373 products.",
+  "completed_ui_changes": [
+    "Support six working stations in sidebar and guided filters",
+    "Support head_movement=fixed: Без бокового перемещения"
   ]
 }
