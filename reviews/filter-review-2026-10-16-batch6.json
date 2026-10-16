@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 69,
-  "pending_model_count": 25,
+  "pending_confirmed_values": 73,
+  "pending_model_count": 26,
   "groups": [
     {
       "group": "36-190",
@@ -293,6 +293,22 @@
           "values": {
             "press_construction": "portable_thermoplate",
             "integrated_work_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "43-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "CE-DCPLB-3",
+          "review_number": 215,
+          "values": {
+            "drive": "Ручной",
+            "head_movement": "fixed",
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle"
           }
         }
       ]
