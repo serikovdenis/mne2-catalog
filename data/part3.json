@@ -1155,14 +1155,22 @@
       "http://mne2.ru/bestsub/CE-DMPLB/CE-DMPLB_04.jpg"
     ],
     "description": "Термопресс для кружек 3 в 1 для термопереноса и сублимации на совместимых заготовках. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DMPLB\n Основные характеристики:\n • Размеры машины: 30x39x30 (высота)\n• В комплект входят 3 нагреватели для кружек и комплект инструментов.\n• Нагреватель 11 унций для прямых кружек 11–15 унций\n• Нагреватель 9 унций для прямых кружек 9–10 унций\n• Нагреватель 30 унций для узких стаканов и длинных бутылок 30 унций\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Мощность: 750 Вт (±5%), частота: 50–60 Гц",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      }
+    }
   },
   {
     "category": "mug",
@@ -1178,14 +1186,22 @@
       "https://mne2.ru/catalog/images/CE-DMPPK_02.jpg"
     ],
     "description": "Термопресс для кружек 3 в 1 для термопереноса и сублимации на совместимых заготовках. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DMPPK\n Основные характеристики:\n • Размеры машины: 30x39x30 (высота)\n• В комплект входят 3 нагреватели для кружек и комплект инструментов.\n• Нагреватель 11 унций для прямых кружек 11–15 унций\n• Нагреватель 9 унций для прямых кружек 9–10 унций\n• Нагреватель 30 унций для узких стаканов и длинных бутылок 30 унций\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Мощность: 750 Вт (±5%), частота: 50–60 Гц",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      }
+    }
   },
   {
     "category": "mug",
@@ -1205,14 +1221,28 @@
       "http://mne2.ru/bestsub/CE-MP11TSLB/CE-MP11TSLB_06.jpg"
     ],
     "description": "Термопресс для кружек для термопереноса и сублимации на совместимых заготовках. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-MP11TSLB\n Основные характеристики:\n • Нагреватель: 11 унций\n• Напряжение: 220 В, 50–60 Гц\n• Мощность: 300 Вт\n• Температура: 0–220 °C\n• Диапазон времени: 0–999 секунд\n• Ток: 1,26 А\n• Совместимые дополнительные нагреватели: 1,5; 3; 9; 10; 11; 12 и 17 унций",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      }
+    }
   },
   {
     "category": "mug",
@@ -1230,14 +1260,28 @@
       "http://mne2.ru/bestsub/CE-MP270PLB/CE-MP270PLB_04.jpg"
     ],
     "description": "Термопресс для стаканов для термопереноса и сублимации на совместимых заготовках. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-MP270PLB\n Основные характеристики:\n • В металлических планках предусмотрено 8 отверстий для установки различных нагревателей\n• Совместимые размеры нагревателей: 1,5; 3; 10; 11; 12; 17; 20 и 30 унций\n• Нагревательный элемент для кружек с 5-контактным разъёмом\n• Мощность: не указана производителем\n• Напряжение: 220 В\n• Шкалы температуры: Цельсий / Фаренгейт\n• Диапазон температуры: 0–200 °C\n• Диапазон времени: 0–800 секунд\n• Высота нагревателя: 270 мм",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      }
+    }
   },
   {
     "category": "mug",
@@ -1258,12 +1302,20 @@
     "description": "Термопресс для стаканов и термобутылок 30/40 унций для термопереноса и сублимации на совместимых заготовках. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-MP280H2IN1LBW-3040\n Основные характеристики:\n • Предназначен для термопереноса на стаканы и термобутылки 30 и 40 унций\n• Нагреватели: 30 и 40 унций\n• Мощность: 698 Вт\n• Напряжение: 220 В\n• Температура: 0–200 °C\n• Диапазон времени: 0–800 секунд\n• Диаметр для 30 унций: 7,2–8,8 см\n• Диаметр для 40 унций: 8,8–10,2 см\n• Вес в упаковке: 12,79 кг",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      }
+    }
   },
   {
     "category": "mug",
@@ -1283,14 +1335,28 @@
     ],
     "description": "Термопресс для нанесения изображений на кружки и цилиндрические заготовки методом сублимации. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-12A\n Исполнение: 11 oz\n Основные характеристики:\n • Размер рабочей зоны: 11 oz\n• Мощность: 0.35 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 7 кг\n• Размер упаковки: 36x35x32 см",
     "price_rub": 29845,
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "39-owner"
+      }
+    }
   },
   {
     "category": "special",
