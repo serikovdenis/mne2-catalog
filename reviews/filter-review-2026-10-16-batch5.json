@@ -1,8 +1,8 @@
 {
-  "status": "ready_for_publication",
+  "status": "published",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 104,
-  "pending_model_count": 35,
+  "pending_confirmed_values": 0,
+  "pending_model_count": 0,
   "groups": [
     {
       "group": "30-owner",
@@ -557,5 +557,10 @@
       "question": "Нижний стол выдвигается или верхняя термоплита также перемещается горизонтально? Нижний выдвижной стол уже подтверждён."
     }
   ],
-  "validation_policy": "For repeated SKU/attribute entries, the last group is authoritative; earlier conflicting source values are retained as superseded history."
+  "validation_policy": "For repeated SKU/attribute entries, the last group is authoritative; earlier conflicting source values are retained as superseded history.",
+  "published_at": "2026-10-16",
+  "published_confirmed_values": 104,
+  "published_model_count": 35,
+  "deployment_run_id": 38930625288,
+  "verification": "All 104 distinct final values and seven updated five-view galleries verified on live HTTPS catalog; 373 products."
 }
