@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 51,
-  "pending_model_count": 22,
+  "pending_confirmed_values": 67,
+  "pending_model_count": 26,
   "groups": [
     {
       "group": "30-owner",
@@ -266,6 +266,104 @@
             "head_movement": "fixed",
             "table_layout": "lateral_shuttle",
             "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "34-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ED-B62-04",
+          "review_number": 183,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        },
+        {
+          "sku": "JC-7ED-B62-01",
+          "review_number": 180,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        },
+        {
+          "sku": "JC-7ED-B62-02",
+          "review_number": 181,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        },
+        {
+          "sku": "JC-7ED-B62-03",
+          "review_number": 182,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
           }
         }
       ]
