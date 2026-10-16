@@ -231,6 +231,21 @@
       "review_number": 171,
       "status": "photo_mismatch_pending",
       "issue": "Owner requested photo replacements for 169–170 only; verify 171 separately before applying these images."
+    },
+    {
+      "skus": [
+        "JC-7ADF-B60-04",
+        "JC-7ADF-B60-05"
+      ],
+      "review_numbers": [
+        169,
+        170
+      ],
+      "fields": [
+        "heating_configuration"
+      ],
+      "status": "awaiting_owner_or_manufacturer",
+      "question": "Нагрев только сверху или также в нижних рабочих столах?"
     }
   ]
 }
