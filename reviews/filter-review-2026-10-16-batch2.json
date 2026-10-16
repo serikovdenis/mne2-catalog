@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 68,
-  "pending_model_count": 30,
+  "pending_confirmed_values": 86,
+  "pending_model_count": 36,
   "groups": [
     {
       "group": "10-owner",
@@ -296,6 +296,66 @@
             "stations": "1",
             "sliding_table": false,
             "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "15-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7BD-B61-01",
+          "review_number": 71,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BD-B61-02",
+          "review_number": 72,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BD-B61-03",
+          "review_number": 73,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "OT-QSHYB1515LB",
+          "review_number": 75,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "OT-QSYT4050LB",
+          "review_number": 76,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "JC-7BD-B61-04",
+          "review_number": 74,
+          "values": {
+            "stations": "2",
+            "sliding_table": false,
+            "head_movement": "linear"
           }
         }
       ]
