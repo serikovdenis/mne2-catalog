@@ -2753,9 +2753,16 @@
         "verified_at": "2026-10-16",
         "review_group": "31-source",
         "evidence": "Поворотная нагревательная часть прямо указана в описании."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
       }
     },
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -2791,9 +2798,16 @@
         "verified_at": "2026-10-16",
         "review_group": "31-source",
         "evidence": "Поворотная нагревательная часть прямо указана в описании."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
       }
     },
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -2834,9 +2848,16 @@
         "verified_at": "2026-10-16",
         "review_group": "31-source",
         "evidence": "Поворотная нагревательная часть прямо указана в описании."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
       }
     },
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -2890,9 +2911,16 @@
         "verified_at": "2026-10-16",
         "review_group": "31-source",
         "evidence": "Поворотная нагревательная часть прямо указана в описании."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
       }
     },
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "sliding_table": false
   },
   {
     "category": "flat",
@@ -2919,7 +2947,30 @@
     "width_mm": 500,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
+      }
+    }
   },
   {
     "category": "flat",
@@ -3035,8 +3086,15 @@
         "verified_at": "2026-10-16",
         "review_group": "31-source",
         "evidence": "Нагревательная часть перемещается по направляющим."
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "31"
       }
-    }
+    },
+    "sliding_table": false
   },
   {
     "category": "flat",
