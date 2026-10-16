@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 77,
-  "pending_model_count": 26,
+  "pending_confirmed_values": 87,
+  "pending_model_count": 33,
   "required_ui_changes": [
     "Expose confirmed table construction and thermoplate motion in cap press guided selection",
     "Show and filter confirmed thermoplate_count independently from working table count",
@@ -276,6 +276,76 @@
           "review_number": 139,
           "values": {
             "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "28-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB3838MDLB",
+          "review_number": 140,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4050SMDLB",
+          "review_number": 141,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060SMDLB",
+          "review_number": 142,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "BPRO4060SMDLB",
+          "review_number": 143,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "JC-16D-B31-01",
+          "review_number": 144,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-16D-B31-02",
+          "review_number": 145,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-16D-B31-03",
+          "review_number": 146,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
           }
         }
       ]
