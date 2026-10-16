@@ -1118,14 +1118,43 @@
       "http://mne2.ru/bestsub/CE-DCPLB-3/CE-DCPLB-3_03.png"
     ],
     "description": "Это близкий к CE-DCPLB вариант двухстанционной системы, но с расширенной комплектацией нагревательной оснастки. Он позволяет работать с несколькими видами продукции без покупки отдельного пресса под каждую задачу.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DCPLB-3\n Основные характеристики:\n • Мощность: 550 Вт ±5%\n• Напряжение: 220 В, 50–60 Гц\n• Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Комплект оснастки: 2 нагревателя для кепок, 1 нагреватель для ручек, 1 нагреватель для этикеток\n• Упаковка: 1 шт./коробка, защитная упаковка из пеноматериала",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "43-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "43-owner"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "43-owner"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "43-owner"
+      }
+    },
+    "head_movement": "fixed",
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle"
   },
   {
     "category": "multi",
