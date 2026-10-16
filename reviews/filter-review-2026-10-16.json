@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 61,
-  "pending_model_count": 39,
+  "pending_confirmed_values": 73,
+  "pending_model_count": 47,
   "required_ui_changes": [
     "Support six working stations in sidebar and guided filters",
     "Support head_movement=fixed: Без бокового перемещения"
@@ -292,6 +292,89 @@
           }
         }
       ]
+    },
+    {
+      "group": "07-source-and-visual",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-DCPLB",
+          "values": {
+            "drive": "Ручной"
+          }
+        },
+        {
+          "sku": "JC-16AC-B33-01",
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-PBB4080DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBB4080DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBC5060DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBC5060DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBD5070DLB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PBD5070DSCB",
+          "values": {
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "OT-PB4060MDLB",
+          "values": {
+            "drive": "Ручной",
+            "stations": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "unresolved_issues": [
+    {
+      "sku": "JC-16A-B32-01",
+      "issue": "Current card photo depicts pneumatic dual-station cap press; manufacturer JC-16A page depicts manual single-station press. Do not infer attributes from current photo.",
+      "manufacturer_url": "https://en.gzjiangchuan.com/products/-100"
+    },
+    {
+      "sku": "CE-DCPLB",
+      "issue": "Verify whether the shared lower platform slides out; drive and station count already known."
+    },
+    {
+      "sku": "JC-22B-B67-01",
+      "issue": "Manufacturer classifies model as continuous-belt fusing/foiling machine, not conventional flat platen press.",
+      "manufacturer_url": "https://gzjiangchuan.com/products/-155"
+    },
+    {
+      "sku": "JC-57A-B73-01",
+      "issue": "Catalog image explicitly names machine Automatic film cutter JC-57A; currently categorized as flat press. Needs taxonomy review."
     }
   ]
 }
