@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 74,
-  "pending_model_count": 47,
+  "pending_confirmed_values": 92,
+  "pending_model_count": 53,
   "required_ui_changes": [
     "Support six working stations in sidebar and guided filters",
     "Support head_movement=fixed: Без бокового перемещения"
@@ -365,6 +365,66 @@
           "review_number": 30,
           "values": {
             "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "08-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHPPRO3838FLB",
+          "review_number": 32,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO3838FPK",
+          "review_number": 33,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050FLB",
+          "review_number": 34,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050FPK",
+          "review_number": 35,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060FLB",
+          "review_number": 36,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060FPK",
+          "review_number": 37,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
           }
         }
       ]
