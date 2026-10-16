@@ -118,7 +118,7 @@ showProducts=function(){
  (!wizardApplied||pickerMatch(p))&&
  (!active||p.category===active)&&collectionMatch(p,curatedId)&&(!brand||p.brand===brand)&&
  (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
- (!fval('f-drive')||p.drive===fval('f-drive'))&&(!fval('f-stations')||String(p.stations||'')===fval('f-stations'))&&
+ (!fval('f-drive')||(fval('f-drive')==='Не указан'?!pickerAttributes(p).drive:pickerAttributes(p).drive===fval('f-drive')))&&(!fval('f-stations')||pickerAttributes(p).stations===fval('f-stations'))&&
  (!fval('f-laminate')||p.laminate_mode===fval('f-laminate'))&&
  (!fval('f-table-size')||(p.category==='flat'&&pickerAttributes(p).size===fval('f-table-size')))&&
  (wMin===null||(p.width_mm!=null&&p.width_mm>=wMin))&&(wMax===null||(p.width_mm!=null&&p.width_mm<=wMax))&&
@@ -150,7 +150,7 @@ for(const id of ['f-drive','f-stations','f-laminate','f-table-size','f-width-min
 const originalShowProducts=showProducts;
 const originalShowCategories=showCategories;
 function loadTableSizes(){const sizes=[...new Set(items.filter(p=>p.category==='flat').map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1]));document.getElementById('f-table-size').innerHTML='<option value="">Любой размер</option>'+sizes.map(size=>'<option value="'+esc(size)+'">'+esc(size)+' см</option>').join('');}
-const onLoaded=()=>{loadTableSizes();const drives=[...new Set(items.map(p=>p.drive).filter(Boolean))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');document.getElementById('pickerStart').disabled=false;document.getElementById('pickerStart').textContent='Подобрать по шагам →';showCategories();showProducts()};
+const onLoaded=()=>{loadTableSizes();const drives=[...new Set(items.map(p=>pickerAttributes(p).drive||'Не указан'))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');document.getElementById('pickerStart').disabled=false;document.getElementById('pickerStart').textContent='Подобрать по шагам →';showCategories();showProducts()};
 const waitForCatalog=setInterval(()=>{if(items.length){clearInterval(waitForCatalog);onLoaded()}},100);
 setTimeout(()=>clearInterval(waitForCatalog),15000);
 
@@ -166,7 +166,9 @@ function pickerAttributes(p){
  if(!stations){if(/двух(?:станцион|позицион|стол)|два (?:рабочих )?стола|две рабочие позиции/.test(t))stations='2';else if(/одно(?:станцион|позицион|стол)|один рабочий стол/.test(t))stations='1';}
  const m=String(p.size_cm||'').match(/^(\d+(?:[.,]\d+)?)\s*[xх×*]\s*(\d+(?:[.,]\d+)?)$/i);
  const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
- return {category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive:p.drive&&p.drive!=='Не указан'?p.drive:'',drawer,stations,size};
+ let drive=p.drive&&p.drive!=='Не указан'?p.drive:'';
+ if(!drive){const explicit=[['Пневматический',/пневматическ/],['Гидравлический',/гидравлическ/],['Ручной',/ручн[а-яё]*\s+(?:термо)?пресс|(?:термо)?пресс\s+ручн[а-яё]*/]].filter(([,pattern])=>pattern.test(t));if(explicit.length===1)drive=explicit[0][0];}
+ return {category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
 }
 const pickerStepDefinitions=[
  {key:'category',title:'Какое оборудование вы ищете?',hint:'Выберите категорию, чтобы перейти к вопросам о её характеристиках.',options:[]},
@@ -191,17 +193,23 @@ function currentPickerSteps(){
 }
 function pickerMatch(p,answers=pickerAnswers){
  const a=pickerAttributes(p);
- return Object.entries(answers).every(([k,v])=>!v||(k==='budget'?(p.price_rub>100&&p.price_rub<=Number(v)):a[k]===v));
+ return Object.entries(answers).every(([k,v])=>!v||(k==='budget'?(p.price_rub>100&&p.price_rub<=Number(v)):(v==='__unknown__'?!a[k]:a[k]===v)));
 }
-function pickerOptions(step){
+function knownPickerOptions(step){
  if(step.key==='category')return categories.map(c=>[c.id,c.name,c.desc]);
  if(step.key==='brand')return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>p.brand).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru')).map(b=>[b,b,'']);
  if(step.key==='width')return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).width).filter(Boolean))].sort((a,b)=>Number(a)-Number(b)).map(w=>[w,w+' мм','']);
  if(step.key!=='size')return step.options;
  return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1])).map(n=>[n,n+' см','']);
 }
-function pickerFacts(p){const a=pickerAttributes(p);return [a.drive,a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
-function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerStepDefinitions.find(s=>s.key===k);const label=k==='category'?categories.find(c=>c.id===v)?.name||v:k==='size'?v+' см':k==='width'?v+' мм':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
+const pickerUnknownLabels={drive:'Тип привода не указан',stations:'Количество столов не указано',size:'Размер плиты не указан',drawer:'Конструкция стола не указана',laminate:'Режим не указан',width:'Рабочая ширина не указана'};
+function pickerOptions(step){
+ const opts=knownPickerOptions(step).filter(([v])=>items.some(p=>pickerMatch(p,{...pickerAnswers,[step.key]:v})));
+ if(pickerUnknownLabels[step.key]&&items.some(p=>pickerMatch(p)&&!pickerAttributes(p)[step.key]))opts.push(['__unknown__',pickerUnknownLabels[step.key],'Показать модели, для которых эту характеристику нужно уточнить.']);
+ return opts;
+}
+function pickerFacts(p){const a=pickerAttributes(p);return [a.drive||'Привод: уточняется',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
+function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerStepDefinitions.find(s=>s.key===k);const label=v==='__unknown__'?pickerUnknownLabels[k]:k==='category'?categories.find(c=>c.id===v)?.name||v:k==='size'?v+' см':k==='width'?v+' мм':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
 function renderPicker(focus=true){
  const body=document.getElementById('pickerBody');body.hidden=false;document.getElementById('pickerStart').hidden=true;
  const count=items.filter(p=>pickerMatch(p)).length,done=pickerStep>=currentPickerSteps().length;
@@ -215,7 +223,7 @@ function renderPicker(focus=true){
    html+='<button type="button" class="pickerChoice" data-picker-value="'+esc(value)+'" '+(!n?'disabled':'')+'><strong>'+esc(label)+'</strong>'+(hint?'<small>'+esc(hint)+'</small>':'')+'<small>'+n+' моделей</small></button>';
   }
   const known=step.key==='budget'?count:items.filter(p=>pickerMatch(p)&&pickerAttributes(p)[step.key]).length;
-  html+='</div>'+(known===0?'<p class="notice">По оставшимся моделям этот параметр пока не указан. Нажмите «Пропустить», чтобы перейти к следующему вопросу.</p>':'')+'<p class="pickerCount"  role="status">Сейчас подходит: '+count+' моделей.</p><p><small>Модели без данных по выбранному признаку не включаются в результат. Ноль моделей — пропустите вопрос или вернитесь назад.</small></p>';
+  html+='</div>'+(known===0?'<p class="notice">По оставшимся моделям этот параметр пока не указан. Можно выбрать модели с неуказанным параметром или пропустить вопрос.</p>':'')+'<p class="pickerCount"  role="status">Сейчас подходит: '+count+' моделей.</p><p><small>Если характеристика не заполнена, такие модели вынесены в отдельный вариант. Чтобы сохранить все модели, пропустите вопрос.</small></p>';
  }
  html+='<div class="pickerNav">'+(pickerStep?'<button type="button" class="pickerSecondary" data-picker-action="back">← Назад</button>':'')+(!done?'<button type="button" class="pickerSecondary" data-picker-action="skip">Пропустить — не знаю / не важно →</button>':'')+(done?'<button type="button" class="primary" data-picker-action="results" '+(!count?'disabled':'')+'>Показать модели ('+count+')</button>':'')+'<button type="button" class="pickerSecondary" data-picker-action="reset">Начать заново</button><button type="button" class="pickerSecondary" data-picker-action="close">Закрыть подбор</button></div>';
  body.innerHTML=html;if(focus)document.getElementById('pickerQuestion').focus();
