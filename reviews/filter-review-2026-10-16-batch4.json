@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 71,
-  "pending_model_count": 20,
+  "pending_confirmed_values": 77,
+  "pending_model_count": 26,
   "required_ui_changes": [
     "Expose confirmed table construction and thermoplate motion in cap press guided selection",
     "Show and filter confirmed thermoplate_count independently from working table count",
@@ -228,6 +228,54 @@
             "drive": "Ручной",
             "press_construction": "portable_thermoplate",
             "integrated_work_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "27-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHPPRO3838MDLB",
+          "review_number": 134,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO3838MDPK",
+          "review_number": 135,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDLB",
+          "review_number": 136,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050MDPK",
+          "review_number": 137,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDLB",
+          "review_number": 138,
+          "values": {
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060MDPK",
+          "review_number": 139,
+          "values": {
+            "head_movement": "fixed"
           }
         }
       ]
