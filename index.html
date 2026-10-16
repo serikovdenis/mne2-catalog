@@ -46,6 +46,7 @@
 <div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3>
 <label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
 <label>Выдвижной стол<select id="f-drawer"><option value="">Не важно</option><option value="yes">С выдвижным столом</option><option value="no">Без выдвижного стола</option></select></label>
+<label>Перемещение головки<select id="f-head"><option value="">Не важно</option><option value="linear">Линейно перемещаемая</option><option value="swing">Поворотная</option><option value="__unknown__">Не указано</option></select></label>
 <label>Количество рабочих позиций<select id="f-stations"><option value="">Любое</option><option value="1">1 позиция</option><option value="2">2 позиции</option><option value="3">3 позиции</option><option value="4">4 позиции</option></select></label>
 <label>Режим ламинирования<select id="f-laminate"><option value="">Любой</option><option>Холодный</option><option>Тёплый</option><option>Горячий</option></select></label>
 <label>Размер рабочего стола, см<select id="f-table-size"><option value="">Любой размер</option></select></label>
@@ -100,7 +101,7 @@ function collectionMatch(p,id){
 function resetFilters(){
  wizardApplied=false;active='';curatedId='';term='';brand='';pageSize=24;
  document.getElementById('query').value='';
- for(const id of ['f-drive','f-drawer','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
+ for(const id of ['f-drive','f-drawer','f-head','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
  for(const id of ['f-auto','f-wide','f-priced','f-verified'])document.getElementById(id).checked=false;
  document.getElementById('f-sort').value='name';showCategories();showProducts();
 }
@@ -121,6 +122,7 @@ showProducts=function(){
  (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
  (!fval('f-drive')||(fval('f-drive')==='Не указан'?!pickerAttributes(p).drive:pickerAttributes(p).drive===fval('f-drive')))&&(!fval('f-stations')||pickerAttributes(p).stations===fval('f-stations'))&&
  (!fval('f-drawer')||pickerAttributes(p).drawer===fval('f-drawer'))&&
+ (!fval('f-head')||(fval('f-head')==='__unknown__'?!pickerAttributes(p).head:pickerAttributes(p).head===fval('f-head')))&&
  (!fval('f-laminate')||p.laminate_mode===fval('f-laminate'))&&
  (!fval('f-table-size')||(p.category==='flat'&&pickerAttributes(p).size===fval('f-table-size')))&&
  (wMin===null||(p.width_mm!=null&&p.width_mm>=wMin))&&(wMax===null||(p.width_mm!=null&&p.width_mm<=wMax))&&
@@ -170,7 +172,7 @@ function pickerAttributes(p){
  const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
  let drive=p.drive&&p.drive!=='Не указан'?p.drive:'';
  if(!drive){const explicit=[['Пневматический',/пневматическ/],['Гидравлический',/гидравлическ/],['Ручной',/ручн[а-яё]*\s+(?:термо)?пресс|(?:термо)?пресс\s+ручн[а-яё]*/]].filter(([,pattern])=>pattern.test(t));if(explicit.length===1)drive=explicit[0][0];}
- return {category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
+ return {head:['linear','swing'].includes(p.head_movement)?p.head_movement:'',category:p.category,brand:p.brand||'',laminate:p.laminate_mode||'',width:p.width_mm>0?String(p.width_mm):'',drive,drawer,stations,size};
 }
 const pickerStepDefinitions=[
  {key:'category',title:'Какое оборудование вы ищете?',hint:'Выберите категорию, чтобы перейти к вопросам о её характеристиках.',options:[]},
@@ -178,6 +180,7 @@ const pickerStepDefinitions=[
  {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.'],['3','Три рабочих стола','Три рабочие позиции.'],['4','Четыре рабочих стола','Четыре рабочие позиции.']]},
  {key:'size',title:'Какой размер плиты нужен?',hint:'Размеры указаны в сантиметрах. Выберите точный размер рабочей поверхности.',options:[]},
  {key:'drawer',title:'Нужен выдвижной рабочий стол?',hint:'Выдвижной стол облегчает укладку изделия вне зоны нагревательной плиты.',options:[['yes','С выдвижным столом','Показать модели с указанной выдвижной рабочей поверхностью.'],['no','Без выдвижного стола','Только модели с явно указанным неподвижным столом.']]},
+ {key:'head',title:'Как должна перемещаться нагревательная головка?',hint:'Столы могут оставаться неподвижными, а верхняя головка перемещаться между ними.',options:[['linear','Линейно перемещаемая','Головка движется по направляющим между столами.'],['swing','Поворотная','Головка поворачивается между рабочими позициями.']]},
  {key:'laminate',title:'Какой режим ламинирования нужен?',hint:'Выберите режим работы ламинатора.',options:[['Холодный','Холодный',''],['Тёплый','Тёплый',''],['Горячий','Горячий','']]},
  {key:'width',title:'Какая рабочая ширина нужна?',hint:'Выберите рабочую ширину в миллиметрах.',options:[]},
  {key:'brand',title:'Есть предпочтения по производителю?',hint:'Выберите производителя или пропустите вопрос.',options:[]},
@@ -187,7 +190,7 @@ function currentPickerSteps(){
  const cat=pickerAnswers.category,keys=['category'];
  if(['flat','cap','mug','multi','special'].includes(cat))keys.push('drive','stations');
  if(['flat','cap','multi','special'].includes(cat))keys.push('size');
- if(cat==='flat')keys.push('drawer');
+ if(cat==='flat')keys.push('drawer','head');
  if(cat==='laminator')keys.push('laminate');
  if(['calender','laminator','dtf'].includes(cat)&&items.some(p=>p.category===cat&&p.width_mm>0))keys.push('width');
  keys.push('brand','budget');
@@ -204,13 +207,13 @@ function knownPickerOptions(step){
  if(step.key!=='size')return step.options;
  return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1])).map(n=>[n,n+' см','']);
 }
-const pickerUnknownLabels={drive:'Тип привода не указан',stations:'Количество столов не указано',size:'Размер плиты не указан',drawer:'Конструкция стола не указана',laminate:'Режим не указан',width:'Рабочая ширина не указана'};
+const pickerUnknownLabels={head:'Перемещение головки не указано',drive:'Тип привода не указан',stations:'Количество столов не указано',size:'Размер плиты не указан',drawer:'Конструкция стола не указана',laminate:'Режим не указан',width:'Рабочая ширина не указана'};
 function pickerOptions(step){
  const opts=knownPickerOptions(step).filter(([v])=>items.some(p=>pickerMatch(p,{...pickerAnswers,[step.key]:v})));
  if(pickerUnknownLabels[step.key]&&items.some(p=>pickerMatch(p)&&!pickerAttributes(p)[step.key]))opts.push(['__unknown__',pickerUnknownLabels[step.key],'Показать модели, для которых эту характеристику нужно уточнить.']);
  return opts;
 }
-function pickerFacts(p){const a=pickerAttributes(p);return [a.drive||'Привод: уточняется',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
+function pickerFacts(p){const a=pickerAttributes(p);return [a.drive||'Привод: уточняется',a.head==='linear'?'Линейно перемещаемая головка':a.head==='swing'?'Поворотная головка':'',a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'Число позиций: уточняется',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
 function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerStepDefinitions.find(s=>s.key===k);const label=v==='__unknown__'?pickerUnknownLabels[k]:k==='category'?categories.find(c=>c.id===v)?.name||v:k==='size'?v+' см':k==='width'?v+' мм':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
 function renderPicker(focus=true){
  const body=document.getElementById('pickerBody');body.hidden=false;document.getElementById('pickerStart').hidden=true;
