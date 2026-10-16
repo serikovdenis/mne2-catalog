@@ -34,10 +34,13 @@
 @media(max-width:760px){.catalogLayout{display:block}.catalogFilters{display:none;position:static;margin:12px 0}.catalogFilters.open{display:block}.mobileFilter{display:inline-block}.catalogResults .toolbar{margin:16px 0}.catalogResults .products{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.catalogResults .products{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.catalogResults .product .info{padding:10px}.catalogResults .product h3{font-size:13px}.catalogResults .product .price{font-size:15px}.catalogResults .product img{aspect-ratio:1/1}.catalogFilters label{font-size:13px}}
 .productVideo{margin:22px 0 24px;padding:18px;background:#f7f9fb;border:1px solid #e1e7ec;border-radius:14px}.productVideo h3{margin:0 0 12px;font-size:19px;color:#263442}.productVideoFrame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#121820}.productVideoFrame iframe{display:block;width:100%;height:100%;border:0}.productVideoNote{font-size:13px;margin:10px 0 0;color:#647483}.productVideoNote a{color:#bc6216}
+
+.guidedPicker{margin:22px 0 32px;padding:26px;border:1px solid #edc29e;border-radius:18px;background:#fffaf5}.guidedPicker h2{margin:0 0 10px;font-size:26px}.guidedPicker p{margin:8px 0 18px}.pickerChoices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}.pickerChoice{padding:17px;text-align:left;border:1px solid #d8dfe5;border-radius:12px;background:#fff;color:#192633;cursor:pointer;font:inherit}.pickerChoice:hover,.pickerChoice:focus-visible{border-color:#d96c19;outline:2px solid #f5ccaa}.pickerChoice strong,.pickerChoice small{display:block}.pickerChoice small{margin-top:7px;color:#65707d;line-height:1.45}.pickerChoice:disabled{opacity:.45;cursor:default}.pickerNav{display:flex;gap:10px;flex-wrap:wrap}.pickerSecondary{padding:12px 16px;background:white;border:1px solid #cbd2da;border-radius:10px;cursor:pointer;color:#263442;font:inherit}.pickerProgress{font-size:13px;color:#986032;margin-bottom:14px}.pickerAnswers{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.pickerAnswers span{padding:7px 10px;border-radius:20px;background:#f1e9e1;font-size:13px}.pickerCount{font-weight:700;color:#263442}.pickerFacts{font-size:12px;color:#8d501c;line-height:1.5;margin-top:9px}@media(max-width:600px){.guidedPicker{padding:18px}.pickerChoices{grid-template-columns:1fr}.guidedPicker h2{font-size:23px}}
 </style></head><body><header><div class="wrap"><div><a class="logo" href="https://mne2.ru/" aria-label="MNE2 — главная страница">mne<span>2</span>.ru</a><div class="sub">Оборудование для термопереноса</div></div><a class="toplink" href="https://mne2.ru/">Главная — условия поставки ↗</a></div></header>
 <main><section class="hero"><div class="eyebrow">Каталог оборудования MNE2</div><h1>Оборудование для термопереноса</h1><p>Подбор термопрессов, каландров и оборудования для сублимации по типу производства и техническим параметрам.</p></section>
 <div class="notice">В каталоге 373 модели оборудования для термопереноса. Подберите оборудование по назначению, характеристикам и производителю. Цены указаны для моделей с подтверждённой стоимостью.</div>
 <form class="search" id="form"><input id="query" type="search" placeholder="Поиск по названию, модели и артикулу" aria-label="Поиск оборудования"><button type="submit">Найти</button></form>
+<section class="guidedPicker" id="guidedPicker" aria-label="Пошаговый подбор оборудования"><h2>Найдём подходящий термопресс</h2><p>Ответьте на несколько вопросов о приводе, столах и размере плиты. Любой вопрос можно пропустить.</p><button type="button" class="primary" id="pickerStart" disabled>Загружаем модели…</button><div id="pickerBody" hidden></div></section>
 <section><h2>Категории оборудования</h2><div class="categories" id="categories"></div></section>
 <h2>Подборки по задачам</h2><div class="collections" id="collections"></div>
 <div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3>
@@ -93,7 +96,7 @@ function collectionMatch(p,id){
  return true;
 }
 function resetFilters(){
- active='';curatedId='';term='';brand='';pageSize=24;
+ wizardApplied=false;active='';curatedId='';term='';brand='';pageSize=24;
  document.getElementById('query').value='';
  for(const id of ['f-drive','f-stations','f-laminate','f-width-min','f-width-max','f-price-min','f-price-max','brand'])document.getElementById(id).value='';
  for(const id of ['f-auto','f-wide','f-priced','f-verified'])document.getElementById(id).checked=false;
@@ -105,12 +108,13 @@ function showCollections(){
 }
 showCategories=function(){
  document.getElementById('categories').innerHTML=categories.map(c=>'<button class="category '+(active===c.id?'active':'')+'" data-category="'+c.id+'"><span class="symbol">'+c.symbol+'</span><strong>'+esc(c.name)+'</strong><small>'+items.filter(p=>p.category===c.id).length+' моделей</small></button>').join('');
- document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{active=active===b.dataset.category?'':b.dataset.category;pageSize=24;showCategories();showProducts();document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'})});
+ document.querySelectorAll('[data-category]').forEach(b=>b.onclick=()=>{wizardApplied=false;active=active===b.dataset.category?'':b.dataset.category;pageSize=24;showCategories();showProducts();document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'})});
  showCollections();
 };
 showProducts=function(){
  const wMin=fnum('f-width-min'),wMax=fnum('f-width-max'),pMin=fnum('f-price-min'),pMax=fnum('f-price-max');
  let found=items.filter(p=>
+ (!wizardApplied||pickerMatch(p))&&
  (!active||p.category===active)&&collectionMatch(p,curatedId)&&(!brand||p.brand===brand)&&
  (!term||[p.title,p.model,p.sku,p.brand].join(' ').toLocaleLowerCase('ru').includes(term))&&
  (!fval('f-drive')||p.drive===fval('f-drive'))&&(!fval('f-stations')||String(p.stations||'')===fval('f-stations'))&&
@@ -131,7 +135,7 @@ showProducts=function(){
  document.getElementById('resultMeta').textContent='Найдено '+found.length+' из '+items.length+' моделей. '+(found.length>pageSize?'Показаны первые '+pageSize+'.':'');
  document.getElementById('products').innerHTML=found.length?found.slice(0,pageSize).map(p=>'<article class="product" data-product-sku="'+esc(p.sku)+'">'+
  (p.image?photoTag(p.image,p.title):'<div class="productPlaceholder" aria-label="Фотография уточняется">▣</div>')+
- '<div class="info"><span class="brand">'+esc(p.brand)+'</span><h3>'+esc(p.title)+'</h3><small>'+esc(p.model||p.sku||'')+'</small><div class="price">'+(p.price_rub>100?new Intl.NumberFormat('ru-RU').format(p.price_rub)+' ₽':'Цена по запросу')+'</div>'+
+ '<div class="info"><span class="brand">'+esc(p.brand)+'</span><h3>'+esc(p.title)+'</h3><small>'+esc(p.model||p.sku||'')+'</small>'+(wizardApplied?'<div class="pickerFacts">'+esc(pickerFacts(p))+'</div>':'')+'<div class="price">'+(p.price_rub>100?new Intl.NumberFormat('ru-RU').format(p.price_rub)+' ₽':'Цена по запросу')+'</div>'+
  (p.avito_url?'<a href="'+esc(p.avito_url)+'" target="_blank" rel="noopener noreferrer">Посмотреть на Авито ↗</a>':'')+
  (p.description?'<p class="previewDescription">'+esc(p.description.slice(0,190))+(p.description.length>190?'…':'')+'</p>':'')+
  '<button class="more" data-sku="'+esc(p.avito_id||p.sku)+'">Подробнее о модели</button></div></article>').join(''):'<div class="empty"><strong>Модели не найдены</strong><p>Измените параметры поиска или сбросьте фильтры.</p></div>';
@@ -143,7 +147,68 @@ document.getElementById('moreProducts').onclick=()=>{pageSize+=24;showProducts()
 for(const id of ['f-drive','f-stations','f-laminate','f-width-min','f-width-max','f-price-min','f-price-max','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
 const originalShowProducts=showProducts;
 const originalShowCategories=showCategories;
-const onLoaded=()=>{const drives=[...new Set(items.map(p=>p.drive).filter(Boolean))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');showCategories();showProducts()};
+const onLoaded=()=>{const drives=[...new Set(items.map(p=>p.drive).filter(Boolean))].sort();document.getElementById('f-drive').innerHTML='<option value="">Любой</option>'+drives.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');document.getElementById('pickerStart').disabled=false;document.getElementById('pickerStart').textContent='Подобрать по шагам →';showCategories();showProducts()};
 const waitForCatalog=setInterval(()=>{if(items.length){clearInterval(waitForCatalog);onLoaded()}},100);
 setTimeout(()=>clearInterval(waitForCatalog),15000);
+
+// Guided selection uses explicit catalog attributes and positive construction evidence.
+// Missing construction or station counts never imply a fixed table or one station.
+let wizardApplied=false,pickerStep=0,pickerAnswers={};
+function pickerAttributes(p){
+ const t=[p.title,p.description,JSON.stringify(p.specifications||{})].join(' ').replace(/<[^>]*>/g,' ').toLowerCase();
+ let drawer='';
+ if(/без выдвиж|невыдвиж|неподвижн[а-яё]* (?:рабоч[а-яё]* )?стол|стационарн[а-яё]* (?:рабоч[а-яё]* )?стол/.test(t))drawer='no';
+ else if(/выдвижн/.test(t)&&!/выдвижн[а-яё]* механизм/.test(t))drawer='yes';
+ let stations=String(p.stations||'');
+ if(!stations){if(/двух(?:станцион|позицион|стол)|два (?:рабочих )?стола|две рабочие позиции/.test(t))stations='2';else if(/одно(?:станцион|позицион|стол)|один рабочий стол/.test(t))stations='1';}
+ const m=String(p.size_cm||'').match(/^(\d+(?:[.,]\d+)?)\s*[xх×*]\s*(\d+(?:[.,]\d+)?)$/i);
+ const size=m?m.slice(1).map(n=>Number(n.replace(',','.'))).sort((a,b)=>a-b).join('×'):'';
+ return {drive:p.drive&&p.drive!=='Не указан'?p.drive:'',drawer,stations,size};
+}
+const pickerSteps=[
+ {key:'drive',title:'Какой тип прижима нужен?',hint:'Выберите знакомый вариант или пропустите вопрос.',options:[['Ручной','Ручной','Прижим с помощью рычага.'],['Пневматический','Пневматический','Работает от сжатого воздуха; потребуется компрессор.'],['Гидравлический','Гидравлический','Прижим с помощью гидравлической системы.'],['Полуавтоматический','Полуавтоматический','Проверьте способ прижима и открытия в карточке модели.']]},
+ {key:'drawer',title:'Нужен выдвижной рабочий стол?',hint:'Выдвижной стол облегчает укладку изделия вне зоны нагревательной плиты.',options:[['yes','С выдвижным столом','Показать модели с указанной выдвижной рабочей поверхностью.'],['no','Без выдвижного стола','Только модели с явно указанным неподвижным столом.']]},
+ {key:'stations',title:'Сколько рабочих столов нужно?',hint:'Два стола позволяют готовить следующую заготовку во время переноса на первой.',options:[['1','Один рабочий стол','Одна рабочая позиция.'],['2','Два рабочих стола','Две рабочие позиции.']]},
+ {key:'size',title:'Какой размер плиты нужен?',hint:'Размеры указаны в сантиметрах. Выберите точный размер рабочей поверхности.',options:[]},
+ {key:'budget',title:'Какой бюджет на оборудование?',hint:'При ограничении бюджета показываем только модели с указанной ценой.',options:[['50000','До 50 000 ₽',''],['100000','До 100 000 ₽',''],['200000','До 200 000 ₽',''],['500000','До 500 000 ₽','']]}
+];
+function pickerMatch(p,answers=pickerAnswers){
+ if(p.category!=='flat')return false;
+ const a=pickerAttributes(p);
+ return Object.entries(answers).every(([k,v])=>!v||(k==='budget'?(p.price_rub>100&&p.price_rub<=Number(v)):a[k]===v));
+}
+function pickerOptions(step){
+ if(step.key!=='size')return step.options;
+ return [...new Set(items.filter(p=>pickerMatch(p)).map(p=>pickerAttributes(p).size).filter(Boolean))].sort((a,b)=>Number(a.split('×')[0])-Number(b.split('×')[0])||Number(a.split('×')[1])-Number(b.split('×')[1])).map(n=>[n,n+' см','']);
+}
+function pickerFacts(p){const a=pickerAttributes(p);return [a.drive,a.drawer==='yes'?'Выдвижной стол':a.drawer==='no'?'Неподвижный стол':'',a.stations?a.stations+' раб. поз.':'',a.size?a.size+' см':''].filter(Boolean).join(' · ');}
+function pickerSummary(){return Object.entries(pickerAnswers).filter(([,v])=>v).map(([k,v])=>{const step=pickerSteps.find(s=>s.key===k);const label=k==='size'?v+' см':step.options.find(o=>o[0]===v)?.[1]||v;return '<span>'+esc(label)+'</span>'}).join('');}
+function renderPicker(focus=true){
+ const body=document.getElementById('pickerBody');body.hidden=false;document.getElementById('pickerStart').hidden=true;
+ const count=items.filter(p=>pickerMatch(p)).length,done=pickerStep>=pickerSteps.length;
+ let html='<div class="pickerProgress">Плоские термопрессы · '+(done?'Подбор завершён':'Шаг '+(pickerStep+1)+' из '+pickerSteps.length)+'</div><div class="pickerAnswers">'+pickerSummary()+'</div>';
+ if(done){html+='<h3 tabindex="-1" id="pickerQuestion">'+(count?'Подходящие модели: '+count:'Подходящих моделей пока нет')+'</h3><p>Подбор учитывает указанные характеристики. Комплектацию и условия поставки можно уточнить в карточке модели.</p>';}
+ else{
+  const step=pickerSteps[pickerStep];
+  html+='<h3 tabindex="-1" id="pickerQuestion">'+esc(step.title)+'</h3><p>'+esc(step.hint)+'</p><div class="pickerChoices">';
+  for(const [value,label,hint] of pickerOptions(step)){
+   const n=items.filter(p=>pickerMatch(p,{...pickerAnswers,[step.key]:value})).length;
+   html+='<button type="button" class="pickerChoice" data-picker-value="'+esc(value)+'" '+(!n?'disabled':'')+'><strong>'+esc(label)+'</strong>'+(hint?'<small>'+esc(hint)+'</small>':'')+'<small>'+n+' моделей</small></button>';
+  }
+  html+='</div><p class="pickerCount" role="status">Сейчас подходит: '+count+' моделей.</p><p><small>Модели без данных по выбранному признаку не включаются в результат. Ноль моделей — пропустите вопрос или вернитесь назад.</small></p>';
+ }
+ html+='<div class="pickerNav">'+(pickerStep?'<button type="button" class="pickerSecondary" data-picker-action="back">← Назад</button>':'')+(!done?'<button type="button" class="pickerSecondary" data-picker-action="skip">Не знаю / не важно →</button>':'')+'<button type="button" class="primary" data-picker-action="results" '+(!count?'disabled':'')+'>Показать модели ('+count+')</button><button type="button" class="pickerSecondary" data-picker-action="reset">Начать заново</button><button type="button" class="pickerSecondary" data-picker-action="close">Закрыть подбор</button></div>';
+ body.innerHTML=html;if(focus)document.getElementById('pickerQuestion').focus();
+}
+document.getElementById('pickerStart').onclick=()=>{pickerStep=0;pickerAnswers={};renderPicker()};
+document.getElementById('pickerBody').addEventListener('click',e=>{
+ const option=e.target.closest('[data-picker-value]');if(option){pickerAnswers[pickerSteps[pickerStep].key]=option.dataset.pickerValue;pickerStep++;renderPicker();return;}
+ const action=e.target.closest('[data-picker-action]')?.dataset.pickerAction;if(!action)return;
+ if(action==='back'){pickerStep=Math.max(0,pickerStep-1);for(let n=pickerStep;n<pickerSteps.length;n++)delete pickerAnswers[pickerSteps[n].key];renderPicker();}
+ if(action==='skip'){delete pickerAnswers[pickerSteps[pickerStep].key];pickerStep++;renderPicker();}
+ if(action==='reset'){wizardApplied=false;pickerStep=0;pickerAnswers={};showProducts();renderPicker();}
+ if(action==='close'){wizardApplied=false;document.getElementById('pickerBody').hidden=true;document.getElementById('pickerStart').hidden=false;showProducts();}
+ if(action==='results'){resetFilters();active='flat';wizardApplied=true;pickerStep=pickerSteps.length;showCategories();showProducts();renderPicker(false);document.getElementById('resultTitle').scrollIntoView({behavior:'smooth',block:'start'});}
+});
+
 </script></body></html>
