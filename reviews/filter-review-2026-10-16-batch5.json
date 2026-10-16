@@ -1,8 +1,8 @@
 {
-  "status": "accumulating_no_deployment",
+  "status": "ready_for_publication",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 84,
-  "pending_model_count": 32,
+  "pending_confirmed_values": 104,
+  "pending_model_count": 35,
   "groups": [
     {
       "group": "30-owner",
@@ -152,13 +152,15 @@
           "sku": "JC-7ADF-B60-01",
           "values": {
             "stations": "1"
-          }
+          },
+          "superseded_by": "36-owner"
         },
         {
           "sku": "JC-7ADF-B60-02",
           "values": {
             "stations": "1"
-          }
+          },
+          "superseded_by": "36-owner"
         }
       ]
     },
@@ -429,6 +431,94 @@
           }
         }
       ]
+    },
+    {
+      "group": "36-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ADF-B60-01",
+          "review_number": 167,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical",
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          }
+        },
+        {
+          "sku": "JC-7ADF-B60-02",
+          "review_number": 168,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical",
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          }
+        },
+        {
+          "sku": "JC-7ADF-B60-07",
+          "review_number": 171,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-04",
+          "review_number": 179,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-03",
+          "review_number": 178,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
     }
   ],
   "pending_review": [
@@ -444,14 +534,6 @@
     },
     {
       "skus": [
-        "JC-7ADF-B60-07"
-      ],
-      "review_number": 171,
-      "status": "photo_mismatch_pending",
-      "issue": "Owner requested photo replacements for 169–170 only; verify 171 separately before applying these images."
-    },
-    {
-      "skus": [
         "JC-7ADF-B60-04",
         "JC-7ADF-B60-05"
       ],
@@ -464,6 +546,16 @@
       ],
       "status": "awaiting_owner_or_manufacturer",
       "question": "Нагрев только сверху или также в нижних рабочих столах?"
+    },
+    {
+      "skus": [
+        "OT-PB4060MDLB"
+      ],
+      "review_number": 190,
+      "status": "awaiting_terminology_clarification",
+      "owner_statement": "Плита выдвижная",
+      "question": "Нижний стол выдвигается или верхняя термоплита также перемещается горизонтально? Нижний выдвижной стол уже подтверждён."
     }
-  ]
+  ],
+  "validation_policy": "For repeated SKU/attribute entries, the last group is authoritative; earlier conflicting source values are retained as superseded history."
 }
