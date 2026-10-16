@@ -1,8 +1,8 @@
 {
-  "status": "accumulating_no_deployment",
+  "status": "ready_for_publication",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 92,
-  "pending_model_count": 53,
+  "pending_confirmed_values": 101,
+  "pending_model_count": 56,
   "required_ui_changes": [
     "Support six working stations in sidebar and guided filters",
     "Support head_movement=fixed: Без бокового перемещения"
@@ -421,6 +421,39 @@
         {
           "sku": "CEHPPRO4060FPK",
           "review_number": 37,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "09-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-PB3838FLB",
+          "review_number": 38,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB4050SFLB",
+          "review_number": 39,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-PB4060FLB",
+          "review_number": 40,
           "values": {
             "stations": "1",
             "sliding_table": false,
