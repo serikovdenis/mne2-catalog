@@ -2321,7 +2321,17 @@
       "https://mne2.ru/bestsub/CE-PB2330NDLB/CE-PB2330NDLB_02.jpg",
       "https://mne2.ru/bestsub/CE-PB2330NDLB/CE-PB2330NDLB_03.jpg"
     ],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CE-PB2330NDLB."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CE-PB2330NDLB.",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "catalog_title",
+        "source_text": "Термопресс 23x30 см выдвижной Craft Express",
+        "confirmed_at": "2026-10-17",
+        "review_group": "41-source"
+      }
+    }
   },
   {
     "sku": "CEHPPRO3838DLB",
