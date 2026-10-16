@@ -710,12 +710,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -768,12 +775,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -814,12 +828,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -869,12 +890,19 @@
         "value": "1"
       },
       "sliding_table": {
+        "value": true,
         "source": "owner_photo_review",
         "confirmed_at": "2026-10-16",
-        "review_group": "02: Otter and OtterPro presses 7–10",
-        "value": true
+        "review_group": "28"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "28"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "calender",
