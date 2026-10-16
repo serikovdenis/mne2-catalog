@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 35,
-  "pending_model_count": 16,
+  "pending_confirmed_values": 51,
+  "pending_model_count": 22,
   "groups": [
     {
       "group": "30-owner",
@@ -209,6 +209,64 @@
             "source_url": "https://en.gzjiangchuan.com/products/-146"
           },
           "description_update": "Два подвижных стола, боковое перемещение столов и вертикальный прижим."
+        }
+      ]
+    },
+    {
+      "group": "33-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7BZE-B51-01",
+          "review_number": 172,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BZE-B51-02",
+          "review_number": 173,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CBEP-B53-01",
+          "review_number": 174,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CBEP-B53-02",
+          "review_number": 175,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-01",
+          "review_number": 176,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-02",
+          "review_number": 177,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
         }
       ]
     }
