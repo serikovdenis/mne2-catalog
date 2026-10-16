@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 25,
-  "pending_model_count": 7,
+  "pending_confirmed_values": 27,
+  "pending_model_count": 8,
   "groups": [
     {
       "group": "36-190",
@@ -85,6 +85,49 @@
           }
         }
       ]
+    },
+    {
+      "group": "38-202-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-DCPLB",
+          "review_number": 202,
+          "values": {
+            "thermoplate_count": 1,
+            "table_layout": "lateral_shuttle"
+          },
+          "reconfirmed_existing": {
+            "stations": "2",
+            "sliding_table": true
+          }
+        }
+      ]
+    }
+  ],
+  "pending_review": [
+    {
+      "review_numbers": [
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "status": "awaiting_owner_confirmation",
+      "note": "Предложенные характеристики из группы38 ещё не подтверждены."
+    },
+    {
+      "sku": "CE-DCPLB",
+      "review_number": 202,
+      "fields": [
+        "head_movement"
+      ],
+      "status": "awaiting_owner_confirmation",
+      "proposed": {
+        "head_movement": "fixed"
+      },
+      "note": "Откидная верхняя термоплита, без бокового перемещения."
     }
   ]
 }
