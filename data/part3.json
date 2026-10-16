@@ -2160,7 +2160,37 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "opposite_sides",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
@@ -2186,7 +2216,37 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "opposite_sides",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
@@ -2212,7 +2272,37 @@
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "opposite_sides",
+    "head_movement": "fixed",
+    "pressing_motion": "vertical"
   },
   {
     "category": "flat",
