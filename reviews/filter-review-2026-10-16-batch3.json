@@ -1,0 +1,326 @@
+{
+  "status": "ready_for_publication",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 101,
+  "pending_model_count": 29,
+  "groups": [
+    {
+      "group": "17-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CE-PB2330NLB",
+          "review_number": 84,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed",
+            "sliding_table": true
+          }
+        },
+        {
+          "sku": "CEHPPRO3838DPK",
+          "review_number": 85,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DLB",
+          "review_number": 86,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4050DPK",
+          "review_number": 87,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CEHPPRO4060DLB",
+          "review_number": 88,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-16B-B30-01",
+          "review_number": 89,
+          "values": {
+            "stations": "1",
+            "head_movement": "swing",
+            "sliding_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "18-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-5C-B20-01",
+          "review_number": 92,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5C-B20-02",
+          "review_number": 93,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5C-B24-01",
+          "review_number": 94,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5C-B24-02",
+          "review_number": 95,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-16B-B30-02",
+          "review_number": 90,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "JC-16B-B30-03",
+          "review_number": 91,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "swing"
+          }
+        }
+      ]
+    },
+    {
+      "group": "19-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-5BB-B27-01",
+          "review_number": 96,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5BB-B27-02",
+          "review_number": 97,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5C-B21-01",
+          "review_number": 98,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5C-B21-02",
+          "review_number": 99,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5CQ-B25-01",
+          "review_number": 100,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-5CQ-B25-02",
+          "review_number": 101,
+          "values": {
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "20-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-8A2Y-B55-01",
+          "review_number": 102,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "opposite_sides",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Y-B55-02",
+          "review_number": 103,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "opposite_sides",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Y-B55-03",
+          "review_number": 104,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "opposite_sides",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Q-B48-01",
+          "review_number": 105,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Q-B48-02",
+          "review_number": 106,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Q-B48-03",
+          "review_number": 107,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "21-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-8B2Y-B56-01",
+          "review_number": 108,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Y-B56-02",
+          "review_number": 109,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8B2Y-B56-03",
+          "review_number": 110,
+          "values": {
+            "stations": "2",
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "same_side",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-1AD-B58-01",
+          "review_number": 111,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "JC-1AD-B58-02",
+          "review_number": 112,
+          "values": {
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        }
+      ]
+    }
+  ],
+  "required_ui_changes": [
+    "Use термоплита instead of головка in user-facing filter labels",
+    "Support table_layout same_side/opposite_sides in filters and guided selection",
+    "Display vertical pressing motion where confirmed"
+  ],
+  "unresolved_issues": [
+    {
+      "sku": "JC-1D-B69-01",
+      "review_number": 113,
+      "status": "deferred_for_research",
+      "issue": "Portable construction without conventional working table; requires manufacturer taxonomy review."
+    }
+  ]
+}

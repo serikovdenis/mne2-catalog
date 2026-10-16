@@ -260,12 +260,34 @@
     "price_rub": 45095,
     "drive": "Полуавтоматический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      }
+    }
   },
   {
     "category": "flat",
@@ -283,12 +305,34 @@
     "price_rub": 58445,
     "drive": "Полуавтоматический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x40",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      }
+    }
   },
   {
     "category": "flat",
@@ -310,12 +354,34 @@
     "price_rub": 45095,
     "drive": "Полуавтоматический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      }
+    }
   },
   {
     "category": "flat",
@@ -337,12 +403,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-5C\n Исполнение: 60x40 см\n Основные характеристики:\n • Размер рабочей зоны: 60x40 см\n• Мощность: 2.2 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 53 кг\n• Размер упаковки: 87x76x72 см",
     "drive": "Полуавтоматический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x40",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1360,12 +1448,34 @@
     "price_rub": 188095,
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "60x90",
     "width_mm": 900,
     "wide": true,
     "needs_review": false,
-    "price_status": "Расчётная цена 10.10.2026"
+    "price_status": "Расчётная цена 10.10.2026",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1382,13 +1492,35 @@
     "price_rub": 214845,
     "drive": "Гидравлический",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1405,13 +1537,35 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-5C\n Исполнение: 80x100 см\n Основные характеристики:\n • Размер рабочей зоны: 80x100 см\n• Мощность: 7.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 280 кг\n• Размер упаковки: 150x110x100 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1428,13 +1582,35 @@
     "price_rub": 344595,
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1451,13 +1627,35 @@
     "price_rub": 305945,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1474,13 +1672,35 @@
     "price_rub": 362345,
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "1",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "19"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1848,13 +2068,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8A2Y\n Исполнение: 80x100 см\n Основные характеристики:\n • Размер рабочей зоны: 80x100 см\n• Мощность: 13.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 486 кг\n• Размер упаковки: host 202x162x165 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "opposite_sides",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1876,13 +2132,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8A2Y\n Исполнение: 100x120 см\n Основные характеристики:\n • Размер рабочей зоны: 100x120 см\n• Мощность: 15.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 628 кг\n• Размер упаковки: host 202x162x165 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "opposite_sides",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1904,13 +2196,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8A2Y\n Исполнение: 120x150 см\n Основные характеристики:\n • Размер рабочей зоны: 120x150 см\n• Мощность: 20.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 680 кг\n• Размер упаковки: host 202x162x165 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "120x150",
     "width_mm": 1500,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "opposite_sides",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "opposite_sides",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1927,13 +2255,49 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Q\n Исполнение: 80x100 см\n Основные характеристики:\n • Размер рабочей зоны: 80x100 см\n• Мощность: 12 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 510 кг\n• Размер упаковки: 175x122x178 + 376x141x45 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1950,13 +2314,49 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Q\n Исполнение: 100x120 см\n Основные характеристики:\n • Размер рабочей зоны: 100x120 см\n• Мощность: 14 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 580 кг\n• Размер упаковки: 196x142x180 + 306x160x45 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1973,13 +2373,49 @@
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Q\n Исполнение: 120x150 см\n Основные характеристики:\n • Размер рабочей зоны: 120x150 см\n• Мощность: 18 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 750 кг\n• Размер упаковки: 235x174x180 + 376x201x42 см",
     "drive": "Пневматический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "120x150",
     "width_mm": 1500,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-16",
+        "review_group": "20"
+      }
+    }
   },
   {
     "category": "flat",
@@ -1996,13 +2432,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Y\n Исполнение: 80x100 см\n Основные характеристики:\n • Размер рабочей зоны: 80x100 см\n• Мощность: 13.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 540 кг\n• Размер упаковки: host 175x124x180 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "80x100",
     "width_mm": 1000,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2019,13 +2491,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Y\n Исполнение: 100x120 см\n Основные характеристики:\n • Размер рабочей зоны: 100x120 см\n• Мощность: 15.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 620 кг\n• Размер упаковки: 196x142x180 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "100x120",
     "width_mm": 1200,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2042,13 +2550,49 @@
     "description": "Гидравлический термопресс для крупноформатного и серийного термопереноса. Рассчитан на стабильное давление и равномерную обработку большой площади.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-8B2Y\n Исполнение: 120x150 см\n Основные характеристики:\n • Размер рабочей зоны: 120x150 см\n• Мощность: 20.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 800 кг\n• Размер упаковки: 226x162x180 см",
     "drive": "Гидравлический",
     "automatic": true,
-    "stations": "",
+    "stations": "2",
     "size_cm": "120x150",
     "width_mm": 1500,
     "wide": true,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "head_movement": "fixed",
+    "table_layout": "same_side",
+    "pressing_motion": "vertical",
+    "filter_confirmations": {
+      "stations": {
+        "value": "2",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "table_layout": {
+        "value": "same_side",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "pressing_motion": {
+        "value": "vertical",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2599,12 +3143,34 @@
     "description": "Плоский термопресс 23x30 см для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-PB2330NLB\n Основные характеристики:\n • Размеры машины:47x31x35 см\n• напряжение 220 В/3.6/800 Вт\n• Диапазон температуры: 0–250 °C\n• Диапазон времени: 0–999s\n• Размер нагревательной плиты: 23x30 см\n• нагрев плита Напряжение:220 В",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "23x30",
     "width_mm": 300,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "fixed",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      }
+    }
   },
   {
     "category": "parts",
@@ -2688,7 +3254,7 @@
     ],
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
@@ -2701,8 +3267,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 38x38 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -2723,7 +3302,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CEHPPRO4050DLB\n Основные характеристики:\n • Мощность: 1600 Вт / 2200 Вт\n• Напряжение: 220 В\n• Электропитание: 220 В 15 А Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размер нагревательной плиты: 40x50 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
@@ -2736,8 +3315,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -2754,7 +3346,7 @@
     "description": "Плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CEHPPRO4050DPK\n Основные характеристики:\n • Мощность: 1600 Вт / 2200 Вт\n• Напряжение: 220 В\n• Электропитание: 220 В 15 А Температура: 0–250 °C\n• Диапазон времени: 0–999 секунд\n• Размер нагревательной плиты: 40x50 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x50",
     "width_mm": 500,
     "needs_review": false,
@@ -2767,8 +3359,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x50 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -2789,7 +3394,7 @@
     ],
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
@@ -2802,8 +3407,21 @@
         "source": "existing_explicit_catalog_text",
         "evidence": "термопресс 40x60 см выдвижной craft express плоский термопресс с выдвижным ящиком для термопереноса и сублимации на совместимых заготовках.",
         "verified_at": "2026-10-16"
+      },
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "special",
@@ -2867,12 +3485,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16B\n Исполнение: 10x15 см\n Основные характеристики:\n • Размер рабочей зоны: 10x15 см\n• Мощность: 0.5 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 16 кг\n• Размер упаковки: 54x28x58 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "10x15",
     "width_mm": 150,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "head_movement": "swing",
+    "sliding_table": false,
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "17"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2890,12 +3530,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16B\n Исполнение: 15x15 см\n Основные характеристики:\n • Размер рабочей зоны: 15x15 см\n• Мощность: 0.8 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 18 кг\n• Размер упаковки: 57x44x58 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "15x15",
     "width_mm": 150,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "swing",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2913,12 +3575,34 @@
     "description": "Термопресс для сублимации и термотрансфера на плоские заготовки. Подходит для мастерских, рекламных производств и печати на заказ.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-16B\n Исполнение: 15x20 см\n Основные характеристики:\n • Размер рабочей зоны: 15x20 см\n• Мощность: 0.8 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 19 кг\n• Размер упаковки: 54x28x58 см",
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "15x20",
     "width_mm": 200,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "swing",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      },
+      "head_movement": {
+        "value": "swing",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "18"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2935,12 +3619,34 @@
     "price_rub": 24245,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "38x38",
     "width_mm": 380,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      }
+    }
   },
   {
     "category": "flat",
@@ -2957,12 +3663,34 @@
     "price_rub": 34595,
     "drive": "Ручной",
     "automatic": false,
-    "stations": "",
+    "stations": "1",
     "size_cm": "40x60",
     "width_mm": 600,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": false,
+    "head_movement": "fixed",
+    "filter_confirmations": {
+      "stations": {
+        "value": "1",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "sliding_table": {
+        "value": false,
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "21"
+      }
+    }
   },
   {
     "category": "flat",
