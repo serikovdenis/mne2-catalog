@@ -1,0 +1,561 @@
+{
+  "status": "ready_for_publication",
+  "target_confirmed_values": 100,
+  "pending_confirmed_values": 104,
+  "pending_model_count": 35,
+  "groups": [
+    {
+      "group": "30-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-16G-B39-01",
+          "review_number": 155,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-16G-B39-02",
+          "review_number": 156,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7CBP-B45-01",
+          "review_number": 157,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "JC-7CBP-B45-02",
+          "review_number": 158,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-QSH4050LB",
+          "review_number": 159,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-QSH4060LB",
+          "review_number": 160,
+          "values": {
+            "head_movement": "linear",
+            "sliding_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "31-source",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-DQSPBY3838LB",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838N",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4050LB",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4060LB",
+          "values": {
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "OT-QSH4050SCB",
+          "values": {
+            "head_movement": "linear"
+          }
+        }
+      ]
+    },
+    {
+      "group": "31-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "OT-DQSPBY3838LB",
+          "review_number": 161,
+          "values": {
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-DQSPBY3838N",
+          "review_number": 162,
+          "values": {
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4050LB",
+          "review_number": 163,
+          "values": {
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-DQSPBY4060LB",
+          "review_number": 164,
+          "values": {
+            "sliding_table": false
+          }
+        },
+        {
+          "sku": "OT-DSPB4050LB",
+          "review_number": 165,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "OT-QSH4050SCB",
+          "review_number": 166,
+          "values": {
+            "sliding_table": false
+          }
+        }
+      ]
+    },
+    {
+      "group": "32-source",
+      "verified_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ADF-B60-01",
+          "values": {
+            "stations": "1"
+          },
+          "superseded_by": "36-owner"
+        },
+        {
+          "sku": "JC-7ADF-B60-02",
+          "values": {
+            "stations": "1"
+          },
+          "superseded_by": "36-owner"
+        }
+      ]
+    },
+    {
+      "group": "32-double-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ADF-B60-04",
+          "review_number": 169,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "photo_update": {
+            "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          },
+          "description_update": "Два подвижных стола, боковое перемещение столов и вертикальный прижим."
+        },
+        {
+          "sku": "JC-7ADF-B60-05",
+          "review_number": 170,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "photo_update": {
+            "image": "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          },
+          "description_update": "Два подвижных стола, боковое перемещение столов и вертикальный прижим."
+        }
+      ]
+    },
+    {
+      "group": "33-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7BZE-B51-01",
+          "review_number": 172,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7BZE-B51-02",
+          "review_number": 173,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CBEP-B53-01",
+          "review_number": 174,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7CBEP-B53-02",
+          "review_number": 175,
+          "values": {
+            "sliding_table": false,
+            "head_movement": "linear"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-01",
+          "review_number": 176,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-02",
+          "review_number": 177,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed",
+            "table_layout": "lateral_shuttle",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "34-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ED-B62-04",
+          "review_number": 183,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        },
+        {
+          "sku": "JC-7ED-B62-01",
+          "review_number": 180,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        },
+        {
+          "sku": "JC-7ED-B62-02",
+          "review_number": 181,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        },
+        {
+          "sku": "JC-7ED-B62-03",
+          "review_number": 182,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "reconfirmed_existing": {
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f540470772.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/f36d8333f7.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/7d446c3122.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/432c502051.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/c35b1d9ae6.jpg"
+            ],
+            "source_url": "https://www.gzjiangchuan.com/products/-149"
+          }
+        }
+      ]
+    },
+    {
+      "group": "35-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-25Y-B57-01",
+          "review_number": 187,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-25Y-B57-02",
+          "review_number": 188,
+          "values": {
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "CE-CP2IN1LBN",
+          "review_number": 189,
+          "values": {
+            "head_movement": "fixed"
+          },
+          "reconfirmed_existing": {
+            "drive": "Ручной"
+          }
+        },
+        {
+          "sku": "JC-8A2Q-B47-01",
+          "review_number": 184,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "opposite_sides",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Q-B47-02",
+          "review_number": 185,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "opposite_sides",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-8A2Q-B47-03",
+          "review_number": 186,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "opposite_sides",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    },
+    {
+      "group": "36-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "JC-7ADF-B60-01",
+          "review_number": 167,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical",
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          }
+        },
+        {
+          "sku": "JC-7ADF-B60-02",
+          "review_number": 168,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical",
+            "stations": "2"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          }
+        },
+        {
+          "sku": "JC-7ADF-B60-07",
+          "review_number": 171,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          },
+          "photo_update": {
+            "images": [
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/1d83b3ba48.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/d5613a7337.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/64dd29cfba.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/ce7f4dff74.jpg",
+              "https://ueeshop.ly200-cdn.com/u_file/UPAY/UPAY489/2306/products/29/5c157471e7.jpg"
+            ],
+            "source_url": "https://en.gzjiangchuan.com/products/-146"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-04",
+          "review_number": 179,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        },
+        {
+          "sku": "JC-7E-B54-03",
+          "review_number": 178,
+          "values": {
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "pressing_motion": "vertical"
+          }
+        }
+      ]
+    }
+  ],
+  "pending_review": [
+    {
+      "skus": [
+        "JC-16G-B39-01",
+        "JC-16G-B39-02"
+      ],
+      "fields": [
+        "sliding_table"
+      ],
+      "status": "requires_clearer_source_image"
+    },
+    {
+      "skus": [
+        "JC-7ADF-B60-04",
+        "JC-7ADF-B60-05"
+      ],
+      "review_numbers": [
+        169,
+        170
+      ],
+      "fields": [
+        "heating_configuration"
+      ],
+      "status": "awaiting_owner_or_manufacturer",
+      "question": "Нагрев только сверху или также в нижних рабочих столах?"
+    },
+    {
+      "skus": [
+        "OT-PB4060MDLB"
+      ],
+      "review_number": 190,
+      "status": "awaiting_terminology_clarification",
+      "owner_statement": "Плита выдвижная",
+      "question": "Нижний стол выдвигается или верхняя термоплита также перемещается горизонтально? Нижний выдвижной стол уже подтверждён."
+    }
+  ],
+  "validation_policy": "For repeated SKU/attribute entries, the last group is authoritative; earlier conflicting source values are retained as superseded history."
+}
