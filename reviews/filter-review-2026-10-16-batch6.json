@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 1,
-  "pending_model_count": 1,
+  "pending_confirmed_values": 25,
+  "pending_model_count": 7,
   "groups": [
     {
       "group": "36-190",
@@ -16,6 +16,72 @@
           },
           "reconfirmed_existing": {
             "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "37-owner",
+      "confirmed_at": "2026-10-16",
+      "models": [
+        {
+          "sku": "CEHBP1515",
+          "review_number": 191,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": true,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CE-CP3IN1LBN",
+          "review_number": 192,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "fixed"
+          }
+        },
+        {
+          "sku": "CE-M9PB8IN1LB",
+          "review_number": 193,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "JC-27A-B36-01",
+          "review_number": 194,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "JC-27B-B37-01",
+          "review_number": 195,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "swing"
+          }
+        },
+        {
+          "sku": "JC-27C-B38-01",
+          "review_number": 196,
+          "values": {
+            "drive": "Ручной",
+            "stations": "1",
+            "sliding_table": false,
+            "head_movement": "swing"
           }
         }
       ]
