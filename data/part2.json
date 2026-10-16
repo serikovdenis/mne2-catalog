@@ -1031,8 +1031,21 @@
         "confirmed_at": "2026-10-16",
         "review_group": "04: presses 16–19",
         "value": false
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
+      },
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_photo_review",
+        "confirmed_at": "2026-10-16",
+        "review_group": "35"
       }
-    }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "multi",
