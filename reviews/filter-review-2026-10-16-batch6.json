@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 63,
-  "pending_model_count": 22,
+  "pending_confirmed_values": 69,
+  "pending_model_count": 25,
   "groups": [
     {
       "group": "36-190",
@@ -263,6 +263,36 @@
           "values": {
             "stations": "1",
             "head_movement": "fixed"
+          }
+        }
+      ]
+    },
+    {
+      "group": "42-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "JC-1D-B69-01",
+          "review_number": 212,
+          "values": {
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
+          }
+        },
+        {
+          "sku": "JC-1D-B69-03",
+          "review_number": 213,
+          "values": {
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
+          }
+        },
+        {
+          "sku": "JC-1D-B69-04",
+          "review_number": 214,
+          "values": {
+            "press_construction": "portable_thermoplate",
+            "integrated_work_table": false
           }
         }
       ]
