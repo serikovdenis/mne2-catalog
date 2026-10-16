@@ -1,7 +1,7 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 61,
+  "pending_confirmed_values": 63,
   "pending_model_count": 22,
   "groups": [
     {
@@ -249,6 +249,20 @@
           "review_number": 211,
           "values": {
             "sliding_table": true
+          }
+        }
+      ]
+    },
+    {
+      "group": "41-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "CE-PB2330NDLB",
+          "review_number": 211,
+          "values": {
+            "stations": "1",
+            "head_movement": "fixed"
           }
         }
       ]
