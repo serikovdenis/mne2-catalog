@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 88,
-  "pending_model_count": 29,
+  "pending_confirmed_values": 89,
+  "pending_model_count": 30,
   "groups": [
     {
       "group": "36-190",
@@ -348,6 +348,19 @@
             "table_layout": "lateral_shuttle",
             "head_movement": "fixed",
             "thermoplate_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "group": "46-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "JC-16AC-B33-01",
+          "review_number": 221,
+          "values": {
+            "head_movement": "fixed"
           }
         }
       ]
