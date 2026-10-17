@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 95,
-  "pending_model_count": 33,
+  "pending_confirmed_values": 97,
+  "pending_model_count": 34,
   "groups": [
     {
       "group": "36-190",
@@ -390,6 +390,21 @@
         {
           "sku": "CY-80100",
           "review_number": 224,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed"
+          },
+          "photo_match_confirmed": true
+        }
+      ]
+    },
+    {
+      "group": "48-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "8435316493",
+          "review_number": 225,
           "values": {
             "sliding_table": true,
             "head_movement": "fixed"
