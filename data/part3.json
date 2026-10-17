@@ -3546,7 +3546,23 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "47-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "47-owner"
+      }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -3568,7 +3584,23 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "47-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "47-owner"
+      }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "flat",
@@ -3590,7 +3622,23 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "sliding_table": true,
+    "filter_confirmations": {
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "47-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "47-owner"
+      }
+    },
+    "head_movement": "fixed"
   },
   {
     "category": "vacuum",
