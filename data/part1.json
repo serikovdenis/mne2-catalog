@@ -2760,14 +2760,50 @@
       "http://mne2.ru/bestsub/CE-DPHDLB/CE-DPHDLB_04.jpg"
     ],
     "description": "Двухстанционный термопресс для спортивных щитков для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DPHDLB\n Основные характеристики:\n • Материал: ABS-пластик, силикон и металл\n• Цвет: голубой\n• Мощность: 320 Вт\n• Напряжение: 220 В\n• Размеры машины: 49,5x47,2x46 см\n• Максимальный размер открытия: 49,5x47,2x77,5 см\n• Масса нетто: 18 кг\n• Совместимость с нагревателями для кепок, спортивных щитков, ручек, этикеток и фляг",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "thermoplate_count": {
+        "value": 1,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "thermoplate_count": 1
   },
   {
     "category": "special",
@@ -2785,14 +2821,50 @@
       "http://mne2.ru/bestsub/CE-DPKLP/CE-DPKLP_04.jpg"
     ],
     "description": "Двухстанционный термопресс для ручек для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DPKLP\n Основные характеристики:\n • Материал: ABS-пластик, силикон и металл\n• Цвет: голубой\n• Мощность: 150 Вт\n• Напряжение: 220 В\n• Размеры машины: 49,5x47,2x46 см\n• Максимальный размер открытия: 49,5x47,2x77,5 см\n• Масса нетто: 19,8 кг\n• Совместимость с нагревателями для кепок, спортивных щитков, ручек, этикеток и фляг",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": true,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "thermoplate_count": {
+        "value": 1,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "thermoplate_count": 1
   },
   {
     "category": "special",
@@ -2810,14 +2882,50 @@
       "http://mne2.ru/bestsub/CE-DYBLB/CE-DYBLB_04.jpg"
     ],
     "description": "Термопресс для этикеток для термопереноса и сублимации на совместимых заготовках.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-DYBLB\n Основные характеристики:\n • Материал: ABS-пластик, силикон и металл\n• Цвет: голубой\n• Мощность: 550 Вт\n• Напряжение: 220 В\n• Размеры машины: 49,5x47,2x46 см\n• Максимальный размер открытия: 49,5x47,2x77,5 см\n• Масса нетто: 19,8 кг\n• Совместимость с нагревателями для кепок, спортивных щитков, ручек, этикеток и фляг",
-    "drive": "",
+    "drive": "Ручной",
     "automatic": false,
     "stations": "2",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "filter_confirmations": {
+      "drive": {
+        "value": "Ручной",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "sliding_table": {
+        "value": true,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "table_layout": {
+        "value": "lateral_shuttle",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      },
+      "thermoplate_count": {
+        "value": 1,
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "45-owner"
+      }
+    },
+    "sliding_table": true,
+    "table_layout": "lateral_shuttle",
+    "head_movement": "fixed",
+    "thermoplate_count": 1
   },
   {
     "category": "special",
