@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 89,
-  "pending_model_count": 30,
+  "pending_confirmed_values": 95,
+  "pending_model_count": 33,
   "groups": [
     {
       "group": "36-190",
@@ -362,6 +362,39 @@
           "values": {
             "head_movement": "fixed"
           }
+        }
+      ]
+    },
+    {
+      "group": "47-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "CY-60100",
+          "review_number": 222,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed"
+          },
+          "photo_match_confirmed": true
+        },
+        {
+          "sku": "CY-70100",
+          "review_number": 223,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed"
+          },
+          "photo_match_confirmed": true
+        },
+        {
+          "sku": "CY-80100",
+          "review_number": 224,
+          "values": {
+            "sliding_table": true,
+            "head_movement": "fixed"
+          },
+          "photo_match_confirmed": true
         }
       ]
     }
