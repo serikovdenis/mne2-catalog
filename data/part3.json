@@ -1032,9 +1032,16 @@
         "source": "manufacturer_and_product_photo",
         "source_url": "https://www.gzjiangchuan.com/products/-101",
         "verified_at": "2026-10-16"
+      },
+      "head_movement": {
+        "value": "fixed",
+        "source": "owner_statement",
+        "confirmed_at": "2026-10-17",
+        "review_group": "46-owner"
       }
     },
-    "sliding_table": false
+    "sliding_table": false,
+    "head_movement": "fixed"
   },
   {
     "category": "cap",
