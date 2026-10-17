@@ -1,8 +1,8 @@
 {
   "status": "accumulating_no_deployment",
   "target_confirmed_values": 100,
-  "pending_confirmed_values": 73,
-  "pending_model_count": 26,
+  "pending_confirmed_values": 88,
+  "pending_model_count": 29,
   "groups": [
     {
       "group": "36-190",
@@ -309,6 +309,45 @@
             "head_movement": "fixed",
             "sliding_table": true,
             "table_layout": "lateral_shuttle"
+          }
+        }
+      ]
+    },
+    {
+      "group": "45-owner",
+      "confirmed_at": "2026-10-17",
+      "models": [
+        {
+          "sku": "CE-DPHDLB",
+          "review_number": 218,
+          "values": {
+            "drive": "Ручной",
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "thermoplate_count": 1
+          }
+        },
+        {
+          "sku": "CE-DPKLP",
+          "review_number": 219,
+          "values": {
+            "drive": "Ручной",
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "thermoplate_count": 1
+          }
+        },
+        {
+          "sku": "CE-DYBLB",
+          "review_number": 220,
+          "values": {
+            "drive": "Ручной",
+            "sliding_table": true,
+            "table_layout": "lateral_shuttle",
+            "head_movement": "fixed",
+            "thermoplate_count": 1
           }
         }
       ]
