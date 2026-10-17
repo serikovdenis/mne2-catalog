@@ -2899,6 +2899,13 @@
       "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB.webp",
       "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_1.webp",
       "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_2.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_3.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_4.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_5.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_6.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_7.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_8.webp",
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_9.webp",
       "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_10.webp"
     ],
     "drive": "Пневматический",
@@ -2922,8 +2929,10 @@
     "price_rub": null,
     "price_status": "Цена по запросу",
     "avito_id": null,
-    "image": null,
-    "images": [],
+    "image": "https://www.bestsub.com/media/k2/galleries/25263/OT-KYJ30LB_1.webp",
+    "images": [
+      "https://www.bestsub.com/media/k2/galleries/25263/OT-KYJ30LB_1.webp"
+    ],
     "related_skus": [
       "OU-AUMP8MB",
       "BHPB18"
@@ -2940,8 +2949,10 @@
     "price_rub": null,
     "price_status": "Цена по запросу",
     "avito_id": null,
-    "image": null,
-    "images": [],
+    "image": "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_4.webp",
+    "images": [
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_4.webp"
+    ],
     "related_skus": [
       "OU-AUMP8MB",
       "OT-KYJ30LB"
