@@ -4240,8 +4240,8 @@
   {
     "category": "dtf",
     "brand": "Otter",
-    "sku": "OT-AIODTF60LB-2",
-    "model": "OT-AIODTF60LB-2",
+    "sku": "OT-AIODTF60LB",
+    "model": "OT-AIODTF60LB",
     "title": "DTF-система 60 см Otter Model S",
     "avito_id": "8493816439",
     "price_rub": 1328395,
@@ -4662,19 +4662,6 @@
     "avito_id": null,
     "price_rub": 57245,
     "drive": "Не указан",
-    "stations": null,
-    "laminate_mode": null,
-    "needs_review": false
-  },
-  {
-    "category": "dtf",
-    "brand": "Otter",
-    "sku": "OT-AIODTF60LB-1",
-    "model": "OT-AIODTF60LB-1",
-    "title": "DTF-система 60 см Otter Model S",
-    "avito_id": null,
-    "price_rub": null,
-    "drive": null,
     "stations": null,
     "laminate_mode": null,
     "needs_review": false
