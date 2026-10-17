@@ -15,6 +15,13 @@ def read(f,name):
 # Fetch and hash-check every source before writing anything to FTP.
 ready=[]
 for entry in MANIFEST:
+    try:
+        live=get('https://mne2.ru/catalog/images/'+entry['name'])
+        if hashlib.sha256(live).hexdigest()==entry['sha256']:
+            print('EXISTING_HTTPS_VERIFIED',entry['name'],flush=True)
+            continue
+    except subprocess.CalledProcessError:
+        pass
     body=get(entry['source'])
     assert hashlib.sha256(body).hexdigest()==entry['sha256'],entry
     assert body[:3]==bytes.fromhex('ffd8ff') and body[-2:]==bytes.fromhex('ffd9')
