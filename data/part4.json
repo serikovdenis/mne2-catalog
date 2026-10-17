@@ -2916,7 +2916,8 @@
     "needs_review": false,
     "related_skus": [
       "OT-KYJ30LB",
-      "BHPB18"
+      "BHPB18",
+      "B-AUMP8LB"
     ]
   },
   {
@@ -2935,7 +2936,8 @@
     ],
     "related_skus": [
       "OU-AUMP8MB",
-      "BHPB18"
+      "BHPB18",
+      "B-AUMP8LB"
     ],
     "needs_review": true
   },
@@ -2955,8 +2957,35 @@
     ],
     "related_skus": [
       "OU-AUMP8MB",
-      "OT-KYJ30LB"
+      "OT-KYJ30LB",
+      "B-AUMP8LB"
     ],
     "needs_review": true
+  },
+  {
+    "category": "mug",
+    "brand": "BestSub / OtterUltra",
+    "sku": "B-AUMP8LB",
+    "model": "B-AUMP8LB",
+    "title": "Комплект термопресса на 8 кружек BestSub B-AUMP8LB с подставкой и компрессором",
+    "avito_id": null,
+    "price_rub": null,
+    "price_status": "Цена по запросу",
+    "description": "B-AUMP8LB — полный комплект оборудования для сублимационной печати на восьми кружках одновременно. Комплект включает три элемента: автоматический пневматический термопресс на 8 кружек, мобильную подставку на колёсах и воздушный компрессор.\n\nСостав комплекта:\n• Термопресс на 8 кружек — основной рабочий модуль для переноса изображений на кружки.\n• BHPB18 — усиленная подставка на колёсах для установки пресса.\n• OT-KYJ30LB — воздушный компрессор 30 л для пневматического прижима.\n\nНа фотографии представлен собранный комплект. Артикул B-AUMP8LB относится ко всему комплекту из трёх элементов, а не только к прессу. Точную модификацию прессового модуля, электрическое исполнение и окончательную комплектацию уточняем перед заказом. Цена и срок поставки — по запросу.",
+    "image": "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_4.webp",
+    "images": [
+      "https://www.bestsub.com/media/k2/galleries/27526/OU-AUMP8MB_4.webp"
+    ],
+    "drive": "Пневматический",
+    "automatic": true,
+    "stations": "8",
+    "size_cm": null,
+    "width_mm": null,
+    "needs_review": true,
+    "related_skus": [
+      "OU-AUMP8MB",
+      "BHPB18",
+      "OT-KYJ30LB"
+    ]
   }
 ]
