@@ -1,0 +1,19 @@
+name: BestSub public preparation safety tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/prepare_bestsub_reviewed.py'
+      - 'tests/test_prepare_bestsub_reviewed.py'
+      - '.github/workflows/test-bestsub-preparation.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install --quiet pillow
+      - run: python3 -m unittest discover -s tests -p 'test_prepare_bestsub_reviewed.py' -v
