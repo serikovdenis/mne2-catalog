@@ -24,7 +24,7 @@ class PrepareTests(unittest.TestCase):
                   "description":"Reviewed","specifications":"Reviewed"}
         (self.root/"data"/"part1.json").write_text(json.dumps([self.row]),encoding="utf-8")
         self.image=io.BytesIO()
-        Image.new("RGB",(64,64)).save(self.image,format="WEBP")
+        Image.effect_noise((256,256),80).convert("RGB").save(self.image,format="WEBP",quality=90)
         self.original=self.image.getvalue()
     def run_prepare(self,html=None):
         import os,sys
