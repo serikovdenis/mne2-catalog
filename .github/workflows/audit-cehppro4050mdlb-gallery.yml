@@ -1,0 +1,66 @@
+name: Audit CEHPPRO4050MDLB gallery (read-only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all published gallery URLs and exact duplicate image bytes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import urllib.error
+          import urllib.request
+          from pathlib import Path
+
+          sku = "CEHPPRO4050MDLB"
+          matches = [
+              row for path in sorted(Path("data").glob("part*.json"))
+              for row in json.loads(path.read_text(encoding="utf-8"))
+              if row.get("sku") == sku
+          ]
+          if len(matches) != 1:
+              raise SystemExit("Expected exactly one catalog item")
+          row = matches[0]
+          urls = row.get("images", [])
+          if not urls:
+              raise SystemExit("Gallery has no images")
+          print("SKU:", sku)
+          print("Images in catalog:", len(urls))
+          hashes = {}
+          errors = []
+          for index, url in enumerate(urls, 1):
+              try:
+                  if not url.startswith("https://mne2.ru/catalog/images/"):
+                      raise ValueError("Unexpected URL")
+                  req = urllib.request.Request(url, headers={"User-Agent": "MNE2-Gallery-Audit/1.0"})
+                  with urllib.request.urlopen(req, timeout=15) as response:
+                      if response.status != 200:
+                          raise ValueError("HTTP " + str(response.status))
+                      blob = response.read(25 * 1024 * 1024 + 1)
+                      if len(blob) > 25 * 1024 * 1024:
+                          raise ValueError("Image exceeds 25 MB")
+                      if len(blob) < 1000:
+                          raise ValueError("Suspiciously small image")
+                  digest = hashlib.sha256(blob).hexdigest()
+                  print(f"{index:02d}: OK bytes={len(blob)} sha256={digest[:16]} filename={url.rsplit('/',1)[-1]}")
+                  hashes.setdefault(digest, []).append(index)
+              except Exception as exc:
+                  errors.append(index)
+                  print(f"{index:02d}: ERROR {type(exc).__name__}: {str(exc)[:160]}")
+          duplicates = [indices for indices in hashes.values() if len(indices) > 1]
+          print("Broken images:", len(errors))
+          print("Exact duplicate groups:", len(duplicates))
+          for indices in duplicates:
+              print("Duplicate positions:", ", ".join(map(str, indices)))
+          print("No files or catalog entries were modified")
+          if errors or duplicates:
+              raise SystemExit("AUDIT FAILED: review issues above before publishing")
+          print("AUDIT PASSED: all gallery images accessible and byte-unique")
+          PY
