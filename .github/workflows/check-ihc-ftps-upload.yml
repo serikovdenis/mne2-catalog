@@ -1,0 +1,66 @@
+name: IHC FTPS temporary upload and cleanup
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  upload-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+    steps:
+      - name: Verify temporary FTPS upload, read-back and deletion
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import ftplib
+          import hashlib
+          import os
+          import secrets
+          import sys
+
+          password = os.environ.get("FTP_PASSWORD")
+          if not password:
+              sys.exit("FAILED: FTP_PASSWORD secret is missing or empty")
+
+          host = "p1057897.ftp.ihc.ru"
+          user = "p1057897_chatgpt"
+          directory = ("www", "mne2.ru", "catalog", "images", "bestsub")
+          filename = ".mne2-ftps-test-" + secrets.token_hex(16) + ".tmp"
+          data = b"MNE2 FTPS connectivity test\n" + secrets.token_bytes(64)
+          uploaded = False
+
+          try:
+              with ftplib.FTP_TLS(host, timeout=25) as ftp:
+                  ftp.login(user, password)
+                  ftp.prot_p()
+                  print("FTPS login and protected data channel: OK")
+                  ftp.cwd("/")
+                  for part in directory:
+                      ftp.cwd(part)
+                  print("Existing target parent directory: OK")
+                  try:
+                      # Do not overwrite any file; unpredictable unique filename.
+                      existing = {x.rsplit("/", 1)[-1] for x in ftp.nlst()}
+                      if filename in existing:
+                          raise RuntimeError("Unexpected filename collision")
+                      import io
+                      ftp.storbinary("STOR " + filename, io.BytesIO(data))
+                      uploaded = True
+                      print("Temporary upload: OK")
+                      chunks = []
+                      ftp.retrbinary("RETR " + filename, chunks.append)
+                      if hashlib.sha256(b"".join(chunks)).digest() != hashlib.sha256(data).digest():
+                          raise RuntimeError("Read-back checksum mismatch")
+                      print("Read-back SHA256: OK")
+                  finally:
+                      if uploaded:
+                          ftp.delete(filename)
+                          print("Temporary file deleted: OK")
+          except Exception as exc:
+              # No password, payload or server file listing is printed.
+              print("FAILED:", type(exc).__name__, str(exc)[:250])
+              raise SystemExit(1)
+          print("SUCCESS: no catalog JSON or existing images modified")
+          PY
