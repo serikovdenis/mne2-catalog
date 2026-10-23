@@ -45,6 +45,12 @@ class PrepareTests(unittest.TestCase):
     def test_rejects_changed_manufacturer_gallery(self):
         with self.assertRaises(AssertionError):
             self.run_prepare('<img src="https://www.bestsub.com/media/k2/galleries/123/OTHER.webp">')
+    def test_rejects_duplicate_destination_names(self):
+        self.row["source_images"]=[SOURCE,SOURCE]
+        self.row["images"]=[LIVE,LIVE]
+        (self.root/"data"/"part1.json").write_text(json.dumps([self.row]),encoding="utf-8")
+        with self.assertRaises(AssertionError):
+            self.run_prepare()
     def test_rejects_price_or_other_catalog_writes(self):
         before=(self.root/"data"/"part1.json").read_bytes()
         self.run_prepare()
