@@ -32,6 +32,8 @@ def main():
     if row.get("source_gallery_scope")=="exact_sku":
         gallery=[u for u in gallery if re.match(re.escape(sku)+r"(?:[_.])",u.rsplit("/",1)[1],re.I)]
     assert gallery==expected, "Manufacturer gallery changed: abort"
+    assert len(set(expected))==len(expected), "Duplicate source URLs"
+    assert len(set(row["images"]))==len(row["images"]), "Duplicate live URLs"
     out=Path("prepared")/sku
     out.mkdir(parents=True,exist_ok=True)
     files=[]
@@ -40,6 +42,7 @@ def main():
         assert live.startswith("https://mne2.ru/catalog/images/bestsub/"+sku+"/")
         name=source.rsplit("/",1)[1]
         assert name==live.rsplit("/",1)[1] and re.fullmatch(r"[A-Za-z0-9_.-]+",name)
+        assert name not in {entry["name"] for entry in files}, "Duplicate destination filename"
         blob=get(source)
         assert len(blob)>1000
         image=Image.open(io.BytesIO(blob))
