@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Install image verification dependency
+        run: python3 -m pip install --quiet pillow
       - name: Download and verify original gallery without FTP
         env:
           SKU: ${{ inputs.sku }}
