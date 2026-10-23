@@ -29,6 +29,8 @@ if __name__=="__main__":
     rows=audit()
     summary={"total":len(rows),"ready":sum(x["ready"] for x in rows),"blocked":sum(not x["ready"] for x in rows)}
     print(json.dumps(summary,ensure_ascii=False))
+    from collections import Counter
+    print(json.dumps({"blockers":dict(Counter(reason for item in rows for reason in item["reasons"]))},ensure_ascii=False))
     for item in rows:
         if item["ready"] or item["sku"]=="OT-QSH4050SCB":
             print(json.dumps(item,ensure_ascii=False))
