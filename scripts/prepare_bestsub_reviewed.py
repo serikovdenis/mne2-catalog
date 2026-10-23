@@ -1,18 +1,9 @@
 """Prepare a reviewed BestSub SKU without credentials or FTP writes."""
 import argparse, hashlib, json, re, urllib.parse, urllib.request
 from pathlib import Path
-from html.parser import HTMLParser
+from bs4 import BeautifulSoup
 from PIL import Image
 import io
-
-class Gallery(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.images = []
-    def handle_starttag(self, tag, attrs):
-        if tag != "img": return
-        src = dict(attrs).get("src", "")
-        if "/media/k2/galleries/" in src: self.images.append(src)
 
 def get(url):
     req=urllib.request.Request(url,headers={"User-Agent":"MNE2-Reviewed-Prepare/1.0"})
@@ -36,9 +27,8 @@ def main():
     assert expected and len(expected)==len(row["images"])
     assert row["image"]==row["images"][0]
     assert row.get("description") and row.get("specifications")
-    parser=Gallery()
-    parser.feed(get(page).decode("utf-8","replace"))
-    gallery=list(dict.fromkeys(urllib.parse.urljoin(page,u) for u in parser.images))
+    soup=BeautifulSoup(get(page),"html.parser")
+    gallery=list(dict.fromkeys(urllib.parse.urljoin(page,i.get("src","")) for i in soup.select("img[src]") if "/media/k2/galleries/" in i["src"]))
     if row.get("source_gallery_scope")=="exact_sku":
         gallery=[u for u in gallery if re.match(re.escape(sku)+r"(?:[_.])",u.rsplit("/",1)[1],re.I)]
     assert gallery==expected, "Manufacturer gallery changed: abort"
