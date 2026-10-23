@@ -15,6 +15,7 @@ jobs:
           python3 - <<'PY'
           import hashlib
           import json
+          import socket
           import urllib.error
           import urllib.request
           from pathlib import Path
@@ -32,6 +33,12 @@ jobs:
           if not urls:
               raise SystemExit("Gallery has no images")
           print("SKU:", sku)
+          try:
+              print("mne2.ru DNS:", sorted({a[4][0] for a in socket.getaddrinfo("mne2.ru", 443, type=socket.SOCK_STREAM)}))
+              with socket.create_connection(("mne2.ru", 443), timeout=5):
+                  print("mne2.ru TCP/443: reachable")
+          except Exception as exc:
+              raise SystemExit("NETWORK UNAVAILABLE: " + type(exc).__name__ + ": " + str(exc))
           print("Images in catalog:", len(urls))
           hashes = {}
           errors = []
@@ -40,7 +47,7 @@ jobs:
                   if not url.startswith("https://mne2.ru/catalog/images/"):
                       raise ValueError("Unexpected URL")
                   req = urllib.request.Request(url, headers={"User-Agent": "MNE2-Gallery-Audit/1.0"})
-                  with urllib.request.urlopen(req, timeout=15) as response:
+                  with urllib.request.urlopen(req, timeout=5) as response:
                       if response.status != 200:
                           raise ValueError("HTTP " + str(response.status))
                       blob = response.read(25 * 1024 * 1024 + 1)
@@ -54,6 +61,8 @@ jobs:
               except Exception as exc:
                   errors.append(index)
                   print(f"{index:02d}: ERROR {type(exc).__name__}: {str(exc)[:160]}")
+                  if isinstance(exc, (TimeoutError, urllib.error.URLError)) and "timed out" in str(exc).lower():
+                      raise SystemExit("NETWORK TIMEOUT: stopping early; image health cannot be determined")
           duplicates = [indices for indices in hashes.values() if len(indices) > 1]
           print("Broken images:", len(errors))
           print("Exact duplicate groups:", len(duplicates))
