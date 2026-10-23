@@ -1,0 +1,26 @@
+name: Prepare reviewed BestSub photos (public runner)
+on:
+  workflow_dispatch:
+    inputs:
+      sku:
+        description: 'Exactly one reviewed BestSub SKU with source_images in catalog'
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify original gallery without FTP
+        env:
+          SKU: ${{ inputs.sku }}
+        run: python3 scripts/prepare_bestsub_reviewed.py --sku "$SKU"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bestsub-reviewed-prepared
+          path: prepared/
+          retention-days: 7
+          if-no-files-found: error
