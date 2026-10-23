@@ -1,0 +1,47 @@
+name: IHC FTPS connectivity diagnostic (no credentials)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  connectivity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: DNS, TCP and explicit FTPS handshake (read-only)
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import ftplib
+          import socket
+          import ssl
+
+          host = "p1057897.ftp.ihc.ru"
+          print("Host:", host)
+          try:
+              addresses = sorted({info[4][0] for info in socket.getaddrinfo(host, 21, type=socket.SOCK_STREAM)})
+              print("DNS: OK (", len(addresses), "address(es))")
+          except Exception as exc:
+              print("DNS: FAILED:", type(exc).__name__, str(exc))
+              raise SystemExit(1)
+
+          try:
+              with socket.create_connection((host, 21), timeout=12) as conn:
+                  print("TCP port 21: OPEN")
+                  conn.settimeout(12)
+                  print("FTP banner:", conn.recv(1024).decode("ascii", errors="replace").strip()[:150])
+          except Exception as exc:
+              print("TCP: FAILED:", type(exc).__name__, str(exc))
+              raise SystemExit(2)
+
+          try:
+              with ftplib.FTP_TLS(timeout=15, context=ssl.create_default_context()) as ftp:
+                  ftp.connect(host, 21)
+                  ftp.auth()
+                  print("Explicit FTPS AUTH TLS: OK")
+                  print("TLS version:", ftp.sock.version())
+                  ftp.quit()
+          except Exception as exc:
+              print("Explicit FTPS: FAILED:", type(exc).__name__, str(exc))
+              raise SystemExit(3)
+          PY
