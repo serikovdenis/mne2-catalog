@@ -1,0 +1,29 @@
+name: Prepare Otter G1 original photos (free public runner)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and validate manufacturer originals
+        run: python3 scripts/import_bestsub_otter_g1.py
+      - name: Validate 26 original files
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('site/catalog/images/bestsub/OU-G14050MB')
+          data=json.loads((p/'manifest.json').read_text())
+          assert len(data['files'])==26
+          assert all('sha256' in f for f in data['files'])
+          assert all((p/f'{i:02d}.webp').is_file() for i in range(1,27))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: OU-G14050MB-originals
+          path: site/catalog/images/bestsub/OU-G14050MB/
+          retention-days: 7
