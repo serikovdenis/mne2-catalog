@@ -2,6 +2,7 @@
 import io
 import json
 import tempfile
+import zipfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -26,12 +27,13 @@ class PrepareTests(unittest.TestCase):
         self.image=io.BytesIO()
         Image.effect_noise((256,256),80).convert("RGB").save(self.image,format="WEBP",quality=90)
         self.original=self.image.getvalue()
-    def run_prepare(self,html=None):
+    def run_prepare(self,html=None,make_zip=False):
         import os,sys
         old=os.getcwd()
         os.chdir(self.root)
         try:
-            with patch.object(sys,"argv",["prepare","--sku",SKU]), patch.object(mod,"get",side_effect=[
+            argv=["prepare","--sku",SKU]+(["--zip"] if make_zip else [])
+            with patch.object(sys,"argv",argv), patch.object(mod,"get",side_effect=[
                 (html or '<img src="'+SOURCE+'">').encode(),self.original
             ]):
                 mod.main()
@@ -42,6 +44,12 @@ class PrepareTests(unittest.TestCase):
         out=self.root/"prepared"/SKU
         self.assertEqual((out/(SKU+".webp")).read_bytes(),self.original)
         self.assertEqual(json.loads((out/"manifest.json").read_text())["sku"],SKU)
+    def test_local_zip_matches_publisher_layout(self):
+        self.run_prepare(make_zip=True)
+        archive=self.root/"prepared"/(SKU+".zip")
+        with zipfile.ZipFile(archive) as z:
+            self.assertEqual(set(z.namelist()),{SKU+"/manifest.json",SKU+"/"+SKU+".webp"})
+            self.assertEqual(z.read(SKU+"/"+SKU+".webp"),self.original)
     def test_rejects_changed_manufacturer_gallery(self):
         with self.assertRaises(AssertionError):
             self.run_prepare('<img src="https://www.bestsub.com/media/k2/galleries/123/OTHER.webp">')
