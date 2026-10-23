@@ -13,6 +13,11 @@ def audit(root=Path("data")):
             images=item.get("images") or []
             sources=item.get("source_images") or []
             if sources and len(sources)!=len(images): reasons.append("image_count_mismatch")
+            if len(set(sources))!=len(sources): reasons.append("duplicate_sources")
+            if len(set(images))!=len(images): reasons.append("duplicate_destinations")
+            if item.get("source_url") and not item["source_url"].startswith("https://www.bestsub.com/"): reasons.append("unsupported_manufacturer_url")
+            if sources and any(not s.startswith("https://www.bestsub.com/") for s in sources): reasons.append("unsupported_source_image")
+            if images and item.get("image")!=images[0]: reasons.append("primary_image_mismatch")
             if sources and images and any(s.rsplit("/",1)[-1]!=d.rsplit("/",1)[-1] for s,d in zip(sources,images)): reasons.append("filename_mismatch")
             if sources and images and any(not d.startswith("https://mne2.ru/catalog/images/bestsub/"+sku+"/") for d in images): reasons.append("destination_path_mismatch")
             if not item.get("specifications"): reasons.append("missing_specifications")
