@@ -2,6 +2,8 @@
 import argparse, hashlib, json, re, urllib.parse, urllib.request
 from pathlib import Path
 from html.parser import HTMLParser
+from PIL import Image
+import io
 
 class Gallery(HTMLParser):
     def __init__(self):
@@ -32,6 +34,8 @@ def main():
     assert urllib.parse.urlsplit(page).hostname=="www.bestsub.com"
     expected=row["source_images"]
     assert expected and len(expected)==len(row["images"])
+    assert row["image"]==row["images"][0]
+    assert row.get("description") and row.get("specifications")
     parser=Gallery()
     parser.feed(get(page).decode("utf-8","replace"))
     gallery=list(dict.fromkeys(urllib.parse.urljoin(page,u) for u in parser.images))
@@ -48,6 +52,8 @@ def main():
         assert name==live.rsplit("/",1)[1] and re.fullmatch(r"[A-Za-z0-9_.-]+",name)
         blob=get(source)
         assert len(blob)>1000
+        image=Image.open(io.BytesIO(blob))
+        image.verify()
         (out/name).write_bytes(blob)
         files.append({"name":name,"source":source,"live":live,"sha256":hashlib.sha256(blob).hexdigest(),"bytes":len(blob)})
     manifest={"sku":sku,"part":part,"files":files,"catalog_prices_untouched":True}
