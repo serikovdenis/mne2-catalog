@@ -19,6 +19,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install image verification dependency
         run: python3 -m pip install --quiet pillow beautifulsoup4
+      - name: Verify preparation safeguards offline
+        run: python3 -m unittest discover -s tests -p 'test_prepare_bestsub_reviewed.py' -v
       - name: Download and verify original gallery without FTP
         env:
           SKU: ${{ inputs.sku }}
