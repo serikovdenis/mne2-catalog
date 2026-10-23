@@ -12,6 +12,7 @@ def get(url):
 def main():
     p=argparse.ArgumentParser()
     p.add_argument("--sku",required=True)
+    p.add_argument("--zip",action="store_true",help="Create local ZIP with SKU/ folder for offline publisher")
     args=p.parse_args()
     sku=args.sku
     assert re.fullmatch(r"[A-Za-z0-9_-]+",sku)
@@ -51,6 +52,14 @@ def main():
         files.append({"name":name,"source":source,"live":live,"sha256":hashlib.sha256(blob).hexdigest(),"bytes":len(blob)})
     manifest={"sku":sku,"part":part,"files":files,"catalog_prices_untouched":True}
     (out/"manifest.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
+    if args.zip:
+        import zipfile
+        archive=Path("prepared")/(sku+".zip")
+        with zipfile.ZipFile(archive,"w",compression=zipfile.ZIP_DEFLATED) as z:
+            for item in files:
+                z.write(out/item["name"],arcname=sku+"/"+item["name"])
+            z.write(out/"manifest.json",arcname=sku+"/manifest.json")
+        print("LOCAL ARCHIVE",archive)
     print("PREPARED",sku,len(files),"original files; no FTP writes")
 
 if __name__=="__main__": main()
