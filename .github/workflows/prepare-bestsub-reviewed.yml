@@ -8,6 +8,9 @@ on:
         type: string
 permissions:
   contents: read
+concurrency:
+  group: bestsub-prepare
+  cancel-in-progress: false
 jobs:
   prepare:
     runs-on: ubuntu-latest
