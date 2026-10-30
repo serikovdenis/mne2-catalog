@@ -1255,15 +1255,15 @@
       "http://mne2.ru/jiangchuan/JC-12A/06_detail.jpg"
     ],
     "description": "Термопресс для нанесения изображений на кружки и цилиндрические заготовки методом сублимации. Можно принимать заказы на персонализированные кружки и совместимые цилиндрические заготовки, подарки с фотографиями и сувениры с логотипами.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-12A\n Исполнение: 11 oz\n Основные характеристики:\n • Размер рабочей зоны: 11 oz\n• Мощность: 0.35 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 7 кг\n• Размер упаковки: 36x35x32 см",
-    "price_rub": 29845,
+    "price_rub": 9895,
     "drive": "",
     "automatic": false,
     "stations": "",
     "size_cm": null,
     "width_mm": null,
     "needs_review": false,
-    "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_status": "Расчёт MNE2: 350 CNY, 7 кг, получение 2 ₽/кг, коэффициент 1.5",
+    "price_source": "Формула MNE2 2026-10-30"
   },
   {
     "category": "special",
