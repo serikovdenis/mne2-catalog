@@ -1,0 +1,1 @@
++(p.sku==='HJD-DTF-12'?'<section><h3>Видео производителя</h3><video controls preload="metadata" playsinline style="width:100%;max-height:650px" src="/catalog/images/HJD-DTF-12/video.mp4"></video><p><a href="/catalog/images/HJD-DTF-12/specification.docx" download>Спецификация и исходный прайс производителя (Word)</a></p></section>':'')
