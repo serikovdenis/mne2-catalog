@@ -2354,8 +2354,10 @@
     "price_source": null,
     "model": "CEHPPRO3838DLB",
     "avito_id": null,
-    "image": null,
-    "images": [],
+    "image": "https://mne2.ru/bestsub/CEHPPRO3838DLB/CEHPPRO3838DLB_01.jpg",
+    "images": [
+      "https://mne2.ru/bestsub/CEHPPRO3838DLB/CEHPPRO3838DLB_01.jpg"
+    ],
     "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CEHPPRO3838DLB."
   },
   {
@@ -2375,8 +2377,10 @@
     "price_source": null,
     "model": "CEHPPRO4060DPK",
     "avito_id": null,
-    "image": null,
-    "images": [],
+    "image": "https://mne2.ru/bestsub/CEHPPRO4060DPK/CEHPPRO4060DPK_01.jpg",
+    "images": [
+      "https://mne2.ru/bestsub/CEHPPRO4060DPK/CEHPPRO4060DPK_01.jpg"
+    ],
     "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CEHPPRO4060DPK."
   },
   {
@@ -2749,8 +2753,10 @@
     "price_source": "Fulei_catalog_prices_2026.xlsx",
     "model": "ERS-1800R",
     "avito_url": null,
-    "image": null,
-    "images": [],
+    "image": "https://mne2.ru/catalog/images/Fulei/ERS-1800R/01-main.jpg",
+    "images": [
+      "https://mne2.ru/catalog/images/Fulei/ERS-1800R/01-main.jpg"
+    ],
     "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели ERS-1800R."
   },
   {
