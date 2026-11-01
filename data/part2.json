@@ -2215,8 +2215,14 @@
     "model": "JC-7B-B41-01",
     "title": "Термопресс 40×40 см полуавтоматический пневматический",
     "avito_id": "8373437138",
-    "image": "",
-    "images": [],
+    "image": "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
+    "images": [
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_02.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_03.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_04.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_05.jpg"
+    ],
     "description": "Пневматический термопресс для стабильного переноса изображений на текстиль и другие плоские заготовки. Подходит для мастерских и производств, где важны повторяемое давление, скорость работы и снижение ручной нагрузки.\n\nТехническое описание\n\nПроизводитель: Guangzhou Jiangchuan Printing Equipment Co., Ltd\n Модель: JC-7B\n Исполнение: 40×40 см\n Основные характеристики:\n • Размер рабочей зоны: 40×40 см\n• Мощность: 3.2 кВт\n• Температура: 0-260°C\n• Время: 0-999 s\n• Вес: 116 кг\n• Размер упаковки: 119x74x134 см",
     "price_rub": 124045,
     "drive": "Пневматический",
