@@ -3537,8 +3537,14 @@
     "title": "Вакуумный лоток A4 для печи Craft Express",
     "avito_id": "8359043985",
     "price_rub": 9495,
-    "image": "",
-    "images": [],
+    "image": "https://mne2.ru/bestsub/CE-TPGY-A4/CE-TPGY-A4_factory26_01.jpg",
+    "images": [
+      "https://mne2.ru/bestsub/CE-TPGY-A4/CE-TPGY-A4_factory26_01.jpg",
+      "https://mne2.ru/bestsub/CE-TPGY-A4/CE-TPGY-A4_factory26_02.jpg",
+      "https://mne2.ru/bestsub/CE-TPGY-A4/CE-TPGY-A4_factory26_03.jpg",
+      "https://mne2.ru/bestsub/CE-TPGY-A4/CE-TPGY-A4_factory26_04.jpg",
+      "https://mne2.ru/bestsub/CE-TPGY-A4/CE-TPGY-A4_factory26_05.jpg"
+    ],
     "description": "Вакуумный лоток предназначен для использования с совместимой сублимационной печью. Это вспомогательная оснастка для подготовки заготовок к переносу изображения, а не отдельное печатное оборудование.\n\nТехническое описание\n\nПроизводитель: Craft Express\n Модель: CE-TPGY-A4\n Основные характеристики:\n • Назначение: вакуумный лоток для VacPro 20 л\n• Размер: 32,9x24,2x8,3 см\n• Вес нетто: 1,95 кг\n• Цвет: серый\n• Упаковка: 1 шт. в крафтовой коробке",
     "drive": "",
     "automatic": false,
