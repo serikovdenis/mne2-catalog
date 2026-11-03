@@ -2,9 +2,21 @@
 import ftplib,hashlib,io,json,os,re,sys,time
 from pathlib import Path
 
+def public_record(row):
+    # Confidential supplier data stays in private source files, never in public JSON.
+    def blocked(key):
+        return key in {'price_source','price_status','needs_review'} or bool(re.search(r'factory_price|purchase|procurement|cost_price|price_cny|price_usd|price_rmb|markup|margin|formula|exchange_rate',key,re.I))
+    if isinstance(row,dict):return {k:public_record(v) for k,v in row.items() if not blocked(k)}
+    if isinstance(row,list):return [public_record(v) for v in row]
+    return row
+
 def prepare(root):
     records=[]
-    for n in range(1,5):records+=json.loads((root/'data'/f'part{n}.json').read_text(encoding='utf-8'))
+    for n in range(1,5):
+        path=root/'data'/f'part{n}.json'
+        rows=public_record(json.loads(path.read_text(encoding='utf-8')))
+        path.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        records+=rows
     assert records and len({r['sku'] for r in records})==len(records)
     html=(root/'index.html').read_text(encoding='utf-8')
     payload=json.dumps(records,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
