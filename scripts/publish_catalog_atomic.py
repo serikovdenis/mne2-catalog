@@ -16,7 +16,7 @@ def public_record(row):
         result={k:public_record(v) for k,v in row.items() if not blocked(k)}
         if result.get('sku') in IMAGE_OVERRIDES['cards']:
             result['image']=IMAGE_OVERRIDES['cards'][result['sku']]
-            result['images']=[result['image']]
+            result['images']=IMAGE_OVERRIDES.get('galleries',{}).get(result['sku'],[result['image']])
         return result
     if isinstance(row,list):return [public_record(v) for v in row]
     return row
