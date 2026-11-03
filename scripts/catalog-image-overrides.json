@@ -241,7 +241,15 @@
     "JC-26D-B17-04": "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_01.png",
     "JC-7B-B41-03": "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
     "JC-7B-B41-04": "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
-    "Lite-140Cp": "https://mne2.ru/fulei/Lite-P/Lite-P_factory35_01.png"
+    "Lite-140Cp": "https://mne2.ru/fulei/Lite-P/Lite-P_factory35_01.png",
+    "JC-5BB-B27-01": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_01.png",
+    "JC-5BB-B27-02": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_01.png",
+    "JC-5CQ-B25-01": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5CQ_01.png",
+    "JC-5CQ-B25-02": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5CQ_01.png",
+    "JC-7BZE-B51-01": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_01.png",
+    "JC-7BZE-B51-02": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_01.png",
+    "CE-TPGY": "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_01.png",
+    "JC-56E-B72-01": "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-56E_01.png"
   },
   "galleries": {
     "JC-26B-B05-01": [
@@ -299,6 +307,51 @@
     ],
     "Lite-140Cp": [
       "https://mne2.ru/fulei/Lite-P/Lite-P_factory35_01.png"
+    ],
+    "JC-5BB-B27-01": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_02.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_03.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_04.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_05.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_06.png"
+    ],
+    "JC-5BB-B27-02": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_02.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_03.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_04.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_05.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5BB_06.png"
+    ],
+    "JC-5CQ-B25-01": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5CQ_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5CQ_02.png"
+    ],
+    "JC-5CQ-B25-02": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5CQ_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-5CQ_02.png"
+    ],
+    "JC-7BZE-B51-01": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_02.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_03.png"
+    ],
+    "JC-7BZE-B51-02": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_02.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-7BZE_03.png"
+    ],
+    "CE-TPGY": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_01.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_02.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_03.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_04.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_05.png",
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/CE-TPGY_06.png"
+    ],
+    "JC-56E-B72-01": [
+      "https://mne2.ru/catalog/images/empty45-batch2-20261103/JC-56E_01.png"
     ]
   }
 }
