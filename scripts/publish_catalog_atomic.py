@@ -11,7 +11,7 @@ def public_record(row):
         return key in {'price_source','price_status','needs_review','source_url','image_source','filter_confirmations'} or bool(re.search(r'factory_price|purchase|procurement|cost_price|price_cny|price_usd|price_rmb|markup|margin|formula|exchange_rate',key,re.I))
     if isinstance(row,str):
         row=IMAGE_OVERRIDES['urls'].get(row,row)
-        return re.sub(r'https?://[^\\s<>"\\x27]+',lambda m:m[0] if urlsplit(m[0]).hostname in {'mne2.ru','www.mne2.ru','www.youtube.com','youtube.com','youtu.be','www.youtube-nocookie.com'} else '',row)
+        return re.sub(r'https?://[^\s<>"\x27]+',lambda m:m[0] if urlsplit(m[0]).hostname in {'mne2.ru','www.mne2.ru','www.youtube.com','youtube.com','youtu.be','www.youtube-nocookie.com'} else '',row)
     if isinstance(row,dict):
         result={k:public_record(v) for k,v in row.items() if not blocked(k)}
         if result.get('sku') in IMAGE_OVERRIDES['cards']:
