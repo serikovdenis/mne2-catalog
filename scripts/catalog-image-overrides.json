@@ -262,7 +262,8 @@
     "JC-26B-B09-04": "https://mne2.ru/catalog/images/empty45-batch3-20261103/JC-26B-CP_01.png",
     "JC-26B-B09-05": "https://mne2.ru/catalog/images/empty45-batch3-20261103/JC-26B-CP_01.png",
     "JC-26B-B09-06": "https://mne2.ru/catalog/images/empty45-batch3-20261103/JC-26B-CP_01.png",
-    "JC-16G-B39-02": "https://mne2.ru/catalog/images/empty45-batch4-20261103/JC-16G_01.png"
+    "JC-16G-B39-02": "https://mne2.ru/catalog/images/empty45-batch4-20261103/JC-16G_01.png",
+    "ERS-3300R": "https://mne2.ru/fulei/ERS-R/ERS-R_factory36_01.png"
   },
   "galleries": {
     "JC-26B-B05-01": [
@@ -434,6 +435,9 @@
     ],
     "JC-16G-B39-02": [
       "https://mne2.ru/catalog/images/empty45-batch4-20261103/JC-16G_01.png"
+    ],
+    "ERS-3300R": [
+      "https://mne2.ru/fulei/ERS-R/ERS-R_factory36_01.png"
     ]
   }
 }
