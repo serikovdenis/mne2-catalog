@@ -1,5 +1,6 @@
 """Publish a complete catalog snapshot without exposing partially uploaded files."""
 import ftplib,hashlib,io,json,os,re,sys,time
+from urllib.parse import urlsplit
 from pathlib import Path
 
 IMAGE_OVERRIDES=json.loads(Path(__file__).with_name('catalog-image-overrides.json').read_text(encoding='utf-8'))
@@ -7,8 +8,10 @@ IMAGE_OVERRIDES=json.loads(Path(__file__).with_name('catalog-image-overrides.jso
 def public_record(row):
     # Confidential supplier data stays in private source files, never in public JSON.
     def blocked(key):
-        return key in {'price_source','price_status','needs_review'} or bool(re.search(r'factory_price|purchase|procurement|cost_price|price_cny|price_usd|price_rmb|markup|margin|formula|exchange_rate',key,re.I))
-    if isinstance(row,str):return IMAGE_OVERRIDES['urls'].get(row,row)
+        return key in {'price_source','price_status','needs_review','source_url','image_source','filter_confirmations'} or bool(re.search(r'factory_price|purchase|procurement|cost_price|price_cny|price_usd|price_rmb|markup|margin|formula|exchange_rate',key,re.I))
+    if isinstance(row,str):
+        row=IMAGE_OVERRIDES['urls'].get(row,row)
+        return re.sub(r'https?://[^\\s<>"\\x27]+',lambda m:m[0] if urlsplit(m[0]).hostname in {'mne2.ru','www.mne2.ru','www.youtube.com','youtube.com','youtu.be','www.youtube-nocookie.com'} else '',row)
     if isinstance(row,dict):
         result={k:public_record(v) for k,v in row.items() if not blocked(k)}
         if result.get('sku') in IMAGE_OVERRIDES['cards']:
