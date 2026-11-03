@@ -232,6 +232,73 @@
     "8435316493": "https://mne2.ru/catalog/images/ai-watermark/clean-9575a8b5dc0861f6.png",
     "CY-60100": "https://mne2.ru/catalog/images/ai-watermark/clean-0351307c79bd57c3.png",
     "CY-70100": "https://mne2.ru/catalog/images/ai-watermark/clean-ceca0ba9f91c00d6.png",
-    "CY-80100": "https://mne2.ru/catalog/images/ai-watermark/clean-623e558f75a35425.png"
+    "CY-80100": "https://mne2.ru/catalog/images/ai-watermark/clean-623e558f75a35425.png",
+    "JC-26B-B05-01": "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_01.png",
+    "JC-26B-B05-02": "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_01.png",
+    "JC-26B-B05-03": "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_01.png",
+    "JC-26D-B17-02": "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_01.png",
+    "JC-26D-B17-03": "https://mne2.ru/jiangchuan/JC-26D-420/JC-26D-420_web36_01.png",
+    "JC-26D-B17-04": "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_01.png",
+    "JC-7B-B41-03": "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
+    "JC-7B-B41-04": "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
+    "Lite-140Cp": "https://mne2.ru/fulei/Lite-P/Lite-P_factory35_01.png"
+  },
+  "galleries": {
+    "JC-26B-B05-01": [
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_01.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_02.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_03.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_04.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_05.png"
+    ],
+    "JC-26B-B05-02": [
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_01.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_02.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_03.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_04.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_05.png"
+    ],
+    "JC-26B-B05-03": [
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_01.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_02.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_03.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_04.png",
+      "https://mne2.ru/jiangchuan/JC-26B-320/JC-26B-320_factory28_05.png"
+    ],
+    "JC-26D-B17-02": [
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_01.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_02.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_03.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_04.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_05.png"
+    ],
+    "JC-26D-B17-03": [
+      "https://mne2.ru/jiangchuan/JC-26D-420/JC-26D-420_web36_01.png",
+      "https://mne2.ru/jiangchuan/JC-26D-420/JC-26D-420_web36_02.png"
+    ],
+    "JC-26D-B17-04": [
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_01.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_02.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_03.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_04.png",
+      "https://mne2.ru/jiangchuan/JC-26D-600/JC-26D-600_web36_05.png"
+    ],
+    "JC-7B-B41-03": [
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_02.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_03.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_04.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_05.jpg"
+    ],
+    "JC-7B-B41-04": [
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_01.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_02.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_03.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_04.jpg",
+      "https://mne2.ru/jiangchuan/JC-7B/JC-7B_factory24_05.jpg"
+    ],
+    "Lite-140Cp": [
+      "https://mne2.ru/fulei/Lite-P/Lite-P_factory35_01.png"
+    ]
   }
 }
