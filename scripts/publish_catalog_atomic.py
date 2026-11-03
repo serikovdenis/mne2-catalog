@@ -2,11 +2,19 @@
 import ftplib,hashlib,io,json,os,re,sys,time
 from pathlib import Path
 
+IMAGE_OVERRIDES=json.loads(Path(__file__).with_name('catalog-image-overrides.json').read_text(encoding='utf-8'))
+
 def public_record(row):
     # Confidential supplier data stays in private source files, never in public JSON.
     def blocked(key):
         return key in {'price_source','price_status','needs_review'} or bool(re.search(r'factory_price|purchase|procurement|cost_price|price_cny|price_usd|price_rmb|markup|margin|formula|exchange_rate',key,re.I))
-    if isinstance(row,dict):return {k:public_record(v) for k,v in row.items() if not blocked(k)}
+    if isinstance(row,str):return IMAGE_OVERRIDES['urls'].get(row,row)
+    if isinstance(row,dict):
+        result={k:public_record(v) for k,v in row.items() if not blocked(k)}
+        if result.get('sku') in IMAGE_OVERRIDES['cards']:
+            result['image']=IMAGE_OVERRIDES['cards'][result['sku']]
+            result['images']=[result['image']]
+        return result
     if isinstance(row,list):return [public_record(v) for v in row]
     return row
 
@@ -18,6 +26,11 @@ def prepare(root):
         path.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         records+=rows
     assert records and len({r['sku'] for r in records})==len(records)
+    from urllib.parse import urlsplit
+    for row in records:
+        for url in [row.get('image')]+(row.get('images') or []):
+            if isinstance(url,str) and url.startswith(('http:','https:','//')):
+                assert urlsplit(url).hostname in {'mne2.ru','www.mne2.ru'}, 'Unmirrored image: '+str(row['sku'])
     html=(root/'index.html').read_text(encoding='utf-8')
     payload=json.dumps(records,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
     pattern=r'(<script id="catalogBootstrap" type="application/json">)[\s\S]*?(</script>)'
