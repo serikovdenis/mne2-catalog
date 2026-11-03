@@ -35,6 +35,7 @@ def prepare(root):
             if isinstance(url,str) and url.startswith(('http:','https:','//')):
                 assert urlsplit(url).hostname in {'mne2.ru','www.mne2.ru'}, 'Unmirrored image: '+str(row['sku'])
     html=(root/'index.html').read_text(encoding='utf-8')
+    html=re.sub(r'function photoCandidates\(raw\)\{[^\n]*70\.img\.avito[^\n]*',lambda m:'function photoCandidates(raw){const u=String(raw||"").replace(/^http:/,"https:");if(u.includes("/CEHPPRO3838FLB_02.jpg"))return Array.from({length:9},(_,i)=>"https://mne2.ru/catalog/images/CEHPPRO3838FLB_"+String(i+2).padStart(2,"0")+".jpg");return [u]}',html)
     payload=json.dumps(records,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
     pattern=r'(<script id="catalogBootstrap" type="application/json">)[\s\S]*?(</script>)'
     html,count=re.subn(pattern,lambda m:m[1]+payload+m[2],html,count=1)
