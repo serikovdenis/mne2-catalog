@@ -398,6 +398,8 @@ showProducts=function(){
  else if(sort==='priceDown')found.sort((a,b)=>(b.price_rub||-1)-(a.price_rub||-1));
  else if(sort==='brand')found.sort((a,b)=>a.brand.localeCompare(b.brand,'ru')||a.title.localeCompare(b.title,'ru'));
  else found.sort((a,b)=>a.title.localeCompare(b.title,'ru'));
+ // Stable priority preserves the chosen order inside each availability group.
+ found.sort((a,b)=>Number(b.stock_moscow===true)-Number(a.stock_moscow===true));
  const currentTitle=categories.find(c=>c.id===active)?.name||curated.find(c=>c.id===curatedId)?.name||'Все модели';
  document.getElementById('resultTitle').textContent=currentTitle+' · '+found.length;
  document.getElementById('resultMeta').textContent='Найдено '+found.length+' из '+items.length+' моделей. '+(found.length>pageSize?'Показаны первые '+pageSize+'.':'');
