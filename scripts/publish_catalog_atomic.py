@@ -3,6 +3,7 @@ import ftplib,hashlib,io,json,os,re,sys,time
 from urllib.parse import urlsplit
 from pathlib import Path
 
+UNPUBLISHED_SKUS=set(json.loads(Path(__file__).with_name('catalog-unpublished-skus.json').read_text(encoding='utf-8')))
 IMAGE_OVERRIDES=json.loads(Path(__file__).with_name('catalog-image-overrides.json').read_text(encoding='utf-8'))
 
 def public_record(row):
@@ -26,6 +27,7 @@ def prepare(root):
     for n in range(1,5):
         path=root/'data'/f'part{n}.json'
         rows=public_record(json.loads(path.read_text(encoding='utf-8')))
+        rows=[row for row in rows if row.get('sku') not in UNPUBLISHED_SKUS]
         path.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         records+=rows
     assert records and len({r['sku'] for r in records})==len(records)
