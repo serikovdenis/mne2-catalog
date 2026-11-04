@@ -3461,7 +3461,8 @@
     "stations": "2",
     "size_cm": "60×40",
     "width_mm": 600,
-    "needs_review": true
+    "needs_review": true,
+    "stock_moscow": true
   },
   {
     "category": "flat",
