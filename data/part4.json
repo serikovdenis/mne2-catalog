@@ -857,7 +857,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "33"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -893,7 +894,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "33"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -936,7 +938,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "33"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -979,7 +982,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "33"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1036,7 +1040,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "33"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1093,7 +1098,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "33"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1151,7 +1157,8 @@
     "sliding_table": true,
     "table_layout": "lateral_shuttle",
     "head_movement": "fixed",
-    "pressing_motion": "vertical"
+    "pressing_motion": "vertical",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1218,7 +1225,8 @@
         "review_group": "34-owner",
         "source_url": "https://www.gzjiangchuan.com/products/-149"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1285,7 +1293,8 @@
         "review_group": "34-owner",
         "source_url": "https://www.gzjiangchuan.com/products/-149"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1353,7 +1362,8 @@
         "review_group": "34-owner",
         "source_url": "https://www.gzjiangchuan.com/products/-149"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "dtf",
@@ -1583,7 +1593,8 @@
         "review_group": "10"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1641,7 +1652,8 @@
         "review_group": "10"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1685,7 +1697,8 @@
         "review_group": "10"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1729,7 +1742,8 @@
         "review_group": "10"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1773,7 +1787,8 @@
         "review_group": "11"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1817,7 +1832,8 @@
         "review_group": "10"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1861,7 +1877,8 @@
         "review_group": "11"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1906,7 +1923,8 @@
         "review_group": "10"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1951,7 +1969,8 @@
         "review_group": "11"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1996,7 +2015,8 @@
       }
     },
     "head_movement": "fixed",
-    "sliding_table": true
+    "sliding_table": true,
+    "no_prepayment": true
   },
   {
     "category": "dtf",
@@ -2062,7 +2082,8 @@
         "review_group": "12"
       }
     },
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "no_prepayment": true
   },
   {
     "category": "dtf",
@@ -2205,7 +2226,8 @@
       }
     },
     "head_movement": "fixed",
-    "sliding_table": true
+    "sliding_table": true,
+    "no_prepayment": true
   },
   {
     "category": "dtf",
@@ -2314,7 +2336,8 @@
       "https://mne2.ru/bestsub/CE-PB2330NDLB/CE-PB2330NDLB_01.jpg",
       "https://mne2.ru/bestsub/CE-PB2330NDLB/CE-PB2330NDLB_02.jpg"
     ],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CE-PB2330NDLB."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CE-PB2330NDLB.",
+    "no_prepayment": true
   },
   {
     "sku": "CEHPPRO3838DLB",
@@ -2337,7 +2360,8 @@
     "images": [
       "https://mne2.ru/bestsub/CEHPPRO3838DLB/CEHPPRO3838DLB_01.jpg"
     ],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CEHPPRO3838DLB."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CEHPPRO3838DLB.",
+    "no_prepayment": true
   },
   {
     "sku": "CEHPPRO4060DPK",
@@ -2360,7 +2384,8 @@
     "images": [
       "https://mne2.ru/bestsub/CEHPPRO4060DPK/CEHPPRO4060DPK_01.jpg"
     ],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CEHPPRO4060DPK."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели CEHPPRO4060DPK.",
+    "no_prepayment": true
   },
   {
     "sku": "JC-7ADF-B60-03",
@@ -2382,7 +2407,8 @@
     "avito_id": null,
     "image": null,
     "images": [],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели JC-7ADF-B60-03."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели JC-7ADF-B60-03.",
+    "no_prepayment": true
   },
   {
     "sku": "JC-7ADF-B60-06",
@@ -2404,7 +2430,8 @@
     "avito_id": null,
     "image": null,
     "images": [],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели JC-7ADF-B60-06."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели JC-7ADF-B60-06.",
+    "no_prepayment": true
   },
   {
     "sku": "HT-1742B2T",
@@ -2545,7 +2572,8 @@
         "source_url": "https://www.bestsub.com/clamshell-heat-press/25266-otterpro-auto-drawer-clamshell-heat-press-40-60cm-light-blue.html",
         "verified_at": "2026-10-16"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "sku": "Lite-140Cp",
@@ -3061,7 +3089,8 @@
     ],
     "video": "/catalog/images/HJD-K503/video.mp4",
     "brochure": "/catalog/images/HJD-K503/brochure.pdf",
-    "stock_moscow": true
+    "stock_moscow": true,
+    "no_prepayment": true
   },
   {
     "sku": "HJD-K601",
@@ -3094,7 +3123,8 @@
     ],
     "video": "/catalog/images/HJD-K601/video.mp4",
     "brochure": "/catalog/images/HJD-K601/brochure.pdf",
-    "stock_moscow": true
+    "stock_moscow": true,
+    "no_prepayment": true
   },
   {
     "sku": "HJD-K602",
@@ -3133,6 +3163,7 @@
     ],
     "video": "/catalog/images/HJD-K602/video.mp4",
     "brochure": "/catalog/images/HJD-K602/brochure.pdf",
-    "stock_moscow": true
+    "stock_moscow": true,
+    "no_prepayment": true
   }
 ]
