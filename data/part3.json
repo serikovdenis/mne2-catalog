@@ -51,7 +51,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -96,7 +97,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -140,7 +142,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "14-completion"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -184,7 +187,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "14-completion"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -215,7 +219,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "14-partial"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -246,7 +251,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "14-partial"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -291,7 +297,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "18"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -336,7 +343,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "18"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -385,7 +393,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "18"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -434,7 +443,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "18"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -482,7 +492,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "13"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -530,7 +541,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "13"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -580,7 +592,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "13"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -630,7 +643,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "13"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -680,7 +694,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "13"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -730,7 +745,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "13"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -786,7 +802,8 @@
         "review_group": "09",
         "note": "Откидная верхняя плита, без бокового перемещения."
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -842,7 +859,8 @@
         "review_group": "09",
         "note": "Откидная верхняя плита, без бокового перемещения."
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -892,7 +910,8 @@
         "review_group": "09",
         "note": "Откидная верхняя плита, без бокового перемещения."
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "cap",
@@ -929,7 +948,8 @@
         "review_group": "07: model 30, CE-DCPLB"
       }
     },
-    "sliding_table": true
+    "sliding_table": true,
+    "no_prepayment": true
   },
   {
     "category": "cap",
@@ -956,7 +976,8 @@
     "width_mm": 150,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "cap",
@@ -1004,7 +1025,8 @@
         "verified_at": "2026-10-16"
       }
     },
-    "sliding_table": false
+    "sliding_table": false,
+    "no_prepayment": true
   },
   {
     "category": "cap",
@@ -1058,7 +1080,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "linear"
+    "head_movement": "linear",
+    "no_prepayment": true
   },
   {
     "category": "cap",
@@ -1103,7 +1126,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "linear"
+    "head_movement": "linear",
+    "no_prepayment": true
   },
   {
     "category": "mug",
@@ -1128,7 +1152,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "mug",
@@ -1151,7 +1176,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "mug",
@@ -1174,7 +1200,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "mug",
@@ -1196,7 +1223,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "mug",
@@ -1221,7 +1249,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "mug",
@@ -1248,7 +1277,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Расчёт MNE2: 350 CNY, 7 кг, получение 2 ₽/кг, коэффициент 1.5",
-    "price_source": "Формула MNE2 2026-10-30"
+    "price_source": "Формула MNE2 2026-10-30",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -1270,7 +1300,8 @@
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -1293,7 +1324,8 @@
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -1315,7 +1347,8 @@
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -1337,7 +1370,8 @@
     "width_mm": 1000,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1368,7 +1402,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "14-partial"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1399,7 +1434,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "14-partial"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -1421,7 +1457,8 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1477,7 +1514,8 @@
       }
     },
     "press_construction": "portable_thermoplate",
-    "integrated_work_table": false
+    "integrated_work_table": false,
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1519,7 +1557,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "19"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1562,7 +1601,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "19"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1611,7 +1651,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "19"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1660,7 +1701,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "19"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1703,7 +1745,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "19"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1746,7 +1789,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "19"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1802,7 +1846,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "29"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1857,7 +1902,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "29"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1921,7 +1967,8 @@
       "matched_by": "owner_confirmation",
       "confirmed_at": "2026-10-16",
       "note": "Owner requests same dual-station photo family for 167,168 and171."
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -1964,7 +2011,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "linear"
+    "head_movement": "linear",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -2012,7 +2060,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "15"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -2062,7 +2111,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "16"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -2120,7 +2170,8 @@
     "sliding_table": true,
     "table_layout": "lateral_shuttle",
     "head_movement": "fixed",
-    "pressing_motion": "vertical"
+    "pressing_motion": "vertical",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -2188,7 +2239,8 @@
         "review_group": "34-owner",
         "source_url": "https://www.gzjiangchuan.com/products/-149"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -2244,7 +2296,8 @@
     "sliding_table": true,
     "table_layout": "opposite_sides",
     "head_movement": "fixed",
-    "pressing_motion": "vertical"
+    "pressing_motion": "vertical",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -2959,7 +3012,8 @@
         "review_group": "11"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3004,7 +3058,8 @@
         "review_group": "11"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3049,7 +3104,8 @@
       }
     },
     "head_movement": "fixed",
-    "sliding_table": false
+    "sliding_table": false,
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3094,7 +3150,8 @@
       }
     },
     "head_movement": "fixed",
-    "sliding_table": false
+    "sliding_table": false,
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3139,7 +3196,8 @@
         "review_group": "11"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3184,7 +3242,8 @@
         "review_group": "12"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3206,7 +3265,8 @@
     "width_mm": 800,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3228,7 +3288,8 @@
     "width_mm": 900,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3250,7 +3311,8 @@
     "width_mm": 900,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3272,7 +3334,8 @@
     "width_mm": 800,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3294,7 +3357,8 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3316,7 +3380,8 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3338,7 +3403,8 @@
     "width_mm": 1000,
     "needs_review": true,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "vacuum",
@@ -3484,7 +3550,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "17"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "parts",
@@ -3597,7 +3664,8 @@
         "review_group": "17"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3645,7 +3713,8 @@
         "review_group": "17"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3689,7 +3758,8 @@
         "review_group": "17"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3737,7 +3807,8 @@
         "review_group": "17"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -3828,7 +3899,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "17"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3873,7 +3945,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "18"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -3918,7 +3991,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "18"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -4029,7 +4103,8 @@
     "width_mm": 380,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -4084,7 +4159,8 @@
       }
     },
     "press_construction": "portable_thermoplate",
-    "integrated_work_table": false
+    "integrated_work_table": false,
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -4111,7 +4187,8 @@
     "width_mm": 600,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -4139,6 +4216,7 @@
     "wide": true,
     "needs_review": false,
     "price_status": null,
-    "price_source": null
+    "price_source": null,
+    "no_prepayment": true
   }
 ]
