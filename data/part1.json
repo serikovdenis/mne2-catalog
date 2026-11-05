@@ -53,7 +53,8 @@
       }
     },
     "sliding_table": true,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -111,7 +112,8 @@
       }
     },
     "sliding_table": true,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -180,7 +182,8 @@
       }
     },
     "sliding_table": true,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -235,7 +238,8 @@
       }
     },
     "sliding_table": true,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -294,7 +298,8 @@
       }
     },
     "sliding_table": true,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -349,7 +354,8 @@
       }
     },
     "sliding_table": true,
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "fusing",
@@ -459,7 +465,8 @@
     },
     "sliding_table": false,
     "head_movement": "fixed",
-    "pressing_motion": "vertical"
+    "pressing_motion": "vertical",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -515,7 +522,8 @@
     },
     "sliding_table": false,
     "head_movement": "fixed",
-    "pressing_motion": "vertical"
+    "pressing_motion": "vertical",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -564,7 +572,8 @@
         "confirmed_at": "2026-10-16",
         "review_group": "16"
       }
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -613,7 +622,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "linear"
+    "head_movement": "linear",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -664,7 +674,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -715,7 +726,8 @@
       }
     },
     "sliding_table": false,
-    "head_movement": "swing"
+    "head_movement": "swing",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -767,7 +779,8 @@
         "review_group": "28"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -832,7 +845,8 @@
         "review_group": "28"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -885,7 +899,8 @@
         "review_group": "28"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "flat",
@@ -947,7 +962,8 @@
         "review_group": "28"
       }
     },
-    "head_movement": "fixed"
+    "head_movement": "fixed",
+    "no_prepayment": true
   },
   {
     "category": "calender",
@@ -2699,7 +2715,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -2721,7 +2738,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -2743,7 +2761,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -2765,7 +2784,8 @@
     "width_mm": null,
     "needs_review": false,
     "price_status": "Цена из каталога Avito 10.10.2026",
-    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx"
+    "price_source": "Avito_BF80BEBC8B88BBB5BDBDBEB5_8182B0B2BAB8_B1B5B7_BBB8BCB882BEB2_9CBE81BAB2B.xlsx",
+    "no_prepayment": true
   },
   {
     "category": "special",
@@ -2798,7 +2818,8 @@
       "Мощность": "550 Вт",
       "Температура": "0–220 °C / 0–428 °F",
       "Таймер": "0–800 секунд"
-    }
+    },
+    "no_prepayment": true
   },
   {
     "category": "laminator",
