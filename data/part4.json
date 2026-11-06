@@ -3165,5 +3165,21 @@
     "brochure": "/catalog/images/HJD-K602/brochure.pdf",
     "stock_moscow": true,
     "no_prepayment": true
+  },
+  {
+    "category": "parts",
+    "sku": "SILICONE-10MM",
+    "title": "Силиконовые листы 10 мм с нарезкой на заказ",
+    "model": "",
+    "brand": "",
+    "description": "Красно-оранжевые листы из эластичной силиконовой резины. Используются как нижний коврик на рабочем столе плоского термопресса. Толщина 10 мм, термостойкость до 260 °C. Максимальный размер цельного листа 120×240 см. Нарежем по вашим размерам. Цена 2 ₽/см² (20 000 ₽/м²). Стоимость рассчитывается по площади. Например, коврик 40×60 см стоит 4 800 ₽. В наличии в Москве. Самовывоз или отправка транспортной компанией по России.",
+    "price_rub": 0,
+    "stock_moscow": true,
+    "image": "/catalog/images/SILICONE-10MM/01.jpg",
+    "images": [
+      "/catalog/images/SILICONE-10MM/01.jpg",
+      "/catalog/images/SILICONE-10MM/02.jpg"
+    ],
+    "needs_review": false
   }
 ]
