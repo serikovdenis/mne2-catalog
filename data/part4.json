@@ -2315,9 +2315,11 @@
     "title": "Программное обеспечение RIP для DTF",
     "avito_id": "8356829068",
     "price_rub": 30795,
-    "image": "http://mne2.ru/bestsub/OTTER-DTFPRJ/OTTER-DTFPRJ_01.png",
+    "image": "https://mne2.ru/catalog/images/reviewed-galleries/OTTER-DTFPRJ/1.webp",
     "images": [
-      "http://mne2.ru/bestsub/OTTER-DTFPRJ/OTTER-DTFPRJ_01.png"
+      "https://mne2.ru/catalog/images/reviewed-galleries/OTTER-DTFPRJ/1.webp",
+      "https://mne2.ru/catalog/images/reviewed-galleries/OTTER-DTFPRJ/2.webp",
+      "https://mne2.ru/catalog/images/reviewed-galleries/OTTER-DTFPRJ/3.webp"
     ],
     "description": "RIP-программа предназначена для подготовки заданий к печати на совместимом DTF-оборудовании. Используется в составе рабочего процесса мастерской вместе с принтером и расходными материалами.\n\nТехническое описание\n\nПроизводитель: Otter\n Модель: OTTER-DTFPRJ\n Основные характеристики:\n • RIP-программа для DTF-печати\n• Совместимость: принтер 1390 и Otter 40DTF\n• Размер изделия: 12x10,5x3,7 см\n• Масса: 84,5 г",
     "drive": "Ручной",
