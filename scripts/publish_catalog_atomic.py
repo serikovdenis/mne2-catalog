@@ -65,13 +65,20 @@ def publish(ftp,name,body,run):
 
 def main(root):
     prepare(root)
-    for relative in [f'data/part{n}.json' for n in range(1,5)]+['index.html']:
+    gallery_dir = 'images/fulei-bu-1600e-cold'
+    gallery = sorted(str(path.relative_to(root)) for path in (root/gallery_dir).glob('*.webp'))
+    for relative in gallery+[f'data/part{n}.json' for n in range(1,5)]+['index.html']:
         for attempt in range(5):
             ftp=None
             try:
                 ftp=ftplib.FTP('p1057897.ftp.ihc.ru',timeout=40)
                 ftp.login('p1057897_chatgpt',os.environ['FTP_PASSWORD'])
                 ftp.cwd('www/mne2.ru/catalog')
+                if relative.startswith(gallery_dir+'/'):
+                    try:
+                        ftp.mkd(gallery_dir)
+                    except ftplib.error_perm as error:
+                        if not str(error).startswith('550'):raise
                 if '/' in relative:ftp.cwd(relative.rsplit('/',1)[0])
                 publish(ftp,relative.rsplit('/',1)[-1],(root/relative).read_bytes(),os.environ.get('GITHUB_RUN_ID','manual'))
                 break
