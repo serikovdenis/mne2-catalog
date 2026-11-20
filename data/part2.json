@@ -3536,7 +3536,7 @@
     "size_cm": "60×40",
     "width_mm": 600,
     "needs_review": true,
-    "stock_moscow": true,
+    "stock_moscow": false,
     "no_prepayment": true,
     "video": "/catalog/images/laser-press-7783055070/video-6241.mp4"
   },
