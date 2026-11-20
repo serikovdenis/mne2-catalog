@@ -216,15 +216,15 @@
 <style id="compact-product-feed">
 .catalogResults .product h3,.product h3{font-weight:400}
 </style>
-</head><body><header class="topbar catalogHeader"><div class="container topbar-inner"><a class="brand" href="https://mne2.ru/" aria-label="MNE2 — главная страница"><span class="header-logo-image" style="display:block;width:66px;height:66px;flex:0 0 66px"><img src="/mne2-logo.svg" alt="mne2.ru" style="display:block;width:100%;height:100%;object-fit:contain"></span><span><strong>Оборудование из Китая</strong><small>Поставка под заказ по договору</small></span></a><div class="country-route"><span class="flag-cn">★</span><span class="route-mid"><b>КИТАЙ</b><span>→</span><b>РОССИЯ</b></span><span class="flag-ru"><i></i><i></i><i></i></span></div><a class="header-avito-catalog" href="https://mne2.ru/catalog/">КАТАЛОГ</a><a class="header-avito-catalog" href="/photo-search/" style="margin-left:8px" aria-label="Поиск товаров по фотографии">ПОИСК ПО ФОТО</a><div class="top-phone"><span class="phone-copy"><a href="tel:+78003336099">8 (800) 333-60-99</a><span class="phone-caption">Звонок по России БЕСПЛАТНО</span><a class="mobile-scroll-catalog" href="https://mne2.ru/catalog/">КАТАЛОГ</a></span></div></div></header>
-<main><a class="moscowStockBanner" id="moscowStockBanner" href="/catalog/?stock=moscow"><span><strong>В наличии в Москве</strong><small>Оборудование на московском складе</small></span><span class="stockBannerCta">Посмотреть товары →</span></a><section class="hero"><div class="eyebrow">Каталог оборудования MNE2</div><h1>Оборудование для термопереноса</h1><p>Подбор термопрессов, каландров и оборудования для сублимации по типу производства и техническим параметрам.</p></section>
+<style id="moscow-stock-visibility">.stockFilter[hidden],.moscowStockBanner[hidden]{display:none!important}</style></head><body><header class="topbar catalogHeader"><div class="container topbar-inner"><a class="brand" href="https://mne2.ru/" aria-label="MNE2 — главная страница"><span class="header-logo-image" style="display:block;width:66px;height:66px;flex:0 0 66px"><img src="/mne2-logo.svg" alt="mne2.ru" style="display:block;width:100%;height:100%;object-fit:contain"></span><span><strong>Оборудование из Китая</strong><small>Поставка под заказ по договору</small></span></a><div class="country-route"><span class="flag-cn">★</span><span class="route-mid"><b>КИТАЙ</b><span>→</span><b>РОССИЯ</b></span><span class="flag-ru"><i></i><i></i><i></i></span></div><a class="header-avito-catalog" href="https://mne2.ru/catalog/">КАТАЛОГ</a><a class="header-avito-catalog" href="/photo-search/" style="margin-left:8px" aria-label="Поиск товаров по фотографии">ПОИСК ПО ФОТО</a><div class="top-phone"><span class="phone-copy"><a href="tel:+78003336099">8 (800) 333-60-99</a><span class="phone-caption">Звонок по России БЕСПЛАТНО</span><a class="mobile-scroll-catalog" href="https://mne2.ru/catalog/">КАТАЛОГ</a></span></div></div></header>
+<main><a class="moscowStockBanner" id="moscowStockBanner" hidden href="/catalog/?stock=moscow"><span><strong>В наличии в Москве</strong><small>Оборудование на московском складе</small></span><span class="stockBannerCta">Посмотреть товары →</span></a><section class="hero"><div class="eyebrow">Каталог оборудования MNE2</div><h1>Оборудование для термопереноса</h1><p>Подбор термопрессов, каландров и оборудования для сублимации по типу производства и техническим параметрам.</p></section>
 <div class="notice">В каталоге 377 моделей оборудования для термопереноса. Подберите оборудование по назначению, характеристикам и производителю. Цены указаны для моделей с подтверждённой стоимостью.</div>
 <p class="paymentSchemeLink">Для отдельных моделей доступен заказ без предоплаты. <a href="/catalog/bez-predoplaty/">Условия оплаты →</a></p>
 <form class="search" id="form"><input id="query" type="search" placeholder="Поиск по названию, модели и артикулу" aria-label="Поиск оборудования"><button type="submit">Найти</button></form>
 <section class="guidedPicker" id="guidedPicker" aria-label="Пошаговый подбор оборудования"><h2>Подберём оборудование по шагам</h2><p>Выберите оборудование и ответьте на вопросы о нужных характеристиках. Любой вопрос можно пропустить; подходящие модели появятся в конце.</p><button type="button" class="primary" id="pickerStart" disabled>Загружаем модели…</button><div id="pickerBody" hidden></div></section>
 <section><h2>Категории оборудования</h2><div class="categories" id="categories"></div></section>
 <h2>Подборки по задачам</h2><div class="collections" id="collections"></div>
-<div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3><label class="check stockFilter"><input id="f-stock" type="checkbox"> В наличии</label>
+<div class="catalogLayout"><aside class="catalogFilters" id="catalogFilters"><h3>Фильтры</h3><label class="check stockFilter" hidden><input id="f-stock" type="checkbox" disabled> В наличии</label>
 <label>Тип привода<select id="f-drive"><option value="">Любой</option></select></label>
 <label>Выдвижной стол<select id="f-drawer"><option value="">Не важно</option><option value="yes">С выдвижным столом</option><option value="no">Без выдвижного стола</option></select></label>
 <label>Конструкция оборудования<select id="f-construction"><option value="">Любая</option><option value="press">Термопресс с прижимом</option><option value="open_heating_plate">Открытая нагревательная плита</option></select></label>
@@ -442,7 +442,21 @@ document.getElementById('f-reset').onclick=resetFilters;
 document.getElementById('f-mobile').onclick=()=>document.getElementById('catalogFilters').classList.toggle('open');
 document.getElementById('moreProducts').onclick=()=>{pageSize+=24;showProducts()};
 for(const id of ['f-equipment','f-thermoplates','f-layout','f-construction','f-drawer','f-head','f-drive','f-stations','f-laminate','f-table-size','f-width-min','f-width-max','f-price-min','f-price-max','f-stock','f-auto','f-wide','f-priced','f-verified','f-sort'])document.getElementById(id).addEventListener('input',()=>{pageSize=24;showProducts()});
-function syncStockView(){const checked=document.getElementById('f-stock').checked;const url=new URL(location.href);if(checked)url.searchParams.set('stock','moscow');else url.searchParams.delete('stock');if(url.href!==location.href)history.replaceState(null,'',url);document.querySelector('.hero h1').textContent=checked?'Товары в наличии в Москве':'Оборудование для термопереноса';document.title=checked?'В наличии в Москве — MNE2':'Каталог оборудования для термопереноса — MNE2';}
+function syncStockView(){
+ const hasStock=items.some(p=>p.stock_moscow===true);
+ const stockInput=document.getElementById('f-stock');
+ stockInput.disabled=!hasStock;
+ stockInput.closest('label').hidden=!hasStock;
+ if(!hasStock)stockInput.checked=false;
+ const banner=document.getElementById('moscowStockBanner');
+ if(banner)banner.hidden=!hasStock;
+ const checked=stockInput.checked;
+ const url=new URL(location.href);
+ if(checked)url.searchParams.set('stock','moscow');else url.searchParams.delete('stock');
+ if(url.href!==location.href)history.replaceState(null,'',url);
+ document.querySelector('.hero h1').textContent=checked?'Товары в наличии в Москве':'Оборудование для термопереноса';
+ document.title=checked?'В наличии в Москве — MNE2':'Каталог оборудования для термопереноса — MNE2';
+}
 document.getElementById('f-stock').checked=new URLSearchParams(location.search).get('stock')==='moscow';
 const originalShowProducts=showProducts;
 const originalShowCategories=showCategories;
