@@ -3105,7 +3105,7 @@
     ],
     "video": "/catalog/images/HJD-K503/video.mp4",
     "brochure": "/catalog/images/HJD-K503/brochure.pdf",
-    "stock_moscow": true,
+    "stock_moscow": false,
     "no_prepayment": true
   },
   {
@@ -3139,7 +3139,7 @@
     ],
     "video": "/catalog/images/HJD-K601/video.mp4",
     "brochure": "/catalog/images/HJD-K601/brochure.pdf",
-    "stock_moscow": true,
+    "stock_moscow": false,
     "no_prepayment": true
   },
   {
@@ -3179,7 +3179,7 @@
     ],
     "video": "/catalog/images/HJD-K602/video.mp4",
     "brochure": "/catalog/images/HJD-K602/brochure.pdf",
-    "stock_moscow": true,
+    "stock_moscow": false,
     "no_prepayment": true
   },
   {
@@ -3190,7 +3190,7 @@
     "brand": "",
     "description": "Красно-оранжевые листы из эластичной силиконовой резины. Используются как нижний коврик на рабочем столе плоского термопресса. Толщина 10 мм, термостойкость до 260 °C. Максимальный размер цельного листа 120×240 см. Нарежем по вашим размерам. Цена 2 ₽/см² (20 000 ₽/м²). Стоимость рассчитывается по площади. Например, коврик 40×60 см стоит 4 800 ₽. В наличии в Москве. Самовывоз или отправка транспортной компанией по России.",
     "price_rub": 2,
-    "stock_moscow": true,
+    "stock_moscow": false,
     "image": "/catalog/images/SILICONE-10MM/red-01.jpg",
     "images": [
       "/catalog/images/SILICONE-10MM/red-01.jpg",
