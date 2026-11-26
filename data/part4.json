@@ -2779,9 +2779,12 @@
     "avito_url": null,
     "image": "https://mne2.ru/catalog/images/Fulei/ERS-1800R/01-main.jpg",
     "images": [
-      "https://mne2.ru/catalog/images/Fulei/ERS-1800R/01-main.jpg"
+      "https://mne2.ru/catalog/images/Fulei/ERS-1800R/01-main.jpg",
+      "https://mne2.ru/catalog/images/ers-3300r/05-cutter-controls.jpg"
     ],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели ERS-1800R."
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели ERS-1800R.\n\nНа фотографиях показаны ERS-1800R и режущий узел серии ERS-R. Видео демонстрирует работу станков серии; внешний вид и комплектация могут отличаться.",
+    "video_youtube": "7V9mee6H9Mo",
+    "video_in_description": true
   },
   {
     "sku": "ERS-3200R",
@@ -2803,9 +2806,16 @@
     "price_source": null,
     "model": "ERS-3200R",
     "avito_url": null,
-    "image": null,
-    "images": [],
-    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели ERS-3200R."
+    "image": "https://mne2.ru/catalog/images/ers-3300r/02-front-clean.png",
+    "images": [
+      "https://mne2.ru/catalog/images/ers-3300r/02-front-clean.png",
+      "https://mne2.ru/catalog/images/ers-3300r/03-rear-clean.png",
+      "https://mne2.ru/catalog/images/ers-3300r/04-side-clean.png",
+      "https://mne2.ru/catalog/images/ers-3300r/05-cutter-controls.jpg"
+    ],
+    "description": "Комплектация, технические характеристики и сроки поставки уточняются по запросу. Свяжитесь с менеджером MNE2 для получения информации по модели ERS-3200R.\n\nНа фотографиях показано длинное исполнение серии ERS-R и его режущий узел. Фото и видео демонстрируют конструкцию и принцип работы серии; внешний вид конкретной комплектации может отличаться.",
+    "video_youtube": "7V9mee6H9Mo",
+    "video_in_description": true
   },
   {
     "sku": "ERS-3300R",
@@ -2826,9 +2836,8 @@
     "price_source": null,
     "model": "ERS-3300R",
     "avito_url": null,
-    "image": "https://mne2.ru/fulei/ERS-R/ERS-R_factory36_01.png",
+    "image": "https://mne2.ru/catalog/images/ers-3300r/02-front-clean.png",
     "images": [
-      "https://mne2.ru/fulei/ERS-R/ERS-R_factory36_01.png",
       "https://mne2.ru/catalog/images/ers-3300r/02-front-clean.png",
       "https://mne2.ru/catalog/images/ers-3300r/03-rear-clean.png",
       "https://mne2.ru/catalog/images/ers-3300r/04-side-clean.png",
