@@ -2848,7 +2848,9 @@
       "Масса нетто": "620 кг",
       "Масса брутто": "740 кг"
     },
-    "gross_weight_kg": 740
+    "gross_weight_kg": 740,
+    "video_youtube": "7V9mee6H9Mo",
+    "video_in_description": true
   },
   {
     "sku": "FC-02",
